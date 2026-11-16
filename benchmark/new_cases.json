@@ -1,0 +1,129 @@
+[
+  {
+    "id": "dev_no_evidence_01",
+    "split": "dev",
+    "question": "Theo tài liệu, mô hình BERT có chính xác bao nhiêu tham số?",
+    "filter": {},
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Trong corpus 35 trang, BERT được giới thiệu ở trang 14 và nhắc lại ở trang 38. Các đoạn này không nêu số tham số của BERT; phần nói về tham số mô hình cũng không cung cấp con số đó. Không lấy số liệu từ kiến thức bên ngoài để trả lời.",
+    "absence_check": {
+      "search_patterns": ["\\bBERT\\b", "\\bparameter\\w*\\b", "\\bmillion\\b", "\\bbillion\\b"],
+      "related_pages": [14, 38]
+    }
+  },
+  {
+    "id": "dev_no_evidence_02",
+    "split": "dev",
+    "question": "Mức chính xác nhận dạng giọng nói 96% trong tài liệu được đo trên bộ dữ liệu tên gì và có bao nhiêu mẫu kiểm tra?",
+    "filter": {},
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Trang 25 nêu mức 96% cùng điều kiện trong nhà yên tĩnh và khoảng cách gần, nhưng không có tên bộ dữ liệu hoặc số mẫu kiểm tra. Các lần nhắc đến dataset ở những trang khác nói về nội dung khác, không xác định bộ dữ liệu của kết quả nhận dạng giọng nói này.",
+    "absence_check": {
+      "search_patterns": ["speech recognition", "96\\s*%", "\\bdataset\\w*\\b", "\\bdata\\s+set\\w*\\b", "\\bcorpus\\b"],
+      "related_pages": [13, 25]
+    }
+  },
+  {
+    "id": "test_01",
+    "split": "test",
+    "question": "Theo tài liệu, trí thông minh âm nhạc là khả năng phân biệt những đặc điểm nào của âm thanh?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Cao độ, tông âm, giai điệu, nhịp điệu và âm sắc.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 2,
+        "evidence": "Musical intelligence is the ability to discern pitch, tone, melody, rhythm, and\ntimbre."
+      }
+    ]
+  },
+  {
+    "id": "test_02",
+    "split": "test",
+    "question": "Theo tài liệu, ELIZA chọn câu trả lời cho người dùng bằng cơ chế nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "ELIZA đối sánh mẫu dựa trên các quy tắc có sẵn và câu hỏi của người dùng, rồi chọn câu trả lời từ kho câu trả lời viết trước.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 8,
+        "evidence": "In 1966, ELIZA, the first conversation program in the world was invented,\nwhich was written by the MIT Artificial Intelligence Laboratory. The pro-\ngram was able to perform pattern matching on the basis of the set rules and\nuser’s questions, so as to give appropriate replies by choosing from the\npre-written answer archives."
+      }
+    ]
+  },
+  {
+    "id": "test_03",
+    "split": "test",
+    "question": "Tài liệu nêu ba hạn chế chính nào của GPU trong phần công nghệ liên quan đến AI?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Chi phí cao, hiệu quả sử dụng năng lượng thấp và độ trễ nhập/xuất cao.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 17,
+        "evidence": "The main challenges of current GPUs are high cost, low energy con-\nsumption ratio, and high input and output latency."
+      }
+    ]
+  },
+  {
+    "id": "test_04",
+    "split": "test",
+    "question": "Theo tài liệu, vì sao năng lực và kinh nghiệm của một mô hình AI khó chuyển trực tiếp sang kịch bản ứng dụng khác?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Khi chuyển sang kịch bản khác, phải lặp lại việc thu thập và làm sạch dữ liệu, huấn luyện và tinh chỉnh mô hình, cùng tối ưu trải nghiệm; năng lực của mô hình không được truyền trực tiếp sang kịch bản mới.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 21,
+        "evidence": "3. Fragmented capabilities and experiences: to apply a same AI model in other\nscenarios requires will need to repeat data collection, data cleaning, model\ntraining and tuning, and experience optimization, and the capabilities of the AI\nmodel cannot be directly passed to the next scenario."
+      }
+    ]
+  },
+  {
+    "id": "test_05",
+    "split": "test",
+    "question": "Trong mục 1.4 về chiến lược AI của Huawei, MindSpore được thiết kế theo ba nguyên tắc nào?",
+    "filter": {"section": "1.4"},
+    "answerable": true,
+    "expected_answer": "Thuận tiện cho việc phát triển, thực thi hiệu quả và triển khai linh hoạt.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 35,
+        "evidence": "Consequently, the all-scenario AI com-\nputing framework MindSpore was introduced. It was designed based on three\nprinciples: development-friendly, efficient execution and flexible deployment."
+      }
+    ]
+  },
+  {
+    "id": "test_no_evidence_01",
+    "split": "test",
+    "question": "Theo tài liệu, AlphaGo sử dụng chính xác bao nhiêu GPU trong trận đấu với Lee Sedol?",
+    "filter": {},
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Corpus nhắc đến AlphaGo và các trận đấu ở trang 5, 11, 20, nhưng không cho biết số GPU dùng trong trận với Lee Sedol. Các phần giới thiệu GPU chỉ mô tả công nghệ nói chung, không cung cấp cấu hình phần cứng của trận đấu này.",
+    "absence_check": {
+      "search_patterns": ["AlphaGo", "Lee\\s+Sedol", "\\bGPU\\w*\\b"],
+      "related_pages": [5, 11, 20]
+    }
+  },
+  {
+    "id": "test_no_evidence_02",
+    "split": "test",
+    "question": "Theo tài liệu, giá bán cụ thể bằng USD của một chip Ascend 310 là bao nhiêu?",
+    "filter": {},
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Trang 19 có bảng thông số Ascend 310/910, trang 35-36 giới thiệu bộ xử lý và đề cập chung đến giá chip cao. Không có giá bán cụ thể của Ascend 310. Các số tiền ở phần lịch sử hoặc quy mô thị trường không phải giá của chip này.",
+    "absence_check": {
+      "search_patterns": ["Ascend", "\\b310\\b", "\\bprice\\w*\\b", "\\bUSD\\b", "\\bdollar\\w*\\b"],
+      "related_pages": [19, 35, 36]
+    }
+  }
+]

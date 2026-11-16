@@ -1,0 +1,4 @@
+﻿method,split,queries,answerable_n,unanswerable_n,hit1_n,hit1_rate,evidence_hit3_n,evidence_hit3_rate,prepared_context_evidence_n,prepared_context_evidence_rate,median_retrieval_ms,median_query_embedding_ms_shared,median_context_chars,service_cost_usd
+dense,dev,17,15,2,8,0.5333333333333333,10,0.6666666666666666,11,0.7333333333333333,5.494399985764176,44.55609997967258,1740,0
+tfidf,dev,17,15,2,6,0.4,7,0.4666666666666667,7,0.4666666666666667,0.43009998626075685,0.0,1630,0
+hybrid,dev,17,15,2,6,0.4,10,0.6666666666666666,11,0.7333333333333333,6.1511999811045825,44.55609997967258,1494,0

@@ -1,0 +1,286 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Theo tài liệu, John McCarthy nêu định nghĩa về AI tại hội nghị nào và vào năm nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Hội nghị Dartmouth năm 1956.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 1,
+        "evidence": "A rather widely accepted definition of AI, also a relatively early one, was\nproposed by John McCarthy at the 1956 Dartmouth Conference, which outlined\nthat artificial intelligence is about letting a machine simulate the intelligent behavior\nof humans as precisely as it can be."
+      },
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 7,
+        "evidence": "Finally, in 1956, John McCarthy officially introduced AI as a new discipline at\nthe 2-month long Dartmouth Conference, which marks the birth of AI."
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Người có trí thông minh nội tâm tốt thường nhận biết được những khía cạnh nào của bản thân?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Họ nhận biết được điểm mạnh, điểm yếu, sở thích, tâm trạng, ý định, tính khí và lòng tự trọng của mình.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 3,
+        "evidence": "People with strong intrapersonal intelligence are able to discern their strengths\nand weaknesses, recognize their inner hobbies, moods, intentions, temperaments\nand self-esteem, and they like to think independently."
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Theo tài liệu, AI, học máy và học sâu có quan hệ với nhau như thế nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Học máy là một cách tiếp cận hoặc tập con của AI; học sâu là một dạng của học máy.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 5,
+        "evidence": "Among the three concepts, machine learning is an approach or a subset of AI, and\ndeep learning is one of ML’s special forms."
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Giới hạn năng lực tính toán đã ảnh hưởng thế nào đến việc ứng dụng AI trong thập niên 1970 theo tài liệu?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Nhiều bài toán đã được giải về mặt lý thuyết nhưng vẫn chưa thể đưa vào thực tế vì năng lực tính toán bị hạn chế.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 9,
+        "evidence": "The setback in 1970s was no coincidence. Due to the limitation of computing\npower at that time, although many problems were solved theoretically, they\ncannot be put into practice at all."
+      }
+    ]
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Trong phần Công nghệ liên quan đến AI, BERT được giới thiệu là công nghệ gì và dựa trên nền tảng nào?",
+    "filter": {
+      "section": "1.2"
+    },
+    "answerable": true,
+    "expected_answer": "BERT là công nghệ tiền huấn luyện cho xử lý ngôn ngữ tự nhiên, được phát triển dựa trên mạng nơron.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 14,
+        "evidence": "For instance, Google’s BERT\n(Bidirectional Encoder Representation from Transformers) is a natural language\nprocessing pre-training technology developed on the basis of neural networks."
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Framework học sâu giúp người xây dựng mô hình giảm bớt công việc lập trình nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Giảm việc phải tự lập trình mạng nơron phức tạp cùng thuật toán lan truyền ngược; người dùng có thể cấu hình siêu tham số và để mô hình học tham số trong quá trình huấn luyện.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 15,
+        "evidence": "With the deep learning framework, we do not need to firstly code complex\nneural networks with backpropagation algorithms, but can just configure the model\nhyperparameters according to our demands, and the model parameters can be\nlearned automatically from training."
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Nếu phân loại theo chức năng, bộ xử lý AI được chia thành hai nhóm nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Bộ xử lý huấn luyện và bộ xử lý suy luận.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 16,
+        "evidence": "In terms of the functions, AI processors can be classified into two types: training\nprocessors and inference processors."
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Ngoài dữ liệu, thuật toán và năng lực tính toán, tài liệu còn yêu cầu cân nhắc yếu tố nào để đưa AI vào thực tế?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Các kịch bản hoặc bối cảnh ứng dụng thực tế.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 20,
+        "evidence": "It is known\nthat AI has three pillars, namely, data, algorithms and computing power. But to\napply AI in real life, these three pillars are far from enough, because we also need to\ntake scenarios into consideration."
+      },
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 15,
+        "evidence": "In the four key elements of AI technology (data, algorithms, computing power, and\nscenarios), computing power is the one most reliant on AI processor."
+      }
+    ]
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Trong phần Công nghệ liên quan đến AI, đặc điểm Industrial data của Huawei CLOUD EI giúp doanh nghiệp khai thác dữ liệu riêng để làm gì?",
+    "filter": {
+      "section": "1.2"
+    },
+    "answerable": true,
+    "expected_answer": "Tạo ra giá trị thông qua xử lý dữ liệu và khai phá dữ liệu.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 23,
+        "evidence": "(b) Industrial data: It enables the companies to utilize their own data to create\nmassive value through data processing and data mining."
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Mức chính xác 96% của nhận dạng giọng nói được nêu trong tài liệu đi kèm những điều kiện môi trường nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Môi trường trong nhà yên tĩnh và nhận dạng ở khoảng cách gần.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 25,
+        "evidence": "And the most mature sub-domain is the speech\nrecognition, which can achieve an accuracy rate of 96% premised on a quiet\nindoor environment and near-field recognition."
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Tài liệu liệt kê ba tác vụ nào thuộc xử lý ngôn ngữ tự nhiên?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Dịch máy, khai phá văn bản và phân tích cảm xúc.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 28,
+        "evidence": "The subjects of NLP\ninclude machine translation, text mining and sentiment analysis."
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Theo tài liệu, thành phố thông minh dùng ICT để xử lý thông tin vận hành đô thị bằng những hoạt động nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Thu thập, phân tích và tích hợp những thông tin quan trọng về hoạt động của đô thị.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 30,
+        "evidence": "A smart city is to use ICT technologies to sense, analyze, and integrate the key\ninformation of the core urban operation system, so as to intelligently respond to\nthe city’s demands in people’s livelihood, environmental protection, public\nsafety, urban services, and industrial and commercial activities."
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Theo tài liệu, mức tự lái L3 và L5 khác nhau thế nào về sự tham gia của người lái?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Từ L3 trở lên cho phép nhả tay trong một số điều kiện nhất định; L5 vận hành hoàn toàn bằng hệ thống, không cần người lái trong mọi tình huống.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 32,
+        "evidence": "The L0-level vehicles need to reply on driver’s operation\ncompletely, and the vehicles at level L3 and above allow the hands-off driving\nunder certain circumstances, while the L5-level vehicles are completely operated\nby the driving system without a driver in all scenarios."
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Trong phần Tranh luận về AI, tài liệu chỉ ra nguyên nhân chính của thiên lệch thuật toán là gì?",
+    "filter": {
+      "section": "1.5"
+    },
+    "answerable": true,
+    "expected_answer": "Dữ liệu có thiên lệch.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 36,
+        "evidence": "The algorithmic bias is mainly cause by the biased data."
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Theo dự báo được trích trong tài liệu, đến năm 2025 có bao nhiêu phần trăm gia đình trên thế giới sở hữu robot thông minh?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "14% số gia đình trên thế giới, theo dự báo được nêu trong tài liệu.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 39,
+        "evidence": "Huawei predicts that by 2025, 14% of the families across the globe will own a\nsmart robot, which will play an important role in people’s daily life."
+      }
+    ]
+  },
+  {
+    "id": "dev_no_evidence_01",
+    "split": "dev",
+    "question": "Theo tài liệu, mô hình BERT có chính xác bao nhiêu tham số?",
+    "filter": {},
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Trong corpus 35 trang, BERT được giới thiệu ở trang 14 và nhắc lại ở trang 38. Các đoạn này không nêu số tham số của BERT; phần nói về tham số mô hình cũng không cung cấp con số đó. Không lấy số liệu từ kiến thức bên ngoài để trả lời.",
+    "absence_check": {
+      "search_patterns": [
+        "\\bBERT\\b",
+        "\\bparameter\\w*\\b",
+        "\\bmillion\\b",
+        "\\bbillion\\b"
+      ],
+      "related_pages": [
+        14,
+        38
+      ]
+    }
+  },
+  {
+    "id": "dev_no_evidence_02",
+    "split": "dev",
+    "question": "Mức chính xác nhận dạng giọng nói 96% trong tài liệu được đo trên bộ dữ liệu tên gì và có bao nhiêu mẫu kiểm tra?",
+    "filter": {},
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Trang 25 nêu mức 96% cùng điều kiện trong nhà yên tĩnh và khoảng cách gần, nhưng không có tên bộ dữ liệu hoặc số mẫu kiểm tra. Các lần nhắc đến dataset ở những trang khác nói về nội dung khác, không xác định bộ dữ liệu của kết quả nhận dạng giọng nói này.",
+    "absence_check": {
+      "search_patterns": [
+        "speech recognition",
+        "96\\s*%",
+        "\\bdataset\\w*\\b",
+        "\\bdata\\s+set\\w*\\b",
+        "\\bcorpus\\b"
+      ],
+      "related_pages": [
+        13,
+        25
+      ]
+    }
+  }
+]

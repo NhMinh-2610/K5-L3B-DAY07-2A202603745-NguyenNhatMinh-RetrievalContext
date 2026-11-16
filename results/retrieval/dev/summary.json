@@ -1,0 +1,135 @@
+{
+  "status": "complete",
+  "split": "dev",
+  "completed_at_utc": "2026-11-16T03:50:44.013284+00:00",
+  "python": "3.13.7",
+  "config": {
+    "methods": [
+      "dense",
+      "tfidf",
+      "hybrid"
+    ],
+    "top_k": 3,
+    "context_budget_chars": 3000,
+    "hybrid_candidate_k": 10,
+    "rrf_constant": 60,
+    "filter_policy": "query_provided_only",
+    "dev_selection_criteria": [
+      "Ưu tiên Evidence Hit@3, sau đó Hit@1.",
+      "Đối chiếu độ đủ bằng chứng trong context và câu trả lời của agent trước khi chốt.",
+      "Nếu chất lượng tương đương, xét thời gian và chi phí."
+    ]
+  },
+  "config_sha256": "df09b580a89a6c406a7d1b565a70627f2b6bab0d2b082009528a74850cde7b25",
+  "corpus_sha256": "80cf927205808ce9bbcf562a002472b47f3ffe652c44242585d81a517637df1d",
+  "chunks_sha256": "3971dab6f0f9dca0efb91b9cebc5ff6026ef1927ddd4d16668593c6b034b3b6a",
+  "dev_sha256": "f43bb7793441f3c7376a4d25d098f47843dd4b63c7ddac09a7936aff748d2ba2",
+  "provenance": {
+    "source_repository": "K5-L3B-DAY06-NguyenNhatMinh-2A202603745-DataIngestion",
+    "strategy": "C",
+    "database": {
+      "engine": "PostgreSQL",
+      "version": "16.16 (Debian 16.16-1.pgdg12+1)",
+      "pgvector_version": "0.8.7",
+      "host": "127.0.0.1",
+      "port": 15433,
+      "database": "day6_lab",
+      "table": "lab_chunks",
+      "read_only": true,
+      "chunks_verified": 201,
+      "search": "cosine_exact"
+    },
+    "embedding": {
+      "provider": "sentence-transformers-local",
+      "model_name": "intfloat/multilingual-e5-small",
+      "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "dimensions": 384,
+      "device": "cpu",
+      "dtype": "float32",
+      "threads": 4,
+      "batch_size": 16,
+      "document_prefix": "passage: ",
+      "query_prefix": "query: ",
+      "normalize_embeddings": true,
+      "max_tokens": 512,
+      "libraries": {
+        "sentence-transformers": "6.2.0",
+        "transformers": "5.22.1",
+        "torch": "2.15.0"
+      },
+      "model_signature": "0dfa971762747459e20d16f5fbcf31c26eceda7c23e38efd1ad3af675ad2b835"
+    },
+    "embedding_code_sha256": "07f293a7d927ebc570f9a403619b458483e70d24a25572ee13b44b0af6fb96a7",
+    "model_load_seconds": 117.47226290000253,
+    "paid_api_calls": 0
+  },
+  "lexical_index_build_seconds": 0.009401400020578876,
+  "trace_rows": 51,
+  "query_count": 17,
+  "metrics": [
+    {
+      "method": "dense",
+      "split": "dev",
+      "queries": 17,
+      "answerable_n": 15,
+      "unanswerable_n": 2,
+      "hit1_n": 8,
+      "hit1_rate": 0.5333333333333333,
+      "evidence_hit3_n": 10,
+      "evidence_hit3_rate": 0.6666666666666666,
+      "prepared_context_evidence_n": 11,
+      "prepared_context_evidence_rate": 0.7333333333333333,
+      "median_retrieval_ms": 5.494399985764176,
+      "median_query_embedding_ms_shared": 44.55609997967258,
+      "median_context_chars": 1740,
+      "service_cost_usd": 0
+    },
+    {
+      "method": "tfidf",
+      "split": "dev",
+      "queries": 17,
+      "answerable_n": 15,
+      "unanswerable_n": 2,
+      "hit1_n": 6,
+      "hit1_rate": 0.4,
+      "evidence_hit3_n": 7,
+      "evidence_hit3_rate": 0.4666666666666667,
+      "prepared_context_evidence_n": 7,
+      "prepared_context_evidence_rate": 0.4666666666666667,
+      "median_retrieval_ms": 0.43009998626075685,
+      "median_query_embedding_ms_shared": 0.0,
+      "median_context_chars": 1630,
+      "service_cost_usd": 0
+    },
+    {
+      "method": "hybrid",
+      "split": "dev",
+      "queries": 17,
+      "answerable_n": 15,
+      "unanswerable_n": 2,
+      "hit1_n": 6,
+      "hit1_rate": 0.4,
+      "evidence_hit3_n": 10,
+      "evidence_hit3_rate": 0.6666666666666666,
+      "prepared_context_evidence_n": 11,
+      "prepared_context_evidence_rate": 0.7333333333333333,
+      "median_retrieval_ms": 6.1511999811045825,
+      "median_query_embedding_ms_shared": 44.55609997967258,
+      "median_context_chars": 1494,
+      "service_cost_usd": 0
+    }
+  ],
+  "source_review_confirmed": 24,
+  "test_evaluated": false,
+  "agent_evaluated": false,
+  "configuration_selected": false,
+  "paid_api_calls": 0,
+  "limitations": [
+    "Context được chuẩn bị từ retrieval, chưa gửi model; chưa phải Context Evidence Rate của agent.",
+    "Chưa chấm câu trả lời, citation hoặc khả năng từ chối của agent.",
+    "Embedding query được tính một lần mỗi câu và dùng chung cho dense/hybrid; ghi thời gian riêng.",
+    "Thời gian là một lần chạy tuần tự, có ảnh hưởng của cache; model load được báo riêng.",
+    "TF-IDF tách từ đơn giản, không dịch câu hỏi tiếng Việt sang tài liệu tiếng Anh.",
+    "Phí dịch vụ 0 USD chưa tính điện và phần cứng."
+  ]
+}

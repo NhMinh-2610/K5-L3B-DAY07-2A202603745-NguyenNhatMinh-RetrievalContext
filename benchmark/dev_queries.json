@@ -1,0 +1,110 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Theo tài liệu, John McCarthy nêu định nghĩa về AI tại hội nghị nào và vào năm nào?",
+    "filter": {}
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Người có trí thông minh nội tâm tốt thường nhận biết được những khía cạnh nào của bản thân?",
+    "filter": {}
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Theo tài liệu, AI, học máy và học sâu có quan hệ với nhau như thế nào?",
+    "filter": {}
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Giới hạn năng lực tính toán đã ảnh hưởng thế nào đến việc ứng dụng AI trong thập niên 1970 theo tài liệu?",
+    "filter": {}
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Trong phần Công nghệ liên quan đến AI, BERT được giới thiệu là công nghệ gì và dựa trên nền tảng nào?",
+    "filter": {
+      "section": "1.2"
+    }
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Framework học sâu giúp người xây dựng mô hình giảm bớt công việc lập trình nào?",
+    "filter": {}
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Nếu phân loại theo chức năng, bộ xử lý AI được chia thành hai nhóm nào?",
+    "filter": {}
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Ngoài dữ liệu, thuật toán và năng lực tính toán, tài liệu còn yêu cầu cân nhắc yếu tố nào để đưa AI vào thực tế?",
+    "filter": {}
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Trong phần Công nghệ liên quan đến AI, đặc điểm Industrial data của Huawei CLOUD EI giúp doanh nghiệp khai thác dữ liệu riêng để làm gì?",
+    "filter": {
+      "section": "1.2"
+    }
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Mức chính xác 96% của nhận dạng giọng nói được nêu trong tài liệu đi kèm những điều kiện môi trường nào?",
+    "filter": {}
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Tài liệu liệt kê ba tác vụ nào thuộc xử lý ngôn ngữ tự nhiên?",
+    "filter": {}
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Theo tài liệu, thành phố thông minh dùng ICT để xử lý thông tin vận hành đô thị bằng những hoạt động nào?",
+    "filter": {}
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Theo tài liệu, mức tự lái L3 và L5 khác nhau thế nào về sự tham gia của người lái?",
+    "filter": {}
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Trong phần Tranh luận về AI, tài liệu chỉ ra nguyên nhân chính của thiên lệch thuật toán là gì?",
+    "filter": {
+      "section": "1.5"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Theo dự báo được trích trong tài liệu, đến năm 2025 có bao nhiêu phần trăm gia đình trên thế giới sở hữu robot thông minh?",
+    "filter": {}
+  },
+  {
+    "id": "dev_no_evidence_01",
+    "split": "dev",
+    "question": "Theo tài liệu, mô hình BERT có chính xác bao nhiêu tham số?",
+    "filter": {}
+  },
+  {
+    "id": "dev_no_evidence_02",
+    "split": "dev",
+    "question": "Mức chính xác nhận dạng giọng nói 96% trong tài liệu được đo trên bộ dữ liệu tên gì và có bao nhiêu mẫu kiểm tra?",
+    "filter": {}
+  }
+]

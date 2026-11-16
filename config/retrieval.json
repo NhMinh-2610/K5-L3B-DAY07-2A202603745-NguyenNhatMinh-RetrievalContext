@@ -1,0 +1,13 @@
+{
+  "methods": ["dense", "tfidf", "hybrid"],
+  "top_k": 3,
+  "context_budget_chars": 3000,
+  "hybrid_candidate_k": 10,
+  "rrf_constant": 60,
+  "filter_policy": "query_provided_only",
+  "dev_selection_criteria": [
+    "Ưu tiên Evidence Hit@3, sau đó Hit@1.",
+    "Đối chiếu độ đủ bằng chứng trong context và câu trả lời của agent trước khi chốt.",
+    "Nếu chất lượng tương đương, xét thời gian và chi phí."
+  ]
+}

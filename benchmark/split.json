@@ -1,0 +1,61 @@
+{
+  "benchmark_version": "day7-v1",
+  "counts": {
+    "dev": {
+      "answerable": 15,
+      "unanswerable": 2
+    },
+    "test": {
+      "answerable": 5,
+      "unanswerable": 2
+    }
+  },
+  "dev_ids": [
+    "q01",
+    "q02",
+    "q03",
+    "q04",
+    "q05",
+    "q06",
+    "q07",
+    "q08",
+    "q09",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14",
+    "q15",
+    "dev_no_evidence_01",
+    "dev_no_evidence_02"
+  ],
+  "test_ids": [
+    "test_01",
+    "test_02",
+    "test_03",
+    "test_04",
+    "test_05",
+    "test_no_evidence_01",
+    "test_no_evidence_02"
+  ],
+  "corpus_sha256": "80cf927205808ce9bbcf562a002472b47f3ffe652c44242585d81a517637df1d",
+  "chunks_sha256": "3971dab6f0f9dca0efb91b9cebc5ff6026ef1927ddd4d16668593c6b034b3b6a",
+  "files_sha256": {
+    "new_cases.json": "5b540dd63c2df8d158cc86b7b57246a551f5f8366abe0b910a2e9f668e5b4a90",
+    "dev.json": "f43bb7793441f3c7376a4d25d098f47843dd4b63c7ddac09a7936aff748d2ba2",
+    "test.json": "a2e3e3ab1cac69d27c3020a62d8264190eec1c06e1e4bcfe9bf7d51010e21005",
+    "dev_queries.json": "433cd7662e523bb356b859ec9f3a2c53793becd0a1b82f0567a1d0d1eeec1f51",
+    "test_queries.json": "9abb0e436bb0f5706e31517b88b2c985d74096958b09c79dbbc832d30f6b1523",
+    "dev_source_checks.json": "3e28a25f3be0ae55f0409b63c5b12f60c67e446487cde08602f8d3c0b5c7ceae",
+    "test_source_checks.json": "d5ce73891492410336fae2ca08b33139632bbb05ed7aad3b2448c33fcbe6c2d0",
+    "cases.json": "9f30c213fef74e46d3fcda2ccaafb90d4668b31dc113e023822a4a240274c24e"
+  },
+  "retrieval_cutoffs": [
+    1,
+    3
+  ],
+  "retrieval_denominator": "answerable_questions_only",
+  "ranking_evidence_rule": "Một chunk đúng nguồn/trang chứa đủ một evidence thay thế, sau NFKC và gộp khoảng trắng.",
+  "context_evidence_rule": "Đủ một evidence thay thế trong context thực gửi model; có thể cần nhiều chunk đúng nguồn/trang.",
+  "test_policy": "Chọn và chỉnh trên dev; chốt cấu hình trước khi chạy baseline và cấu hình chọn trên cùng test."
+}

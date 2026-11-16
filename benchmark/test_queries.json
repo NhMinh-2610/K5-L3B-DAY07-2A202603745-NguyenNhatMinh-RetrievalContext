@@ -1,0 +1,46 @@
+[
+  {
+    "id": "test_01",
+    "split": "test",
+    "question": "Theo tài liệu, trí thông minh âm nhạc là khả năng phân biệt những đặc điểm nào của âm thanh?",
+    "filter": {}
+  },
+  {
+    "id": "test_02",
+    "split": "test",
+    "question": "Theo tài liệu, ELIZA chọn câu trả lời cho người dùng bằng cơ chế nào?",
+    "filter": {}
+  },
+  {
+    "id": "test_03",
+    "split": "test",
+    "question": "Tài liệu nêu ba hạn chế chính nào của GPU trong phần công nghệ liên quan đến AI?",
+    "filter": {}
+  },
+  {
+    "id": "test_04",
+    "split": "test",
+    "question": "Theo tài liệu, vì sao năng lực và kinh nghiệm của một mô hình AI khó chuyển trực tiếp sang kịch bản ứng dụng khác?",
+    "filter": {}
+  },
+  {
+    "id": "test_05",
+    "split": "test",
+    "question": "Trong mục 1.4 về chiến lược AI của Huawei, MindSpore được thiết kế theo ba nguyên tắc nào?",
+    "filter": {
+      "section": "1.4"
+    }
+  },
+  {
+    "id": "test_no_evidence_01",
+    "split": "test",
+    "question": "Theo tài liệu, AlphaGo sử dụng chính xác bao nhiêu GPU trong trận đấu với Lee Sedol?",
+    "filter": {}
+  },
+  {
+    "id": "test_no_evidence_02",
+    "split": "test",
+    "question": "Theo tài liệu, giá bán cụ thể bằng USD của một chip Ascend 310 là bao nhiêu?",
+    "filter": {}
+  }
+]

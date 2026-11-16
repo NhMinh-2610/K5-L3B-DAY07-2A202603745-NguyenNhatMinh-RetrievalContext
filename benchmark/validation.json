@@ -1,0 +1,35 @@
+{
+  "format_and_source_text_check": "passed",
+  "total_questions": 24,
+  "counts": {
+    "dev": {
+      "answerable": 15,
+      "unanswerable": 2
+    },
+    "test": {
+      "answerable": 5,
+      "unanswerable": 2
+    }
+  },
+  "corpus_sha256": "80cf927205808ce9bbcf562a002472b47f3ffe652c44242585d81a517637df1d",
+  "included_content_pages": 35,
+  "all_gold_found_in_source_text": true,
+  "all_gold_traceable_to_chunks": true,
+  "old_test_questions_reused": false,
+  "queries_contain_only": [
+    "id",
+    "split",
+    "question",
+    "filter"
+  ],
+  "questions_without_single_chunk_evidence": [
+    "q02",
+    "q10",
+    "test_02",
+    "test_04"
+  ],
+  "source_review": {
+    "confirmed": 24
+  },
+  "scope": "Kiểm tra dữ liệu; chưa phải kết quả retrieval, agent hay chấm câu trả lời."
+}

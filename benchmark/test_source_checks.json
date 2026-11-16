@@ -1,0 +1,207 @@
+[
+  {
+    "query_id": "test_01",
+    "split": "test",
+    "answerable": true,
+    "evidence": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 2,
+        "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+        "found_in_source_text": true,
+        "page_char_start": 1855,
+        "page_char_end": 1942,
+        "supporting_chunk_ids": [
+          "bb1ba81d95b8182c37ec51a076ec2d8c0305c153b641e0790cf2934d413f367c"
+        ],
+        "single_chunk_ids": [
+          "bb1ba81d95b8182c37ec51a076ec2d8c0305c153b641e0790cf2934d413f367c"
+        ]
+      }
+    ],
+    "has_single_chunk_evidence": true
+  },
+  {
+    "query_id": "test_02",
+    "split": "test",
+    "answerable": true,
+    "evidence": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 8,
+        "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+        "found_in_source_text": true,
+        "page_char_start": 796,
+        "page_char_end": 1121,
+        "supporting_chunk_ids": [
+          "5b31d88f71370ba8ec0b61e3ebc41a075ea2844399ed605c6ed0ccc90cab9435",
+          "d3b27899c7c930d438462619f45f69515bc26b5e4cc3a2e2acf24d7627607f21"
+        ],
+        "single_chunk_ids": []
+      }
+    ],
+    "has_single_chunk_evidence": false
+  },
+  {
+    "query_id": "test_03",
+    "split": "test",
+    "answerable": true,
+    "evidence": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 17,
+        "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+        "found_in_source_text": true,
+        "page_char_start": 1318,
+        "page_char_end": 1435,
+        "supporting_chunk_ids": [
+          "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197"
+        ],
+        "single_chunk_ids": [
+          "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197"
+        ]
+      }
+    ],
+    "has_single_chunk_evidence": true
+  },
+  {
+    "query_id": "test_04",
+    "split": "test",
+    "answerable": true,
+    "evidence": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 21,
+        "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+        "found_in_source_text": true,
+        "page_char_start": 1508,
+        "page_char_end": 1797,
+        "supporting_chunk_ids": [
+          "b83e6bb1d224575cf8be52cac002b1b6ad809449460de6f9e3fe598d197d6cc6",
+          "1d5a08faf1973a1d3af8e119dccddd976b5f7ada72d9bb5f753e4741f7f8e031"
+        ],
+        "single_chunk_ids": []
+      }
+    ],
+    "has_single_chunk_evidence": false
+  },
+  {
+    "query_id": "test_05",
+    "split": "test",
+    "answerable": true,
+    "evidence": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 35,
+        "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+        "found_in_source_text": true,
+        "page_char_start": 193,
+        "page_char_end": 384,
+        "supporting_chunk_ids": [
+          "ce2cea05a262553120a807dac62768cc4d80ac98958fdaa54f36847790f192fa"
+        ],
+        "single_chunk_ids": [
+          "ce2cea05a262553120a807dac62768cc4d80ac98958fdaa54f36847790f192fa"
+        ]
+      }
+    ],
+    "has_single_chunk_evidence": true
+  },
+  {
+    "query_id": "test_no_evidence_01",
+    "split": "test",
+    "answerable": false,
+    "scope": "indexed_corpus",
+    "pages_scanned": 35,
+    "search_results": [
+      {
+        "pattern": "AlphaGo",
+        "pages": [
+          5,
+          11,
+          20
+        ]
+      },
+      {
+        "pattern": "Lee\\s+Sedol",
+        "pages": [
+          11,
+          20
+        ]
+      },
+      {
+        "pattern": "\\bGPU\\w*\\b",
+        "pages": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          35
+        ]
+      }
+    ],
+    "related_pages": [
+      5,
+      11,
+      20
+    ],
+    "absence_reason": "Corpus nhắc đến AlphaGo và các trận đấu ở trang 5, 11, 20, nhưng không cho biết số GPU dùng trong trận với Lee Sedol. Các phần giới thiệu GPU chỉ mô tả công nghệ nói chung, không cung cấp cấu hình phần cứng của trận đấu này.",
+    "limitation": "Tìm từ khóa không tự chứng minh thiếu bằng chứng; cần đọc nguồn liên quan."
+  },
+  {
+    "query_id": "test_no_evidence_02",
+    "split": "test",
+    "answerable": false,
+    "scope": "indexed_corpus",
+    "pages_scanned": 35,
+    "search_results": [
+      {
+        "pattern": "Ascend",
+        "pages": [
+          19,
+          25,
+          33,
+          34,
+          35,
+          36
+        ]
+      },
+      {
+        "pattern": "\\b310\\b",
+        "pages": [
+          19,
+          35,
+          36
+        ]
+      },
+      {
+        "pattern": "\\bprice\\w*\\b",
+        "pages": [
+          35,
+          37
+        ]
+      },
+      {
+        "pattern": "\\bUSD\\b",
+        "pages": []
+      },
+      {
+        "pattern": "\\bdollar\\w*\\b",
+        "pages": [
+          9,
+          10,
+          20
+        ]
+      }
+    ],
+    "related_pages": [
+      19,
+      35,
+      36
+    ],
+    "absence_reason": "Trang 19 có bảng thông số Ascend 310/910, trang 35-36 giới thiệu bộ xử lý và đề cập chung đến giá chip cao. Không có giá bán cụ thể của Ascend 310. Các số tiền ở phần lịch sử hoặc quy mô thị trường không phải giá của chip này.",
+    "limitation": "Tìm từ khóa không tự chứng minh thiếu bằng chứng; cần đọc nguồn liên quan."
+  }
+]
