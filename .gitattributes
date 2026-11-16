@@ -1,6 +1,8 @@
 # Preserve byte-level fingerprints when cloning on Windows or Linux.
 * whitespace=trailing-space,space-before-tab,cr-at-eol
 src/*.py -text
+scripts/*.py -text
+advanced/** -text
 config/** -text
 benchmark/** -text
 results/** -text

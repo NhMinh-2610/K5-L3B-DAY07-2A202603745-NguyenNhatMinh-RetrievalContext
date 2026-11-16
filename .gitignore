@@ -35,3 +35,6 @@ results/study/**/traces.json
 results/study/**/reviews.json
 results/study/**/reviews_source_checked.json
 results/web/
+results/extension/**/traces.json
+results/extension/**/reviews.json
+results/extension/**/grading_attempts.json
