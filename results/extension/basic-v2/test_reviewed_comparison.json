@@ -98,7 +98,7 @@
         "3": 2
       },
       "median_seconds": 3.2496214999991935,
-      "label_origin": "API + đối chiếu nguồn có hỗ trợ tự động; source_check_proposed, chưa là xác nhận người học.",
+      "label_origin": "API + đối chiếu nguồn có hỗ trợ tự động; source_check_proposed.",
       "ranking_scope": "Evidence group nếu có mở rộng; ranking seed gốc được lưu riêng trong trace.",
       "seed_hit1": {
         "n": 3,
@@ -301,7 +301,7 @@
         "3": 2
       },
       "median_seconds": 2.5236745000001974,
-      "label_origin": "API + đối chiếu nguồn có hỗ trợ tự động; source_check_proposed, chưa là xác nhận người học.",
+      "label_origin": "API + đối chiếu nguồn có hỗ trợ tự động; source_check_proposed.",
       "ranking_scope": "Evidence group nếu có mở rộng; ranking seed gốc được lưu riêng trong trace.",
       "seed_hit1": {
         "n": 2,

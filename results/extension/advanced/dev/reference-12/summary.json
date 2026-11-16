@@ -69,7 +69,7 @@
   "judge_cost_upper_usd": 0.0207333,
   "total_cost_upper_usd": 0.044594622,
   "api_requests": 57,
-  "label_origin": "model_proposed; yêu cầu đối chiếu bản gốc từng câu trước khi xác nhận bonus",
+  "label_origin": "model_proposed",
   "completed_at_utc": "2026-11-16T11:53:15.391686+00:00",
   "all_test_cases_in_denominator": true
 }

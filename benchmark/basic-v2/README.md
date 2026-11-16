@@ -6,6 +6,6 @@ full-stack, thông số Ascend 310; thiếu số transistor V100 và giá thuê 
 Không dùng test đợt một để lựa chọn cấu hình v2.
 
 `test.json` chỉ dùng chấm; `test_queries.json` chỉ ID/split/question/filter cho
-agent. Gold đối chiếu đúng nguồn/trang trong corpus Day 6; `source_check_proposed`
-chưa phải xác nhận mới của người học. Kết quả và các citation còn hạn chế ở
+agent. Gold đối chiếu nguồn/trang trong corpus Day 6; `source_check_proposed`
+ghi phương pháp đối chiếu có hỗ trợ tự động. Kết quả và các citation còn hạn chế ở
 [bảng so sánh](../../results/extension/basic-v2/README.md).

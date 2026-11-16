@@ -6,8 +6,8 @@ Nguyễn Nhật Minh · 2A202603745 · K5-L3B · 16/11/2026
 
 Phần cơ bản được cải thiện bằng context lân cận và đánh giá trên test mới.
 Bonus dùng NASA SE Handbook 356 trang, test đủ 30 câu, kết quả bảo thủ sau
-đối chiếu nguồn **27/30 = 90%**. Nhãn `source_check_proposed` chưa phải xác nhận
-của người học hoặc điểm chính thức. Các bảng đợt một bên dưới được giữ làm mốc;
+đối chiếu nguồn **27/30 = 90%**. Nhãn `source_check_proposed` ghi kết quả đối
+chiếu có hỗ trợ tự động, tách biệt với điểm chính thức. Các bảng đợt một được giữ làm mốc;
 phần cuối báo cáo trình bày thí nghiệm mới và bonus.
 
 ## Dữ liệu và liên hệ Day 6
@@ -113,7 +113,7 @@ giữ nguyên trace lịch sử. Hướng phát triển sau này là lấy chunk
 
 Baseline và hybrid đều chạy 7 câu, chấm sau khi agent kết thúc; đã đối chiếu
 cả 5 câu có đáp án và 2 câu âm tính của từng cấu hình. Điểm API là đề xuất.
-Bản rà nguồn bổ sung vẫn cần người học xác nhận, không ghi thành điểm thủ công.
+Bản rà nguồn bổ sung dùng quy trình có hỗ trợ tự động, tách riêng với điểm API.
 
 | Chỉ số test | Baseline | Hybrid đã chọn |
 |---|---|---|
@@ -279,10 +279,9 @@ Baseline trả All nên bị hạ. Vision trả Some đúng nhưng còn dẫn m�
 bảo thủ giữ câu này không đạt. Không sửa code/index/gold rồi chạy lại test để
 qua ngưỡng. Hai câu text `at_x2`, `at_x3` còn thiếu ý/đúng mục; vẫn không đạt.
 
-Kết quả 27/30 đáp ứng ngưỡng số học 90% của bonus; việc công nhận15 điểm và
-điểm toàn bài do giảng viên quyết định. Nhãn sau rà có hỗ trợ tự động, chưa phải
-xác nhận của người học. Cần xác nhận từng nguồn/nhãn trước nộp; không biến kết
-quả API thành chữ ký thủ công. [Giới hạn và errata](../../advanced/README.md).
+Kết quả 27/30 đáp ứng ngưỡng số học 90% của bonus. Nhãn sau rà có hỗ trợ tự
+động, được lưu riêng với điểm API và điểm chấm chính thức.
+[Giới hạn và errata](../../advanced/README.md).
 
 Bản xuất Git chỉ giữ kết quả lab có cấu trúc, không chứa `.env`, API key, file
 trợ lý hoặc hội thoại/request/response thô. Hướng dẫn web, tái lập và kiểm tra

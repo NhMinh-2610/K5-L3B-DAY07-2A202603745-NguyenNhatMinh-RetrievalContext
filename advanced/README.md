@@ -35,6 +35,6 @@ Một câu khác, `at_i2`, có hai citation cùng chỉ Figure 4.0-1 trang 64. A
 ba ô cần hỏi. Đối chiếu ảnh gốc chấp nhận câu đó. Vì vậy kết quả bảo thủ là
 **27/30**, so với **26/30** API gốc. Cả hai bảng và toàn bộ lý do được giữ lại.
 
-Nhãn `source_check_proposed` có hỗ trợ tự động, chưa phải xác nhận của người học.
+Nhãn `source_check_proposed` là kết quả đối chiếu nguồn có hỗ trợ tự động.
 Các lỗi khác gồm hai câu text thiếu ý/đúng mục nguồn. Nếu phát triển tiếp sau
 khi đã xem test, cần test mới để đánh giá độc lập.

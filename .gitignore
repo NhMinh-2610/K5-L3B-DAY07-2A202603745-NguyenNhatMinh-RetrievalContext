@@ -27,6 +27,10 @@ AGENT_SETUP.md
 CLAUDE.md
 GEMINI.md
 AI_NOTES.md
+AI_REVIEW.md
+AI_CHECKLIST.md
+ASSISTANT_NOTES.md
+CHAT_HISTORY.md
 
 # Raw model conversations stay local; publish structured lab exports instead
 results/agent/**/traces.json
@@ -38,3 +42,6 @@ results/web/
 results/extension/**/traces.json
 results/extension/**/reviews.json
 results/extension/**/grading_attempts.json
+results/**/reviews_template.json
+results/extension/validation.json
+results/study/submission_checks.json

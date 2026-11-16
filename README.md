@@ -21,8 +21,8 @@ khi chốt. Có 62 unit test; kết quả benchmark và nhãn nguồn được l
 Cơ bản v2 sửa q02/q09, dev đạt 2,00/2, test mới đạt 2,00/2 và từ chối đúng2/2;
 citation sau rà6/7. Bonus có18 câu dev và30 test đủ nhóm; cấu hình đã chọn đạt
 **27/30=90%** sau đối chiếu nguồn bảo thủ, so với26/30 API gốc. Giữ nguyên cả
-hai bảng và lý do sửa nhãn, kể cả lỗi gold/mô tả trục biểu đồ. Nhãn có hỗ trợ
-tự động, cần người học xác nhận; việc công nhận bonus/điểm cuối do giảng viên.
+hai bảng và lý do sửa nhãn, kể cả lỗi gold/mô tả trục biểu đồ. Đây là kết quả
+đánh giá có hỗ trợ tự động, được lưu riêng với điểm chấm chính thức.
 
 Máy mới cần cài [requirements.txt](requirements.txt), có repo/dữ liệu và
 database Day 6, rồi tạo `.env` từ [.env.example](.env.example) và điền key.

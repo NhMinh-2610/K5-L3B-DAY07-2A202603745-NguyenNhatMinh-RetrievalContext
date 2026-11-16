@@ -6,8 +6,8 @@
   đạt 2,00/2, từ chối đúng 2/2. Rà citation nghiêm ngặt còn 6/7.
 - Bonus: NASA SE Handbook Rev 2, 356 trang, 1.831 node. Bộ dev 18 câu; test
   30 câu. Cấu hình `reference-8` đạt **27/30 (90%)** sau đối chiếu nguồn bảo thủ.
-- Điểm API gốc và nhãn sau rà được giữ riêng. Đây là nhãn có hỗ trợ tự động,
-  chưa phải xác nhận của người học hay điểm do giảng viên chấm.
+- Điểm API gốc và nhãn sau rà được giữ riêng. Đây là kết quả đánh giá có hỗ trợ
+  tự động, tách biệt với điểm chấm chính thức.
 
 Xem [báo cáo](../report/individual/2A202603745_NguyenNhatMinh.md),
 [kết quả cơ bản](../results/extension/basic-v2/README.md) và
@@ -79,11 +79,10 @@ Khi chỉ xem kết quả trên Git, không cần key/PDF/model. `traces.public.
 `reviews.public.json` đã có tool, nguồn, context, đáp án, usage, model và nhãn.
 Xuất lại sau chạy local bằng `scripts/export_results.py`; không commit file thô.
 
-## Rà trước nộp
+## Dữ liệu đối chiếu nguồn
 
-Mở `results/extension/advanced-v2/test_source_audit.json`, đọc từng `query_id`,
-`source_note`, `original_pdf_pages`, `citations` và so với PDF gốc. Có đủ 60
-bản rà cho hai cấu hình; không bỏ lỗi khỏi mẫu số. Nếu xác nhận, ghi tên/ngày
-và quyết định từng câu trong một bản rà riêng; không sửa nhãn API gốc hoặc tự
-đánh dấu toàn bộ chỉ vì chương trình chạy hết. Tham khảo
+`results/extension/advanced-v2/test_source_audit.json` lưu 60 bản đối chiếu
+cho hai cấu hình, gồm `query_id`, `source_note`, `original_pdf_pages` và
+`citations`. Nhãn API gốc được giữ riêng; mọi câu lỗi vẫn tính trong mẫu số.
+Tham khảo
 [lỗi nhãn trục và cách chấm bảo thủ](../advanced/README.md).

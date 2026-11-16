@@ -36,8 +36,7 @@
     },
     "absence_reason": "Hình minh họa các phân bố và bất định, không cho xác suất số của một dự án.",
     "method": "Whole-document native text + all-page OCR term scan, then inspect referenced original figure/table or relevant passages; no conclusion from top-k absence alone.",
-    "review_status": "source_check_proposed",
-    "student_confirmed": false
+    "review_status": "source_check_proposed"
   },
   {
     "query_id": "ad_n2",
@@ -55,8 +54,7 @@
     },
     "absence_reason": "Biểu đồ khái niệm không kèm bộ dữ liệu thô hay URL tải dữ liệu của các đường.",
     "method": "Whole-document native text + all-page OCR term scan, then inspect referenced original figure/table or relevant passages; no conclusion from top-k absence alone.",
-    "review_status": "source_check_proposed",
-    "student_confirmed": false
+    "review_status": "source_check_proposed"
   },
   {
     "query_id": "ad_n3",
@@ -208,8 +206,7 @@
     },
     "absence_reason": "Bản nguồn không quy định tên/phiên bản phần mềm bắt buộc cho năm 2026; không dùng thông tin ngoài tài liệu.",
     "method": "Whole-document native text + all-page OCR term scan, then inspect referenced original figure/table or relevant passages; no conclusion from top-k absence alone.",
-    "review_status": "source_check_proposed",
-    "student_confirmed": false
+    "review_status": "source_check_proposed"
   },
   {
     "query_id": "at_n1",
@@ -239,8 +236,7 @@
     },
     "absence_reason": "Không có tick chi phí số hoặc khoảng tin cậy 95% cho B; không suy ra số từ hình khái niệm.",
     "method": "Whole-document native text + all-page OCR term scan, then inspect referenced original figure/table or relevant passages; no conclusion from top-k absence alone.",
-    "review_status": "source_check_proposed",
-    "student_confirmed": false
+    "review_status": "source_check_proposed"
   },
   {
     "query_id": "at_n2",
@@ -338,8 +334,7 @@
     },
     "absence_reason": "Hình và văn bản trích không nêu cỡ mẫu các dự án; việc dẫn INCOSE không cung cấp số này trong handbook.",
     "method": "Whole-document native text + all-page OCR term scan, then inspect referenced original figure/table or relevant passages; no conclusion from top-k absence alone.",
-    "review_status": "source_check_proposed",
-    "student_confirmed": false
+    "review_status": "source_check_proposed"
   },
   {
     "query_id": "at_n3",
@@ -391,8 +386,7 @@
     },
     "absence_reason": "Bảng liệt kê các bộ môn và nhóm, không có tổng ngân sách của ví dụ đài quan sát.",
     "method": "Whole-document native text + all-page OCR term scan, then inspect referenced original figure/table or relevant passages; no conclusion from top-k absence alone.",
-    "review_status": "source_check_proposed",
-    "student_confirmed": false
+    "review_status": "source_check_proposed"
   },
   {
     "query_id": "at_n4",
@@ -413,8 +407,7 @@
     },
     "absence_reason": "Đây là mô tả trường metadata, không có danh tính hay email cá nhân thực tế.",
     "method": "Whole-document native text + all-page OCR term scan, then inspect referenced original figure/table or relevant passages; no conclusion from top-k absence alone.",
-    "review_status": "source_check_proposed",
-    "student_confirmed": false
+    "review_status": "source_check_proposed"
   },
   {
     "query_id": "at_n5",
@@ -485,8 +478,7 @@
     },
     "absence_reason": "Handbook bàn về quy trình CM, không công bố giá thuê phần mềm hàng tháng.",
     "method": "Whole-document native text + all-page OCR term scan, then inspect referenced original figure/table or relevant passages; no conclusion from top-k absence alone.",
-    "review_status": "source_check_proposed",
-    "student_confirmed": false
+    "review_status": "source_check_proposed"
   },
   {
     "query_id": "at_n6",
@@ -538,7 +530,6 @@
     },
     "absence_reason": "Handbook không phải báo cáo ngân sách và không công bố tổng thực chi toàn cơ quan cho năm 2016.",
     "method": "Whole-document native text + all-page OCR term scan, then inspect referenced original figure/table or relevant passages; no conclusion from top-k absence alone.",
-    "review_status": "source_check_proposed",
-    "student_confirmed": false
+    "review_status": "source_check_proposed"
   }
 ]

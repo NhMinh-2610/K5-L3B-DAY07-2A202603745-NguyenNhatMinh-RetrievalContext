@@ -70,7 +70,7 @@
     "judge_cost_upper_usd": 0.034928759999999996,
     "total_cost_upper_usd": 0.078179832,
     "api_requests": 103,
-    "label_origin": "model_proposed; yêu cầu đối chiếu bản gốc từng câu trước khi xác nhận bonus",
+    "label_origin": "model_proposed",
     "completed_at_utc": "2026-11-16T12:10:08.593898+00:00",
     "all_test_cases_in_denominator": true
   },
@@ -144,7 +144,7 @@
     "judge_cost_upper_usd": 0.042050748,
     "total_cost_upper_usd": 0.09476676,
     "api_requests": 93,
-    "label_origin": "model_proposed; yêu cầu đối chiếu bản gốc từng câu trước khi xác nhận bonus",
+    "label_origin": "model_proposed",
     "completed_at_utc": "2026-11-16T12:10:15.279968+00:00",
     "all_test_cases_in_denominator": true
   }

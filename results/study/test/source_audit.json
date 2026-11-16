@@ -1,5 +1,5 @@
 {
-  "label_origin": "DeepSeek API và đối chiếu nguồn có hỗ trợ tự động; source_check_proposed, chưa phải xác nhận của người học.",
+  "label_origin": "DeepSeek API và đối chiếu nguồn có hỗ trợ tự động; source_check_proposed.",
   "scope": "Đọc 5 câu có đáp án và 2 câu thiếu evidence cho cả baseline và hybrid; đối chiếu đáp án, context thực gửi, từng citation và corpus absence audit.",
   "citation_unit": "Mỗi ID duy nhất trong danh sách citations của một câu, không đếm lặp cùng ID trong văn bản. Chunk được dẫn phải tự hỗ trợ khẳng định gắn citation.",
   "test_tuning": false,

@@ -7,7 +7,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 83, Table 4.2-2: Requirement ID cung cấp unique numbering cho sorting/tracking.",
       "original_pdf_pages": [
         83
@@ -45,7 +44,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 83, Table 4.2-2: Traced from nêu bidirectional parent/derived traceability và quan hệ giữa requirements.",
       "original_pdf_pages": [
         83
@@ -83,7 +81,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 83, Table 4.2-2: test, inspection, analysis, demonstration; điều kiện xác định khi phát triển requirements được giữ.",
       "original_pdf_pages": [
         83
@@ -110,7 +107,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 68, Phase D của Table 4.1-1 có verification team và Flight Readiness Board members.",
       "original_pdf_pages": [
         68
@@ -137,7 +133,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 151, ba ô cột phải của Table 6.1-2 là Thermal Chambers, Vibration Labs, Radiation Labs.",
       "original_pdf_pages": [
         151
@@ -175,7 +170,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 213, Table 6.8-1: short half-page, Recommendation và Problem/issue mỗi mục một câu.",
       "original_pdf_pages": [
         213
@@ -213,7 +207,6 @@
       "api_passed": false,
       "passed": false,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 19, nhánh trái Figure 2.1-1 đánh số 1-4 đúng bốn tên quá trình; cần citation tới đúng vùng hình theo tiêu chí đã đặt.",
       "original_pdf_pages": [
         19
@@ -240,7 +233,6 @@
       "api_passed": false,
       "passed": false,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 64, Figure 4.0-1 có ba ô Needs/Goals/Objectives, Constraints, Success Criteria trước Develop ConOps.",
       "original_pdf_pages": [
         64
@@ -255,7 +247,6 @@
       "api_passed": false,
       "passed": false,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 69, hàng trên Figure 4.1-2 đọc trái sang phải đủ năm tiêu đề Mission Goals tới Design Drivers.",
       "original_pdf_pages": [
         69
@@ -270,7 +261,6 @@
       "api_passed": false,
       "passed": false,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 174, Figure 6.4-1 hiển thị đúng ba câu hỏi đỏ về scenario/frequency/consequences.",
       "original_pdf_pages": [
         174
@@ -285,7 +275,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 182, Figure 6.5-2 hiển thị đủ năm thành phần CM; đối chiếu thêm text PDF 181-182.",
       "original_pdf_pages": [
         182
@@ -323,7 +312,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 27, Figure 2.5-1: Design 15%, Develop 20%, hiệu 5 điểm phần trăm; số minh họa, không phải quan sát dự án.",
       "original_pdf_pages": [
         27
@@ -350,7 +338,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 174, Figure 6.4-2: hai distribution plot ghi Likelihood and Its Uncertainty, Consequence Severity and Its Uncertainty.",
       "original_pdf_pages": [
         174
@@ -388,7 +375,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 27, Figure 2.5-1: Concept 8%, Prod/Test 50%; 50/8=6.25, không nhầm với chênh lệch điểm phần trăm.",
       "original_pdf_pages": [
         27
@@ -415,7 +401,6 @@
       "api_passed": true,
       "passed": false,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 96 đã phóng to kiểm tra: X=Life-Cycle Cost, Expressed in Constant Dollars; Y=Some Aspect of Effectiveness, Expressed in Quantitative Units. Gold/visual note nháp ghi All Aspects là sai. Không sửa pipeline/index đã chốt sau test. Baseline dùng All Aspects theo mô tả sai nên câu này không đạt sau rà, dù API chấm đạt.",
       "original_pdf_pages": [
         96
@@ -442,7 +427,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 96, Figure 4.4-3: C có probability cloud gần trục x, high cost, essentially no effectiveness; chú thích xác nhận expensive failure.",
       "original_pdf_pages": [
         96
@@ -469,7 +453,6 @@
       "api_passed": false,
       "passed": false,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "Hai trang 27 và 83: legend PDR=Preliminary Design Review; Verification level chỉ system/subsystem/element. Tiêu chí đòi coverage cả hai reference.",
       "original_pdf_pages": [
         27,
@@ -530,7 +513,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "Hai trang 83 và 68: Verification lead là person/group responsible for verifying; Phase E có crew và users.",
       "original_pdf_pages": [
         83,
@@ -580,7 +562,6 @@
       "api_passed": false,
       "passed": false,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "Hai trang 264 và 268: TRL6 model/prototype in relevant environment; system TRL lấy thấp nhất, nên có thành phần TRL2 thì không đạt6.",
       "original_pdf_pages": [
         264,
@@ -630,7 +611,6 @@
       "api_passed": false,
       "passed": false,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "Hai trang 149 và 18: Mission/Instrument Systems Engineer; Common Areas thực tế có sáu mục gồm cả Reviews và Schedule, theo erratum trước test.",
       "original_pdf_pages": [
         149,
@@ -691,7 +671,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 28 mục2.6: hardware, software, human systems integration; đều phải address/integrate ngang nhau.",
       "original_pdf_pages": [
         28
@@ -729,7 +708,6 @@
       "api_passed": false,
       "passed": false,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 24: phải nêu monitor performance, control configuration và decisions về operations/sustaining/closeout; output thiếu các ý này nên không đạt.",
       "original_pdf_pages": [
         24
@@ -789,7 +767,6 @@
       "api_passed": false,
       "passed": false,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 25 mục2.4 nêu từng development phase, phase products/models, không chỉ delivery; output không cung cấp đủ ý và đúng nguồn yêu cầu nên không đạt.",
       "original_pdf_pages": [
         25
@@ -838,7 +815,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 213 mục6.8.1.3: content quan trọng, ghi decision/assessment/recommendation/final decision; hình thức white paper hay formal đều được.",
       "original_pdf_pages": [
         213
@@ -887,7 +863,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "Không có tick chi phí số hoặc khoảng tin cậy 95% cho B; không suy ra số từ hình khái niệm. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
       "original_pdf_pages": [],
       "actual_image_pages": [],
@@ -900,7 +875,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "Hình và văn bản trích không nêu cỡ mẫu các dự án; việc dẫn INCOSE không cung cấp số này trong handbook. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
       "original_pdf_pages": [],
       "actual_image_pages": [],
@@ -913,7 +887,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "Bảng liệt kê các bộ môn và nhóm, không có tổng ngân sách của ví dụ đài quan sát. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
       "original_pdf_pages": [],
       "actual_image_pages": [],
@@ -926,7 +899,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "Đây là mô tả trường metadata, không có danh tính hay email cá nhân thực tế. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
       "original_pdf_pages": [],
       "actual_image_pages": [],
@@ -939,7 +911,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "Handbook bàn về quy trình CM, không công bố giá thuê phần mềm hàng tháng. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
       "original_pdf_pages": [],
       "actual_image_pages": [],
@@ -952,7 +923,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "Handbook không phải báo cáo ngân sách và không công bố tổng thực chi toàn cơ quan cho năm 2016. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
       "original_pdf_pages": [],
       "actual_image_pages": [],
@@ -965,7 +935,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 83, Table 4.2-2: Requirement ID cung cấp unique numbering cho sorting/tracking.",
       "original_pdf_pages": [
         83
@@ -1005,7 +974,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 83, Table 4.2-2: Traced from nêu bidirectional parent/derived traceability và quan hệ giữa requirements.",
       "original_pdf_pages": [
         83
@@ -1045,7 +1013,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 83, Table 4.2-2: test, inspection, analysis, demonstration; điều kiện xác định khi phát triển requirements được giữ.",
       "original_pdf_pages": [
         83
@@ -1085,7 +1052,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 68, Phase D của Table 4.1-1 có verification team và Flight Readiness Board members.",
       "original_pdf_pages": [
         68
@@ -1125,7 +1091,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 151, ba ô cột phải của Table 6.1-2 là Thermal Chambers, Vibration Labs, Radiation Labs.",
       "original_pdf_pages": [
         151
@@ -1154,7 +1119,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 213, Table 6.8-1: short half-page, Recommendation và Problem/issue mỗi mục một câu.",
       "original_pdf_pages": [
         213
@@ -1194,7 +1158,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 19, nhánh trái Figure 2.1-1 đánh số 1-4 đúng bốn tên quá trình; cần citation tới đúng vùng hình theo tiêu chí đã đặt.",
       "original_pdf_pages": [
         19
@@ -1234,7 +1197,6 @@
       "api_passed": false,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 64, Figure 4.0-1 có ba ô Needs/Goals/Objectives, Constraints, Success Criteria trước Develop ConOps. API chỉ thấy OCR rời rạc nên hạ citation thứ hai; agent thật đã nhận ảnh trang64. Cả hai ID trỏ tới cùng vùng hình full-page/caption; ảnh gốc hỗ trợ đủ ba nhãn. Điều chỉnh theo nguồn gốc, không đổi câu trả lời.",
       "original_pdf_pages": [
         64
@@ -1274,7 +1236,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 69, hàng trên Figure 4.1-2 đọc trái sang phải đủ năm tiêu đề Mission Goals tới Design Drivers.",
       "original_pdf_pages": [
         69
@@ -1314,7 +1275,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 174, Figure 6.4-1 hiển thị đúng ba câu hỏi đỏ về scenario/frequency/consequences.",
       "original_pdf_pages": [
         174
@@ -1343,7 +1303,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 182, Figure 6.5-2 hiển thị đủ năm thành phần CM; đối chiếu thêm text PDF 181-182.",
       "original_pdf_pages": [
         182
@@ -1372,7 +1331,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 27, Figure 2.5-1: Design 15%, Develop 20%, hiệu 5 điểm phần trăm; số minh họa, không phải quan sát dự án.",
       "original_pdf_pages": [
         27
@@ -1412,7 +1370,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 174, Figure 6.4-2: hai distribution plot ghi Likelihood and Its Uncertainty, Consequence Severity and Its Uncertainty.",
       "original_pdf_pages": [
         174
@@ -1441,7 +1398,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 27, Figure 2.5-1: Concept 8%, Prod/Test 50%; 50/8=6.25, không nhầm với chênh lệch điểm phần trăm.",
       "original_pdf_pages": [
         27
@@ -1470,7 +1426,6 @@
       "api_passed": false,
       "passed": false,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 96 đã phóng to kiểm tra: X=Life-Cycle Cost, Expressed in Constant Dollars; Y=Some Aspect of Effectiveness, Expressed in Quantitative Units. Gold/visual note nháp ghi All Aspects là sai. Không sửa pipeline/index đã chốt sau test. Đáp án Some Aspect của model đọc ảnh là đúng, nhưng citation visual_reading_00674 dẫn tới mô tả có chữ All sai. Chấm bảo thủ vẫn không đạt vì citation bổ sung mâu thuẫn; không dùng sửa gold để tự tăng qua ngưỡng.",
       "original_pdf_pages": [
         96
@@ -1515,7 +1470,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 96, Figure 4.4-3: C có probability cloud gần trục x, high cost, essentially no effectiveness; chú thích xác nhận expensive failure.",
       "original_pdf_pages": [
         96
@@ -1555,7 +1509,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "Hai trang 27 và 83: legend PDR=Preliminary Design Review; Verification level chỉ system/subsystem/element. Tiêu chí đòi coverage cả hai reference.",
       "original_pdf_pages": [
         27,
@@ -1652,7 +1605,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "Hai trang 83 và 68: Verification lead là person/group responsible for verifying; Phase E có crew và users.",
       "original_pdf_pages": [
         83,
@@ -1705,7 +1657,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "Hai trang 264 và 268: TRL6 model/prototype in relevant environment; system TRL lấy thấp nhất, nên có thành phần TRL2 thì không đạt6.",
       "original_pdf_pages": [
         264,
@@ -1747,7 +1698,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "Hai trang 149 và 18: Mission/Instrument Systems Engineer; Common Areas thực tế có sáu mục gồm cả Reviews và Schedule, theo erratum trước test.",
       "original_pdf_pages": [
         149,
@@ -1811,7 +1761,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 28 mục2.6: hardware, software, human systems integration; đều phải address/integrate ngang nhau.",
       "original_pdf_pages": [
         28
@@ -1842,7 +1791,6 @@
       "api_passed": false,
       "passed": false,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 24: phải nêu monitor performance, control configuration và decisions về operations/sustaining/closeout; output thiếu các ý này nên không đạt.",
       "original_pdf_pages": [
         24
@@ -1885,7 +1833,6 @@
       "api_passed": false,
       "passed": false,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 25 mục2.4 nêu từng development phase, phase products/models, không chỉ delivery; output không cung cấp đủ ý và đúng nguồn yêu cầu nên không đạt.",
       "original_pdf_pages": [
         25
@@ -1929,7 +1876,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "PDF 213 mục6.8.1.3: content quan trọng, ghi decision/assessment/recommendation/final decision; hình thức white paper hay formal đều được.",
       "original_pdf_pages": [
         213
@@ -2004,7 +1950,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "Không có tick chi phí số hoặc khoảng tin cậy 95% cho B; không suy ra số từ hình khái niệm. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
       "original_pdf_pages": [],
       "actual_image_pages": [
@@ -2019,7 +1964,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "Hình và văn bản trích không nêu cỡ mẫu các dự án; việc dẫn INCOSE không cung cấp số này trong handbook. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
       "original_pdf_pages": [],
       "actual_image_pages": [
@@ -2034,7 +1978,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "Bảng liệt kê các bộ môn và nhóm, không có tổng ngân sách của ví dụ đài quan sát. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
       "original_pdf_pages": [],
       "actual_image_pages": [
@@ -2049,7 +1992,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "Đây là mô tả trường metadata, không có danh tính hay email cá nhân thực tế. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
       "original_pdf_pages": [],
       "actual_image_pages": [
@@ -2064,7 +2006,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "Handbook bàn về quy trình CM, không công bố giá thuê phần mềm hàng tháng. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
       "original_pdf_pages": [],
       "actual_image_pages": [
@@ -2081,7 +2022,6 @@
       "api_passed": true,
       "passed": true,
       "review_status": "source_check_proposed",
-      "student_confirmed": false,
       "source_note": "Handbook không phải báo cáo ngân sách và không công bố tổng thực chi toàn cơ quan cho năm 2016. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
       "original_pdf_pages": [],
       "actual_image_pages": [
@@ -2096,6 +2036,5 @@
   ],
   "all_cases_in_denominator": true,
   "source_axis_erratum": "Results-only adjudication; original gold and frozen index preserved. Some Aspect is the actual Y-axis label on PDF96.",
-  "pipeline_changed_after_test": false,
-  "student_confirmed": false
+  "pipeline_changed_after_test": false
 }

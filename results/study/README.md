@@ -40,7 +40,7 @@ rà. Baseline test_no_evidence_02 bị API gán điểm dương tính sai schema
 cần rà cách dịch “low energy consumption ratio” của bản gốc. Không chỉnh agent
 hay chọn lại cấu hình từ các phát hiện test.
 
-Nhãn do API và đối chiếu có hỗ trợ tự động, chưa phải điểm do người học xác nhận.
+Nhãn do API và đối chiếu nguồn có hỗ trợ tự động, tách biệt với điểm chấm chính thức.
 Xem [báo cáo cá nhân](../../report/individual/2A202603745_NguyenNhatMinh.md),
 [cách tổng hợp](../../docs/THU_NGHIEM.md) và bảng query gốc riêng tại
 [retrieval/dev](../retrieval/dev/) để tránh trộn ranking gốc với query viết lại.

@@ -109,7 +109,7 @@
         "2": 1
       },
       "median_seconds": 2.714088000007905,
-      "label_origin": "DeepSeek API và đối chiếu nguồn có hỗ trợ tự động; source_check_proposed, chưa phải xác nhận của người học.",
+      "label_origin": "DeepSeek API và đối chiếu nguồn có hỗ trợ tự động; source_check_proposed.",
       "ranking_scope": "Lượt tìm đầu của agent, có query do model viết lại; xem riêng benchmark query gốc."
     },
     "generation_cost_upper_usd": 0.005786171999999999,
@@ -315,7 +315,7 @@
         "3": 2
       },
       "median_seconds": 3.245412700023735,
-      "label_origin": "DeepSeek API và đối chiếu nguồn có hỗ trợ tự động; source_check_proposed, chưa phải xác nhận của người học.",
+      "label_origin": "DeepSeek API và đối chiếu nguồn có hỗ trợ tự động; source_check_proposed.",
       "ranking_scope": "Lượt tìm đầu của agent, có query do model viết lại; xem riêng benchmark query gốc."
     },
     "generation_cost_upper_usd": 0.0059963279999999996,

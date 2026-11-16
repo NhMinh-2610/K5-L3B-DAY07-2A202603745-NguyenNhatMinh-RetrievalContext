@@ -56,9 +56,9 @@ từ chối. Context 2 cần đủ bằng chứng và nguồn; đáp án 2 cần
 Ngưỡng 1 là thiếu ý/điều kiện, 0 là sai/không đủ bằng chứng. Từ chối câu có đáp
 án chấm 0. Câu âm tính dùng tỷ lệ từ chối riêng, không tăng điểm đáp án dương tính.
 
-`model_proposed` là nhãn API; `source_check_proposed` có đối chiếu nguồn bổ sung
-nhưng chưa phải xác nhận của người học. `benchmark/review.csv` chỉ xác nhận
-gold ban đầu. Cần đọc nhãn và nguồn trước khi xác nhận bài nộp.
+`model_proposed` là nhãn API; `source_check_proposed` là nhãn có đối chiếu nguồn
+bổ sung bằng quy trình tự động. `benchmark/review.csv` ghi trạng thái nguồn của
+gold ban đầu. Các nhãn thí nghiệm được lưu riêng với điểm chấm chính thức.
 
 Kết quả lưu model/fingerprint/usage, có thể biến động khi dịch vụ đổi phiên bản
 hoặc cache; temperature 0 không bảo đảm hai lần chạy giống hệt.

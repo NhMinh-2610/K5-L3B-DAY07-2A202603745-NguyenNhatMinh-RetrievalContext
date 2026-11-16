@@ -9,8 +9,7 @@
       "citation_support": [
         true,
         true
-      ],
-      "student_confirmed": false
+      ]
     },
     {
       "configuration": "baseline",
@@ -20,8 +19,7 @@
       "answer_grade": 2,
       "citation_support": [
         true
-      ],
-      "student_confirmed": false
+      ]
     },
     {
       "configuration": "baseline",
@@ -31,8 +29,7 @@
       "answer_grade": 2,
       "citation_support": [
         true
-      ],
-      "student_confirmed": false
+      ]
     },
     {
       "configuration": "baseline",
@@ -42,8 +39,7 @@
       "answer_grade": 2,
       "citation_support": [
         true
-      ],
-      "student_confirmed": false
+      ]
     },
     {
       "configuration": "baseline",
@@ -53,8 +49,7 @@
       "answer_grade": 2,
       "citation_support": [
         true
-      ],
-      "student_confirmed": false
+      ]
     },
     {
       "configuration": "baseline",
@@ -62,8 +57,7 @@
       "status": "source_check_proposed",
       "note": "Kiểm tra toàn corpus V100/transistor: không có số transistor cụ thể; agent đã tìm và từ chối.",
       "answer_grade": null,
-      "citation_support": [],
-      "student_confirmed": false
+      "citation_support": []
     },
     {
       "configuration": "baseline",
@@ -71,8 +65,7 @@
       "status": "source_check_proposed",
       "note": "Kiểm tra phần CLOUD EI và corpus cost/price/USD: không có giá thuê theo tháng; agent đã tìm và từ chối.",
       "answer_grade": null,
-      "citation_support": [],
-      "student_confirmed": false
+      "citation_support": []
     },
     {
       "configuration": "neighbors-1",
@@ -83,8 +76,7 @@
       "citation_support": [
         true,
         true
-      ],
-      "student_confirmed": false
+      ]
     },
     {
       "configuration": "neighbors-1",
@@ -94,8 +86,7 @@
       "answer_grade": 2,
       "citation_support": [
         true
-      ],
-      "student_confirmed": false
+      ]
     },
     {
       "configuration": "neighbors-1",
@@ -105,8 +96,7 @@
       "answer_grade": 2,
       "citation_support": [
         true
-      ],
-      "student_confirmed": false
+      ]
     },
     {
       "configuration": "neighbors-1",
@@ -116,8 +106,7 @@
       "answer_grade": 2,
       "citation_support": [
         true
-      ],
-      "student_confirmed": false
+      ]
     },
     {
       "configuration": "neighbors-1",
@@ -128,8 +117,7 @@
       "citation_support": [
         false,
         true
-      ],
-      "student_confirmed": false
+      ]
     },
     {
       "configuration": "neighbors-1",
@@ -137,8 +125,7 @@
       "status": "source_check_proposed",
       "note": "Kiểm tra toàn corpus V100/transistor: không có số transistor cụ thể; agent đã tìm và từ chối.",
       "answer_grade": null,
-      "citation_support": [],
-      "student_confirmed": false
+      "citation_support": []
     },
     {
       "configuration": "neighbors-1",
@@ -146,8 +133,7 @@
       "status": "source_check_proposed",
       "note": "Kiểm tra phần CLOUD EI và corpus cost/price/USD: không có giá thuê theo tháng; agent đã tìm và từ chối.",
       "answer_grade": null,
-      "citation_support": [],
-      "student_confirmed": false
+      "citation_support": []
     }
   ],
   "pipeline_changed_after_test": false,

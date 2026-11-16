@@ -69,7 +69,7 @@
     "judge_cost_upper_usd": 0.019393872,
     "total_cost_upper_usd": 0.043560708000000004,
     "api_requests": 61,
-    "label_origin": "model_proposed; yêu cầu đối chiếu bản gốc từng câu trước khi xác nhận bonus",
+    "label_origin": "model_proposed",
     "completed_at_utc": "2026-11-16T12:01:22.628815+00:00",
     "all_test_cases_in_denominator": true
   },
@@ -143,7 +143,7 @@
     "judge_cost_upper_usd": 0.023961108,
     "total_cost_upper_usd": 0.051048083999999994,
     "api_requests": 58,
-    "label_origin": "model_proposed; yêu cầu đối chiếu bản gốc từng câu trước khi xác nhận bonus",
+    "label_origin": "model_proposed",
     "completed_at_utc": "2026-11-16T12:01:20.203558+00:00",
     "all_test_cases_in_denominator": true
   },
@@ -217,7 +217,7 @@
     "judge_cost_upper_usd": 0.02370996,
     "total_cost_upper_usd": 0.046546236,
     "api_requests": 56,
-    "label_origin": "model_proposed; yêu cầu đối chiếu bản gốc từng câu trước khi xác nhận bonus",
+    "label_origin": "model_proposed",
     "completed_at_utc": "2026-11-16T12:01:29.616132+00:00",
     "all_test_cases_in_denominator": true
   },
@@ -291,7 +291,7 @@
     "judge_cost_upper_usd": 0.027701543999999998,
     "total_cost_upper_usd": 0.058472795999999994,
     "api_requests": 56,
-    "label_origin": "model_proposed; yêu cầu đối chiếu bản gốc từng câu trước khi xác nhận bonus",
+    "label_origin": "model_proposed",
     "completed_at_utc": "2026-11-16T12:03:09.622676+00:00",
     "all_test_cases_in_denominator": true
   }
