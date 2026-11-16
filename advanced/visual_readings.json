@@ -1,0 +1,14 @@
+[
+  {
+    "reference": "Figure 2.5-1",
+    "page": 27,
+    "bbox": [85, 72, 540, 430],
+    "description": "Visual reading of the complete chart, checked against the PDF render. Horizontal axis: Time, moving from Concept through Design, Develop, Prod/Test to Operations through Disposal. Vertical axis: Cumulative Percentage Life Cycle Cost against Time, 0% to 100%. The upper blue curve is Committed Life Cycle Costs; marked levels include 45%, 75%, 90%, then 100%. Grey bars and the lower blue curve show % Completed (Costs Expended): Concept 8%, Design 15%, Develop 20%, Prod/Test 50%, Operations through Disposal 100%. The increasing Cost to Change Design Direction arrow is marked 3-6X near Design, 20-100X near Develop, and 500-1000X toward production/test. Milestones along time are MCR, SRR, SDR, PDR, CDR, SIR, ORR, and DR/DRR. MCR=Mission Concept Review; SRR=System Requirements Review; SDR=System Definition Review; PDR=Preliminary Design Review; CDR=Critical Design Review; SIR=System Integration Review; ORR=Operational Readiness Review; DR/DRR=Decommissioning/Disposal Readiness Review. Percentages are conceptual chart annotations rather than measured project data. The figure credits an adaptation from INCOSE-TP-2003-002-04, 2015."
+  },
+  {
+    "reference": "Figure 4.4-3",
+    "page": 96,
+    "bbox": [170.88, 166.56, 441.12, 398.64],
+    "description": "Visual reading of the complete cost-effectiveness chart, checked against the PDF render and the source note. Horizontal axis: Life-Cycle Cost, Expressed in Constant Dollars. Vertical axis: All Aspects of Effectiveness, Expressed in Quantitative Units. No numerical tick values are provided on either axis. Dashed upward-sloping lines represent constant objective-function values (cost-effectiveness). Moving toward the upper left gives higher cost-effectiveness. The different shaded regions show uncertainty. A is associated with a relatively broad cloud at high effectiveness; B is near the lower-left section of the solid curve and has little uncertainty in either cost or effectiveness; C has a cloud near the horizontal axis at high cost and essentially no effectiveness, indicating the risk of an expensive failure. A, B and C are design concepts, not a data series with specified numeric costs."
+  }
+]

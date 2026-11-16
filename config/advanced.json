@@ -1,0 +1,13 @@
+{
+  "configurations": {
+    "baseline": {"anchors": false, "vision": false, "agent": {"retrieval_method": "hybrid", "top_k": 4, "context_budget_chars": 8000}},
+    "reference-text": {"anchors": true, "vision": false, "agent": {"retrieval_method": "hybrid", "top_k": 8, "context_budget_chars": 20000}},
+    "reference-8": {"anchors": true, "vision": true, "agent": {"retrieval_method": "hybrid", "top_k": 8, "context_budget_chars": 20000}},
+    "reference-12": {"anchors": true, "vision": true, "agent": {"retrieval_method": "hybrid", "top_k": 12, "context_budget_chars": 32000}}
+  },
+  "hypotheses": ["Dùng Figure/Table ID người dùng nêu để tăng precision cho vùng trực quan.","Ảnh PDF gốc của trang đã truy xuất cho phép model kiểm tra chữ/biểu đồ vượt OCR.","Tăng context coverage mỗi reference có thể giữ đủ đơn vị, điều kiện và hai trang của câu multi-hop."],
+  "selection": "Ít lỗi hệ thống nhất, nhiều câu dev đạt nhất theo tiêu chí đầy đủ/citation/từ chối, rồi chi phí sinh và chấm.",
+  "positive_pass": "Answer grade 2, mọi citation hỗ trợ, có citation cho từng trang và Figure/Table được hỏi; multi-hop cần các trang khác nhau.",
+  "negative_pass": "Agent tìm rồi từ chối và không thêm khẳng định không có nguồn; API judge là nhãn đề xuất, sau đó đối chiếu bản gốc.",
+  "test_policy": "Chốt trên dev trước chạy toàn bộ 30 test; lỗi tính không đạt, không bỏ câu khỏi mẫu số."
+}

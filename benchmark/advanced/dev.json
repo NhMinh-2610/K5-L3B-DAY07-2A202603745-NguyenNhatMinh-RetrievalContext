@@ -1,0 +1,464 @@
+[
+  {
+    "id": "ad_t1",
+    "split": "dev",
+    "group": "table",
+    "question": "Theo Table 2.2-1, mục đích của Pre-Phase A Concept Studies là gì?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Đưa ra nhiều ý tưởng và phương án nhiệm vụ để chọn chương trình/dự án; xác định tính khả thi, phát triển mission concepts, dự thảo system-level requirements, đánh giá performance/cost/schedule và xác định nhu cầu công nghệ/phạm vi.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 22,
+        "reference": "Table 2.2-1",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Pre-Phase A row, Purpose column: produce a broad spectrum of ideas and alternatives; determine feasibility; develop mission concepts/draft requirements; assess performance/cost/schedule; identify technology needs and scope.",
+        "evidence_type": "table"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "ad_t2",
+    "split": "dev",
+    "group": "table",
+    "question": "Trong Table 4.2-2, trường Owner có chức năng gì?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Người hoặc nhóm chịu trách nhiệm viết, quản lý và/hoặc phê duyệt thay đổi yêu cầu.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 83,
+        "reference": "Table 4.2-2",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Owner: Person or group responsible for writing, managing, and/or approving changes to this requirement.",
+        "evidence_type": "table"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "ad_t3",
+    "split": "dev",
+    "group": "table",
+    "question": "Theo Table 4.1-1, những bên liên quan ở Phase F là ai?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Customer, NASA Headquarters, operators, safety, planetary protection và public.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 68,
+        "reference": "Table 4.1-1",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Phase F row: Customer, NASA Headquarters, operators, safety, planetary protection, public.",
+        "evidence_type": "table"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "ad_i1",
+    "split": "dev",
+    "group": "image",
+    "question": "Figure 5.0-1 liệt kê năm quá trình Product Realization nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Product Implementation, Product Integration, Product Verification, Product Validation, Product Transition.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 102,
+        "reference": "Figure 5.0-1",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Diagram labels list the five product-realization processes, implementation through transition.",
+        "evidence_type": "image"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "ad_i2",
+    "split": "dev",
+    "group": "image",
+    "question": "Theo Figure 6.5-3, ba baseline chính Functional, Allocated, Product xuất hiện theo thứ tự nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Functional Baseline, rồi Allocated Baseline, rồi Product Baseline.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 184,
+        "reference": "Figure 6.5-3",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Evolution of Technical Baseline diagram places FUNCTIONAL BASELINE before ALLOCATED BASELINE before PRODUCT BASELINE.",
+        "evidence_type": "image"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "ad_i3",
+    "split": "dev",
+    "group": "image",
+    "question": "Trong Figure 6.7-2, vòng phản hồi bao gồm những hoạt động nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Planning, Status Reporting, Assessment và Decision Analysis, với hành động/điều chỉnh quay lại công việc và kế hoạch.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 198,
+        "reference": "Figure 6.7-2",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Feedback-loop diagram and accompanying source text connect planning, status reporting, assessment, and decision analysis.",
+        "evidence_type": "image"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "ad_c1",
+    "split": "dev",
+    "group": "chart",
+    "question": "Trục đứng của Figure 2.5-1 dùng đại lượng và đơn vị gì?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Cumulative Percentage Life Cycle Cost against Time, tính theo phần trăm, thang từ 0% tới 100%.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 27,
+        "reference": "Figure 2.5-1",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Left axis reads Cumulative Percentage Life Cycle Cost against Time and shows 0% through 100%.",
+        "evidence_type": "chart"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "ad_c2",
+    "split": "dev",
+    "group": "chart",
+    "question": "Trong Figure 4.4-3, di chuyển về hướng nào cho cost-effectiveness cao hơn?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Về góc trên bên trái (upper left).",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 96,
+        "reference": "Figure 4.4-3",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Source note: Higher values of cost-effectiveness are achieved by moving toward upper left.",
+        "evidence_type": "chart"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "ad_c3",
+    "split": "dev",
+    "group": "chart",
+    "question": "Các đường nét đứt trong Figure 4.4-3 biểu diễn điều gì?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Các giá trị không đổi của objective function, tức cost-effectiveness.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 96,
+        "reference": "Figure 4.4-3",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Dashed lines represent constant values of objective function (cost-effectiveness).",
+        "evidence_type": "chart"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "ad_m1",
+    "split": "dev",
+    "group": "multi_hop",
+    "question": "Dùng Figure 2.5-1 và Table 4.2-2: SRR viết đầy đủ là gì và trường Rationale dùng để làm gì?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "SRR là System Requirements Review; Rationale cung cấp thông tin bổ sung làm rõ ý định của yêu cầu tại thời điểm viết.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 27,
+        "reference": "Figure 2.5-1",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "SRR = System Requirements Review in the chart legend.",
+        "evidence_type": "multi_hop"
+      },
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 83,
+        "reference": "Table 4.2-2",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Rationale: Provides additional information to help clarify the intent of the requirements at the time they were written.",
+        "evidence_type": "multi_hop"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "ad_m2",
+    "split": "dev",
+    "group": "multi_hop",
+    "question": "Kết hợp Table 4.1-1 và Figure 6.5-3: Phase F có bên liên quan planetary protection không, và as-deployed baseline được gắn với review nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Có planetary protection ở Phase F; as-deployed baseline gắn với ORR (Operational Readiness Review).",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 68,
+        "reference": "Table 4.1-1",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Phase F includes planetary protection.",
+        "evidence_type": "multi_hop"
+      },
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 184,
+        "reference": "Figure 6.5-3",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "As-Deployed Baseline occurs at the ORR; the design is functional and ready for flight.",
+        "evidence_type": "multi_hop"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "ad_m3",
+    "split": "dev",
+    "group": "multi_hop",
+    "question": "Dựa vào Figure G.4-1 và Figure G.4-3, TRL 9 được mô tả ra sao và các hàng của ma trận đánh giá TRL đại diện cho gì?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "TRL 9: actual system flight proven through successful mission operations; các hàng là systems, subsystems và components được đánh giá.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 264,
+        "reference": "Figure G.4-1",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "TRL 9: Actual system flight proven through successful mission operations.",
+        "evidence_type": "multi_hop"
+      },
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 268,
+        "reference": "Figure G.4-3",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Rows identify the systems, subsystems, and components that are under assessment.",
+        "evidence_type": "multi_hop"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "ad_x1",
+    "split": "dev",
+    "group": "text",
+    "question": "Trong SE engine, iterative được định nghĩa là gì?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Áp dụng một quá trình cho cùng sản phẩm hoặc tập sản phẩm để sửa sai khác đã phát hiện hay biến thể so với yêu cầu.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 20,
+        "reference": "",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Iterative is application of a process to the same product or set of products to correct a discovered discrepancy or other variation from requirements.",
+        "evidence_type": "text"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "ad_x2",
+    "split": "dev",
+    "group": "text",
+    "question": "Theo đoạn ghi chú ở mục 4.1, nên lôi cuốn stakeholders vào những giai đoạn nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Trong tất cả các giai đoạn của dự án; tạo vòng phản hồi tự hiệu chỉnh để nâng khả năng thành công.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 69,
+        "reference": "",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "It is extremely important to involve stakeholders in all phases of a project; such involvement should be built in as a self-correcting feedback loop.",
+        "evidence_type": "text"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "ad_x3",
+    "split": "dev",
+    "group": "text",
+    "question": "CM plan được dùng nội bộ và bên ngoài như thế nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Nội bộ: hướng dẫn, theo dõi, đo lường CM và lịch triển khai; bên ngoài: truyền đạt quy trình CM cho nhà thầu và thiết lập quy trình/quan hệ làm việc nhất quán.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 182,
+        "reference": "",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Internal: guide, monitor and measure overall CM and its schedule. External: communicate CM process to contractors and establish consistent processes and working relationships.",
+        "evidence_type": "text"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "ad_n1",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "Figure 6.4-2 cho xác suất xảy ra rủi ro cụ thể bằng bao nhiêu phần trăm?",
+    "filter": {},
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Hình minh họa các phân bố và bất định, không cho xác suất số của một dự án.",
+    "corpus_check_terms": [
+      "Figure 6.4-2",
+      "likelihood",
+      "uncertainty"
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "ad_n2",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "Handbook cung cấp URL tải bộ dữ liệu thô dùng để tính các đường của Figure 4.4-3 ở đâu?",
+    "filter": {},
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Biểu đồ khái niệm không kèm bộ dữ liệu thô hay URL tải dữ liệu của các đường.",
+    "corpus_check_terms": [
+      "Figure 4.4-3",
+      "dataset",
+      "raw data"
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "ad_n3",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "Theo bản handbook này, năm 2026 mọi nhà thầu NASA bắt buộc dùng phiên bản phần mềm quản lý yêu cầu nào?",
+    "filter": {},
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Bản nguồn không quy định tên/phiên bản phần mềm bắt buộc cho năm 2026; không dùng thông tin ngoài tài liệu.",
+    "corpus_check_terms": [
+      "2026",
+      "requirements management",
+      "software"
+    ],
+    "source_review_status": "source_check_proposed"
+  }
+]

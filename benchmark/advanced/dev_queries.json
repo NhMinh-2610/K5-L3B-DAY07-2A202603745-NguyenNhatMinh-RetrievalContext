@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ad_t1",
+    "split": "dev",
+    "question": "Theo Table 2.2-1, mục đích của Pre-Phase A Concept Studies là gì?",
+    "filter": {}
+  },
+  {
+    "id": "ad_t2",
+    "split": "dev",
+    "question": "Trong Table 4.2-2, trường Owner có chức năng gì?",
+    "filter": {}
+  },
+  {
+    "id": "ad_t3",
+    "split": "dev",
+    "question": "Theo Table 4.1-1, những bên liên quan ở Phase F là ai?",
+    "filter": {}
+  },
+  {
+    "id": "ad_i1",
+    "split": "dev",
+    "question": "Figure 5.0-1 liệt kê năm quá trình Product Realization nào?",
+    "filter": {}
+  },
+  {
+    "id": "ad_i2",
+    "split": "dev",
+    "question": "Theo Figure 6.5-3, ba baseline chính Functional, Allocated, Product xuất hiện theo thứ tự nào?",
+    "filter": {}
+  },
+  {
+    "id": "ad_i3",
+    "split": "dev",
+    "question": "Trong Figure 6.7-2, vòng phản hồi bao gồm những hoạt động nào?",
+    "filter": {}
+  },
+  {
+    "id": "ad_c1",
+    "split": "dev",
+    "question": "Trục đứng của Figure 2.5-1 dùng đại lượng và đơn vị gì?",
+    "filter": {}
+  },
+  {
+    "id": "ad_c2",
+    "split": "dev",
+    "question": "Trong Figure 4.4-3, di chuyển về hướng nào cho cost-effectiveness cao hơn?",
+    "filter": {}
+  },
+  {
+    "id": "ad_c3",
+    "split": "dev",
+    "question": "Các đường nét đứt trong Figure 4.4-3 biểu diễn điều gì?",
+    "filter": {}
+  },
+  {
+    "id": "ad_m1",
+    "split": "dev",
+    "question": "Dùng Figure 2.5-1 và Table 4.2-2: SRR viết đầy đủ là gì và trường Rationale dùng để làm gì?",
+    "filter": {}
+  },
+  {
+    "id": "ad_m2",
+    "split": "dev",
+    "question": "Kết hợp Table 4.1-1 và Figure 6.5-3: Phase F có bên liên quan planetary protection không, và as-deployed baseline được gắn với review nào?",
+    "filter": {}
+  },
+  {
+    "id": "ad_m3",
+    "split": "dev",
+    "question": "Dựa vào Figure G.4-1 và Figure G.4-3, TRL 9 được mô tả ra sao và các hàng của ma trận đánh giá TRL đại diện cho gì?",
+    "filter": {}
+  },
+  {
+    "id": "ad_x1",
+    "split": "dev",
+    "question": "Trong SE engine, iterative được định nghĩa là gì?",
+    "filter": {}
+  },
+  {
+    "id": "ad_x2",
+    "split": "dev",
+    "question": "Theo đoạn ghi chú ở mục 4.1, nên lôi cuốn stakeholders vào những giai đoạn nào?",
+    "filter": {}
+  },
+  {
+    "id": "ad_x3",
+    "split": "dev",
+    "question": "CM plan được dùng nội bộ và bên ngoài như thế nào?",
+    "filter": {}
+  },
+  {
+    "id": "ad_n1",
+    "split": "dev",
+    "question": "Figure 6.4-2 cho xác suất xảy ra rủi ro cụ thể bằng bao nhiêu phần trăm?",
+    "filter": {}
+  },
+  {
+    "id": "ad_n2",
+    "split": "dev",
+    "question": "Handbook cung cấp URL tải bộ dữ liệu thô dùng để tính các đường của Figure 4.4-3 ở đâu?",
+    "filter": {}
+  },
+  {
+    "id": "ad_n3",
+    "split": "dev",
+    "question": "Theo bản handbook này, năm 2026 mọi nhà thầu NASA bắt buộc dùng phiên bản phần mềm quản lý yêu cầu nào?",
+    "filter": {}
+  }
+]

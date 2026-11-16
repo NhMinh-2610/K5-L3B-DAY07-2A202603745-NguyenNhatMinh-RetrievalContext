@@ -1,0 +1,8 @@
+{
+  "case_id": "at_m4",
+  "stage": "source validation before any test model run",
+  "source": "NASA PDF physical page 18, Figure 2.0-1",
+  "correction": "Common Areas has six entries, including Reviews and Schedule; replace the mistaken four-entry draft gold and question.",
+  "test_model_outputs_seen": false,
+  "generation_pipeline_change_due_to_test_outputs": false
+}

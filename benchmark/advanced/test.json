@@ -1,0 +1,752 @@
+[
+  {
+    "id": "at_t1",
+    "split": "test",
+    "group": "table",
+    "question": "Trong Table 4.2-2, Requirement ID dùng để làm gì?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Cung cấp hệ thống đánh số duy nhất để sắp xếp và theo dõi yêu cầu.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 83,
+        "reference": "Table 4.2-2",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Requirement ID: Provides a unique numbering system for sorting and tracking.",
+        "evidence_type": "table"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_t2",
+    "split": "test",
+    "group": "table",
+    "question": "Theo Table 4.2-2, Traced from lưu những quan hệ nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Truy vết hai chiều giữa yêu cầu cha và yêu cầu cấp dưới/derived, cùng các quan hệ giữa yêu cầu.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 83,
+        "reference": "Table 4.2-2",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Traced from: bidirectional traceability between parent requirements and lower level (derived) requirements and relationships between requirements.",
+        "evidence_type": "table"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_t3",
+    "split": "test",
+    "group": "table",
+    "question": "Table 4.2-2 liệt kê bốn phương pháp trong trường Verification method là gì?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Test, inspection, analysis, demonstration.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 83,
+        "reference": "Table 4.2-2",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Verification method: test, inspection, analysis, demonstration; determined as requirements are developed.",
+        "evidence_type": "table"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_t4",
+    "split": "test",
+    "group": "table",
+    "question": "Trong hàng Phase D của Table 4.1-1, hai nhóm có tên liên quan trực tiếp đến verification và flight readiness là ai?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Verification team và Flight Readiness Board members.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 68,
+        "reference": "Table 4.1-1",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Phase D row includes verification team and Flight Readiness Board members.",
+        "evidence_type": "table"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_t5",
+    "split": "test",
+    "group": "table",
+    "question": "Table 6.1-2 liệt kê ba loại cơ sở liên quan tới thermal, vibration và radiation với tên gì?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Thermal Chambers, Vibration Labs, Radiation Labs.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 151,
+        "reference": "Table 6.1-2",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Facility entries: Thermal Chambers; Vibration Labs; Radiation Labs.",
+        "evidence_type": "table"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_t6",
+    "split": "test",
+    "group": "table",
+    "question": "Theo Table 6.8-1, Executive Summary dài khoảng bao nhiêu và hai nội dung nào mỗi nội dung một câu?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Khoảng nửa trang; Recommendation và Problem/issue requiring a decision, mỗi mục tóm tắt một câu.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 213,
+        "reference": "Table 6.8-1",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Executive Summary: short half-page; Recommendation (short summary—1 sentence); Problem/issue requiring a decision (short summary—1 sentence).",
+        "evidence_type": "table"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_i1",
+    "split": "test",
+    "group": "image",
+    "question": "Trong Figure 2.1-1, bốn quá trình được đánh số 1 đến 4 trong nhánh System Design Processes là gì?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Stakeholders Expectations Definition; Technical Requirements Definition; Logical Decomposition; Design Solution Definition.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 19,
+        "reference": "Figure 2.1-1",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Left-hand System Design branch boxes numbered 1–4: Stakeholders Expectations Definition, Technical Requirements Definition, Logical Decomposition, Design Solution Definition.",
+        "evidence_type": "image"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_i2",
+    "split": "test",
+    "group": "image",
+    "question": "Trong Figure 4.0-1, ba nhóm đầu vào nằm trong khối Stakeholder Expectations trước Develop ConOps là gì?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Needs, Goals and Objectives; Constraints; Success Criteria.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 64,
+        "reference": "Figure 4.0-1",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Blue stack inside Stakeholder Expectations: Needs, Goals and Objectives; Constraints; Success Criteria; it feeds Develop ConOps.",
+        "evidence_type": "image"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_i3",
+    "split": "test",
+    "group": "image",
+    "question": "Figure 4.1-2 trình bày năm tiêu đề ở hàng trên theo thứ tự trái sang phải như thế nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Mission Goals → Mission Objectives → Operational Objectives → Success Criteria → Design Drivers.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 69,
+        "reference": "Figure 4.1-2",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Five top blue boxes linked left-to-right: Mission Goals, Mission Objectives, Operational Objectives, Success Criteria, Design Drivers.",
+        "evidence_type": "image"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_i4",
+    "split": "test",
+    "group": "image",
+    "question": "Theo Figure 6.4-1, ba câu hỏi màu đỏ để phát triển risk scenario là gì?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "What can go wrong?; How frequently does it happen?; What are the consequences?",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 174,
+        "reference": "Figure 6.4-1",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Red headings: 1. What can go wrong? 2. How frequently does it happen? 3. What are the consequences?",
+        "evidence_type": "image"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_i5",
+    "split": "test",
+    "group": "image",
+    "question": "Figure 6.5-2 chia Configuration Management thành năm thành phần nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Configuration Planning and Management; Configuration Identification; Configuration Change Management; Configuration Status Accounting; Configuration Verification.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 182,
+        "reference": "Figure 6.5-2",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Five child boxes beneath CONFIGURATION MANAGEMENT show the five named elements.",
+        "evidence_type": "image"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_c1",
+    "split": "test",
+    "group": "chart",
+    "question": "Trong Figure 2.5-1, Costs Expended tại Design và Develop lần lượt bao nhiêu phần trăm, chênh nhau bao nhiêu điểm phần trăm?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Design 15%, Develop 20%; chênh 5 điểm phần trăm.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 27,
+        "reference": "Figure 2.5-1",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Grey bars: Design 15%, Develop 20%.",
+        "evidence_type": "chart"
+      }
+    ],
+    "source_review_status": "source_check_proposed",
+    "calculation": "20% - 15% = 5 percentage points"
+  },
+  {
+    "id": "at_c2",
+    "split": "test",
+    "group": "chart",
+    "question": "Theo Figure 6.4-2, hai loại đồ thị phân bố bên cạnh Structure of Scenario biểu diễn gì, kèm yếu tố nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Likelihood and Its Uncertainty; Consequence Severity and Its Uncertainty, tức khả năng xảy ra và mức nghiêm trọng hậu quả, đều kèm bất định.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 174,
+        "reference": "Figure 6.4-2",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Each risk-triplet panel contains distribution plots labeled Likelihood and Its Uncertainty and Consequence Severity and Its Uncertainty.",
+        "evidence_type": "chart"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_c3",
+    "split": "test",
+    "group": "chart",
+    "question": "Figure 2.5-1 ghi Costs Expended ở Concept và Prod/Test bao nhiêu; giá trị Prod/Test gấp mấy lần Concept?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Concept 8%, Prod/Test 50%; 50/8 = 6,25 lần. Đây là các nhãn minh họa trên biểu đồ.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 27,
+        "reference": "Figure 2.5-1",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Costs Expended grey bars are Concept 8% and Prod/Test 50%.",
+        "evidence_type": "chart"
+      }
+    ],
+    "source_review_status": "source_check_proposed",
+    "calculation": "50 / 8 = 6.25"
+  },
+  {
+    "id": "at_c4",
+    "split": "test",
+    "group": "chart",
+    "question": "Hai trục của Figure 4.4-3 mang đại lượng và đơn vị mô tả nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "X: Life-Cycle Cost, expressed in constant dollars; Y: All Aspects of Effectiveness, expressed in quantitative units. Hình không có giá trị tick số cụ thể.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 96,
+        "reference": "Figure 4.4-3",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "X axis: Life-Cycle Cost, Expressed in Constant Dollars; Y axis: All Aspects of Effectiveness, Expressed in Quantitative Units.",
+        "evidence_type": "chart"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_c5",
+    "split": "test",
+    "group": "chart",
+    "question": "Trong Figure 4.4-3, design concept nào có nguy cơ thất bại đắt đỏ và đám mây bất định nằm ở vị trí nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Concept C; gần trục x, tại chi phí cao và effectiveness gần bằng không.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 96,
+        "reference": "Figure 4.4-3",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "C points to a probability cloud near the x axis at high cost and essentially no effectiveness; note describes high risk of expensive failure.",
+        "evidence_type": "chart"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_m1",
+    "split": "test",
+    "group": "multi_hop",
+    "question": "Chuẩn bị review thiết kế: dùng Figure 2.5-1 giải nghĩa PDR và Table 4.2-2 giải thích trường Verification level.",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "PDR là Preliminary Design Review; Verification level chỉ cấp trong hệ thống phân cấp mà yêu cầu sẽ được xác minh, ví dụ system/subsystem/element.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 27,
+        "reference": "Figure 2.5-1",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "PDR = Preliminary Design Review in the legend.",
+        "evidence_type": "multi_hop"
+      },
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 83,
+        "reference": "Table 4.2-2",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Verification level specifies the hierarchy level at which requirements will be verified, e.g. system, subsystem, element.",
+        "evidence_type": "multi_hop"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_m2",
+    "split": "test",
+    "group": "multi_hop",
+    "question": "Kết hợp Table 4.2-2 và Table 4.1-1: Verification lead chịu trách nhiệm gì, và hàng Phase E có crew cùng users không?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Verification lead là người/nhóm được giao trách nhiệm xác minh yêu cầu; có, Phase E liệt kê cả crew và users.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 83,
+        "reference": "Table 4.2-2",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Verification lead: Person or group assigned responsibility for verifying the requirement.",
+        "evidence_type": "multi_hop"
+      },
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 68,
+        "reference": "Table 4.1-1",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Phase E stakeholders explicitly include crew and users.",
+        "evidence_type": "multi_hop"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_m3",
+    "split": "test",
+    "group": "multi_hop",
+    "question": "Theo Figure G.4-1 và đoạn mô tả Figure G.4-3, TRL 6 có nghĩa gì và hệ thống có một phần tử TRL 2 có thể được coi đã đạt TRL 6 không?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "TRL 6 là system/subsystem model or prototype demonstration in a relevant environment; không, TRL hệ thống bị giới hạn bởi TRL thấp nhất, nên trường hợp nêu là TRL 2.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 264,
+        "reference": "Figure G.4-1",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "TRL 6: System/subsystem model or prototype demonstration in a relevant environment (ground or space).",
+        "evidence_type": "multi_hop"
+      },
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 268,
+        "reference": "Figure G.4-3",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "TRL of the system is determined by the lowest TRL present; system is at TRL 2 if any single element is at TRL 2.",
+        "evidence_type": "multi_hop"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_m4",
+    "split": "test",
+    "group": "multi_hop",
+    "question": "Đối chiếu Table 6.1-1 với Figure 2.0-1: nhóm Systems Engineering có hai chức danh systems engineer nào, và những Common Areas giữa SE với PP&C là gì?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Mission Systems Engineer và Instrument Systems Engineer; Common Areas: Stakeholders, Risks, Configuration Management, Data Management, Reviews, Schedule.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 149,
+        "reference": "Table 6.1-1",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Systems Engineering subheading lists Mission Systems Engineer and Instrument Systems Engineer.",
+        "evidence_type": "multi_hop"
+      },
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 18,
+        "reference": "Figure 2.0-1",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Common Areas lists Stakeholders, Risks, Configuration Management, Data Management, Reviews, Schedule.",
+        "evidence_type": "multi_hop"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_x1",
+    "split": "test",
+    "group": "text",
+    "question": "Theo mục 2.6, SE phải tích hợp ngang nhau ba thành phần chính nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Hardware, software và human systems integration.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 28,
+        "reference": "",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Systems engineering approach must equally address and integrate hardware, software, and human systems integration.",
+        "evidence_type": "text"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_x2",
+    "split": "test",
+    "group": "text",
+    "question": "Trong Phases E và F, technical management processes của SE engine được dùng vào những việc gì?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Theo dõi performance, kiểm soát configuration và quyết định liên quan đến operations, sustaining engineering và closeout; nâng cấp/năng lực mới quay lại engine như phát triển mới.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 24,
+        "reference": "",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Technical management processes in Phases E and F monitor performance, control configuration and support decisions about operations, sustaining engineering, closeout; new capabilities/upgrades reenter as new developments.",
+        "evidence_type": "text"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_x3",
+    "split": "test",
+    "group": "text",
+    "question": "Theo mục 2.4, validation có chỉ được làm lúc bàn giao end product không?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Không; có thể thực hiện trong từng development phase bằng phase products, ví dụ models, và không chỉ tại delivery.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 25,
+        "reference": "",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Validation can be performed in each development phase using phase products (e.g., models) and not only at delivery using end products.",
+        "evidence_type": "text"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_x4",
+    "split": "test",
+    "group": "text",
+    "question": "Theo mục 6.8.1.3, đặc điểm quan trọng của decision report là hình thức hay nội dung, và nội dung phải ghi rõ những gì?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Nội dung quan trọng: ghi đầy đủ decision needed, assessments done, recommendations và decision finally made; hình thức có thể white paper đơn giản hoặc báo cáo trang trọng.",
+    "gold": [
+      {
+        "source_id": "nasa-se-2016-rev2",
+        "page": 213,
+        "reference": "",
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "evidence": "Important characteristic is content, which fully documents decision needed, assessments done, recommendations, and decision finally made; simple white paper or formal document both possible.",
+        "evidence_type": "text"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_n1",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Figure 4.4-3 cho khoảng tin cậy 95% của chi phí concept B bằng bao nhiêu USD?",
+    "filter": {},
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có tick chi phí số hoặc khoảng tin cậy 95% cho B; không suy ra số từ hình khái niệm.",
+    "corpus_check_terms": [
+      "Figure 4.4-3",
+      "95%",
+      "confidence"
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_n2",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Figure 2.5-1 được tính từ chính xác bao nhiêu dự án trong mẫu thống kê?",
+    "filter": {},
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Hình và văn bản trích không nêu cỡ mẫu các dự án; việc dẫn INCOSE không cung cấp số này trong handbook.",
+    "corpus_check_terms": [
+      "Figure 2.5-1",
+      "sample",
+      "projects"
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_n3",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Table 6.1-1 công bố tổng ngân sách USD của robotic infrared observatory là bao nhiêu?",
+    "filter": {},
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Bảng liệt kê các bộ môn và nhóm, không có tổng ngân sách của ví dụ đài quan sát.",
+    "corpus_check_terms": [
+      "Table 6.1-1",
+      "infrared",
+      "budget"
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_n4",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Trong Table 4.2-2, địa chỉ email cụ thể của Verification lead là gì?",
+    "filter": {},
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Đây là mô tả trường metadata, không có danh tính hay email cá nhân thực tế.",
+    "corpus_check_terms": [
+      "Table 4.2-2",
+      "Verification lead",
+      "email"
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_n5",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Theo handbook, giá thuê phần mềm Configuration Management được NASA khuyến nghị là bao nhiêu USD mỗi tháng?",
+    "filter": {},
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Handbook bàn về quy trình CM, không công bố giá thuê phần mềm hàng tháng.",
+    "corpus_check_terms": [
+      "configuration management",
+      "monthly",
+      "price"
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "at_n6",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Theo handbook, tổng ngân sách thực chi của toàn NASA trong năm tài chính 2016 là bao nhiêu USD?",
+    "filter": {},
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Handbook không phải báo cáo ngân sách và không công bố tổng thực chi toàn cơ quan cho năm 2016.",
+    "corpus_check_terms": [
+      "2016",
+      "budget",
+      "expenditure"
+    ],
+    "source_review_status": "source_check_proposed"
+  }
+]

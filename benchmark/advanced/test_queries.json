@@ -1,0 +1,182 @@
+[
+  {
+    "id": "at_t1",
+    "split": "test",
+    "question": "Trong Table 4.2-2, Requirement ID dùng để làm gì?",
+    "filter": {}
+  },
+  {
+    "id": "at_t2",
+    "split": "test",
+    "question": "Theo Table 4.2-2, Traced from lưu những quan hệ nào?",
+    "filter": {}
+  },
+  {
+    "id": "at_t3",
+    "split": "test",
+    "question": "Table 4.2-2 liệt kê bốn phương pháp trong trường Verification method là gì?",
+    "filter": {}
+  },
+  {
+    "id": "at_t4",
+    "split": "test",
+    "question": "Trong hàng Phase D của Table 4.1-1, hai nhóm có tên liên quan trực tiếp đến verification và flight readiness là ai?",
+    "filter": {}
+  },
+  {
+    "id": "at_t5",
+    "split": "test",
+    "question": "Table 6.1-2 liệt kê ba loại cơ sở liên quan tới thermal, vibration và radiation với tên gì?",
+    "filter": {}
+  },
+  {
+    "id": "at_t6",
+    "split": "test",
+    "question": "Theo Table 6.8-1, Executive Summary dài khoảng bao nhiêu và hai nội dung nào mỗi nội dung một câu?",
+    "filter": {}
+  },
+  {
+    "id": "at_i1",
+    "split": "test",
+    "question": "Trong Figure 2.1-1, bốn quá trình được đánh số 1 đến 4 trong nhánh System Design Processes là gì?",
+    "filter": {}
+  },
+  {
+    "id": "at_i2",
+    "split": "test",
+    "question": "Trong Figure 4.0-1, ba nhóm đầu vào nằm trong khối Stakeholder Expectations trước Develop ConOps là gì?",
+    "filter": {}
+  },
+  {
+    "id": "at_i3",
+    "split": "test",
+    "question": "Figure 4.1-2 trình bày năm tiêu đề ở hàng trên theo thứ tự trái sang phải như thế nào?",
+    "filter": {}
+  },
+  {
+    "id": "at_i4",
+    "split": "test",
+    "question": "Theo Figure 6.4-1, ba câu hỏi màu đỏ để phát triển risk scenario là gì?",
+    "filter": {}
+  },
+  {
+    "id": "at_i5",
+    "split": "test",
+    "question": "Figure 6.5-2 chia Configuration Management thành năm thành phần nào?",
+    "filter": {}
+  },
+  {
+    "id": "at_c1",
+    "split": "test",
+    "question": "Trong Figure 2.5-1, Costs Expended tại Design và Develop lần lượt bao nhiêu phần trăm, chênh nhau bao nhiêu điểm phần trăm?",
+    "filter": {}
+  },
+  {
+    "id": "at_c2",
+    "split": "test",
+    "question": "Theo Figure 6.4-2, hai loại đồ thị phân bố bên cạnh Structure of Scenario biểu diễn gì, kèm yếu tố nào?",
+    "filter": {}
+  },
+  {
+    "id": "at_c3",
+    "split": "test",
+    "question": "Figure 2.5-1 ghi Costs Expended ở Concept và Prod/Test bao nhiêu; giá trị Prod/Test gấp mấy lần Concept?",
+    "filter": {}
+  },
+  {
+    "id": "at_c4",
+    "split": "test",
+    "question": "Hai trục của Figure 4.4-3 mang đại lượng và đơn vị mô tả nào?",
+    "filter": {}
+  },
+  {
+    "id": "at_c5",
+    "split": "test",
+    "question": "Trong Figure 4.4-3, design concept nào có nguy cơ thất bại đắt đỏ và đám mây bất định nằm ở vị trí nào?",
+    "filter": {}
+  },
+  {
+    "id": "at_m1",
+    "split": "test",
+    "question": "Chuẩn bị review thiết kế: dùng Figure 2.5-1 giải nghĩa PDR và Table 4.2-2 giải thích trường Verification level.",
+    "filter": {}
+  },
+  {
+    "id": "at_m2",
+    "split": "test",
+    "question": "Kết hợp Table 4.2-2 và Table 4.1-1: Verification lead chịu trách nhiệm gì, và hàng Phase E có crew cùng users không?",
+    "filter": {}
+  },
+  {
+    "id": "at_m3",
+    "split": "test",
+    "question": "Theo Figure G.4-1 và đoạn mô tả Figure G.4-3, TRL 6 có nghĩa gì và hệ thống có một phần tử TRL 2 có thể được coi đã đạt TRL 6 không?",
+    "filter": {}
+  },
+  {
+    "id": "at_m4",
+    "split": "test",
+    "question": "Đối chiếu Table 6.1-1 với Figure 2.0-1: nhóm Systems Engineering có hai chức danh systems engineer nào, và những Common Areas giữa SE với PP&C là gì?",
+    "filter": {}
+  },
+  {
+    "id": "at_x1",
+    "split": "test",
+    "question": "Theo mục 2.6, SE phải tích hợp ngang nhau ba thành phần chính nào?",
+    "filter": {}
+  },
+  {
+    "id": "at_x2",
+    "split": "test",
+    "question": "Trong Phases E và F, technical management processes của SE engine được dùng vào những việc gì?",
+    "filter": {}
+  },
+  {
+    "id": "at_x3",
+    "split": "test",
+    "question": "Theo mục 2.4, validation có chỉ được làm lúc bàn giao end product không?",
+    "filter": {}
+  },
+  {
+    "id": "at_x4",
+    "split": "test",
+    "question": "Theo mục 6.8.1.3, đặc điểm quan trọng của decision report là hình thức hay nội dung, và nội dung phải ghi rõ những gì?",
+    "filter": {}
+  },
+  {
+    "id": "at_n1",
+    "split": "test",
+    "question": "Figure 4.4-3 cho khoảng tin cậy 95% của chi phí concept B bằng bao nhiêu USD?",
+    "filter": {}
+  },
+  {
+    "id": "at_n2",
+    "split": "test",
+    "question": "Figure 2.5-1 được tính từ chính xác bao nhiêu dự án trong mẫu thống kê?",
+    "filter": {}
+  },
+  {
+    "id": "at_n3",
+    "split": "test",
+    "question": "Table 6.1-1 công bố tổng ngân sách USD của robotic infrared observatory là bao nhiêu?",
+    "filter": {}
+  },
+  {
+    "id": "at_n4",
+    "split": "test",
+    "question": "Trong Table 4.2-2, địa chỉ email cụ thể của Verification lead là gì?",
+    "filter": {}
+  },
+  {
+    "id": "at_n5",
+    "split": "test",
+    "question": "Theo handbook, giá thuê phần mềm Configuration Management được NASA khuyến nghị là bao nhiêu USD mỗi tháng?",
+    "filter": {}
+  },
+  {
+    "id": "at_n6",
+    "split": "test",
+    "question": "Theo handbook, tổng ngân sách thực chi của toàn NASA trong năm tài chính 2016 là bao nhiêu USD?",
+    "filter": {}
+  }
+]

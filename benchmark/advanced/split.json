@@ -1,0 +1,24 @@
+{
+  "dev": 18,
+  "test": 30,
+  "test_group_counts": {
+    "table": 6,
+    "image": 5,
+    "chart": 5,
+    "multi_hop": 4,
+    "text": 4,
+    "unanswerable": 6
+  },
+  "test_threshold": {
+    "n": 27,
+    "N": 30,
+    "rate": 0.9
+  },
+  "queries_do_not_include_gold": true,
+  "sha256": {
+    "dev.json": "dbeb9100bf940063467e4ca6d1dad797862b79728fc79dd3c527791e787a1478",
+    "dev_queries.json": "aebf823fb7a9730e9c9d6fa7e0ef349995f13921201f97c739225167e603ec24",
+    "test.json": "d4e058cb4f1c90df9fb226de87b1eeadeb32512e37398b63e26f0fa5d0967b4a",
+    "test_queries.json": "0d6ddcca505f41fcd2d58ff3a0f215fd581abd000eb6929f227d01d6086132c7"
+  }
+}
