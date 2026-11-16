@@ -1,0 +1,10 @@
+{
+  "configurations": {
+    "baseline": {"radius": 0, "agent": {"retrieval_method": "dense", "top_k": 3, "context_budget_chars": 3000}},
+    "neighbors-1": {"radius": 1, "agent": {"retrieval_method": "hybrid", "top_k": 3, "context_budget_chars": 6000}},
+    "neighbors-2": {"radius": 2, "agent": {"retrieval_method": "hybrid", "top_k": 3, "context_budget_chars": 9000}}
+  },
+  "hypotheses": ["Đoạn lân cận cùng trang/mục có thể bổ sung phần câu bị tách và evidence Industrial data.", "Bán kính hai có thể giữ đầy đủ định nghĩa nhưng tăng nội dung không liên quan và chi phí."],
+  "selection": "Ít lỗi, điểm đầy đủ trên câu dương tính, citation hợp lệ, rồi chi phí.",
+  "test_policy": "Test cơ bản mới, không dùng test của nghiên cứu đầu để chỉnh/chọn."
+}

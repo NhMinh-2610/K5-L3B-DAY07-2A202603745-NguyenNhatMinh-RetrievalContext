@@ -1,0 +1,44 @@
+[
+  {
+    "id": "b2_01",
+    "split": "test",
+    "question": "Theo tài liệu, FPGA cho phép cấu trúc phần cứng được điều chỉnh và cấu hình lại như thế nào?",
+    "filter": {}
+  },
+  {
+    "id": "b2_02",
+    "split": "test",
+    "question": "Ba trường phái AI chính được liệt kê ở mục 1.1.5 là gì?",
+    "filter": {}
+  },
+  {
+    "id": "b2_03",
+    "split": "test",
+    "question": "Theo dự báo được trích trong chương, quy mô thị trường AI đến năm 2025 vượt mức bao nhiêu, tính bằng USD?",
+    "filter": {}
+  },
+  {
+    "id": "b2_04",
+    "split": "test",
+    "question": "Trong chiến lược Huawei, full-stack gồm bốn thành phần nào?",
+    "filter": {}
+  },
+  {
+    "id": "b2_05",
+    "split": "test",
+    "question": "Ascend 310 được mô tả có tiến trình bao nhiêu nm, công suất tính toán tối đa bao nhiêu TOPS và tiêu thụ bao nhiêu W?",
+    "filter": {}
+  },
+  {
+    "id": "b2_abs01",
+    "split": "test",
+    "question": "Theo chương, GPU NVIDIA V100 có chính xác bao nhiêu transistor?",
+    "filter": {}
+  },
+  {
+    "id": "b2_abs02",
+    "split": "test",
+    "question": "Theo chương, phí thuê dịch vụ Huawei CLOUD EI mỗi tháng là bao nhiêu USD?",
+    "filter": {}
+  }
+]

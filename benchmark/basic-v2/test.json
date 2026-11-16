@@ -1,0 +1,102 @@
+[
+  {
+    "id": "b2_01",
+    "split": "test",
+    "question": "Theo tài liệu, FPGA cho phép cấu trúc phần cứng được điều chỉnh và cấu hình lại như thế nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Linh hoạt theo thời gian thực khi cần.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 16,
+        "evidence": "Field programmable gate array (FPGA) is designed to build reconfigurable semi-custom chips, which means the hardware structure can be adjusted and re-configured flexibly real-time as required."
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "b2_02",
+    "split": "test",
+    "question": "Ba trường phái AI chính được liệt kê ở mục 1.1.5 là gì?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Symbolism, connectionism và behaviorism.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 12,
+        "evidence": "Currently, symbolism, connectionism, and behaviorism constitute the three main schools of AI."
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "b2_03",
+    "split": "test",
+    "question": "Theo dự báo được trích trong chương, quy mô thị trường AI đến năm 2025 vượt mức bao nhiêu, tính bằng USD?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Theo dự báo trong tài liệu, vượt 3 nghìn tỷ USD; đây là dự báo được trích, không khẳng định số thực tế.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 20,
+        "evidence": "The related research data show that by 2025, the size of AI market will exceed 3 trillion US dollars,"
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "b2_04",
+    "split": "test",
+    "question": "Trong chiến lược Huawei, full-stack gồm bốn thành phần nào?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "Chip; chip enable; training and reasoning framework; application enable.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 33,
+        "evidence": "Full-stack refers to a full-stack solution including chip, chip enable, training and reasoning framework and application enable."
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "b2_05",
+    "split": "test",
+    "question": "Ascend 310 được mô tả có tiến trình bao nhiêu nm, công suất tính toán tối đa bao nhiêu TOPS và tiêu thụ bao nhiêu W?",
+    "filter": {},
+    "answerable": true,
+    "expected_answer": "12 nm, tối đa 16 TOPS, 8 W.",
+    "gold": [
+      {
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "page": 36,
+        "evidence": "Ascend 310 is a highly efficient AI system-on-chip (SoC) designed for the edge intelligent scenarios of inference. It uses a 12 nm chip and delivers a computing power of up to 16 TOPS (tera operations per second) with a con- sumption of only 8 W, highly suitable for the edge intelligence scenarios requir- ing low power consumption."
+      }
+    ],
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "b2_abs01",
+    "split": "test",
+    "question": "Theo chương, GPU NVIDIA V100 có chính xác bao nhiêu transistor?",
+    "filter": {},
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chương nhắc V100 và tensor cores nhưng không nêu số transistor; kiểm tra toàn bộ text index với V100/transistor.",
+    "source_review_status": "source_check_proposed"
+  },
+  {
+    "id": "b2_abs02",
+    "split": "test",
+    "question": "Theo chương, phí thuê dịch vụ Huawei CLOUD EI mỗi tháng là bao nhiêu USD?",
+    "filter": {},
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chương mô tả nền tảng và dịch vụ, không công bố giá thuê hàng tháng bằng USD; kiểm tra corpus với price/cost/USD/subscription.",
+    "source_review_status": "source_check_proposed"
+  }
+]
