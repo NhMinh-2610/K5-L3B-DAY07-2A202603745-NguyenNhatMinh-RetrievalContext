@@ -1,0 +1,591 @@
+[
+  {
+    "query_id": "q01",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng Hội nghị Dartmouth năm 1956, kèm nội dung định nghĩa và việc giới thiệu AI như ngành mới, đều được hai nguồn hỗ trợ.",
+    "context_reason": "Hai chunk (trang 1 và trang 7) cung cấp đầy đủ bằng chứng về định nghĩa của McCarthy tại Hội nghị Dartmouth 1956.",
+    "citation_reasons": [
+      "Chunk trang 1 nêu rõ McCarthy đề xuất định nghĩa AI tại Hội nghị Dartmouth 1956 với nội dung máy mô phỏng hành vi thông minh của con người.",
+      "Chunk trang 7 xác nhận năm 1956 McCarthy chính thức giới thiệu AI như một ngành mới tại Hội nghị Dartmouth kéo dài 2 tháng, đánh dấu sự ra đời của AI."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong tài liệu nên không áp dụng abstention.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 394,
+        "prompt_tokens": 2606,
+        "total_tokens": 3000,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 2606
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.0012545999999999998,
+      "elapsed_ms": 2167.5157000136096
+    }
+  },
+  {
+    "query_id": "q02",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 1,
+    "context_grade": 1,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng điểm mạnh, điểm yếu, sở thích, tâm trạng, ý định nhưng thiếu tính khí (temperaments) và lòng tự trọng (self-esteem) theo đáp án.",
+    "context_reason": "Chunk được trích dẫn bị cắt ngay sau \"intentions,\" nên thiếu phần \"temperaments and self-esteem\" cần cho đáp án đầy đủ.",
+    "citation_reasons": [
+      "Chunk nêu rõ người có trí thông minh nội tâm mạnh nhận biết điểm mạnh, điểm yếu, sở thích, tâm trạng và ý định bên trong, khớp với các khẳng định được gắn citation."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án nên không áp dụng abstention.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 347,
+        "prompt_tokens": 2246,
+        "total_tokens": 2593,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1350
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.000826776,
+      "elapsed_ms": 1890.641300007701
+    }
+  },
+  {
+    "query_id": "q03",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng quan hệ: ML là cách tiếp cận/tập con của AI, DL là dạng đặc biệt của ML, kèm các diễn giải bổ sung đều có nguồn hỗ trợ.",
+    "context_reason": "Context có chunk page 5 nêu trực tiếp quan hệ ba khái niệm và chunk page 4 bổ sung định nghĩa ML/DL cùng hình minh họa.",
+    "citation_reasons": [
+      "Chunk page 5 nêu đúng ML là approach/subset của AI và DL là special form của ML, cùng ví dụ bộ não/mục tiêu.",
+      "Chunk page 4 hỗ trợ mục tiêu của ML và việc DL là subfield mới của ML bắt nguồn từ ANN.",
+      "Chunk chỉ là chú thích Fig. 1.3 về quan hệ ba khái niệm, hỗ trợ đúng khẳng định được gắn."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong tài liệu nên không áp dụng abstention.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 399,
+        "prompt_tokens": 2982,
+        "total_tokens": 3381,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 2086
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.001109976,
+      "elapsed_ms": 2311.6603000089526
+    }
+  },
+  {
+    "query_id": "q04",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng ý chính (nhiều bài toán giải được về lý thuyết nhưng không thể đưa vào thực tiễn do giới hạn computing power) và các hệ quả (chỉ trích, cắt tài trợ, mùa đông AI) đều có trong chunk.",
+    "context_reason": "Chunk trang 9 chứa đầy đủ câu về giới hạn computing power thập niên 1970 và các hệ quả tài trợ/mùa đông AI.",
+    "citation_reasons": [
+      "Chunk nêu trực tiếp: do giới hạn computing power, nhiều bài toán giải được về lý thuyết nhưng không thể đưa vào thực tiễn, kèm hệ quả cắt giảm tài trợ và mùa đông AI thập niên 1970."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong tài liệu nên không áp dụng abstention.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 382,
+        "prompt_tokens": 2247,
+        "total_tokens": 2629,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1351
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.000869076,
+      "elapsed_ms": 2023.3613999735098
+    }
+  },
+  {
+    "query_id": "q05",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng BERT là công nghệ tiền huấn luyện cho xử lý ngôn ngữ tự nhiên, phát triển trên nền tảng mạng nơ-ron, khớp đầy đủ với đáp án.",
+    "context_reason": "Chunk trang 14 chứa trọn câu định nghĩa BERT với đủ công nghệ và nền tảng.",
+    "citation_reasons": [
+      "Chunk nêu chính xác BERT là công nghệ tiền huấn luyện NLP phát triển trên nền mạng nơ-ron."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án nên không áp dụng từ chối.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 311,
+        "prompt_tokens": 2101,
+        "total_tokens": 2412,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1205
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.000740076,
+      "elapsed_ms": 1722.6530000043567
+    }
+  },
+  {
+    "query_id": "q06",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng cả hai ý: không cần tự lập trình mạng nơ-ron phức tạp với lan truyền ngược, chỉ cấu hình siêu tham số và tham số được học tự động khi huấn luyện.",
+    "context_reason": "Chunk trang 15 chứa đầy đủ câu evidence khớp với gold, đủ để trả lời trọn câu hỏi.",
+    "citation_reasons": [
+      "Chunk được trích dẫn chứa nguyên văn câu về không cần code mạng nơ-ron với backpropagation, chỉ cấu hình siêu tham số và tham số học tự động."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong bằng chứng nên không áp dụng abstention.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 335,
+        "prompt_tokens": 2126,
+        "total_tokens": 2461,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 718
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.0006258479999999999,
+      "elapsed_ms": 1872.3831000097562
+    }
+  },
+  {
+    "query_id": "q07",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng hai nhóm: bộ xử lý huấn luyện và bộ xử lý suy luận, khớp đáp án.",
+    "context_reason": "Chunk trang 16 chứa trực tiếp câu phân loại AI processors theo chức năng thành training và inference processors.",
+    "citation_reasons": [
+      "Chunk được trích dẫn có câu \"In terms of the functions, AI processors can be classified into two types: training processors and inference processors\", hỗ trợ đầy đủ khẳng định."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong bằng chứng nên không áp dụng abstention.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 301,
+        "prompt_tokens": 2315,
+        "total_tokens": 2616,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280
+        },
+        "prompt_cache_hit_tokens": 1280,
+        "prompt_cache_miss_tokens": 1035
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.00067938,
+      "elapsed_ms": 1570.94189999043
+    }
+  },
+  {
+    "query_id": "q08",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng yếu tố \"kịch bản ứng dụng\" và bổ sung đúng ý về tích hợp cloud, big data, IoT đều có trong nguồn.",
+    "context_reason": "Chunk trang 20 chứa đầy đủ bằng chứng về việc cần xét scenarios và tích hợp cloud/big data/IoT.",
+    "citation_reasons": [
+      "Chunk trang 20 nêu trực tiếp 'take scenarios into consideration' và việc tích hợp AI với cloud computing, big data, IoT, hỗ trợ đúng khẳng định được gắn citation."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án nên không áp dụng abstention.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 308,
+        "prompt_tokens": 2251,
+        "total_tokens": 2559,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1355
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.0007814759999999999,
+      "elapsed_ms": 1826.316599996062
+    }
+  },
+  {
+    "query_id": "q09",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 0,
+    "context_grade": 1,
+    "citation_support": [],
+    "abstention_correct": false,
+    "answer_reason": "Agent từ chối trả lời dù câu hỏi có đáp án (tạo giá trị qua xử lý và khai phá dữ liệu), nên không đạt.",
+    "context_reason": "Context có phần Features của Huawei CLOUD EI nhưng chỉ nêu mục (a) Industrial wisdom, thiếu đoạn (b) Industrial data chứa đáp án.",
+    "citation_reasons": [],
+    "abstention_reason": "Đây là câu có đáp án trong tài liệu nên việc từ chối là không đúng, dù không thêm khẳng định vô căn cứ.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 284,
+        "prompt_tokens": 1712,
+        "total_tokens": 1996,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 816
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.000590976,
+      "elapsed_ms": 1773.5066999739502
+    }
+  },
+  {
+    "query_id": "q10",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng cả hai điều kiện: môi trường trong nhà yên tĩnh và nhận dạng ở cự ly gần, khớp với bằng chứng.",
+    "context_reason": "Chunk nguồn chứa đầy đủ câu nêu mức chính xác 96% kèm hai điều kiện môi trường.",
+    "citation_reasons": [
+      "Chunk được trích dẫn chứa nguyên văn 'accuracy rate of 96% premised on a quiet indoor environment and near-field recognition', hỗ trợ trực tiếp khẳng định."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong tài liệu nên không áp dụng từ chối.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 317,
+        "prompt_tokens": 2015,
+        "total_tokens": 2332,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280
+        },
+        "prompt_cache_hit_tokens": 1280,
+        "prompt_cache_miss_tokens": 735
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.00060858,
+      "elapsed_ms": 1735.0610000139568
+    }
+  },
+  {
+    "query_id": "q11",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng và đủ ba tác vụ: dịch máy, khai phá văn bản, phân tích cảm xúc, khớp với đáp án.",
+    "context_reason": "Chunk trang 28 chứa nguyên câu liệt kê ba tác vụ NLP, đủ để trả lời trọn câu hỏi.",
+    "citation_reasons": [
+      "Chunk được trích dẫn có câu 'The subjects of NLP include machine translation, text mining and sentiment analysis', hỗ trợ trực tiếp khẳng định."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong tài liệu nên không áp dụng abstention.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 305,
+        "prompt_tokens": 1988,
+        "total_tokens": 2293,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280
+        },
+        "prompt_cache_hit_tokens": 1280,
+        "prompt_cache_miss_tokens": 708
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.00058608,
+      "elapsed_ms": 1964.0911000024062
+    }
+  },
+  {
+    "query_id": "q12",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đủ ba hoạt động sense, analyze, integrate cùng đối tượng là thông tin then chốt của hệ thống vận hành đô thị cốt lõi, khớp với đáp án.",
+    "context_reason": "Chunk trang 30 chứa nguyên câu định nghĩa về smart city với đủ ba hoạt động và đối tượng thông tin.",
+    "citation_reasons": [
+      "Chunk được trích dẫn chứa đúng câu 'use ICT technologies to sense, analyze, and integrate the key information of the core urban operation system', hỗ trợ trực tiếp khẳng định."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong tài liệu nên không áp dụng abstention.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 324,
+        "prompt_tokens": 2049,
+        "total_tokens": 2373,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280
+        },
+        "prompt_cache_hit_tokens": 1280,
+        "prompt_cache_miss_tokens": 769
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.0006271800000000001,
+      "elapsed_ms": 2057.7530000009574
+    }
+  },
+  {
+    "query_id": "q13",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng cả hai ý: L3 trở lên cho phép hands-off trong một số điều kiện, L5 do hệ thống vận hành hoàn toàn không cần người lái trong mọi tình huống.",
+    "context_reason": "Chunk trang 32 chứa đầy đủ câu evidence so sánh L3 trở lên và L5.",
+    "citation_reasons": [
+      "Chunk được trích dẫn chứa nguyên văn câu về hands-off ở L3+ và L5 vận hành hoàn toàn không cần người lái."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong tài liệu nên không áp dụng abstention.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 317,
+        "prompt_tokens": 2079,
+        "total_tokens": 2396,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1183
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.0007406759999999999,
+      "elapsed_ms": 2225.193299993407
+    }
+  },
+  {
+    "query_id": "q14",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng nguyên nhân chính là dữ liệu thiên lệch, kèm giải thích phù hợp với nguồn.",
+    "context_reason": "Chunk trang 36 chứa trực tiếp câu nêu nguyên nhân chính và giải thích về huấn luyện trên dữ liệu thu thập.",
+    "citation_reasons": [
+      "Chunk trang 36 có câu \"The algorithmic bias is mainly cause by the biased data\" và giải thích về việc thuật toán học phân biệt đối xử từ dữ liệu huấn luyện, hỗ trợ đầy đủ khẳng định."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong tài liệu nên không áp dụng từ chối.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 329,
+        "prompt_tokens": 2003,
+        "total_tokens": 2332,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1107
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.0007322759999999999,
+      "elapsed_ms": 2054.1904999990948
+    }
+  },
+  {
+    "query_id": "q15",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng 14% số gia đình trên toàn cầu vào năm 2025 theo dự báo Huawei, khớp với đáp án.",
+    "context_reason": "Chunk trang 39 chứa đầy đủ câu dự báo của Huawei về 14% gia đình sở hữu robot thông minh năm 2025.",
+    "citation_reasons": [
+      "Chunk được trích dẫn nêu chính xác dự báo Huawei: đến 2025, 14% gia đình trên toàn cầu sở hữu robot thông minh."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong tài liệu nên không áp dụng từ chối.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 314,
+        "prompt_tokens": 2050,
+        "total_tokens": 2364,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1154
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.000728376,
+      "elapsed_ms": 1834.8821999970824
+    }
+  },
+  {
+    "query_id": "dev_no_evidence_01",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 0,
+    "context_grade": 1,
+    "citation_support": [],
+    "abstention_correct": true,
+    "answer_reason": "Câu hỏi không có đáp án trong tài liệu; agent từ chối trả lời đúng, không thêm số liệu bịa.",
+    "context_reason": "Context có nhắc BERT ở trang 14 và 38 cùng đoạn nói chung về tham số mô hình, nhưng không nêu số tham số của BERT.",
+    "citation_reasons": [],
+    "abstention_reason": "Agent từ chối gọn và không đưa ra khẳng định vô căn cứ, phù hợp với việc thiếu bằng chứng.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 270,
+        "prompt_tokens": 1577,
+        "total_tokens": 1847,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "prompt_cache_hit_tokens": 1152,
+        "prompt_cache_miss_tokens": 425
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.00045841200000000006,
+      "elapsed_ms": 1529.7028000059072
+    }
+  },
+  {
+    "query_id": "dev_no_evidence_02",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 0,
+    "context_grade": 1,
+    "citation_support": [],
+    "abstention_correct": true,
+    "answer_reason": "Câu hỏi không có đáp án trong tài liệu; agent từ chối trả lời đúng cách, không thêm khẳng định vô căn cứ.",
+    "context_reason": "Context có đoạn nêu mức 96% với điều kiện môi trường trong nhà yên tĩnh và nhận dạng gần, nhưng không có tên bộ dữ liệu hay số mẫu kiểm tra.",
+    "citation_reasons": [],
+    "abstention_reason": "Agent từ chối vì thiếu bằng chứng, phù hợp với việc tài liệu không nêu tên dataset và số mẫu kiểm tra.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 293,
+        "prompt_tokens": 1792,
+        "total_tokens": 2085,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 896
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.000625776,
+      "elapsed_ms": 2733.4830000181682
+    }
+  }
+]

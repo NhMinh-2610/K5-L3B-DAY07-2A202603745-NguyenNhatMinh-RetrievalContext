@@ -1,0 +1,24 @@
+{
+  "provider": "deepseek",
+  "base_url": "https://api.deepseek.com",
+  "model": "deepseek-flash",
+  "documented_model_version": "DeepSeek-V4.1-Flash-1017",
+  "thinking": "disabled",
+  "temperature": 0,
+  "max_output_tokens": 800,
+  "request_timeout_seconds": 60,
+  "max_model_calls": 5,
+  "max_searches": 3,
+  "retrieval_method": "dense",
+  "top_k": 3,
+  "context_budget_chars": 3000,
+  "context_selection": "latest_search_first",
+  "estimated_cost_limit_usd": 1.0,
+  "pricing": {
+    "checked_on": "2026-11-16",
+    "source": "https://api-docs.deepseek.com/quick_start/pricing/",
+    "peak_usd_per_million_cached_input": 0.006,
+    "peak_usd_per_million_uncached_input": 0.3,
+    "peak_usd_per_million_output": 1.2
+  }
+}

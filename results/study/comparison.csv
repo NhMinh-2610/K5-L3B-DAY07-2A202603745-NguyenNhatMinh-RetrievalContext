@@ -1,0 +1,6 @@
+﻿split,configuration,answer_mean,answer_0,answer_1,answer_2,hit1,hit3,context_exact,context_semantic,citation_validity,abstention,false_abstention,tool_use,errors,median_seconds,generation_cost_upper_usd,judge_cost_upper_usd,total_cost_upper_usd,label_origin
+dev,baseline,1.8,1,1,13,10/15,11/15,13/15,13/15,19/19,2/2,1/15,17/17,0,2.6561164000013378,0.01207107,0.01479234,0.026863409999999997,"DeepSeek API, model_proposed; không phải xác nhận thủ công của người học"
+dev,hybrid,1.8,1,1,13,9/15,10/15,12/15,13/15,17/17,2/2,1/15,17/17,0,2.797856799996225,0.012497892,0.01258554,0.025083432,"DeepSeek API, model_proposed; không phải xác nhận thủ công của người học"
+dev,dense-wide,1.8,1,1,13,10/15,11/15,12/15,13/15,20/20,2/2,1/15,17/17,0,2.682438599993475,0.01578972,0.014618928,0.030408648,"DeepSeek API, model_proposed; không phải xác nhận thủ công của người học"
+test,baseline,2.0,0,0,5,2/5,3/5,3/5,5/5,5/5,2/2,0/5,7/7,0,2.714088000007905,0.005786171999999999,0.005505179999999999,0.011291351999999998,"DeepSeek API và đối chiếu nguồn có hỗ trợ tự động; source_check_proposed, chưa phải xác nhận của người học."
+test,hybrid,2.0,0,0,5,2/5,3/5,4/5,5/5,5/6,2/2,0/5,7/7,0,3.245412700023735,0.0059963279999999996,0.005050068,0.011046396,"DeepSeek API và đối chiếu nguồn có hỗ trợ tự động; source_check_proposed, chưa phải xác nhận của người học."

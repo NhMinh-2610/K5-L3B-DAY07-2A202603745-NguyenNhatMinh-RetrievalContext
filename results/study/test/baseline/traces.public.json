@@ -1,0 +1,2639 @@
+[
+  {
+    "query_id": "test_01",
+    "split": "test",
+    "question": "Theo tài liệu, trí thông minh âm nhạc là khả năng phân biệt những đặc điểm nào của âm thanh?",
+    "filter": {},
+    "status": "answered",
+    "answer": "Theo tài liệu, trí thông minh âm nhạc là khả năng phân biệt cao độ (pitch), giọng điệu/tông (tone), giai điệu (melody), nhịp điệu (rhythm) và âm sắc (timbre) [bb1ba81d95b8182c37ec51a076ec2d8c0305c153b641e0790cf2934d413f367c].",
+    "citations": [
+      "bb1ba81d95b8182c37ec51a076ec2d8c0305c153b641e0790cf2934d413f367c"
+    ],
+    "citation_sources": [
+      {
+        "id": "bb1ba81d95b8182c37ec51a076ec2d8c0305c153b641e0790cf2934d413f367c",
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+        "page": 2
+      }
+    ],
+    "context": "[bb1ba81d95b8182c37ec51a076ec2d8c0305c153b641e0790cf2934d413f367c | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 2]\nintelligence demonstrates a variety of\nparticular physical skills such as balance, coordination, agility, strength, supple-\nness and speed, and tactile abilities. Potential careers for people with strong body-\nkinesthetic intelligence include athlete, actor, dancer, surgeon, jeweler, mechanic\nand so on.\n5. Musical Intelligence\nMusical intelligence is the ability to discern pitch, tone, melody, rhythm, and\ntimbre. People having relatively high musical intelligence are particularly sensi-\ntive to\n\n[fa5744be1f2b110fb505af48dc695dfac4aa528e591ad82cdae28c435134942c | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 3]\nperforming, creating and reflecting on music. Their recommended professions\ninclude singer, composer, conductor, music critic, the piano tuner and so on.\n6. Interpersonal Intelligence\nInterpersonal intelligence is the capability to understand and interact effec-\ntively with others. People with strong interpersonal intelligence can better recog-\nnize the moods and temperaments of others, empathize with their feelings and\nemotions, notice the hidden information of different interpersonal\n\n[5b31d88f71370ba8ec0b61e3ebc41a075ea2844399ed605c6ed0ccc90cab9435 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 8]\nthat imitated the recognition\npattern of human brain—the perceptron, the first machine that could possibly\ntrain the recognition system by the sample of each given category, so that the\nsystem was able to correctly classify patterns of other unknown categories\nafter learning.\n(c) Pattern Matching\nIn 1966, ELIZA, the first conversation program in the world was invented,\nwhich was written by the MIT Artificial Intelligence Laboratory. The pro-\ngram was able to perform pattern matching on the basis",
+    "context_ids": [
+      "bb1ba81d95b8182c37ec51a076ec2d8c0305c153b641e0790cf2934d413f367c",
+      "fa5744be1f2b110fb505af48dc695dfac4aa528e591ad82cdae28c435134942c",
+      "5b31d88f71370ba8ec0b61e3ebc41a075ea2844399ed605c6ed0ccc90cab9435"
+    ],
+    "search_count": 1,
+    "model_call_count": 2,
+    "elapsed_seconds": 5.690504600002896,
+    "citation_id_check": true,
+    "semantic_review_status": "pending",
+    "api_requests": 2,
+    "events": [
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 45,
+          "prompt_tokens": 720,
+          "total_tokens": 765,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 208
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000119472,
+        "elapsed_ms": 3273.361700004898,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "musical intelligence ability to discern features of sound pitch rhythm timbre"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "musical intelligence ability to discern features of sound pitch rhythm timbre"
+        },
+        "query": "musical intelligence ability to discern features of sound pitch rhythm timbre",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "musical intelligence ability to discern features of sound pitch rhythm timbre",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "bb1ba81d95b8182c37ec51a076ec2d8c0305c153b641e0790cf2934d413f367c",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 2,
+              "text": "intelligence demonstrates a variety of\nparticular physical skills such as balance, coordination, agility, strength, supple-\nness and speed, and tactile abilities. Potential careers for people with strong body-\nkinesthetic intelligence include athlete, actor, dancer, surgeon, jeweler, mechanic\nand so on.\n5. Musical Intelligence\nMusical intelligence is the ability to discern pitch, tone, melody, rhythm, and\ntimbre. People having relatively high musical intelligence are particularly sensi-\ntive to",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.1",
+                "section_title": "The Concept of Artificial Intelligence",
+                "unit_id": "huawei-ai-technology-ch01-2023:p002:s1.1",
+                "page_char_start": 1526,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 1526,
+                "unit_char_end": 2025,
+                "page_char_end": 2025
+              },
+              "score": 0.8825575183297698,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "fa5744be1f2b110fb505af48dc695dfac4aa528e591ad82cdae28c435134942c",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 3,
+              "text": "performing, creating and reflecting on music. Their recommended professions\ninclude singer, composer, conductor, music critic, the piano tuner and so on.\n6. Interpersonal Intelligence\nInterpersonal intelligence is the capability to understand and interact effec-\ntively with others. People with strong interpersonal intelligence can better recog-\nnize the moods and temperaments of others, empathize with their feelings and\nemotions, notice the hidden information of different interpersonal",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.1",
+                "section_title": "The Concept of Artificial Intelligence",
+                "unit_id": "huawei-ai-technology-ch01-2023:p003:s1.1",
+                "page_char_start": 52,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 52,
+                "unit_char_end": 542,
+                "page_char_end": 542
+              },
+              "score": 0.8428340145547373,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "5b31d88f71370ba8ec0b61e3ebc41a075ea2844399ed605c6ed0ccc90cab9435",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 8,
+              "text": "that imitated the recognition\npattern of human brain—the perceptron, the first machine that could possibly\ntrain the recognition system by the sample of each given category, so that the\nsystem was able to correctly classify patterns of other unknown categories\nafter learning.\n(c) Pattern Matching\nIn 1966, ELIZA, the first conversation program in the world was invented,\nwhich was written by the MIT Artificial Intelligence Laboratory. The pro-\ngram was able to perform pattern matching on the basis",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.1",
+                "section_title": "The Concept of Artificial Intelligence",
+                "unit_id": "huawei-ai-technology-ch01-2023:p008:s1.1",
+                "page_char_start": 498,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 498,
+                "unit_char_end": 998,
+                "page_char_end": 998
+              },
+              "score": 0.829642505113632,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 938.2705999887548,
+          "elapsed_ms": 1160.201999999117
+        },
+        "results": [
+          {
+            "id": "bb1ba81d95b8182c37ec51a076ec2d8c0305c153b641e0790cf2934d413f367c",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 2,
+            "text": "intelligence demonstrates a variety of\nparticular physical skills such as balance, coordination, agility, strength, supple-\nness and speed, and tactile abilities. Potential careers for people with strong body-\nkinesthetic intelligence include athlete, actor, dancer, surgeon, jeweler, mechanic\nand so on.\n5. Musical Intelligence\nMusical intelligence is the ability to discern pitch, tone, melody, rhythm, and\ntimbre. People having relatively high musical intelligence are particularly sensi-\ntive to",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence",
+              "unit_id": "huawei-ai-technology-ch01-2023:p002:s1.1",
+              "page_char_start": 1526,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 1526,
+              "unit_char_end": 2025,
+              "page_char_end": 2025
+            },
+            "score": 0.8825575183297698,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "fa5744be1f2b110fb505af48dc695dfac4aa528e591ad82cdae28c435134942c",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 3,
+            "text": "performing, creating and reflecting on music. Their recommended professions\ninclude singer, composer, conductor, music critic, the piano tuner and so on.\n6. Interpersonal Intelligence\nInterpersonal intelligence is the capability to understand and interact effec-\ntively with others. People with strong interpersonal intelligence can better recog-\nnize the moods and temperaments of others, empathize with their feelings and\nemotions, notice the hidden information of different interpersonal",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence",
+              "unit_id": "huawei-ai-technology-ch01-2023:p003:s1.1",
+              "page_char_start": 52,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 52,
+              "unit_char_end": 542,
+              "page_char_end": 542
+            },
+            "score": 0.8428340145547373,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "5b31d88f71370ba8ec0b61e3ebc41a075ea2844399ed605c6ed0ccc90cab9435",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 8,
+            "text": "that imitated the recognition\npattern of human brain—the perceptron, the first machine that could possibly\ntrain the recognition system by the sample of each given category, so that the\nsystem was able to correctly classify patterns of other unknown categories\nafter learning.\n(c) Pattern Matching\nIn 1966, ELIZA, the first conversation program in the world was invented,\nwhich was written by the MIT Artificial Intelligence Laboratory. The pro-\ngram was able to perform pattern matching on the basis",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence",
+              "unit_id": "huawei-ai-technology-ch01-2023:p008:s1.1",
+              "page_char_start": 498,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 498,
+              "unit_char_end": 998,
+              "page_char_end": 998
+            },
+            "score": 0.829642505113632,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[bb1ba81d95b8182c37ec51a076ec2d8c0305c153b641e0790cf2934d413f367c | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 2]\nintelligence demonstrates a variety of\nparticular physical skills such as balance, coordination, agility, strength, supple-\nness and speed, and tactile abilities. Potential careers for people with strong body-\nkinesthetic intelligence include athlete, actor, dancer, surgeon, jeweler, mechanic\nand so on.\n5. Musical Intelligence\nMusical intelligence is the ability to discern pitch, tone, melody, rhythm, and\ntimbre. People having relatively high musical intelligence are particularly sensi-\ntive to\n\n[fa5744be1f2b110fb505af48dc695dfac4aa528e591ad82cdae28c435134942c | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 3]\nperforming, creating and reflecting on music. Their recommended professions\ninclude singer, composer, conductor, music critic, the piano tuner and so on.\n6. Interpersonal Intelligence\nInterpersonal intelligence is the capability to understand and interact effec-\ntively with others. People with strong interpersonal intelligence can better recog-\nnize the moods and temperaments of others, empathize with their feelings and\nemotions, notice the hidden information of different interpersonal\n\n[5b31d88f71370ba8ec0b61e3ebc41a075ea2844399ed605c6ed0ccc90cab9435 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 8]\nthat imitated the recognition\npattern of human brain—the perceptron, the first machine that could possibly\ntrain the recognition system by the sample of each given category, so that the\nsystem was able to correctly classify patterns of other unknown categories\nafter learning.\n(c) Pattern Matching\nIn 1966, ELIZA, the first conversation program in the world was invented,\nwhich was written by the MIT Artificial Intelligence Laboratory. The pro-\ngram was able to perform pattern matching on the basis",
+        "context_ids": [
+          "bb1ba81d95b8182c37ec51a076ec2d8c0305c153b641e0790cf2934d413f367c",
+          "fa5744be1f2b110fb505af48dc695dfac4aa528e591ad82cdae28c435134942c",
+          "5b31d88f71370ba8ec0b61e3ebc41a075ea2844399ed605c6ed0ccc90cab9435"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 194,
+          "prompt_tokens": 1616,
+          "total_tokens": 1810,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 976
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.0005294399999999999,
+        "elapsed_ms": 1254.3214000179432,
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "arguments": {
+              "answer": "Theo tài liệu, trí thông minh âm nhạc là khả năng phân biệt cao độ (pitch), giọng điệu/tông (tone), giai điệu (melody), nhịp điệu (rhythm) và âm sắc (timbre) [bb1ba81d95b8182c37ec51a076ec2d8c0305c153b641e0790cf2934d413f367c].",
+              "citations": [
+                "bb1ba81d95b8182c37ec51a076ec2d8c0305c153b641e0790cf2934d413f367c"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "event": "answer",
+        "tool": "submit_answer",
+        "arguments": {
+          "answer": "Theo tài liệu, trí thông minh âm nhạc là khả năng phân biệt cao độ (pitch), giọng điệu/tông (tone), giai điệu (melody), nhịp điệu (rhythm) và âm sắc (timbre) [bb1ba81d95b8182c37ec51a076ec2d8c0305c153b641e0790cf2934d413f367c].",
+          "citations": [
+            "bb1ba81d95b8182c37ec51a076ec2d8c0305c153b641e0790cf2934d413f367c"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "test_02",
+    "split": "test",
+    "question": "Theo tài liệu, ELIZA chọn câu trả lời cho người dùng bằng cơ chế nào?",
+    "filter": {},
+    "status": "answered",
+    "answer": "Theo tài liệu, ELIZA chọn câu trả lời bằng cách dựa trên tập luật (set rules) và câu hỏi của người dùng, rồi chọn từ các kho câu trả lời được viết sẵn (pre-written answer archives) để đưa ra phản hồi phù hợp; tài liệu cũng nêu \"Conversation is pattern matching\" — hội thoại là so khớp mẫu [d3b27899c7c930d438462619f45f69515bc26b5e4cc3a2e2acf24d7627607f21].",
+    "citations": [
+      "d3b27899c7c930d438462619f45f69515bc26b5e4cc3a2e2acf24d7627607f21"
+    ],
+    "citation_sources": [
+      {
+        "id": "d3b27899c7c930d438462619f45f69515bc26b5e4cc3a2e2acf24d7627607f21",
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+        "page": 8
+      }
+    ],
+    "context": "[d3b27899c7c930d438462619f45f69515bc26b5e4cc3a2e2acf24d7627607f21 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 8]\nof the set rules and\nuser’s questions, so as to give appropriate replies by choosing from the\npre-written answer archives. This is also the first program try to have passed\nthe Turing Test. ELIZA once masqueraded as a psychotherapist to talk to\npatients, and many of them failed to recognize it as a robot when it was firstly\napplied. “Conversation is pattern matching”, thus this unveiled the computer\nnatural language conversation technology.\nIn addition, during the first development period of AI,\n\n[f052f47b3957bdbc1d19288ab17c060e50d69646a86a1f2dd48231e61618b764 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 28]\nFig. 1.15 Intelligent Q&A\n\nFig. 1.16 Intelligent navigation\n\n[83ade346efe5ad6f645359b446c21005e6574888ddac323c57947da44037fecf | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 33]\nand released the server operating system to the open-source community on\n31 December 2020.\nFull-stack refers to a full-stack solution including chip, chip enable, training and\nreasoning framework and application enable.\nAll-scenario refers to an all-scenario deployment environment including public\ncloud, private cloud, all kinds of edge computing, IoT terminals and consumer\nterminals.\nAs the bedrock of Huawei’s full-stack all-scenario AI solution, the Atlas artificial\nintelligence computing",
+    "context_ids": [
+      "d3b27899c7c930d438462619f45f69515bc26b5e4cc3a2e2acf24d7627607f21",
+      "f052f47b3957bdbc1d19288ab17c060e50d69646a86a1f2dd48231e61618b764",
+      "83ade346efe5ad6f645359b446c21005e6574888ddac323c57947da44037fecf"
+    ],
+    "search_count": 1,
+    "model_call_count": 2,
+    "elapsed_seconds": 2.160891300009098,
+    "citation_id_check": true,
+    "semantic_review_status": "pending",
+    "api_requests": 2,
+    "events": [
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 44,
+          "prompt_tokens": 713,
+          "total_tokens": 757,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 201
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000116172,
+        "elapsed_ms": 627.958299999591,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "How does ELIZA select responses for the user? mechanism"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "How does ELIZA select responses for the user? mechanism"
+        },
+        "query": "How does ELIZA select responses for the user? mechanism",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "How does ELIZA select responses for the user? mechanism",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "d3b27899c7c930d438462619f45f69515bc26b5e4cc3a2e2acf24d7627607f21",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 8,
+              "text": "of the set rules and\nuser’s questions, so as to give appropriate replies by choosing from the\npre-written answer archives. This is also the first program try to have passed\nthe Turing Test. ELIZA once masqueraded as a psychotherapist to talk to\npatients, and many of them failed to recognize it as a robot when it was firstly\napplied. “Conversation is pattern matching”, thus this unveiled the computer\nnatural language conversation technology.\nIn addition, during the first development period of AI,",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.1",
+                "section_title": "The Concept of Artificial Intelligence",
+                "unit_id": "huawei-ai-technology-ch01-2023:p008:s1.1",
+                "page_char_start": 999,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 999,
+                "unit_char_end": 1499,
+                "page_char_end": 1499
+              },
+              "score": 0.8430545926094055,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "f052f47b3957bdbc1d19288ab17c060e50d69646a86a1f2dd48231e61618b764",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 28,
+              "text": "Fig. 1.15 Intelligent Q&A\n\nFig. 1.16 Intelligent navigation",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.3",
+                "section_title": "The Technologies and Applications of AI",
+                "unit_id": "huawei-ai-technology-ch01-2023:p028:s1.3",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 59,
+                "page_char_end": 59
+              },
+              "score": 0.8181997537612915,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "83ade346efe5ad6f645359b446c21005e6574888ddac323c57947da44037fecf",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 33,
+              "text": "and released the server operating system to the open-source community on\n31 December 2020.\nFull-stack refers to a full-stack solution including chip, chip enable, training and\nreasoning framework and application enable.\nAll-scenario refers to an all-scenario deployment environment including public\ncloud, private cloud, all kinds of edge computing, IoT terminals and consumer\nterminals.\nAs the bedrock of Huawei’s full-stack all-scenario AI solution, the Atlas artificial\nintelligence computing",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.4",
+                "section_title": "Huawei’s AI Development Strategy",
+                "unit_id": "huawei-ai-technology-ch01-2023:p033:s1.4",
+                "page_char_start": 55,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 55,
+                "unit_char_end": 550,
+                "page_char_end": 550
+              },
+              "score": 0.8150599002838135,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 68.51050001569092,
+          "elapsed_ms": 83.18290000897832
+        },
+        "results": [
+          {
+            "id": "d3b27899c7c930d438462619f45f69515bc26b5e4cc3a2e2acf24d7627607f21",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 8,
+            "text": "of the set rules and\nuser’s questions, so as to give appropriate replies by choosing from the\npre-written answer archives. This is also the first program try to have passed\nthe Turing Test. ELIZA once masqueraded as a psychotherapist to talk to\npatients, and many of them failed to recognize it as a robot when it was firstly\napplied. “Conversation is pattern matching”, thus this unveiled the computer\nnatural language conversation technology.\nIn addition, during the first development period of AI,",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence",
+              "unit_id": "huawei-ai-technology-ch01-2023:p008:s1.1",
+              "page_char_start": 999,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 999,
+              "unit_char_end": 1499,
+              "page_char_end": 1499
+            },
+            "score": 0.8430545926094055,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "f052f47b3957bdbc1d19288ab17c060e50d69646a86a1f2dd48231e61618b764",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 28,
+            "text": "Fig. 1.15 Intelligent Q&A\n\nFig. 1.16 Intelligent navigation",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.3",
+              "section_title": "The Technologies and Applications of AI",
+              "unit_id": "huawei-ai-technology-ch01-2023:p028:s1.3",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 59,
+              "page_char_end": 59
+            },
+            "score": 0.8181997537612915,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "83ade346efe5ad6f645359b446c21005e6574888ddac323c57947da44037fecf",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 33,
+            "text": "and released the server operating system to the open-source community on\n31 December 2020.\nFull-stack refers to a full-stack solution including chip, chip enable, training and\nreasoning framework and application enable.\nAll-scenario refers to an all-scenario deployment environment including public\ncloud, private cloud, all kinds of edge computing, IoT terminals and consumer\nterminals.\nAs the bedrock of Huawei’s full-stack all-scenario AI solution, the Atlas artificial\nintelligence computing",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy",
+              "unit_id": "huawei-ai-technology-ch01-2023:p033:s1.4",
+              "page_char_start": 55,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 55,
+              "unit_char_end": 550,
+              "page_char_end": 550
+            },
+            "score": 0.8150599002838135,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[d3b27899c7c930d438462619f45f69515bc26b5e4cc3a2e2acf24d7627607f21 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 8]\nof the set rules and\nuser’s questions, so as to give appropriate replies by choosing from the\npre-written answer archives. This is also the first program try to have passed\nthe Turing Test. ELIZA once masqueraded as a psychotherapist to talk to\npatients, and many of them failed to recognize it as a robot when it was firstly\napplied. “Conversation is pattern matching”, thus this unveiled the computer\nnatural language conversation technology.\nIn addition, during the first development period of AI,\n\n[f052f47b3957bdbc1d19288ab17c060e50d69646a86a1f2dd48231e61618b764 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 28]\nFig. 1.15 Intelligent Q&A\n\nFig. 1.16 Intelligent navigation\n\n[83ade346efe5ad6f645359b446c21005e6574888ddac323c57947da44037fecf | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 33]\nand released the server operating system to the open-source community on\n31 December 2020.\nFull-stack refers to a full-stack solution including chip, chip enable, training and\nreasoning framework and application enable.\nAll-scenario refers to an all-scenario deployment environment including public\ncloud, private cloud, all kinds of edge computing, IoT terminals and consumer\nterminals.\nAs the bedrock of Huawei’s full-stack all-scenario AI solution, the Atlas artificial\nintelligence computing",
+        "context_ids": [
+          "d3b27899c7c930d438462619f45f69515bc26b5e4cc3a2e2acf24d7627607f21",
+          "f052f47b3957bdbc1d19288ab17c060e50d69646a86a1f2dd48231e61618b764",
+          "83ade346efe5ad6f645359b446c21005e6574888ddac323c57947da44037fecf"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 242,
+          "prompt_tokens": 1539,
+          "total_tokens": 1781,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 899
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.00056394,
+        "elapsed_ms": 1448.857700015651,
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "arguments": {
+              "answer": "Theo tài liệu, ELIZA chọn câu trả lời bằng cách dựa trên tập luật (set rules) và câu hỏi của người dùng, rồi chọn từ các kho câu trả lời được viết sẵn (pre-written answer archives) để đưa ra phản hồi phù hợp; tài liệu cũng nêu \"Conversation is pattern matching\" — hội thoại là so khớp mẫu [d3b27899c7c930d438462619f45f69515bc26b5e4cc3a2e2acf24d7627607f21].",
+              "citations": [
+                "d3b27899c7c930d438462619f45f69515bc26b5e4cc3a2e2acf24d7627607f21"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "event": "answer",
+        "tool": "submit_answer",
+        "arguments": {
+          "answer": "Theo tài liệu, ELIZA chọn câu trả lời bằng cách dựa trên tập luật (set rules) và câu hỏi của người dùng, rồi chọn từ các kho câu trả lời được viết sẵn (pre-written answer archives) để đưa ra phản hồi phù hợp; tài liệu cũng nêu \"Conversation is pattern matching\" — hội thoại là so khớp mẫu [d3b27899c7c930d438462619f45f69515bc26b5e4cc3a2e2acf24d7627607f21].",
+          "citations": [
+            "d3b27899c7c930d438462619f45f69515bc26b5e4cc3a2e2acf24d7627607f21"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "test_03",
+    "split": "test",
+    "question": "Tài liệu nêu ba hạn chế chính nào của GPU trong phần công nghệ liên quan đến AI?",
+    "filter": {},
+    "status": "answered",
+    "answer": "Ba hạn chế chính của GPU hiện nay là: chi phí cao, tỷ lệ tiêu thụ năng lượng thấp (hiệu quả năng lượng kém), và độ trễ đầu vào/đầu ra cao [bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197].",
+    "citations": [
+      "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197"
+    ],
+    "citation_sources": [
+      {
+        "id": "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197",
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+        "page": 17
+      }
+    ],
+    "context": "[bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 17]\neasier application of GPU in deep learning.\n• Improve customization: embracing multiple data types (no longer insisting\non float32, and adopting int8, etc.).\n• Add module specialized for deep learning (e.g., NVIDIA V100 Tensor\nCore GPU adopts the improved Volta architecture introducing and\nequipped with tensor cores).\nThe main challenges of current GPUs are high cost, low energy con-\nsumption ratio, and high input and output latency.\n\n[b83e6bb1d224575cf8be52cac002b1b6ad809449460de6f9e3fe598d197d6cc6 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 21]\ndevelopment\nand application of AI needs to deal with the following three problems.\n1. High occupational standards: To get engaged in AI industry, it is a prerequisite\nfor a person to have considerable knowledge in machine learning, deep learning,\nstatistics, linear algebra and calculus.\n2. Low efficiency. Training a model will take a long working cycle, which consists\nof data collection, data cleaning, model training and tuning, and optimization of\nvisualization experience.\n3. Fragmented\n\n[097ffc798f32f942475bc4131339145090d37d9983e72d31785cc282d14ac4ab | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 38]\n1. Easier Development Framework\nAll the AI development frameworks are evolving to be simpler in operation while\nomnipotent in functions. The threshold for AI development has been continu-\nously lowered.\n2. Algorithms and Models with Better Performance\nIn computer vision, GAN is able to generate high-quality images that cannot\nbe distinguished by the human eyes. And the GAN-related algorithms have begun\nto be applied to other vision-related tasks, such as semantic segmentation, facial",
+    "context_ids": [
+      "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197",
+      "b83e6bb1d224575cf8be52cac002b1b6ad809449460de6f9e3fe598d197d6cc6",
+      "097ffc798f32f942475bc4131339145090d37d9983e72d31785cc282d14ac4ab"
+    ],
+    "search_count": 1,
+    "model_call_count": 2,
+    "elapsed_seconds": 2.714088000007905,
+    "citation_id_check": true,
+    "semantic_review_status": "pending",
+    "api_requests": 2,
+    "events": [
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 710,
+          "total_tokens": 751,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 198
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000111672,
+        "elapsed_ms": 1323.5730000014883,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "three main limitations of GPUs in AI technology"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "three main limitations of GPUs in AI technology"
+        },
+        "query": "three main limitations of GPUs in AI technology",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "three main limitations of GPUs in AI technology",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 17,
+              "text": "easier application of GPU in deep learning.\n• Improve customization: embracing multiple data types (no longer insisting\non float32, and adopting int8, etc.).\n• Add module specialized for deep learning (e.g., NVIDIA V100 Tensor\nCore GPU adopts the improved Volta architecture introducing and\nequipped with tensor cores).\nThe main challenges of current GPUs are high cost, low energy con-\nsumption ratio, and high input and output latency.",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p017:s1.2",
+                "page_char_start": 998,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 998,
+                "unit_char_end": 1435,
+                "page_char_end": 1435
+              },
+              "score": 0.8793746304884789,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "b83e6bb1d224575cf8be52cac002b1b6ad809449460de6f9e3fe598d197d6cc6",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 21,
+              "text": "development\nand application of AI needs to deal with the following three problems.\n1. High occupational standards: To get engaged in AI industry, it is a prerequisite\nfor a person to have considerable knowledge in machine learning, deep learning,\nstatistics, linear algebra and calculus.\n2. Low efficiency. Training a model will take a long working cycle, which consists\nof data collection, data cleaning, model training and tuning, and optimization of\nvisualization experience.\n3. Fragmented",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p021:s1.2",
+                "page_char_start": 1029,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 1029,
+                "unit_char_end": 1521,
+                "page_char_end": 1521
+              },
+              "score": 0.8689940649870611,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "097ffc798f32f942475bc4131339145090d37d9983e72d31785cc282d14ac4ab",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 38,
+              "text": "1. Easier Development Framework\nAll the AI development frameworks are evolving to be simpler in operation while\nomnipotent in functions. The threshold for AI development has been continu-\nously lowered.\n2. Algorithms and Models with Better Performance\nIn computer vision, GAN is able to generate high-quality images that cannot\nbe distinguished by the human eyes. And the GAN-related algorithms have begun\nto be applied to other vision-related tasks, such as semantic segmentation, facial",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.6",
+                "section_title": "The Development Trends for AI",
+                "unit_id": "huawei-ai-technology-ch01-2023:p038:s1.6",
+                "page_char_start": 519,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 35,
+                "unit_char_end": 523,
+                "page_char_end": 1007
+              },
+              "score": 0.8653379340570553,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 44.38139998819679,
+          "elapsed_ms": 63.55069999699481
+        },
+        "results": [
+          {
+            "id": "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 17,
+            "text": "easier application of GPU in deep learning.\n• Improve customization: embracing multiple data types (no longer insisting\non float32, and adopting int8, etc.).\n• Add module specialized for deep learning (e.g., NVIDIA V100 Tensor\nCore GPU adopts the improved Volta architecture introducing and\nequipped with tensor cores).\nThe main challenges of current GPUs are high cost, low energy con-\nsumption ratio, and high input and output latency.",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p017:s1.2",
+              "page_char_start": 998,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 998,
+              "unit_char_end": 1435,
+              "page_char_end": 1435
+            },
+            "score": 0.8793746304884789,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "b83e6bb1d224575cf8be52cac002b1b6ad809449460de6f9e3fe598d197d6cc6",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 21,
+            "text": "development\nand application of AI needs to deal with the following three problems.\n1. High occupational standards: To get engaged in AI industry, it is a prerequisite\nfor a person to have considerable knowledge in machine learning, deep learning,\nstatistics, linear algebra and calculus.\n2. Low efficiency. Training a model will take a long working cycle, which consists\nof data collection, data cleaning, model training and tuning, and optimization of\nvisualization experience.\n3. Fragmented",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p021:s1.2",
+              "page_char_start": 1029,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 1029,
+              "unit_char_end": 1521,
+              "page_char_end": 1521
+            },
+            "score": 0.8689940649870611,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "097ffc798f32f942475bc4131339145090d37d9983e72d31785cc282d14ac4ab",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 38,
+            "text": "1. Easier Development Framework\nAll the AI development frameworks are evolving to be simpler in operation while\nomnipotent in functions. The threshold for AI development has been continu-\nously lowered.\n2. Algorithms and Models with Better Performance\nIn computer vision, GAN is able to generate high-quality images that cannot\nbe distinguished by the human eyes. And the GAN-related algorithms have begun\nto be applied to other vision-related tasks, such as semantic segmentation, facial",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.6",
+              "section_title": "The Development Trends for AI",
+              "unit_id": "huawei-ai-technology-ch01-2023:p038:s1.6",
+              "page_char_start": 519,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 35,
+              "unit_char_end": 523,
+              "page_char_end": 1007
+            },
+            "score": 0.8653379340570553,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 17]\neasier application of GPU in deep learning.\n• Improve customization: embracing multiple data types (no longer insisting\non float32, and adopting int8, etc.).\n• Add module specialized for deep learning (e.g., NVIDIA V100 Tensor\nCore GPU adopts the improved Volta architecture introducing and\nequipped with tensor cores).\nThe main challenges of current GPUs are high cost, low energy con-\nsumption ratio, and high input and output latency.\n\n[b83e6bb1d224575cf8be52cac002b1b6ad809449460de6f9e3fe598d197d6cc6 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 21]\ndevelopment\nand application of AI needs to deal with the following three problems.\n1. High occupational standards: To get engaged in AI industry, it is a prerequisite\nfor a person to have considerable knowledge in machine learning, deep learning,\nstatistics, linear algebra and calculus.\n2. Low efficiency. Training a model will take a long working cycle, which consists\nof data collection, data cleaning, model training and tuning, and optimization of\nvisualization experience.\n3. Fragmented\n\n[097ffc798f32f942475bc4131339145090d37d9983e72d31785cc282d14ac4ab | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 38]\n1. Easier Development Framework\nAll the AI development frameworks are evolving to be simpler in operation while\nomnipotent in functions. The threshold for AI development has been continu-\nously lowered.\n2. Algorithms and Models with Better Performance\nIn computer vision, GAN is able to generate high-quality images that cannot\nbe distinguished by the human eyes. And the GAN-related algorithms have begun\nto be applied to other vision-related tasks, such as semantic segmentation, facial",
+        "context_ids": [
+          "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197",
+          "b83e6bb1d224575cf8be52cac002b1b6ad809449460de6f9e3fe598d197d6cc6",
+          "097ffc798f32f942475bc4131339145090d37d9983e72d31785cc282d14ac4ab"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 176,
+          "prompt_tokens": 1592,
+          "total_tokens": 1768,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 952
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.0005006399999999999,
+        "elapsed_ms": 1326.474599976791,
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "arguments": {
+              "answer": "Ba hạn chế chính của GPU hiện nay là: chi phí cao, tỷ lệ tiêu thụ năng lượng thấp (hiệu quả năng lượng kém), và độ trễ đầu vào/đầu ra cao [bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197].",
+              "citations": [
+                "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "event": "answer",
+        "tool": "submit_answer",
+        "arguments": {
+          "answer": "Ba hạn chế chính của GPU hiện nay là: chi phí cao, tỷ lệ tiêu thụ năng lượng thấp (hiệu quả năng lượng kém), và độ trễ đầu vào/đầu ra cao [bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197].",
+          "citations": [
+            "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "test_04",
+    "split": "test",
+    "question": "Theo tài liệu, vì sao năng lực và kinh nghiệm của một mô hình AI khó chuyển trực tiếp sang kịch bản ứng dụng khác?",
+    "filter": {},
+    "status": "answered",
+    "answer": "Theo tài liệu, để áp dụng cùng một mô hình AI sang kịch bản khác thì phải lặp lại việc thu thập dữ liệu, làm sạch dữ liệu, huấn luyện và tinh chỉnh mô hình, cùng tối ưu hóa kinh nghiệm; do đó năng lực của mô hình AI không thể chuyển trực tiếp sang kịch bản tiếp theo [1d5a08faf1973a1d3af8e119dccddd976b5f7ada72d9bb5f753e4741f7f8e031].",
+    "citations": [
+      "1d5a08faf1973a1d3af8e119dccddd976b5f7ada72d9bb5f753e4741f7f8e031"
+    ],
+    "citation_sources": [
+      {
+        "id": "1d5a08faf1973a1d3af8e119dccddd976b5f7ada72d9bb5f753e4741f7f8e031",
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+        "page": 21
+      }
+    ],
+    "context": "[1d5a08faf1973a1d3af8e119dccddd976b5f7ada72d9bb5f753e4741f7f8e031 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 21]\ncapabilities and experiences: to apply a same AI model in other\nscenarios requires will need to repeat data collection, data cleaning, model\ntraining and tuning, and experience optimization, and the capabilities of the AI\nmodel cannot be directly passed to the next scenario.\n4. Difficult capacity upgrading and improvement: the model upgrading and effec-\ntive data capturing are difficult tasks.\nCurrently, the smartphone-centered on-device AI has become a consensus of the\nindustry. More and more\n\n[09ec6fd1dd11f11a91be8fa1dbd28aafbad2b0cd994f599b34a1391108b4fedc | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 34]\nto speed up the model training by a large margin.\n(h) ModelArts supports one-click deployment of models: ModelArts supports the\ndeployment of models to end, edge, and cloud devices and scenarios by only\none click, which can meet multiple requirements such as high concurrency\nand lightweight devices at the same time.\n(i) Full-process management: ModelArts provides visual workflow management\nof data, training, models and inference (covering the entire AI development\ncycle), and enables training\n\n[8113a89630511554acfcc9b8a03515f0f34785002017673ba8065cdb16885021 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 20]\ntake scenarios into consideration. Data, algorithms, and computing power can\nprompt the evolvement of AI technically, but without application scenarios, the\ntechnological development is merely about data. We need to integrate AI with cloud\ncomputing, big data and the Internet of Things (IoT) so as to make the application of\nAI in real life possible, which is the foundation of the platform architecture for AI\napplication, as shown in Fig. 1.8.\nThe infrastructure includes smart sensors and smart",
+    "context_ids": [
+      "1d5a08faf1973a1d3af8e119dccddd976b5f7ada72d9bb5f753e4741f7f8e031",
+      "09ec6fd1dd11f11a91be8fa1dbd28aafbad2b0cd994f599b34a1391108b4fedc",
+      "8113a89630511554acfcc9b8a03515f0f34785002017673ba8065cdb16885021"
+    ],
+    "search_count": 1,
+    "model_call_count": 2,
+    "elapsed_seconds": 2.2097708000219427,
+    "citation_id_check": true,
+    "semantic_review_status": "pending",
+    "api_requests": 2,
+    "events": [
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 45,
+          "prompt_tokens": 727,
+          "total_tokens": 772,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 215
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.00012157200000000001,
+        "elapsed_ms": 651.0429000190925,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "why model capability and experience do not transfer directly to another application scenario"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "why model capability and experience do not transfer directly to another application scenario"
+        },
+        "query": "why model capability and experience do not transfer directly to another application scenario",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "why model capability and experience do not transfer directly to another application scenario",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "1d5a08faf1973a1d3af8e119dccddd976b5f7ada72d9bb5f753e4741f7f8e031",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 21,
+              "text": "capabilities and experiences: to apply a same AI model in other\nscenarios requires will need to repeat data collection, data cleaning, model\ntraining and tuning, and experience optimization, and the capabilities of the AI\nmodel cannot be directly passed to the next scenario.\n4. Difficult capacity upgrading and improvement: the model upgrading and effec-\ntive data capturing are difficult tasks.\nCurrently, the smartphone-centered on-device AI has become a consensus of the\nindustry. More and more",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p021:s1.2",
+                "page_char_start": 1522,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 1522,
+                "unit_char_end": 2020,
+                "page_char_end": 2020
+              },
+              "score": 0.877019949136977,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "09ec6fd1dd11f11a91be8fa1dbd28aafbad2b0cd994f599b34a1391108b4fedc",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 34,
+              "text": "to speed up the model training by a large margin.\n(h) ModelArts supports one-click deployment of models: ModelArts supports the\ndeployment of models to end, edge, and cloud devices and scenarios by only\none click, which can meet multiple requirements such as high concurrency\nand lightweight devices at the same time.\n(i) Full-process management: ModelArts provides visual workflow management\nof data, training, models and inference (covering the entire AI development\ncycle), and enables training",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.4",
+                "section_title": "Huawei’s AI Development Strategy",
+                "unit_id": "huawei-ai-technology-ch01-2023:p034:s1.4",
+                "page_char_start": 1985,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 1985,
+                "unit_char_end": 2482,
+                "page_char_end": 2482
+              },
+              "score": 0.8382001019597007,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "8113a89630511554acfcc9b8a03515f0f34785002017673ba8065cdb16885021",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 20,
+              "text": "take scenarios into consideration. Data, algorithms, and computing power can\nprompt the evolvement of AI technically, but without application scenarios, the\ntechnological development is merely about data. We need to integrate AI with cloud\ncomputing, big data and the Internet of Things (IoT) so as to make the application of\nAI in real life possible, which is the foundation of the platform architecture for AI\napplication, as shown in Fig. 1.8.\nThe infrastructure includes smart sensors and smart",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p020:s1.2",
+                "page_char_start": 2524,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 2524,
+                "unit_char_end": 3022,
+                "page_char_end": 3022
+              },
+              "score": 0.8331398467338191,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 71.11060002353042,
+          "elapsed_ms": 88.08429999044165
+        },
+        "results": [
+          {
+            "id": "1d5a08faf1973a1d3af8e119dccddd976b5f7ada72d9bb5f753e4741f7f8e031",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 21,
+            "text": "capabilities and experiences: to apply a same AI model in other\nscenarios requires will need to repeat data collection, data cleaning, model\ntraining and tuning, and experience optimization, and the capabilities of the AI\nmodel cannot be directly passed to the next scenario.\n4. Difficult capacity upgrading and improvement: the model upgrading and effec-\ntive data capturing are difficult tasks.\nCurrently, the smartphone-centered on-device AI has become a consensus of the\nindustry. More and more",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p021:s1.2",
+              "page_char_start": 1522,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 1522,
+              "unit_char_end": 2020,
+              "page_char_end": 2020
+            },
+            "score": 0.877019949136977,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "09ec6fd1dd11f11a91be8fa1dbd28aafbad2b0cd994f599b34a1391108b4fedc",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 34,
+            "text": "to speed up the model training by a large margin.\n(h) ModelArts supports one-click deployment of models: ModelArts supports the\ndeployment of models to end, edge, and cloud devices and scenarios by only\none click, which can meet multiple requirements such as high concurrency\nand lightweight devices at the same time.\n(i) Full-process management: ModelArts provides visual workflow management\nof data, training, models and inference (covering the entire AI development\ncycle), and enables training",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy",
+              "unit_id": "huawei-ai-technology-ch01-2023:p034:s1.4",
+              "page_char_start": 1985,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 1985,
+              "unit_char_end": 2482,
+              "page_char_end": 2482
+            },
+            "score": 0.8382001019597007,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "8113a89630511554acfcc9b8a03515f0f34785002017673ba8065cdb16885021",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 20,
+            "text": "take scenarios into consideration. Data, algorithms, and computing power can\nprompt the evolvement of AI technically, but without application scenarios, the\ntechnological development is merely about data. We need to integrate AI with cloud\ncomputing, big data and the Internet of Things (IoT) so as to make the application of\nAI in real life possible, which is the foundation of the platform architecture for AI\napplication, as shown in Fig. 1.8.\nThe infrastructure includes smart sensors and smart",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p020:s1.2",
+              "page_char_start": 2524,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 2524,
+              "unit_char_end": 3022,
+              "page_char_end": 3022
+            },
+            "score": 0.8331398467338191,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[1d5a08faf1973a1d3af8e119dccddd976b5f7ada72d9bb5f753e4741f7f8e031 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 21]\ncapabilities and experiences: to apply a same AI model in other\nscenarios requires will need to repeat data collection, data cleaning, model\ntraining and tuning, and experience optimization, and the capabilities of the AI\nmodel cannot be directly passed to the next scenario.\n4. Difficult capacity upgrading and improvement: the model upgrading and effec-\ntive data capturing are difficult tasks.\nCurrently, the smartphone-centered on-device AI has become a consensus of the\nindustry. More and more\n\n[09ec6fd1dd11f11a91be8fa1dbd28aafbad2b0cd994f599b34a1391108b4fedc | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 34]\nto speed up the model training by a large margin.\n(h) ModelArts supports one-click deployment of models: ModelArts supports the\ndeployment of models to end, edge, and cloud devices and scenarios by only\none click, which can meet multiple requirements such as high concurrency\nand lightweight devices at the same time.\n(i) Full-process management: ModelArts provides visual workflow management\nof data, training, models and inference (covering the entire AI development\ncycle), and enables training\n\n[8113a89630511554acfcc9b8a03515f0f34785002017673ba8065cdb16885021 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 20]\ntake scenarios into consideration. Data, algorithms, and computing power can\nprompt the evolvement of AI technically, but without application scenarios, the\ntechnological development is merely about data. We need to integrate AI with cloud\ncomputing, big data and the Internet of Things (IoT) so as to make the application of\nAI in real life possible, which is the foundation of the platform architecture for AI\napplication, as shown in Fig. 1.8.\nThe infrastructure includes smart sensors and smart",
+        "context_ids": [
+          "1d5a08faf1973a1d3af8e119dccddd976b5f7ada72d9bb5f753e4741f7f8e031",
+          "09ec6fd1dd11f11a91be8fa1dbd28aafbad2b0cd994f599b34a1391108b4fedc",
+          "8113a89630511554acfcc9b8a03515f0f34785002017673ba8065cdb16885021"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 241,
+          "prompt_tokens": 1642,
+          "total_tokens": 1883,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 1002
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.0005936399999999999,
+        "elapsed_ms": 1470.0382000009995,
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "arguments": {
+              "answer": "Theo tài liệu, để áp dụng cùng một mô hình AI sang kịch bản khác thì phải lặp lại việc thu thập dữ liệu, làm sạch dữ liệu, huấn luyện và tinh chỉnh mô hình, cùng tối ưu hóa kinh nghiệm; do đó năng lực của mô hình AI không thể chuyển trực tiếp sang kịch bản tiếp theo [1d5a08faf1973a1d3af8e119dccddd976b5f7ada72d9bb5f753e4741f7f8e031].",
+              "citations": [
+                "1d5a08faf1973a1d3af8e119dccddd976b5f7ada72d9bb5f753e4741f7f8e031"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "event": "answer",
+        "tool": "submit_answer",
+        "arguments": {
+          "answer": "Theo tài liệu, để áp dụng cùng một mô hình AI sang kịch bản khác thì phải lặp lại việc thu thập dữ liệu, làm sạch dữ liệu, huấn luyện và tinh chỉnh mô hình, cùng tối ưu hóa kinh nghiệm; do đó năng lực của mô hình AI không thể chuyển trực tiếp sang kịch bản tiếp theo [1d5a08faf1973a1d3af8e119dccddd976b5f7ada72d9bb5f753e4741f7f8e031].",
+          "citations": [
+            "1d5a08faf1973a1d3af8e119dccddd976b5f7ada72d9bb5f753e4741f7f8e031"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "test_05",
+    "split": "test",
+    "question": "Trong mục 1.4 về chiến lược AI của Huawei, MindSpore được thiết kế theo ba nguyên tắc nào?",
+    "filter": {
+      "section": "1.4"
+    },
+    "status": "answered",
+    "answer": "MindSpore được thiết kế dựa trên ba nguyên tắc: thân thiện với phát triển (development-friendly), thực thi hiệu quả (efficient execution) và triển khai linh hoạt (flexible deployment) [ce2cea05a262553120a807dac62768cc4d80ac98958fdaa54f36847790f192fa].",
+    "citations": [
+      "ce2cea05a262553120a807dac62768cc4d80ac98958fdaa54f36847790f192fa"
+    ],
+    "citation_sources": [
+      {
+        "id": "ce2cea05a262553120a807dac62768cc4d80ac98958fdaa54f36847790f192fa",
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+        "page": 35
+      }
+    ],
+    "context": "[2781218ef9025f6089da6f99ab3833331d272127d6c687f5180b34cb920bdad4 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 32]\n1.4 Huawei’s AI Development Strategy\n\n1.4.1 Full-Stack All-Scenario AI Solutions\n\nIn the first quarter of 2020, Huawei’s all-scenario AI computing framework\nMindSpore was released to the open-source community. Later Huawei released the\nGaussDB OLTP stand-alone database to the open-source community in June 2020,\n\n[ce2cea05a262553120a807dac62768cc4d80ac98958fdaa54f36847790f192fa | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 35]\nincluding the high technological standards, soaring development costs and long\ndeployment cycles. These challenges are a brake on the development of AI\necosystem for developer in all-industry. Consequently, the all-scenario AI com-\nputing framework MindSpore was introduced. It was designed based on three\nprinciples: development-friendly, efficient execution and flexible deployment.\nIn today’s world of deep learning frameworks, if we call Google’s\nTensorFlow, Amazon’s MXNet, Facebook’s PyTorch\n\n[2b80983ee29fe857f17679e800df2706bc28d76818854d4ceadb28b4dd7d3b75 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 35]\nand Microsoft’s CNTK\nas the “four giants”, then Huawei’s MindSpore is the strongest competitor.\nThanks to the automatic parallelization provided by MindSpore, the senior\ndata scientists and algorithm engineers dedicated to data modeling and problem\nsolving can send an algorithm to visit dozens or even thousands of AI processing\nnodes with just several lines of code.\nMindSpore supports architectures of different sizes and types, adaptable to\nall-scenario independent deployment, Ascend AI",
+    "context_ids": [
+      "2781218ef9025f6089da6f99ab3833331d272127d6c687f5180b34cb920bdad4",
+      "ce2cea05a262553120a807dac62768cc4d80ac98958fdaa54f36847790f192fa",
+      "2b80983ee29fe857f17679e800df2706bc28d76818854d4ceadb28b4dd7d3b75"
+    ],
+    "search_count": 1,
+    "model_call_count": 2,
+    "elapsed_seconds": 2.256779799994547,
+    "citation_id_check": true,
+    "semantic_review_status": "pending",
+    "api_requests": 2,
+    "events": [
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 47,
+          "prompt_tokens": 722,
+          "total_tokens": 769,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 210
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.00012247200000000002,
+        "elapsed_ms": 822.1711000078358,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "Huawei AI strategy 1.4 MindSpore designed three principles"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "Huawei AI strategy 1.4 MindSpore designed three principles"
+        },
+        "query": "Huawei AI strategy 1.4 MindSpore designed three principles",
+        "filter": {
+          "section": "1.4"
+        },
+        "status": "complete",
+        "retrieval": {
+          "query": "Huawei AI strategy 1.4 MindSpore designed three principles",
+          "method": "dense",
+          "filter": {
+            "section": "1.4"
+          },
+          "top_k": 3,
+          "results": [
+            {
+              "id": "2781218ef9025f6089da6f99ab3833331d272127d6c687f5180b34cb920bdad4",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 32,
+              "text": "1.4 Huawei’s AI Development Strategy\n\n1.4.1 Full-Stack All-Scenario AI Solutions\n\nIn the first quarter of 2020, Huawei’s all-scenario AI computing framework\nMindSpore was released to the open-source community. Later Huawei released the\nGaussDB OLTP stand-alone database to the open-source community in June 2020,",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.4",
+                "section_title": "Huawei’s AI Development Strategy",
+                "unit_id": "huawei-ai-technology-ch01-2023:p032:s1.4",
+                "page_char_start": 2199,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 312,
+                "page_char_end": 2511
+              },
+              "score": 0.8781838417053223,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "ce2cea05a262553120a807dac62768cc4d80ac98958fdaa54f36847790f192fa",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 35,
+              "text": "including the high technological standards, soaring development costs and long\ndeployment cycles. These challenges are a brake on the development of AI\necosystem for developer in all-industry. Consequently, the all-scenario AI com-\nputing framework MindSpore was introduced. It was designed based on three\nprinciples: development-friendly, efficient execution and flexible deployment.\nIn today’s world of deep learning frameworks, if we call Google’s\nTensorFlow, Amazon’s MXNet, Facebook’s PyTorch",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.4",
+                "section_title": "Huawei’s AI Development Strategy",
+                "unit_id": "huawei-ai-technology-ch01-2023:p035:s1.4",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 497,
+                "page_char_end": 497
+              },
+              "score": 0.8745503425598145,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "2b80983ee29fe857f17679e800df2706bc28d76818854d4ceadb28b4dd7d3b75",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 35,
+              "text": "and Microsoft’s CNTK\nas the “four giants”, then Huawei’s MindSpore is the strongest competitor.\nThanks to the automatic parallelization provided by MindSpore, the senior\ndata scientists and algorithm engineers dedicated to data modeling and problem\nsolving can send an algorithm to visit dozens or even thousands of AI processing\nnodes with just several lines of code.\nMindSpore supports architectures of different sizes and types, adaptable to\nall-scenario independent deployment, Ascend AI",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.4",
+                "section_title": "Huawei’s AI Development Strategy",
+                "unit_id": "huawei-ai-technology-ch01-2023:p035:s1.4",
+                "page_char_start": 498,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 498,
+                "unit_char_end": 989,
+                "page_char_end": 989
+              },
+              "score": 0.8691315132897206,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 81.28060001763515,
+          "elapsed_ms": 90.8245999889914
+        },
+        "results": [
+          {
+            "id": "2781218ef9025f6089da6f99ab3833331d272127d6c687f5180b34cb920bdad4",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 32,
+            "text": "1.4 Huawei’s AI Development Strategy\n\n1.4.1 Full-Stack All-Scenario AI Solutions\n\nIn the first quarter of 2020, Huawei’s all-scenario AI computing framework\nMindSpore was released to the open-source community. Later Huawei released the\nGaussDB OLTP stand-alone database to the open-source community in June 2020,",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy",
+              "unit_id": "huawei-ai-technology-ch01-2023:p032:s1.4",
+              "page_char_start": 2199,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 312,
+              "page_char_end": 2511
+            },
+            "score": 0.8781838417053223,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "ce2cea05a262553120a807dac62768cc4d80ac98958fdaa54f36847790f192fa",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 35,
+            "text": "including the high technological standards, soaring development costs and long\ndeployment cycles. These challenges are a brake on the development of AI\necosystem for developer in all-industry. Consequently, the all-scenario AI com-\nputing framework MindSpore was introduced. It was designed based on three\nprinciples: development-friendly, efficient execution and flexible deployment.\nIn today’s world of deep learning frameworks, if we call Google’s\nTensorFlow, Amazon’s MXNet, Facebook’s PyTorch",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy",
+              "unit_id": "huawei-ai-technology-ch01-2023:p035:s1.4",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 497,
+              "page_char_end": 497
+            },
+            "score": 0.8745503425598145,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "2b80983ee29fe857f17679e800df2706bc28d76818854d4ceadb28b4dd7d3b75",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 35,
+            "text": "and Microsoft’s CNTK\nas the “four giants”, then Huawei’s MindSpore is the strongest competitor.\nThanks to the automatic parallelization provided by MindSpore, the senior\ndata scientists and algorithm engineers dedicated to data modeling and problem\nsolving can send an algorithm to visit dozens or even thousands of AI processing\nnodes with just several lines of code.\nMindSpore supports architectures of different sizes and types, adaptable to\nall-scenario independent deployment, Ascend AI",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy",
+              "unit_id": "huawei-ai-technology-ch01-2023:p035:s1.4",
+              "page_char_start": 498,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 498,
+              "unit_char_end": 989,
+              "page_char_end": 989
+            },
+            "score": 0.8691315132897206,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[2781218ef9025f6089da6f99ab3833331d272127d6c687f5180b34cb920bdad4 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 32]\n1.4 Huawei’s AI Development Strategy\n\n1.4.1 Full-Stack All-Scenario AI Solutions\n\nIn the first quarter of 2020, Huawei’s all-scenario AI computing framework\nMindSpore was released to the open-source community. Later Huawei released the\nGaussDB OLTP stand-alone database to the open-source community in June 2020,\n\n[ce2cea05a262553120a807dac62768cc4d80ac98958fdaa54f36847790f192fa | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 35]\nincluding the high technological standards, soaring development costs and long\ndeployment cycles. These challenges are a brake on the development of AI\necosystem for developer in all-industry. Consequently, the all-scenario AI com-\nputing framework MindSpore was introduced. It was designed based on three\nprinciples: development-friendly, efficient execution and flexible deployment.\nIn today’s world of deep learning frameworks, if we call Google’s\nTensorFlow, Amazon’s MXNet, Facebook’s PyTorch\n\n[2b80983ee29fe857f17679e800df2706bc28d76818854d4ceadb28b4dd7d3b75 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 35]\nand Microsoft’s CNTK\nas the “four giants”, then Huawei’s MindSpore is the strongest competitor.\nThanks to the automatic parallelization provided by MindSpore, the senior\ndata scientists and algorithm engineers dedicated to data modeling and problem\nsolving can send an algorithm to visit dozens or even thousands of AI processing\nnodes with just several lines of code.\nMindSpore supports architectures of different sizes and types, adaptable to\nall-scenario independent deployment, Ascend AI",
+        "context_ids": [
+          "2781218ef9025f6089da6f99ab3833331d272127d6c687f5180b34cb920bdad4",
+          "ce2cea05a262553120a807dac62768cc4d80ac98958fdaa54f36847790f192fa",
+          "2b80983ee29fe857f17679e800df2706bc28d76818854d4ceadb28b4dd7d3b75"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 171,
+          "prompt_tokens": 1609,
+          "total_tokens": 1780,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 969
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.0004997399999999999,
+        "elapsed_ms": 1343.1073000247125,
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "arguments": {
+              "answer": "MindSpore được thiết kế dựa trên ba nguyên tắc: thân thiện với phát triển (development-friendly), thực thi hiệu quả (efficient execution) và triển khai linh hoạt (flexible deployment) [ce2cea05a262553120a807dac62768cc4d80ac98958fdaa54f36847790f192fa].",
+              "citations": [
+                "ce2cea05a262553120a807dac62768cc4d80ac98958fdaa54f36847790f192fa"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "event": "answer",
+        "tool": "submit_answer",
+        "arguments": {
+          "answer": "MindSpore được thiết kế dựa trên ba nguyên tắc: thân thiện với phát triển (development-friendly), thực thi hiệu quả (efficient execution) và triển khai linh hoạt (flexible deployment) [ce2cea05a262553120a807dac62768cc4d80ac98958fdaa54f36847790f192fa].",
+          "citations": [
+            "ce2cea05a262553120a807dac62768cc4d80ac98958fdaa54f36847790f192fa"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "test_no_evidence_01",
+    "split": "test",
+    "question": "Theo tài liệu, AlphaGo sử dụng chính xác bao nhiêu GPU trong trận đấu với Lee Sedol?",
+    "filter": {},
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong các đoạn đã truy xuất để trả lời.",
+    "citations": [],
+    "citation_sources": [],
+    "context": "[7a8f6d452700d6642c13f42a827bf1ce4adf28779ee7e52afc343b985c7bb56a | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 14]\nchips, graphics processing units (GPUs), field pro-\ngrammable gates array (FPGA).\nStructure of system on chip: multi-core, many-core, single instruction, multiple\ndata (SIMD), array structure of operation, memory architecture, on-chip\nnetwork structure, multi-chip interconnection structure, memory interface,\ncommunication structure, multi-level cache.\nDevelopment toolchain: connection between deep learning frameworks\n(TensorFlow, Caffe, MindSpore), compiler, simulator, optimizer (quantization\n\n[bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 17]\neasier application of GPU in deep learning.\n• Improve customization: embracing multiple data types (no longer insisting\non float32, and adopting int8, etc.).\n• Add module specialized for deep learning (e.g., NVIDIA V100 Tensor\nCore GPU adopts the improved Volta architecture introducing and\nequipped with tensor cores).\nThe main challenges of current GPUs are high cost, low energy con-\nsumption ratio, and high input and output latency.\n\n[f657e8fb80556cdab0e64edbbc8473c01f881889f3a5b5664058fd2114fac483 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 17]\n(c) TPU\nSince 2016, Google has been committed to applying the concept of\napplication-specific integrated circuits (ASIC) to the study of neural net-\nworks. In 2016, it launched the AI custom-developed processor TPU which\nsupports the open-source deep learning framework TensorFlow. By combin-\ning large-scale systolic arrays and high-capacity on-chip memory, TPU\nmanages to efficiently accelerate the convolutional operations that are most\ncommon in deep neural networks: systolic arrays can optimize\n\n[96502e9c01eecfd12a9f0c7721fa280aab7ddc80dadd9542617d8b493c7c0a7a | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 11]\nconnects Web data in the method of machine under-\nstanding and processing. The emergence of the semantic network greatly pro-\nmoted the progress of technology of knowledge representation. A year later,\nGoogle first announced the concept of knowledge graph and launched a\nknowledge-graph-based searching service.\nIn 2016 and 2017, Google launched two Go competitions between human and\nmechanical players that shocked the world. Its AI program AlphaGo defeated two\nGo world champions, first Lee Sedol\n\n[3792bc8ffbef86d7b52847a3096bf47da530cc219ba5a958d7416931380220a0 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 10]\ncomputers to defeat human in chess games ever. After\nthe match, IBM upgraded Deep Blue. The new Deep Blue was enhanced with\n480 specialized CPUs and a doubled calculation speed up to 200 million times per",
+    "context_ids": [
+      "7a8f6d452700d6642c13f42a827bf1ce4adf28779ee7e52afc343b985c7bb56a",
+      "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197",
+      "f657e8fb80556cdab0e64edbbc8473c01f881889f3a5b5664058fd2114fac483",
+      "96502e9c01eecfd12a9f0c7721fa280aab7ddc80dadd9542617d8b493c7c0a7a",
+      "3792bc8ffbef86d7b52847a3096bf47da530cc219ba5a958d7416931380220a0"
+    ],
+    "search_count": 3,
+    "model_call_count": 4,
+    "elapsed_seconds": 4.588482900027884,
+    "semantic_review_status": "pending",
+    "api_requests": 4,
+    "abstention_reason": "Context chỉ nêu AlphaGo đánh bại Lee Sedol năm 2016 [96502e9c01eecfd12a9f0c7721fa280aab7ddc80dadd9542617d8b493c7c0a7a] và mô tả chung về GPU/TPU, không có số liệu cụ thể về số GPU AlphaGo dùng trong trận với Lee Sedol.",
+    "events": [
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 45,
+          "prompt_tokens": 714,
+          "total_tokens": 759,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 202
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000117672,
+        "elapsed_ms": 1065.7781999907456,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "AlphaGo number of GPUs used in match against Lee Sedol"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "AlphaGo number of GPUs used in match against Lee Sedol"
+        },
+        "query": "AlphaGo number of GPUs used in match against Lee Sedol",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "AlphaGo number of GPUs used in match against Lee Sedol",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "96502e9c01eecfd12a9f0c7721fa280aab7ddc80dadd9542617d8b493c7c0a7a",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 11,
+              "text": "connects Web data in the method of machine under-\nstanding and processing. The emergence of the semantic network greatly pro-\nmoted the progress of technology of knowledge representation. A year later,\nGoogle first announced the concept of knowledge graph and launched a\nknowledge-graph-based searching service.\nIn 2016 and 2017, Google launched two Go competitions between human and\nmechanical players that shocked the world. Its AI program AlphaGo defeated two\nGo world champions, first Lee Sedol",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.1",
+                "section_title": "The Concept of Artificial Intelligence",
+                "unit_id": "huawei-ai-technology-ch01-2023:p011:s1.1",
+                "page_char_start": 1499,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 1499,
+                "unit_char_end": 1997,
+                "page_char_end": 1997
+              },
+              "score": 0.8543577281023441,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "7bda84f8fd39941fa95512a8c3c1ce20079eba1511281e3e09fc8f2d41e489e4",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 20,
+              "text": "Over the past half a century, the world has witnessed three waves of AI. And these\nthree waves are exemplified and unveiled by human-computer matches. The first\nwas in 1962, when the checkers-playing program developed by Arthur Samuel from\nIBM defeated the world’s best checkers player in the United States. The second time\nwas in 1997, when IBM’s supercomputer Deep Blue defeated the human chess\nworld champion Garry Kasparov by 3.5:2.5. And the third wave of AI came in 2016\nwhen the Go AI AlphaGo",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p020:s1.2",
+                "page_char_start": 32,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 32,
+                "unit_char_end": 531,
+                "page_char_end": 531
+              },
+              "score": 0.8332949380102805,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "cd8424a89521b720f0611a088e5fcfd0360b38f1d790e06dbe12d07010e8edaf",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 20,
+              "text": "developed by DeepMind, a subsidiary of Google, defeated\nthe Go world champion and nine-dan player from the South Korean, Lee Sedol.\nIn the future, AI will be embedded in every walk of life, from automobiles,\nfinance, consumer goods to retail, healthcare, education, manufacturing, communi-\ncations, energy, tourism, culture and entertainment, transportation, logistics, real\nestate and environmental protection, etc.\nFor example, in the automobile industry, the intelligent driving technologies such",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p020:s1.2",
+                "page_char_start": 532,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 532,
+                "unit_char_end": 1031,
+                "page_char_end": 1031
+              },
+              "score": 0.8260877832121993,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 63.71909999870695,
+          "elapsed_ms": 72.21209999988787
+        },
+        "results": [
+          {
+            "id": "96502e9c01eecfd12a9f0c7721fa280aab7ddc80dadd9542617d8b493c7c0a7a",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 11,
+            "text": "connects Web data in the method of machine under-\nstanding and processing. The emergence of the semantic network greatly pro-\nmoted the progress of technology of knowledge representation. A year later,\nGoogle first announced the concept of knowledge graph and launched a\nknowledge-graph-based searching service.\nIn 2016 and 2017, Google launched two Go competitions between human and\nmechanical players that shocked the world. Its AI program AlphaGo defeated two\nGo world champions, first Lee Sedol",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence",
+              "unit_id": "huawei-ai-technology-ch01-2023:p011:s1.1",
+              "page_char_start": 1499,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 1499,
+              "unit_char_end": 1997,
+              "page_char_end": 1997
+            },
+            "score": 0.8543577281023441,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "7bda84f8fd39941fa95512a8c3c1ce20079eba1511281e3e09fc8f2d41e489e4",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 20,
+            "text": "Over the past half a century, the world has witnessed three waves of AI. And these\nthree waves are exemplified and unveiled by human-computer matches. The first\nwas in 1962, when the checkers-playing program developed by Arthur Samuel from\nIBM defeated the world’s best checkers player in the United States. The second time\nwas in 1997, when IBM’s supercomputer Deep Blue defeated the human chess\nworld champion Garry Kasparov by 3.5:2.5. And the third wave of AI came in 2016\nwhen the Go AI AlphaGo",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p020:s1.2",
+              "page_char_start": 32,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 32,
+              "unit_char_end": 531,
+              "page_char_end": 531
+            },
+            "score": 0.8332949380102805,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "cd8424a89521b720f0611a088e5fcfd0360b38f1d790e06dbe12d07010e8edaf",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 20,
+            "text": "developed by DeepMind, a subsidiary of Google, defeated\nthe Go world champion and nine-dan player from the South Korean, Lee Sedol.\nIn the future, AI will be embedded in every walk of life, from automobiles,\nfinance, consumer goods to retail, healthcare, education, manufacturing, communi-\ncations, energy, tourism, culture and entertainment, transportation, logistics, real\nestate and environmental protection, etc.\nFor example, in the automobile industry, the intelligent driving technologies such",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p020:s1.2",
+              "page_char_start": 532,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 532,
+              "unit_char_end": 1031,
+              "page_char_end": 1031
+            },
+            "score": 0.8260877832121993,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[96502e9c01eecfd12a9f0c7721fa280aab7ddc80dadd9542617d8b493c7c0a7a | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 11]\nconnects Web data in the method of machine under-\nstanding and processing. The emergence of the semantic network greatly pro-\nmoted the progress of technology of knowledge representation. A year later,\nGoogle first announced the concept of knowledge graph and launched a\nknowledge-graph-based searching service.\nIn 2016 and 2017, Google launched two Go competitions between human and\nmechanical players that shocked the world. Its AI program AlphaGo defeated two\nGo world champions, first Lee Sedol\n\n[7bda84f8fd39941fa95512a8c3c1ce20079eba1511281e3e09fc8f2d41e489e4 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 20]\nOver the past half a century, the world has witnessed three waves of AI. And these\nthree waves are exemplified and unveiled by human-computer matches. The first\nwas in 1962, when the checkers-playing program developed by Arthur Samuel from\nIBM defeated the world’s best checkers player in the United States. The second time\nwas in 1997, when IBM’s supercomputer Deep Blue defeated the human chess\nworld champion Garry Kasparov by 3.5:2.5. And the third wave of AI came in 2016\nwhen the Go AI AlphaGo\n\n[cd8424a89521b720f0611a088e5fcfd0360b38f1d790e06dbe12d07010e8edaf | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 20]\ndeveloped by DeepMind, a subsidiary of Google, defeated\nthe Go world champion and nine-dan player from the South Korean, Lee Sedol.\nIn the future, AI will be embedded in every walk of life, from automobiles,\nfinance, consumer goods to retail, healthcare, education, manufacturing, communi-\ncations, energy, tourism, culture and entertainment, transportation, logistics, real\nestate and environmental protection, etc.\nFor example, in the automobile industry, the intelligent driving technologies such",
+        "context_ids": [
+          "96502e9c01eecfd12a9f0c7721fa280aab7ddc80dadd9542617d8b493c7c0a7a",
+          "7bda84f8fd39941fa95512a8c3c1ce20079eba1511281e3e09fc8f2d41e489e4",
+          "cd8424a89521b720f0611a088e5fcfd0360b38f1d790e06dbe12d07010e8edaf"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 48,
+          "prompt_tokens": 1667,
+          "total_tokens": 1715,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 1027
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.00036953999999999996,
+        "elapsed_ms": 1089.9703999748453,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "AlphaGo hardware 48 TPU 176 GPU distributed version Lee Sedol match"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "AlphaGo hardware 48 TPU 176 GPU distributed version Lee Sedol match"
+        },
+        "query": "AlphaGo hardware 48 TPU 176 GPU distributed version Lee Sedol match",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "AlphaGo hardware 48 TPU 176 GPU distributed version Lee Sedol match",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "96502e9c01eecfd12a9f0c7721fa280aab7ddc80dadd9542617d8b493c7c0a7a",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 11,
+              "text": "connects Web data in the method of machine under-\nstanding and processing. The emergence of the semantic network greatly pro-\nmoted the progress of technology of knowledge representation. A year later,\nGoogle first announced the concept of knowledge graph and launched a\nknowledge-graph-based searching service.\nIn 2016 and 2017, Google launched two Go competitions between human and\nmechanical players that shocked the world. Its AI program AlphaGo defeated two\nGo world champions, first Lee Sedol",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.1",
+                "section_title": "The Concept of Artificial Intelligence",
+                "unit_id": "huawei-ai-technology-ch01-2023:p011:s1.1",
+                "page_char_start": 1499,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 1499,
+                "unit_char_end": 1997,
+                "page_char_end": 1997
+              },
+              "score": 0.8363072872161865,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "cd8424a89521b720f0611a088e5fcfd0360b38f1d790e06dbe12d07010e8edaf",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 20,
+              "text": "developed by DeepMind, a subsidiary of Google, defeated\nthe Go world champion and nine-dan player from the South Korean, Lee Sedol.\nIn the future, AI will be embedded in every walk of life, from automobiles,\nfinance, consumer goods to retail, healthcare, education, manufacturing, communi-\ncations, energy, tourism, culture and entertainment, transportation, logistics, real\nestate and environmental protection, etc.\nFor example, in the automobile industry, the intelligent driving technologies such",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p020:s1.2",
+                "page_char_start": 532,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 532,
+                "unit_char_end": 1031,
+                "page_char_end": 1031
+              },
+              "score": 0.829303503036499,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "3792bc8ffbef86d7b52847a3096bf47da530cc219ba5a958d7416931380220a0",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 10,
+              "text": "computers to defeat human in chess games ever. After\nthe match, IBM upgraded Deep Blue. The new Deep Blue was enhanced with\n480 specialized CPUs and a doubled calculation speed up to 200 million times per",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.1",
+                "section_title": "The Concept of Artificial Intelligence",
+                "unit_id": "huawei-ai-technology-ch01-2023:p010:s1.1",
+                "page_char_start": 2987,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 2987,
+                "unit_char_end": 3191,
+                "page_char_end": 3191
+              },
+              "score": 0.8160112500190735,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 47.777999978279695,
+          "elapsed_ms": 57.20310000469908
+        },
+        "results": [
+          {
+            "id": "96502e9c01eecfd12a9f0c7721fa280aab7ddc80dadd9542617d8b493c7c0a7a",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 11,
+            "text": "connects Web data in the method of machine under-\nstanding and processing. The emergence of the semantic network greatly pro-\nmoted the progress of technology of knowledge representation. A year later,\nGoogle first announced the concept of knowledge graph and launched a\nknowledge-graph-based searching service.\nIn 2016 and 2017, Google launched two Go competitions between human and\nmechanical players that shocked the world. Its AI program AlphaGo defeated two\nGo world champions, first Lee Sedol",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence",
+              "unit_id": "huawei-ai-technology-ch01-2023:p011:s1.1",
+              "page_char_start": 1499,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 1499,
+              "unit_char_end": 1997,
+              "page_char_end": 1997
+            },
+            "score": 0.8363072872161865,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "cd8424a89521b720f0611a088e5fcfd0360b38f1d790e06dbe12d07010e8edaf",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 20,
+            "text": "developed by DeepMind, a subsidiary of Google, defeated\nthe Go world champion and nine-dan player from the South Korean, Lee Sedol.\nIn the future, AI will be embedded in every walk of life, from automobiles,\nfinance, consumer goods to retail, healthcare, education, manufacturing, communi-\ncations, energy, tourism, culture and entertainment, transportation, logistics, real\nestate and environmental protection, etc.\nFor example, in the automobile industry, the intelligent driving technologies such",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p020:s1.2",
+              "page_char_start": 532,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 532,
+              "unit_char_end": 1031,
+              "page_char_end": 1031
+            },
+            "score": 0.829303503036499,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "3792bc8ffbef86d7b52847a3096bf47da530cc219ba5a958d7416931380220a0",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 10,
+            "text": "computers to defeat human in chess games ever. After\nthe match, IBM upgraded Deep Blue. The new Deep Blue was enhanced with\n480 specialized CPUs and a doubled calculation speed up to 200 million times per",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence",
+              "unit_id": "huawei-ai-technology-ch01-2023:p010:s1.1",
+              "page_char_start": 2987,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 2987,
+              "unit_char_end": 3191,
+              "page_char_end": 3191
+            },
+            "score": 0.8160112500190735,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[96502e9c01eecfd12a9f0c7721fa280aab7ddc80dadd9542617d8b493c7c0a7a | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 11]\nconnects Web data in the method of machine under-\nstanding and processing. The emergence of the semantic network greatly pro-\nmoted the progress of technology of knowledge representation. A year later,\nGoogle first announced the concept of knowledge graph and launched a\nknowledge-graph-based searching service.\nIn 2016 and 2017, Google launched two Go competitions between human and\nmechanical players that shocked the world. Its AI program AlphaGo defeated two\nGo world champions, first Lee Sedol\n\n[cd8424a89521b720f0611a088e5fcfd0360b38f1d790e06dbe12d07010e8edaf | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 20]\ndeveloped by DeepMind, a subsidiary of Google, defeated\nthe Go world champion and nine-dan player from the South Korean, Lee Sedol.\nIn the future, AI will be embedded in every walk of life, from automobiles,\nfinance, consumer goods to retail, healthcare, education, manufacturing, communi-\ncations, energy, tourism, culture and entertainment, transportation, logistics, real\nestate and environmental protection, etc.\nFor example, in the automobile industry, the intelligent driving technologies such\n\n[3792bc8ffbef86d7b52847a3096bf47da530cc219ba5a958d7416931380220a0 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 10]\ncomputers to defeat human in chess games ever. After\nthe match, IBM upgraded Deep Blue. The new Deep Blue was enhanced with\n480 specialized CPUs and a doubled calculation speed up to 200 million times per\n\n[7bda84f8fd39941fa95512a8c3c1ce20079eba1511281e3e09fc8f2d41e489e4 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 20]\nOver the past half a century, the world has witnessed three waves of AI. And these\nthree waves are exemplified and unveiled by human-computer matches. The first\nwas in 1962, when the checkers-playing program developed by Arthur Samuel from\nIBM defeated the world’s best checkers player in the United States. The second time\nwas in 1997, when IBM’s supercomputer Deep Blue defeated the human chess\nworld champion Garry Kasparov by 3.5:2.5. And the third wave of AI came in 2016\nwhen the Go AI AlphaGo",
+        "context_ids": [
+          "96502e9c01eecfd12a9f0c7721fa280aab7ddc80dadd9542617d8b493c7c0a7a",
+          "cd8424a89521b720f0611a088e5fcfd0360b38f1d790e06dbe12d07010e8edaf",
+          "3792bc8ffbef86d7b52847a3096bf47da530cc219ba5a958d7416931380220a0",
+          "7bda84f8fd39941fa95512a8c3c1ce20079eba1511281e3e09fc8f2d41e489e4"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 46,
+          "prompt_tokens": 1836,
+          "total_tokens": 1882,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 1068
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000380208,
+        "elapsed_ms": 1079.1370999941137,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "AlphaGo distributed version 176 GPUs 48 TPUs hardware configuration"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "AlphaGo distributed version 176 GPUs 48 TPUs hardware configuration"
+        },
+        "query": "AlphaGo distributed version 176 GPUs 48 TPUs hardware configuration",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "AlphaGo distributed version 176 GPUs 48 TPUs hardware configuration",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "7a8f6d452700d6642c13f42a827bf1ce4adf28779ee7e52afc343b985c7bb56a",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 14,
+              "text": "chips, graphics processing units (GPUs), field pro-\ngrammable gates array (FPGA).\nStructure of system on chip: multi-core, many-core, single instruction, multiple\ndata (SIMD), array structure of operation, memory architecture, on-chip\nnetwork structure, multi-chip interconnection structure, memory interface,\ncommunication structure, multi-level cache.\nDevelopment toolchain: connection between deep learning frameworks\n(TensorFlow, Caffe, MindSpore), compiler, simulator, optimizer (quantization",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p014:s1.2",
+                "page_char_start": 996,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 996,
+                "unit_char_end": 1493,
+                "page_char_end": 1493
+              },
+              "score": 0.8456025123596251,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 17,
+              "text": "easier application of GPU in deep learning.\n• Improve customization: embracing multiple data types (no longer insisting\non float32, and adopting int8, etc.).\n• Add module specialized for deep learning (e.g., NVIDIA V100 Tensor\nCore GPU adopts the improved Volta architecture introducing and\nequipped with tensor cores).\nThe main challenges of current GPUs are high cost, low energy con-\nsumption ratio, and high input and output latency.",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p017:s1.2",
+                "page_char_start": 998,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 998,
+                "unit_char_end": 1435,
+                "page_char_end": 1435
+              },
+              "score": 0.8413579057028406,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "f657e8fb80556cdab0e64edbbc8473c01f881889f3a5b5664058fd2114fac483",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 17,
+              "text": "(c) TPU\nSince 2016, Google has been committed to applying the concept of\napplication-specific integrated circuits (ASIC) to the study of neural net-\nworks. In 2016, it launched the AI custom-developed processor TPU which\nsupports the open-source deep learning framework TensorFlow. By combin-\ning large-scale systolic arrays and high-capacity on-chip memory, TPU\nmanages to efficiently accelerate the convolutional operations that are most\ncommon in deep neural networks: systolic arrays can optimize",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p017:s1.2",
+                "page_char_start": 1437,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 1437,
+                "unit_char_end": 1937,
+                "page_char_end": 1937
+              },
+              "score": 0.8388644802908788,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 64.3160000036005,
+          "elapsed_ms": 87.79839999624528
+        },
+        "results": [
+          {
+            "id": "7a8f6d452700d6642c13f42a827bf1ce4adf28779ee7e52afc343b985c7bb56a",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 14,
+            "text": "chips, graphics processing units (GPUs), field pro-\ngrammable gates array (FPGA).\nStructure of system on chip: multi-core, many-core, single instruction, multiple\ndata (SIMD), array structure of operation, memory architecture, on-chip\nnetwork structure, multi-chip interconnection structure, memory interface,\ncommunication structure, multi-level cache.\nDevelopment toolchain: connection between deep learning frameworks\n(TensorFlow, Caffe, MindSpore), compiler, simulator, optimizer (quantization",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p014:s1.2",
+              "page_char_start": 996,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 996,
+              "unit_char_end": 1493,
+              "page_char_end": 1493
+            },
+            "score": 0.8456025123596251,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 17,
+            "text": "easier application of GPU in deep learning.\n• Improve customization: embracing multiple data types (no longer insisting\non float32, and adopting int8, etc.).\n• Add module specialized for deep learning (e.g., NVIDIA V100 Tensor\nCore GPU adopts the improved Volta architecture introducing and\nequipped with tensor cores).\nThe main challenges of current GPUs are high cost, low energy con-\nsumption ratio, and high input and output latency.",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p017:s1.2",
+              "page_char_start": 998,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 998,
+              "unit_char_end": 1435,
+              "page_char_end": 1435
+            },
+            "score": 0.8413579057028406,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "f657e8fb80556cdab0e64edbbc8473c01f881889f3a5b5664058fd2114fac483",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 17,
+            "text": "(c) TPU\nSince 2016, Google has been committed to applying the concept of\napplication-specific integrated circuits (ASIC) to the study of neural net-\nworks. In 2016, it launched the AI custom-developed processor TPU which\nsupports the open-source deep learning framework TensorFlow. By combin-\ning large-scale systolic arrays and high-capacity on-chip memory, TPU\nmanages to efficiently accelerate the convolutional operations that are most\ncommon in deep neural networks: systolic arrays can optimize",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p017:s1.2",
+              "page_char_start": 1437,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 1437,
+              "unit_char_end": 1937,
+              "page_char_end": 1937
+            },
+            "score": 0.8388644802908788,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[7a8f6d452700d6642c13f42a827bf1ce4adf28779ee7e52afc343b985c7bb56a | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 14]\nchips, graphics processing units (GPUs), field pro-\ngrammable gates array (FPGA).\nStructure of system on chip: multi-core, many-core, single instruction, multiple\ndata (SIMD), array structure of operation, memory architecture, on-chip\nnetwork structure, multi-chip interconnection structure, memory interface,\ncommunication structure, multi-level cache.\nDevelopment toolchain: connection between deep learning frameworks\n(TensorFlow, Caffe, MindSpore), compiler, simulator, optimizer (quantization\n\n[bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 17]\neasier application of GPU in deep learning.\n• Improve customization: embracing multiple data types (no longer insisting\non float32, and adopting int8, etc.).\n• Add module specialized for deep learning (e.g., NVIDIA V100 Tensor\nCore GPU adopts the improved Volta architecture introducing and\nequipped with tensor cores).\nThe main challenges of current GPUs are high cost, low energy con-\nsumption ratio, and high input and output latency.\n\n[f657e8fb80556cdab0e64edbbc8473c01f881889f3a5b5664058fd2114fac483 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 17]\n(c) TPU\nSince 2016, Google has been committed to applying the concept of\napplication-specific integrated circuits (ASIC) to the study of neural net-\nworks. In 2016, it launched the AI custom-developed processor TPU which\nsupports the open-source deep learning framework TensorFlow. By combin-\ning large-scale systolic arrays and high-capacity on-chip memory, TPU\nmanages to efficiently accelerate the convolutional operations that are most\ncommon in deep neural networks: systolic arrays can optimize\n\n[96502e9c01eecfd12a9f0c7721fa280aab7ddc80dadd9542617d8b493c7c0a7a | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 11]\nconnects Web data in the method of machine under-\nstanding and processing. The emergence of the semantic network greatly pro-\nmoted the progress of technology of knowledge representation. A year later,\nGoogle first announced the concept of knowledge graph and launched a\nknowledge-graph-based searching service.\nIn 2016 and 2017, Google launched two Go competitions between human and\nmechanical players that shocked the world. Its AI program AlphaGo defeated two\nGo world champions, first Lee Sedol\n\n[3792bc8ffbef86d7b52847a3096bf47da530cc219ba5a958d7416931380220a0 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 10]\ncomputers to defeat human in chess games ever. After\nthe match, IBM upgraded Deep Blue. The new Deep Blue was enhanced with\n480 specialized CPUs and a doubled calculation speed up to 200 million times per",
+        "context_ids": [
+          "7a8f6d452700d6642c13f42a827bf1ce4adf28779ee7e52afc343b985c7bb56a",
+          "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197",
+          "f657e8fb80556cdab0e64edbbc8473c01f881889f3a5b5664058fd2114fac483",
+          "96502e9c01eecfd12a9f0c7721fa280aab7ddc80dadd9542617d8b493c7c0a7a",
+          "3792bc8ffbef86d7b52847a3096bf47da530cc219ba5a958d7416931380220a0"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "finalize",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 177,
+          "prompt_tokens": 2109,
+          "total_tokens": 2286,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 1597
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000694572,
+        "elapsed_ms": 1132.8114999923855,
+        "tool_calls": [
+          {
+            "name": "finish_response",
+            "arguments": {
+              "decision": "abstain",
+              "answer": "",
+              "citations": [],
+              "reason": "Context chỉ nêu AlphaGo đánh bại Lee Sedol năm 2016 [96502e9c01eecfd12a9f0c7721fa280aab7ddc80dadd9542617d8b493c7c0a7a] và mô tả chung về GPU/TPU, không có số liệu cụ thể về số GPU AlphaGo dùng trong trận với Lee Sedol."
+            }
+          }
+        ]
+      },
+      {
+        "event": "abstain",
+        "tool": "finish_response",
+        "arguments": {
+          "decision": "abstain",
+          "answer": "",
+          "citations": [],
+          "reason": "Context chỉ nêu AlphaGo đánh bại Lee Sedol năm 2016 [96502e9c01eecfd12a9f0c7721fa280aab7ddc80dadd9542617d8b493c7c0a7a] và mô tả chung về GPU/TPU, không có số liệu cụ thể về số GPU AlphaGo dùng trong trận với Lee Sedol."
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "test_no_evidence_02",
+    "split": "test",
+    "question": "Theo tài liệu, giá bán cụ thể bằng USD của một chip Ascend 310 là bao nhiêu?",
+    "filter": {},
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong các đoạn đã truy xuất để trả lời.",
+    "citations": [],
+    "citation_sources": [],
+    "context": "[446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 36]\nmakes the series quite competitive in computing power, energy efficiency and\nscalability.\nAscend 310 is a highly efficient AI system-on-chip (SoC) designed for the\nedge intelligent scenarios of inference. It uses a 12 nm chip and delivers a\ncomputing power of up to 16 TOPS (tera operations per second) with a con-\nsumption of only 8 W, highly suitable for the edge intelligence scenarios requir-\ning low power consumption.\nAscend 910 is currently the single chip with the greatest computing density,\n\n[7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nTable 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel\n\n[57d33c2f5f1261ac95bfa429e7218c4ff1b394e3bdd0206e58bcfa91d2b659b8 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nneurons will take only\none instruction. Currently, the typical examples of NPU include Huawei Ascend\nAI processor, the Cambrian chip and IBM’s TrueNorth chip.\nThere are two kinds of Huawei Ascend AI processor: Ascend 310 and Ascend 910.\nAscend 910 is mainly applied to training scenarios, mostly deployed in the data\ncenter. While Ascend 310 is mainly designed for reasoning scenarios, whose\ndeployment covers the device, edge and cloud full scenarios.\nAscend 910 is currently the AI processor with\n\n[2c38a003fbd17b5f73f7f2768f10b822a6659fe71cb4a625d8497bfb22e112f3 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 35]\n4. Ascend AI processor\nGiven the rising demands for AI, the AI processor market is currently monop-\nolized by a few companies, leading to high prices, long supply cycles and weak\nlocal service support. The demands for AI in many industries have not been met\neffectively.\nAt the HUAWEI CONNECT conference in October 2018, Huawei released\nAscend 310 and Ascend 910 processors specialized for AI inference and training\nscenarios. The unique Da Vinci 3D Cube architecture of Ascend AI processors",
+    "context_ids": [
+      "446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de",
+      "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+      "57d33c2f5f1261ac95bfa429e7218c4ff1b394e3bdd0206e58bcfa91d2b659b8",
+      "2c38a003fbd17b5f73f7f2768f10b822a6659fe71cb4a625d8497bfb22e112f3"
+    ],
+    "search_count": 2,
+    "model_call_count": 3,
+    "elapsed_seconds": 2.8565692999982275,
+    "semantic_review_status": "pending",
+    "api_requests": 3,
+    "abstention_reason": "Tài liệu chỉ nêu thông số kỹ thuật của Ascend 310 (12 nm, 16 TOPS, 8 W) và bảng thông số so với Ascend 910, không có giá bán cụ thể bằng USD.",
+    "events": [
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 39,
+          "prompt_tokens": 710,
+          "total_tokens": 749,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 198
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000109272,
+        "elapsed_ms": 1044.0571999934036,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "Ascend 310 chip price USD"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "Ascend 310 chip price USD"
+        },
+        "query": "Ascend 310 chip price USD",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "Ascend 310 chip price USD",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 19,
+              "text": "Table 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 499,
+                "page_char_end": 499
+              },
+              "score": 0.8998867273330688,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 36,
+              "text": "makes the series quite competitive in computing power, energy efficiency and\nscalability.\nAscend 310 is a highly efficient AI system-on-chip (SoC) designed for the\nedge intelligent scenarios of inference. It uses a 12 nm chip and delivers a\ncomputing power of up to 16 TOPS (tera operations per second) with a con-\nsumption of only 8 W, highly suitable for the edge intelligence scenarios requir-\ning low power consumption.\nAscend 910 is currently the single chip with the greatest computing density,",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.4",
+                "section_title": "Huawei’s AI Development Strategy",
+                "unit_id": "huawei-ai-technology-ch01-2023:p036:s1.4",
+                "page_char_start": 74,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 74,
+                "unit_char_end": 574,
+                "page_char_end": 574
+              },
+              "score": 0.8903379440307617,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "2c38a003fbd17b5f73f7f2768f10b822a6659fe71cb4a625d8497bfb22e112f3",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 35,
+              "text": "4. Ascend AI processor\nGiven the rising demands for AI, the AI processor market is currently monop-\nolized by a few companies, leading to high prices, long supply cycles and weak\nlocal service support. The demands for AI in many industries have not been met\neffectively.\nAt the HUAWEI CONNECT conference in October 2018, Huawei released\nAscend 310 and Ascend 910 processors specialized for AI inference and training\nscenarios. The unique Da Vinci 3D Cube architecture of Ascend AI processors",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.4",
+                "section_title": "Huawei’s AI Development Strategy",
+                "unit_id": "huawei-ai-technology-ch01-2023:p035:s1.4",
+                "page_char_start": 2186,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 2186,
+                "unit_char_end": 2677,
+                "page_char_end": 2677
+              },
+              "score": 0.8625785369449421,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 46.22760001802817,
+          "elapsed_ms": 51.93059999146499
+        },
+        "results": [
+          {
+            "id": "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 19,
+            "text": "Table 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 499,
+              "page_char_end": 499
+            },
+            "score": 0.8998867273330688,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 36,
+            "text": "makes the series quite competitive in computing power, energy efficiency and\nscalability.\nAscend 310 is a highly efficient AI system-on-chip (SoC) designed for the\nedge intelligent scenarios of inference. It uses a 12 nm chip and delivers a\ncomputing power of up to 16 TOPS (tera operations per second) with a con-\nsumption of only 8 W, highly suitable for the edge intelligence scenarios requir-\ning low power consumption.\nAscend 910 is currently the single chip with the greatest computing density,",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy",
+              "unit_id": "huawei-ai-technology-ch01-2023:p036:s1.4",
+              "page_char_start": 74,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 74,
+              "unit_char_end": 574,
+              "page_char_end": 574
+            },
+            "score": 0.8903379440307617,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "2c38a003fbd17b5f73f7f2768f10b822a6659fe71cb4a625d8497bfb22e112f3",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 35,
+            "text": "4. Ascend AI processor\nGiven the rising demands for AI, the AI processor market is currently monop-\nolized by a few companies, leading to high prices, long supply cycles and weak\nlocal service support. The demands for AI in many industries have not been met\neffectively.\nAt the HUAWEI CONNECT conference in October 2018, Huawei released\nAscend 310 and Ascend 910 processors specialized for AI inference and training\nscenarios. The unique Da Vinci 3D Cube architecture of Ascend AI processors",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy",
+              "unit_id": "huawei-ai-technology-ch01-2023:p035:s1.4",
+              "page_char_start": 2186,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 2186,
+              "unit_char_end": 2677,
+              "page_char_end": 2677
+            },
+            "score": 0.8625785369449421,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nTable 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel\n\n[446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 36]\nmakes the series quite competitive in computing power, energy efficiency and\nscalability.\nAscend 310 is a highly efficient AI system-on-chip (SoC) designed for the\nedge intelligent scenarios of inference. It uses a 12 nm chip and delivers a\ncomputing power of up to 16 TOPS (tera operations per second) with a con-\nsumption of only 8 W, highly suitable for the edge intelligence scenarios requir-\ning low power consumption.\nAscend 910 is currently the single chip with the greatest computing density,\n\n[2c38a003fbd17b5f73f7f2768f10b822a6659fe71cb4a625d8497bfb22e112f3 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 35]\n4. Ascend AI processor\nGiven the rising demands for AI, the AI processor market is currently monop-\nolized by a few companies, leading to high prices, long supply cycles and weak\nlocal service support. The demands for AI in many industries have not been met\neffectively.\nAt the HUAWEI CONNECT conference in October 2018, Huawei released\nAscend 310 and Ascend 910 processors specialized for AI inference and training\nscenarios. The unique Da Vinci 3D Cube architecture of Ascend AI processors",
+        "context_ids": [
+          "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+          "446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de",
+          "2c38a003fbd17b5f73f7f2768f10b822a6659fe71cb4a625d8497bfb22e112f3"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 43,
+          "prompt_tokens": 1695,
+          "total_tokens": 1738,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 1055
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.00037194,
+        "elapsed_ms": 887.1296999859624,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "Ascend 310 price cost dollars per chip selling price"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "Ascend 310 price cost dollars per chip selling price"
+        },
+        "query": "Ascend 310 price cost dollars per chip selling price",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "Ascend 310 price cost dollars per chip selling price",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 36,
+              "text": "makes the series quite competitive in computing power, energy efficiency and\nscalability.\nAscend 310 is a highly efficient AI system-on-chip (SoC) designed for the\nedge intelligent scenarios of inference. It uses a 12 nm chip and delivers a\ncomputing power of up to 16 TOPS (tera operations per second) with a con-\nsumption of only 8 W, highly suitable for the edge intelligence scenarios requir-\ning low power consumption.\nAscend 910 is currently the single chip with the greatest computing density,",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.4",
+                "section_title": "Huawei’s AI Development Strategy",
+                "unit_id": "huawei-ai-technology-ch01-2023:p036:s1.4",
+                "page_char_start": 74,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 74,
+                "unit_char_end": 574,
+                "page_char_end": 574
+              },
+              "score": 0.8845186898399195,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 19,
+              "text": "Table 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 499,
+                "page_char_end": 499
+              },
+              "score": 0.8814660977443414,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "57d33c2f5f1261ac95bfa429e7218c4ff1b394e3bdd0206e58bcfa91d2b659b8",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 19,
+              "text": "neurons will take only\none instruction. Currently, the typical examples of NPU include Huawei Ascend\nAI processor, the Cambrian chip and IBM’s TrueNorth chip.\nThere are two kinds of Huawei Ascend AI processor: Ascend 310 and Ascend 910.\nAscend 910 is mainly applied to training scenarios, mostly deployed in the data\ncenter. While Ascend 310 is mainly designed for reasoning scenarios, whose\ndeployment covers the device, edge and cloud full scenarios.\nAscend 910 is currently the AI processor with",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+                "page_char_start": 1631,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 1631,
+                "unit_char_end": 2129,
+                "page_char_end": 2129
+              },
+              "score": 0.855656990071716,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 58.00150000141002,
+          "elapsed_ms": 64.40299999667332
+        },
+        "results": [
+          {
+            "id": "446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 36,
+            "text": "makes the series quite competitive in computing power, energy efficiency and\nscalability.\nAscend 310 is a highly efficient AI system-on-chip (SoC) designed for the\nedge intelligent scenarios of inference. It uses a 12 nm chip and delivers a\ncomputing power of up to 16 TOPS (tera operations per second) with a con-\nsumption of only 8 W, highly suitable for the edge intelligence scenarios requir-\ning low power consumption.\nAscend 910 is currently the single chip with the greatest computing density,",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy",
+              "unit_id": "huawei-ai-technology-ch01-2023:p036:s1.4",
+              "page_char_start": 74,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 74,
+              "unit_char_end": 574,
+              "page_char_end": 574
+            },
+            "score": 0.8845186898399195,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 19,
+            "text": "Table 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 499,
+              "page_char_end": 499
+            },
+            "score": 0.8814660977443414,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "57d33c2f5f1261ac95bfa429e7218c4ff1b394e3bdd0206e58bcfa91d2b659b8",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 19,
+            "text": "neurons will take only\none instruction. Currently, the typical examples of NPU include Huawei Ascend\nAI processor, the Cambrian chip and IBM’s TrueNorth chip.\nThere are two kinds of Huawei Ascend AI processor: Ascend 310 and Ascend 910.\nAscend 910 is mainly applied to training scenarios, mostly deployed in the data\ncenter. While Ascend 310 is mainly designed for reasoning scenarios, whose\ndeployment covers the device, edge and cloud full scenarios.\nAscend 910 is currently the AI processor with",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+              "page_char_start": 1631,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 1631,
+              "unit_char_end": 2129,
+              "page_char_end": 2129
+            },
+            "score": 0.855656990071716,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 36]\nmakes the series quite competitive in computing power, energy efficiency and\nscalability.\nAscend 310 is a highly efficient AI system-on-chip (SoC) designed for the\nedge intelligent scenarios of inference. It uses a 12 nm chip and delivers a\ncomputing power of up to 16 TOPS (tera operations per second) with a con-\nsumption of only 8 W, highly suitable for the edge intelligence scenarios requir-\ning low power consumption.\nAscend 910 is currently the single chip with the greatest computing density,\n\n[7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nTable 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel\n\n[57d33c2f5f1261ac95bfa429e7218c4ff1b394e3bdd0206e58bcfa91d2b659b8 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nneurons will take only\none instruction. Currently, the typical examples of NPU include Huawei Ascend\nAI processor, the Cambrian chip and IBM’s TrueNorth chip.\nThere are two kinds of Huawei Ascend AI processor: Ascend 310 and Ascend 910.\nAscend 910 is mainly applied to training scenarios, mostly deployed in the data\ncenter. While Ascend 310 is mainly designed for reasoning scenarios, whose\ndeployment covers the device, edge and cloud full scenarios.\nAscend 910 is currently the AI processor with\n\n[2c38a003fbd17b5f73f7f2768f10b822a6659fe71cb4a625d8497bfb22e112f3 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 35]\n4. Ascend AI processor\nGiven the rising demands for AI, the AI processor market is currently monop-\nolized by a few companies, leading to high prices, long supply cycles and weak\nlocal service support. The demands for AI in many industries have not been met\neffectively.\nAt the HUAWEI CONNECT conference in October 2018, Huawei released\nAscend 310 and Ascend 910 processors specialized for AI inference and training\nscenarios. The unique Da Vinci 3D Cube architecture of Ascend AI processors",
+        "context_ids": [
+          "446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de",
+          "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+          "57d33c2f5f1261ac95bfa429e7218c4ff1b394e3bdd0206e58bcfa91d2b659b8",
+          "2c38a003fbd17b5f73f7f2768f10b822a6659fe71cb4a625d8497bfb22e112f3"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 88,
+          "prompt_tokens": 1948,
+          "total_tokens": 2036,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 1180
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.00046420799999999997,
+        "elapsed_ms": 807.3814999952447,
+        "tool_calls": [
+          {
+            "name": "abstain",
+            "arguments": {
+              "reason": "Tài liệu chỉ nêu thông số kỹ thuật của Ascend 310 (12 nm, 16 TOPS, 8 W) và bảng thông số so với Ascend 910, không có giá bán cụ thể bằng USD."
+            }
+          }
+        ]
+      },
+      {
+        "event": "abstain",
+        "tool": "abstain",
+        "arguments": {
+          "reason": "Tài liệu chỉ nêu thông số kỹ thuật của Ascend 310 (12 nm, 16 TOPS, 8 W) và bảng thông số so với Ascend 910, không có giá bán cụ thể bằng USD."
+        }
+      }
+    ]
+  }
+]

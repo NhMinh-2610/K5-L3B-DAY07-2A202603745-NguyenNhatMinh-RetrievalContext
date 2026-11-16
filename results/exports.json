@@ -1,0 +1,96 @@
+{
+  "policy": "Chỉ kết quả và trace tool của lab; bỏ request/messages, phản hồi model thô và hội thoại trợ lý.",
+  "raw_files_committed": false,
+  "files": {
+    "results/agent/dev-baseline/traces.json": {
+      "raw_sha256": "84323ee472e516adcb592bd38dd1b888938bbacb569b6ddf610bf563073c72a2",
+      "public_path": "results/agent/dev-baseline/traces.public.json",
+      "public_sha256": "a952d0976d4ab1faeb73e36babb0634f04cd8a7b1bc01ed3a11b55ada6f27f86",
+      "rows": 17
+    },
+    "results/agent/dev-smoke/traces.json": {
+      "raw_sha256": "188c501c0a308a058c1da20781473af60ca260833321675fa802b9941461906a",
+      "public_path": "results/agent/dev-smoke/traces.public.json",
+      "public_sha256": "c8bffe065dc684b47eb1bcaa2fcea52b022c1971f9183bda5dd143068aa37582",
+      "rows": 2
+    },
+    "results/agent/dev-stop-fix/traces.json": {
+      "raw_sha256": "f867e0bc53de291fe53e4bfa92e930d32938ff415b7db297a8e34aa1c6cd7add",
+      "public_path": "results/agent/dev-stop-fix/traces.public.json",
+      "public_sha256": "bdfc0f341d499622cde8328df07b8603a0d510c7f64f3f8d06a8b2ed86a93237",
+      "rows": 2
+    },
+    "results/study/dev/baseline/traces.json": {
+      "raw_sha256": "72f001b8eb8f28bf11a056f378cba81deb6db9bebef35d8c7d6bf3cfed9f82af",
+      "public_path": "results/study/dev/baseline/traces.public.json",
+      "public_sha256": "76a8673a5848a5cc99d4716050a0109417d1729aad298706b01635d6389c843e",
+      "rows": 17
+    },
+    "results/study/dev/dense-wide/traces.json": {
+      "raw_sha256": "7629377774bb21cecb83170a3266773c729cad68c08d6d8a9b0d3df4a5a4a251",
+      "public_path": "results/study/dev/dense-wide/traces.public.json",
+      "public_sha256": "6dd94c269b9f217967e001f9ba02bffbd77818920dc40a0cf522136134f6bead",
+      "rows": 17
+    },
+    "results/study/dev/hybrid/traces.json": {
+      "raw_sha256": "afdd6458949d518712d1455b8d54793e111c794f34b839289828417bd1233692",
+      "public_path": "results/study/dev/hybrid/traces.public.json",
+      "public_sha256": "8fd60eed6edae372bfa2606ed702729930d2bc01f5bcc32a6411b5be56bb96ad",
+      "rows": 17
+    },
+    "results/study/test/baseline/traces.json": {
+      "raw_sha256": "cf65918b081930b794784a8aa7de1e56722049c8e8fe35ca93c53b9002f01271",
+      "public_path": "results/study/test/baseline/traces.public.json",
+      "public_sha256": "58248fad1b8aa165f9e0e5780267fb8330b1d8e3dc1c75f17b05a1e052fe601d",
+      "rows": 7
+    },
+    "results/study/test/hybrid/traces.json": {
+      "raw_sha256": "a791c3e1439b94dccf6e6e966278811122bc9c668f147f0ec32656a5f6a6b8e9",
+      "public_path": "results/study/test/hybrid/traces.public.json",
+      "public_sha256": "912c146d76f47d2af2b1d8ee190cdaf1e373e0235b597cf500ac42c853709f87",
+      "rows": 7
+    },
+    "results/study/dev/baseline/reviews.json": {
+      "raw_sha256": "d9446e16a2c81ec8282cea88292928504a11dc1d49019d5b9e39e5887142d9b9",
+      "public_path": "results/study/dev/baseline/reviews.public.json",
+      "public_sha256": "d19c57a859e9308d1ad2f5e53f1f62e057cad2c37efa8673fde8d873ec7e6f38",
+      "rows": 17
+    },
+    "results/study/dev/dense-wide/reviews.json": {
+      "raw_sha256": "8bc5b5bf4e41b5b3cf248fd08ea46ca03825944599f52fd4b32cb68d120c58c9",
+      "public_path": "results/study/dev/dense-wide/reviews.public.json",
+      "public_sha256": "193847774867d77b8c04f7ae38e7f9431694f17f1663254909d54096d9d5e8a5",
+      "rows": 17
+    },
+    "results/study/dev/hybrid/reviews.json": {
+      "raw_sha256": "08f8223202f5894111800346ed17821af87ae721a3a9d9ccfde8b7bf03bedca8",
+      "public_path": "results/study/dev/hybrid/reviews.public.json",
+      "public_sha256": "d7e0e001436e344b1dbe4b6a59c5407f8fcffc104f1f52c7a3dbc2de4c017140",
+      "rows": 17
+    },
+    "results/study/test/baseline/reviews.json": {
+      "raw_sha256": "007a7ce23f4eea34a4e2bbce5fc87b3178c34f35cb64925d0c859d2a1b86a8e1",
+      "public_path": "results/study/test/baseline/reviews.public.json",
+      "public_sha256": "03e770a9eed326ec3c26e7de0096ef2bb0d69ae07701acb8351b613b9e5e2bf4",
+      "rows": 7
+    },
+    "results/study/test/hybrid/reviews.json": {
+      "raw_sha256": "aaf2f8fe6747930d147d91ae1893d2511cf76768d720055fab18a8862fcfa60b",
+      "public_path": "results/study/test/hybrid/reviews.public.json",
+      "public_sha256": "ac1389758122a7f79b566911e7fe88c667d95aa426a7a6c23fd4b2b93af8fad0",
+      "rows": 7
+    },
+    "results/study/test/baseline/reviews_source_checked.json": {
+      "raw_sha256": "3bb037409174ab148f4fef89c0cc2b60390e8385eb2fc7f9ec364989ac83f2a4",
+      "public_path": "results/study/test/baseline/reviews_source_checked.public.json",
+      "public_sha256": "9089078502e840c29caee7a385147c0d0a33681310ebf9db0c5357c44ccc4c82",
+      "rows": 7
+    },
+    "results/study/test/hybrid/reviews_source_checked.json": {
+      "raw_sha256": "98aab5faf71089b2a2de48ad0be4a0229826aa93799fc1904d97c625e54f49aa",
+      "public_path": "results/study/test/hybrid/reviews_source_checked.public.json",
+      "public_sha256": "fcf5a6c741f8d45d513b319bb1b895582a66d0fc310b7f949f0578c90dca6c10",
+      "rows": 7
+    }
+  }
+}

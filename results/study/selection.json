@@ -1,0 +1,34 @@
+{
+  "status": "fixed",
+  "selected_configuration": "hybrid",
+  "fixed_at_utc": "2026-11-16T08:04:38.477109+00:00",
+  "selection_criteria": [
+    "Ít lỗi kỹ thuật nhất.",
+    "Điểm trả lời trên toàn bộ câu có đáp án cao nhất.",
+    "Từ chối đúng và ít từ chối nhầm.",
+    "Citation hỗ trợ và context đầy đủ.",
+    "Nếu chất lượng bằng nhau, xét chi phí rồi thời gian."
+  ],
+  "core_sha256": {
+    "src/agent.py": "8244607859dba37eaed1739d79014c3974f7e4067087b77b92ee07ac02e82562",
+    "src/retrieval.py": "8914d63c605e98c86b29562e022282d5989ad42774e01248dd9e06577f182119",
+    "src/retriever_service.py": "b6501187b62d578e0e2dc4aa24bdd78ed2357268388e4f9808c01cd0c9bc7adc",
+    "src/day6_connection.py": "50b46732bb86807c54dc719418ab021a5dfc04ac072de845fd14374f9d390507",
+    "src/deepseek_client.py": "7c0e037357c5208ad839f275cf6b591228a6127344ce67d662f704210865db6a",
+    "src/evaluation.py": "0e5efee88e3ae43b8df5d48453aef93ef30b937baaf502ae61a9cac2c0161ef9"
+  },
+  "plan_sha256": "b9c2d59511e87bd255f67155a62b80ced5c2d11121d041c0fbefd79c6ad30bc7",
+  "benchmark_sha256": "05c5ec988ffdd702b4a9291c5fbf69e04a2f35b22b094fd56f378aea9b3fb0d8",
+  "config_sha256": {
+    "config/experiments/baseline.json": "b0476eadd3a619c0cb7771ecc90220397457a76b4b4f00edc192421ebb5b1d7c",
+    "config/experiments/hybrid.json": "f38d24829f3dca045f6bdbb9afef1f1eea294711ed9a830648942e5ee5ead218",
+    "config/experiments/dense-wide.json": "a27a71e915c4b9c05baca30b7feffd74a26eeea78f3fc887e4171c67c587a0e2"
+  },
+  "dev_summaries_sha256": {
+    "results/study/dev/baseline/summary.json": "0f23ff727877b742e0758157ed7e9a6b66c525a6e503184572a376d00066b213",
+    "results/study/dev/hybrid/summary.json": "1fb363b9a7b747eaead8acbc341f50ffdd843d9aa14f7d3c44da15f365a22929",
+    "results/study/dev/dense-wide/summary.json": "ff80cc87cc566c0384a4b05250d14fd61f552f96d22d69e4c85e8acc6b01f42a"
+  },
+  "test_used_for_selection": false,
+  "label_origin": "model_proposed"
+}

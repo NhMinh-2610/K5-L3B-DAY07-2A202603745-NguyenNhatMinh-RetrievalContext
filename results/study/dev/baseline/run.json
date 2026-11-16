@@ -1,0 +1,32 @@
+{
+  "config_sha256": "b0476eadd3a619c0cb7771ecc90220397457a76b4b4f00edc192421ebb5b1d7c",
+  "core_sha256": {
+    "src/agent.py": "8244607859dba37eaed1739d79014c3974f7e4067087b77b92ee07ac02e82562",
+    "src/retrieval.py": "8914d63c605e98c86b29562e022282d5989ad42774e01248dd9e06577f182119",
+    "src/retriever_service.py": "b6501187b62d578e0e2dc4aa24bdd78ed2357268388e4f9808c01cd0c9bc7adc",
+    "src/day6_connection.py": "50b46732bb86807c54dc719418ab021a5dfc04ac072de845fd14374f9d390507",
+    "src/deepseek_client.py": "7c0e037357c5208ad839f275cf6b591228a6127344ce67d662f704210865db6a",
+    "src/evaluation.py": "0e5efee88e3ae43b8df5d48453aef93ef30b937baaf502ae61a9cac2c0161ef9"
+  },
+  "started_at_utc": "2026-11-16T08:03:09.599144+00:00",
+  "split": "dev",
+  "query_ids": [
+    "q01",
+    "q02",
+    "q03",
+    "q04",
+    "q05",
+    "q06",
+    "q07",
+    "q08",
+    "q09",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14",
+    "q15",
+    "dev_no_evidence_01",
+    "dev_no_evidence_02"
+  ]
+}

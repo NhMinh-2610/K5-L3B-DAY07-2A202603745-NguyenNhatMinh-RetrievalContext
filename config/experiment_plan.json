@@ -1,0 +1,38 @@
+{
+  "created_before_runs": true,
+  "configurations": [
+    {
+      "id": "baseline",
+      "path": "config/experiments/baseline.json",
+      "hypothesis": "Dense top-3 và context 3.000 ký tự làm mốc so sánh, sau sửa điều kiện dừng."
+    },
+    {
+      "id": "hybrid",
+      "path": "config/experiments/hybrid.json",
+      "hypothesis": "Kết hợp từ khóa và ngữ nghĩa có thể tìm đúng thuật ngữ Industrial data bị dense bỏ sót."
+    },
+    {
+      "id": "dense-wide",
+      "path": "config/experiments/dense-wide.json",
+      "hypothesis": "Lấy thêm candidate và giữ nhiều context để giảm mất điều kiện/bằng chứng qua nhiều chunk."
+    }
+  ],
+  "controlled": [
+    "corpus",
+    "embedding",
+    "vector store",
+    "benchmark",
+    "model",
+    "prompt",
+    "search limits"
+  ],
+  "selection_criteria": [
+    "Ít lỗi kỹ thuật nhất.",
+    "Điểm trả lời trên toàn bộ câu có đáp án cao nhất.",
+    "Từ chối đúng và ít từ chối nhầm.",
+    "Citation hỗ trợ và context đầy đủ.",
+    "Nếu chất lượng bằng nhau, xét chi phí rồi thời gian."
+  ],
+  "grading": "DeepSeek API chấm sau truy xuất; nhãn model_proposed, chưa phải xác nhận người học.",
+  "test_policy": "Chốt bằng dev trước khi đọc và chạy test; giữ nguyên code và cấu hình khi chạy test."
+}

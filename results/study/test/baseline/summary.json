@@ -1,0 +1,131 @@
+{
+  "status": "complete",
+  "split": "test",
+  "configuration": "baseline",
+  "config": {
+    "provider": "deepseek",
+    "base_url": "https://api.deepseek.com",
+    "model": "deepseek-flash",
+    "documented_model_version": "DeepSeek-V4.1-Flash-1017",
+    "thinking": "disabled",
+    "temperature": 0,
+    "max_output_tokens": 800,
+    "request_timeout_seconds": 60,
+    "max_model_calls": 5,
+    "max_searches": 3,
+    "retrieval_method": "dense",
+    "top_k": 3,
+    "context_budget_chars": 3000,
+    "context_selection": "latest_search_first",
+    "estimated_cost_limit_usd": 1.0,
+    "pricing": {
+      "checked_on": "2026-11-16",
+      "source": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "peak_usd_per_million_cached_input": 0.006,
+      "peak_usd_per_million_uncached_input": 0.3,
+      "peak_usd_per_million_output": 1.2
+    }
+  },
+  "config_sha256": "b0476eadd3a619c0cb7771ecc90220397457a76b4b4f00edc192421ebb5b1d7c",
+  "core_sha256": {
+    "src/agent.py": "8244607859dba37eaed1739d79014c3974f7e4067087b77b92ee07ac02e82562",
+    "src/retrieval.py": "8914d63c605e98c86b29562e022282d5989ad42774e01248dd9e06577f182119",
+    "src/retriever_service.py": "b6501187b62d578e0e2dc4aa24bdd78ed2357268388e4f9808c01cd0c9bc7adc",
+    "src/day6_connection.py": "50b46732bb86807c54dc719418ab021a5dfc04ac072de845fd14374f9d390507",
+    "src/deepseek_client.py": "7c0e037357c5208ad839f275cf6b591228a6127344ce67d662f704210865db6a",
+    "src/evaluation.py": "0e5efee88e3ae43b8df5d48453aef93ef30b937baaf502ae61a9cac2c0161ef9"
+  },
+  "metrics": {
+    "cases": 7,
+    "errors": 0,
+    "error_ids": [],
+    "expected_answerable": 5,
+    "successful_answerable": 5,
+    "statuses": {
+      "answered": 5,
+      "abstain": 2
+    },
+    "first_search_hit1": {
+      "n": 2,
+      "N": 5,
+      "rate": 0.4
+    },
+    "first_search_evidence_hit3": {
+      "n": 3,
+      "N": 5,
+      "rate": 0.6
+    },
+    "context_exact": {
+      "n": 3,
+      "N": 5,
+      "rate": 0.6
+    },
+    "context_semantic": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0
+    },
+    "context_grades": {
+      "0": 0,
+      "1": 0,
+      "2": 5
+    },
+    "answer_grades": {
+      "0": 0,
+      "1": 0,
+      "2": 5
+    },
+    "answer_mean": 2.0,
+    "answer_score_over_expected": 1.0,
+    "citation_validity": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0
+    },
+    "answer_citation_coverage": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2,
+      "rate": 1.0
+    },
+    "false_abstention": {
+      "n": 0,
+      "N": 5,
+      "rate": 0.0
+    },
+    "tool_use": {
+      "n": 7,
+      "N": 7,
+      "rate": 1.0
+    },
+    "search_count_distribution": {
+      "1": 5,
+      "3": 1,
+      "2": 1
+    },
+    "median_seconds": 2.714088000007905,
+    "label_origin": "DeepSeek API, model_proposed; không phải xác nhận thủ công của người học",
+    "ranking_scope": "Lượt tìm đầu của agent, có query do model viết lại; xem riêng benchmark query gốc."
+  },
+  "generation_cost_upper_usd": 0.005786171999999999,
+  "judge_cost_upper_usd": 0.005505179999999999,
+  "total_cost_upper_usd": 0.011291351999999998,
+  "api_requests": 24,
+  "generation_usage": {
+    "prompt_tokens": 22269,
+    "completion_tokens": 1732,
+    "total_tokens": 24001
+  },
+  "judge_usage": {
+    "prompt_tokens": 14169,
+    "completion_tokens": 2143,
+    "total_tokens": 16312
+  },
+  "completed_at_utc": "2026-11-16T08:09:29.671239+00:00",
+  "cost_is_invoice": false,
+  "semantic_labels": "model_proposed"
+}

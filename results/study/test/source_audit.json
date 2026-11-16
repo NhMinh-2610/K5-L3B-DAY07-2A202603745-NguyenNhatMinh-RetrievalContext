@@ -1,0 +1,265 @@
+{
+  "label_origin": "DeepSeek API và đối chiếu nguồn có hỗ trợ tự động; source_check_proposed, chưa phải xác nhận của người học.",
+  "scope": "Đọc 5 câu có đáp án và 2 câu thiếu evidence cho cả baseline và hybrid; đối chiếu đáp án, context thực gửi, từng citation và corpus absence audit.",
+  "citation_unit": "Mỗi ID duy nhất trong danh sách citations của một câu, không đếm lặp cùng ID trong văn bản. Chunk được dẫn phải tự hỗ trợ khẳng định gắn citation.",
+  "test_tuning": false,
+  "raw_api_labels_preserved": true,
+  "traces_sha256": {
+    "baseline": "cf65918b081930b794784a8aa7de1e56722049c8e8fe35ca93c53b9002f01271",
+    "hybrid": "a791c3e1439b94dccf6e6e966278811122bc9c668f147f0ec32656a5f6a6b8e9"
+  },
+  "cases": [
+    {
+      "configuration": "baseline",
+      "query_id": "test_01",
+      "status": "source_check_proposed",
+      "note": "Trang 2 có định nghĩa đầy đủ năm thuộc tính pitch, tone, melody, rhythm, timbre; context đủ trả lời.",
+      "citation_ids": [
+        "bb1ba81d95b8182c37ec51a076ec2d8c0305c153b641e0790cf2934d413f367c"
+      ],
+      "api_labels": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false
+      },
+      "overrides": {}
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "test_02",
+      "status": "source_check_proposed",
+      "note": "Trang 8 nêu set rules, user questions, pre-written answer archives và pattern matching. Chunk bắt đầu giữa câu nhưng chứa đủ cơ chế và nhắc ELIZA. Gold dài hơn nên metric khớp nguyên văn có thể không đạt.",
+      "citation_ids": [
+        "d3b27899c7c930d438462619f45f69515bc26b5e4cc3a2e2acf24d7627607f21"
+      ],
+      "api_labels": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false
+      },
+      "overrides": {}
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "test_03",
+      "status": "source_check_proposed",
+      "note": "Trang 17 nêu high cost, low energy consumption ratio, high input and output latency. Cụm về năng lượng trong bản tiếng Anh mơ hồ; bản dịch và diễn giải hiệu quả năng lượng cần người học rà lại. Nhãn 2 được giữ ở mức đề xuất theo nội dung nguồn.",
+      "citation_ids": [
+        "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197"
+      ],
+      "api_labels": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false
+      },
+      "overrides": {}
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "test_04",
+      "status": "source_check_proposed",
+      "note": "Trang 21 nêu phải lặp lại thu thập, làm sạch dữ liệu, huấn luyện, tinh chỉnh và experience optimization; năng lực không truyền trực tiếp. Chunk thiếu đầu mục Fragmented nhưng đủ ý cốt lõi. Cách dịch experience optimization còn cứng.",
+      "citation_ids": [
+        "1d5a08faf1973a1d3af8e119dccddd976b5f7ada72d9bb5f753e4741f7f8e031"
+      ],
+      "api_labels": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false
+      },
+      "overrides": {}
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "test_05",
+      "status": "source_check_proposed",
+      "note": "Trang 35 chứa cả ba nguyên tắc development-friendly, efficient execution, flexible deployment; filter 1.4 khớp đầu vào.",
+      "citation_ids": [
+        "ce2cea05a262553120a807dac62768cc4d80ac98958fdaa54f36847790f192fa"
+      ],
+      "api_labels": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false
+      },
+      "overrides": {}
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "test_no_evidence_01",
+      "status": "source_check_proposed",
+      "note": "Câu hỏi cần số GPU chính xác của AlphaGo. Absence audit của corpus không tìm được số này; agent đã tìm rồi từ chối, không thêm đáp án ngoài nguồn.",
+      "citation_ids": [],
+      "api_labels": {
+        "answer_grade": 0,
+        "context_grade": 1,
+        "citation_support": [],
+        "abstention_correct": true
+      },
+      "overrides": {}
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "test_no_evidence_02",
+      "status": "source_check_proposed",
+      "note": "Câu hỏi cần giá USD chính xác của Ascend 310. Corpus có thông số nhưng không có giá; agent đã tìm rồi từ chối, không thêm giá suy đoán. API gán answer_grade=2/context_grade=2 cho câu âm tính; chuẩn hóa bản rà thành answer_grade=0/context_grade=1. Các điểm này không nằm trong mẫu số chất lượng câu có đáp án nên không thay đổi điểm trung bình.",
+      "citation_ids": [],
+      "api_labels": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [],
+        "abstention_correct": true
+      },
+      "overrides": {
+        "answer_grade": 0,
+        "context_grade": 1,
+        "answer_reason": "Câu thiếu bằng chứng không chấm điểm trả lời dương tính; từ chối được đánh giá riêng.",
+        "context_reason": "Có thông tin liên quan Ascend 310 nhưng thiếu giá USD cần hỏi."
+      }
+    },
+    {
+      "configuration": "hybrid",
+      "query_id": "test_01",
+      "status": "source_check_proposed",
+      "note": "Trang 2 có định nghĩa đầy đủ năm thuộc tính pitch, tone, melody, rhythm, timbre; context đủ trả lời. Citation thứ hai chỉ gồm đuôi câu “pitch, tone, melody, rhythm or timbre, and are more competitive in”, không tự nêu chủ thể hay mức nhạy cảm. Toàn context đủ nhưng ID thứ hai đứng riêng chưa hỗ trợ trọn khẳng định.",
+      "citation_ids": [
+        "bb1ba81d95b8182c37ec51a076ec2d8c0305c153b641e0790cf2934d413f367c",
+        "c3a2959b0f1e9c6625554970e7c31c1d3c864b194019c09280418f03c8a1155e"
+      ],
+      "api_labels": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true,
+          true
+        ],
+        "abstention_correct": false
+      },
+      "overrides": {
+        "citation_support": [
+          true,
+          false
+        ],
+        "citation_reasons": [
+          "Chunk đầu nêu rõ định nghĩa và đủ năm thuộc tính.",
+          "Chunk thứ hai chỉ là đuôi câu, thiếu chủ thể và mệnh đề nhạy cảm gắn với citation này."
+        ]
+      }
+    },
+    {
+      "configuration": "hybrid",
+      "query_id": "test_02",
+      "status": "source_check_proposed",
+      "note": "Trang 8 nêu set rules, user questions, pre-written answer archives và pattern matching. Chunk bắt đầu giữa câu nhưng chứa đủ cơ chế và nhắc ELIZA. Gold dài hơn nên metric khớp nguyên văn có thể không đạt.",
+      "citation_ids": [
+        "d3b27899c7c930d438462619f45f69515bc26b5e4cc3a2e2acf24d7627607f21"
+      ],
+      "api_labels": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false
+      },
+      "overrides": {}
+    },
+    {
+      "configuration": "hybrid",
+      "query_id": "test_03",
+      "status": "source_check_proposed",
+      "note": "Trang 17 nêu high cost, low energy consumption ratio, high input and output latency. Cụm về năng lượng trong bản tiếng Anh mơ hồ; bản dịch và diễn giải hiệu quả năng lượng cần người học rà lại. Nhãn 2 được giữ ở mức đề xuất theo nội dung nguồn.",
+      "citation_ids": [
+        "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197"
+      ],
+      "api_labels": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false
+      },
+      "overrides": {}
+    },
+    {
+      "configuration": "hybrid",
+      "query_id": "test_04",
+      "status": "source_check_proposed",
+      "note": "Trang 21 nêu phải lặp lại thu thập, làm sạch dữ liệu, huấn luyện, tinh chỉnh và experience optimization; năng lực không truyền trực tiếp. Chunk thiếu đầu mục Fragmented nhưng đủ ý cốt lõi. Cách dịch experience optimization còn cứng.",
+      "citation_ids": [
+        "1d5a08faf1973a1d3af8e119dccddd976b5f7ada72d9bb5f753e4741f7f8e031"
+      ],
+      "api_labels": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false
+      },
+      "overrides": {}
+    },
+    {
+      "configuration": "hybrid",
+      "query_id": "test_05",
+      "status": "source_check_proposed",
+      "note": "Trang 35 chứa cả ba nguyên tắc development-friendly, efficient execution, flexible deployment; filter 1.4 khớp đầu vào.",
+      "citation_ids": [
+        "ce2cea05a262553120a807dac62768cc4d80ac98958fdaa54f36847790f192fa"
+      ],
+      "api_labels": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false
+      },
+      "overrides": {}
+    },
+    {
+      "configuration": "hybrid",
+      "query_id": "test_no_evidence_01",
+      "status": "source_check_proposed",
+      "note": "Câu hỏi cần số GPU chính xác của AlphaGo. Absence audit của corpus không tìm được số này; agent đã tìm rồi từ chối, không thêm đáp án ngoài nguồn.",
+      "citation_ids": [],
+      "api_labels": {
+        "answer_grade": 0,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": true
+      },
+      "overrides": {}
+    },
+    {
+      "configuration": "hybrid",
+      "query_id": "test_no_evidence_02",
+      "status": "source_check_proposed",
+      "note": "Câu hỏi cần giá USD chính xác của Ascend 310. Corpus có thông số nhưng không có giá; agent đã tìm rồi từ chối, không thêm giá suy đoán.",
+      "citation_ids": [],
+      "api_labels": {
+        "answer_grade": 0,
+        "context_grade": 1,
+        "citation_support": [],
+        "abstention_correct": true
+      },
+      "overrides": {}
+    }
+  ]
+}

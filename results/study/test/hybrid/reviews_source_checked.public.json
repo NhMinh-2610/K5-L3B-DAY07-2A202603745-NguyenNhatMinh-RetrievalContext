@@ -1,0 +1,248 @@
+[
+  {
+    "query_id": "test_01",
+    "review_status": "source_check_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      false
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời liệt kê đủ 5 đặc điểm cao độ, tông, giai điệu, nhịp điệu, âm sắc đúng như tài liệu.",
+    "context_reason": "Chunk đầu nêu trọn định nghĩa 5 đặc điểm, chunk sau bổ sung phần nhạy cảm, đủ để trả lời.",
+    "citation_reasons": [
+      "Chunk đầu nêu rõ định nghĩa và đủ năm thuộc tính.",
+      "Chunk thứ hai chỉ là đuôi câu, thiếu chủ thể và mệnh đề nhạy cảm gắn với citation này."
+    ],
+    "abstention_reason": "Câu có đáp án trong tài liệu nên không áp dụng từ chối.",
+    "source_audit_note": "Trang 2 có định nghĩa đầy đủ năm thuộc tính pitch, tone, melody, rhythm, timbre; context đủ trả lời. Citation thứ hai chỉ gồm đuôi câu “pitch, tone, melody, rhythm or timbre, and are more competitive in”, không tự nêu chủ thể hay mức nhạy cảm. Toàn context đủ nhưng ID thứ hai đứng riêng chưa hỗ trợ trọn khẳng định.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 332,
+        "prompt_tokens": 2368,
+        "total_tokens": 2700,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1472
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.000845376,
+      "elapsed_ms": 2056.77569998079
+    }
+  },
+  {
+    "query_id": "test_02",
+    "review_status": "source_check_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng cơ chế: dựa trên tập luật và câu hỏi người dùng, chọn từ kho câu trả lời viết sẵn, kèm ý pattern matching có trong nguồn.",
+    "context_reason": "Chunk trang 8 chứa đầy đủ câu mô tả cơ chế pattern matching và chọn từ pre-written answer archives.",
+    "citation_reasons": [
+      "Chunk trang 8 trực tiếp nêu 'pattern matching on the basis of the set rules and user's questions' và 'choosing from the pre-written answer archives', hỗ trợ cả hai khẳng định."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong tài liệu nên không áp dụng abstention.",
+    "source_audit_note": "Trang 8 nêu set rules, user questions, pre-written answer archives và pattern matching. Chunk bắt đầu giữa câu nhưng chứa đủ cơ chế và nhắc ELIZA. Gold dài hơn nên metric khớp nguyên văn có thể không đạt.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 327,
+        "prompt_tokens": 2149,
+        "total_tokens": 2476,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1253
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.0007736759999999999,
+      "elapsed_ms": 1993.3047000085935
+    }
+  },
+  {
+    "query_id": "test_03",
+    "review_status": "source_check_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đủ ba hạn chế đúng như nguồn: chi phí cao, tỷ lệ tiêu thụ năng lượng thấp và độ trễ nhập/xuất cao.",
+    "context_reason": "Chunk trang 17 trong phần AI-Related Technologies chứa trọn câu nêu ba thách thức chính của GPU.",
+    "citation_reasons": [
+      "Chunk được trích dẫn có nguyên văn câu nêu high cost, low energy consumption ratio và high input and output latency, hỗ trợ đầy đủ khẳng định."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong tài liệu nên không áp dụng abstention.",
+    "source_audit_note": "Trang 17 nêu high cost, low energy consumption ratio, high input and output latency. Cụm về năng lượng trong bản tiếng Anh mơ hồ; bản dịch và diễn giải hiệu quả năng lượng cần người học rà lại. Nhãn 2 được giữ ở mức đề xuất theo nội dung nguồn.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 307,
+        "prompt_tokens": 2039,
+        "total_tokens": 2346,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1143
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.000716676,
+      "elapsed_ms": 1781.7161999992095
+    }
+  },
+  {
+    "query_id": "test_04",
+    "review_status": "source_check_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đủ các bước phải lặp lại (thu thập, làm sạch dữ liệu, huấn luyện và tinh chỉnh, tối ưu trải nghiệm) và kết luận năng lực không chuyển trực tiếp, khớp với đáp án.",
+    "context_reason": "Chunk trang 21 chứa nguyên văn đoạn \"Fragmented capabilities and experiences\" đủ để trả lời trọn câu hỏi.",
+    "citation_reasons": [
+      "Chunk được trích dẫn nêu đúng việc phải lặp lại data collection, data cleaning, model training and tuning, experience optimization và năng lực mô hình không thể truyền trực tiếp sang kịch bản tiếp theo."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong tài liệu nên không áp dụng abstention.",
+    "source_audit_note": "Trang 21 nêu phải lặp lại thu thập, làm sạch dữ liệu, huấn luyện, tinh chỉnh và experience optimization; năng lực không truyền trực tiếp. Chunk thiếu đầu mục Fragmented nhưng đủ ý cốt lõi. Cách dịch experience optimization còn cứng.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 357,
+        "prompt_tokens": 2250,
+        "total_tokens": 2607,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1354
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.0008399759999999999,
+      "elapsed_ms": 1828.9627000049222
+    }
+  },
+  {
+    "query_id": "test_05",
+    "review_status": "source_check_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng và đủ ba nguyên tắc: development-friendly, efficient execution, flexible deployment, khớp với đáp án.",
+    "context_reason": "Chunk ở mục 1.4 trang 35 nêu trực tiếp ba nguyên tắc thiết kế MindSpore, đủ để trả lời trọn câu hỏi.",
+    "citation_reasons": [
+      "Chunk được trích dẫn chứa nguyên văn 'designed based on three principles: development-friendly, efficient execution and flexible deployment', hỗ trợ đầy đủ khẳng định."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong bằng chứng nên không áp dụng abstention.",
+    "source_audit_note": "Trang 35 chứa cả ba nguyên tắc development-friendly, efficient execution, flexible deployment; filter 1.4 khớp đầu vào.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 305,
+        "prompt_tokens": 2025,
+        "total_tokens": 2330,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "prompt_cache_hit_tokens": 1152,
+        "prompt_cache_miss_tokens": 873
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.0006348119999999999,
+      "elapsed_ms": 1452.3952000017744
+    }
+  },
+  {
+    "query_id": "test_no_evidence_01",
+    "review_status": "source_check_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "answer_reason": "Câu hỏi không có đáp án trong tài liệu; agent từ chối trả lời và không thêm khẳng định vô căn cứ.",
+    "context_reason": "Context chỉ nhắc AlphaGo thắng Lee Sedol và mô tả GPU/TPU chung, không nêu số GPU dùng trong trận.",
+    "citation_reasons": [],
+    "abstention_reason": "Tài liệu thiếu số GPU cụ thể và agent đã từ chối đúng cách, không bịa số liệu.",
+    "source_audit_note": "Câu hỏi cần số GPU chính xác của AlphaGo. Absence audit của corpus không tìm được số này; agent đã tìm rồi từ chối, không thêm đáp án ngoài nguồn.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 260,
+        "prompt_tokens": 1886,
+        "total_tokens": 2146,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 990
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.000614376,
+      "elapsed_ms": 1532.1593999979086
+    }
+  },
+  {
+    "query_id": "test_no_evidence_02",
+    "review_status": "source_check_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 0,
+    "context_grade": 1,
+    "citation_support": [],
+    "abstention_correct": true,
+    "answer_reason": "Câu hỏi không có đáp án trong tài liệu; agent từ chối trả lời và không thêm khẳng định vô căn cứ, phù hợp.",
+    "context_reason": "Context có bảng thông số Ascend 310/910 và mô tả chung về giá chip cao, nhưng không nêu giá bán cụ thể bằng USD của Ascend 310.",
+    "citation_reasons": [],
+    "abstention_reason": "Agent nêu không đủ bằng chứng và không bịa ra con số giá, đúng với trường hợp thiếu bằng chứng.",
+    "source_audit_note": "Câu hỏi cần giá USD chính xác của Ascend 310. Corpus có thông số nhưng không có giá; agent đã tìm rồi từ chối, không thêm giá suy đoán.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 274,
+        "prompt_tokens": 1866,
+        "total_tokens": 2140,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 970
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.000625176,
+      "elapsed_ms": 1537.8369999816641
+    }
+  }
+]
