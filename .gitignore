@@ -9,3 +9,29 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Secrets and local assistant files
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+.codex/
+.agents/
+.claude/
+.cursor/
+.aider*
+AGENTS.md
+AGENT_SETUP.md
+CLAUDE.md
+GEMINI.md
+AI_NOTES.md
+
+# Raw model conversations stay local; publish structured lab exports instead
+results/agent/**/traces.json
+results/agent/**/traces.jsonl
+results/study/**/traces.json
+results/study/**/reviews.json
+results/study/**/reviews_source_checked.json
+results/web/
