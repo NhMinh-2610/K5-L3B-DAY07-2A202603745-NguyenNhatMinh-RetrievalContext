@@ -13,7 +13,7 @@ REVIEW_FIELDS = ("query_id", "review_status", "grader", "answer_grade", "context
                  "citation_support", "abstention_correct", "answer_reason", "context_reason",
                  "citation_reasons", "abstention_reason", "source_audit_note")
 MODEL_FIELDS = ("model", "system_fingerprint", "usage", "finish_reason",
-                "estimated_cost_upper_usd", "elapsed_ms")
+                "estimated_cost_upper_usd", "elapsed_ms", "image_inputs")
 
 
 def pick(value, fields):
@@ -71,6 +71,8 @@ def main():
     paths = sorted((ROOT / "results/agent").glob("*/traces.json"))
     for pattern in ("*/*/traces.json", "*/*/reviews.json", "*/*/reviews_source_checked.json"):
         paths.extend(sorted((ROOT / "results/study").glob(pattern)))
+    for pattern in ("*/*/*/traces.json", "*/*/*/reviews.json"):
+        paths.extend(sorted((ROOT / "results/extension").glob(pattern)))
     for path in paths:
         rows = json.loads(path.read_text(encoding="utf-8-sig"))
         transform = public_trace if path.name == "traces.json" else public_review

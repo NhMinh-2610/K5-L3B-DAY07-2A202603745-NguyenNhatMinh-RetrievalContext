@@ -1,0 +1,19 @@
+{
+  "sha256": {
+    "src/agent.py": "8244607859dba37eaed1739d79014c3974f7e4067087b77b92ee07ac02e82562",
+    "src/retrieval.py": "8914d63c605e98c86b29562e022282d5989ad42774e01248dd9e06577f182119",
+    "src/retriever_service.py": "b6501187b62d578e0e2dc4aa24bdd78ed2357268388e4f9808c01cd0c9bc7adc",
+    "src/day6_connection.py": "50b46732bb86807c54dc719418ab021a5dfc04ac072de845fd14374f9d390507",
+    "src/deepseek_client.py": "7c0e037357c5208ad839f275cf6b591228a6127344ce67d662f704210865db6a",
+    "src/evaluation.py": "0e5efee88e3ae43b8df5d48453aef93ef30b937baaf502ae61a9cac2c0161ef9",
+    "src/context_retriever.py": "555dc65dc10c443185905cbff85e419d0f34202c769858773f6f66faa2c0f2d7",
+    "scripts/run_basic_v2.py": "56d23e140a24165fb4fdb107b6241f6d1ec37628b7e1d824c39622a734d1f87d",
+    "config/basic-v2.json": "87732d3d346b7225490770fa36f7fbcf2c8f8140cd7c85c3a4630578fec8e64b",
+    "benchmark/dev.json": "f43bb7793441f3c7376a4d25d098f47843dd4b63c7ddac09a7936aff748d2ba2",
+    "benchmark/dev_queries.json": "433cd7662e523bb356b859ec9f3a2c53793becd0a1b82f0567a1d0d1eeec1f51",
+    "benchmark/basic-v2/test.json": "9ce6554d867d689b6e84c6c8c8053f2aa79732f2ebf4f122d1865d97dfa326a2",
+    "benchmark/basic-v2/test_queries.json": "69a9c5a68276ef4f29b8e775212a1e78a16b7f641360c52a5812bdd5d2251540",
+    "starter/data/day6/chunks.json": "3971dab6f0f9dca0efb91b9cebc5ff6026ef1927ddd4d16668593c6b034b3b6a"
+  },
+  "started_at_utc": "2026-11-16T11:33:47.464009+00:00"
+}

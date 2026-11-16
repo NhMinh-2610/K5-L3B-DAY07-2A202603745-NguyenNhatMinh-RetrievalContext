@@ -1,0 +1,117 @@
+{
+  "configuration": "neighbors-1",
+  "config": {
+    "provider": "deepseek",
+    "base_url": "https://api.deepseek.com",
+    "model": "deepseek-flash",
+    "documented_model_version": "DeepSeek-V4.1-Flash-1017",
+    "thinking": "disabled",
+    "temperature": 0,
+    "max_output_tokens": 800,
+    "request_timeout_seconds": 60,
+    "max_model_calls": 5,
+    "max_searches": 3,
+    "retrieval_method": "hybrid",
+    "top_k": 3,
+    "context_budget_chars": 6000,
+    "context_selection": "latest_search_first",
+    "estimated_cost_limit_usd": 1.0,
+    "pricing": {
+      "checked_on": "2026-11-16",
+      "source": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "peak_usd_per_million_cached_input": 0.006,
+      "peak_usd_per_million_uncached_input": 0.3,
+      "peak_usd_per_million_output": 1.2
+    }
+  },
+  "metrics": {
+    "cases": 7,
+    "errors": 0,
+    "error_ids": [],
+    "expected_answerable": 5,
+    "successful_answerable": 5,
+    "statuses": {
+      "answered": 5,
+      "abstain": 2
+    },
+    "first_search_hit1": {
+      "n": 3,
+      "N": 5,
+      "rate": 0.6
+    },
+    "first_search_evidence_hit3": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0
+    },
+    "context_exact": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0
+    },
+    "context_semantic": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0
+    },
+    "context_grades": {
+      "0": 0,
+      "1": 0,
+      "2": 5
+    },
+    "answer_grades": {
+      "0": 0,
+      "1": 0,
+      "2": 5
+    },
+    "answer_mean": 2.0,
+    "answer_score_over_expected": 1.0,
+    "citation_validity": {
+      "n": 7,
+      "N": 7,
+      "rate": 1.0
+    },
+    "answer_citation_coverage": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2,
+      "rate": 1.0
+    },
+    "false_abstention": {
+      "n": 0,
+      "N": 5,
+      "rate": 0.0
+    },
+    "tool_use": {
+      "n": 7,
+      "N": 7,
+      "rate": 1.0
+    },
+    "search_count_distribution": {
+      "1": 5,
+      "3": 2
+    },
+    "median_seconds": 2.5236745000001974,
+    "label_origin": "DeepSeek API, model_proposed; không phải xác nhận thủ công của người học",
+    "ranking_scope": "Evidence group nếu có mở rộng; ranking seed gốc được lưu riêng trong trace.",
+    "seed_hit1": {
+      "n": 2,
+      "N": 5,
+      "rate": 0.4
+    },
+    "seed_hit3": {
+      "n": 4,
+      "N": 5,
+      "rate": 0.8
+    }
+  },
+  "generation_cost_upper_usd": 0.006548844,
+  "judge_cost_upper_usd": 0.00664968,
+  "total_cost_upper_usd": 0.013198524,
+  "label_origin": "model_proposed",
+  "completed_at_utc": "2026-11-16T11:43:05.902761+00:00"
+}

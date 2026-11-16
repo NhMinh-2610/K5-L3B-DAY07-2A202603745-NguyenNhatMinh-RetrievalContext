@@ -1,0 +1,6 @@
+{
+  "query_id": "ad_c2",
+  "attempt": 1,
+  "error_type": "JSONDecodeError",
+  "generation_rerun": false
+}

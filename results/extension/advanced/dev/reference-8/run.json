@@ -1,0 +1,23 @@
+{
+  "sha256": {
+    "src/agent.py": "8244607859dba37eaed1739d79014c3974f7e4067087b77b92ee07ac02e82562",
+    "src/retrieval.py": "8914d63c605e98c86b29562e022282d5989ad42774e01248dd9e06577f182119",
+    "src/retriever_service.py": "b6501187b62d578e0e2dc4aa24bdd78ed2357268388e4f9808c01cd0c9bc7adc",
+    "src/day6_connection.py": "50b46732bb86807c54dc719418ab021a5dfc04ac072de845fd14374f9d390507",
+    "src/deepseek_client.py": "7c0e037357c5208ad839f275cf6b591228a6127344ce67d662f704210865db6a",
+    "src/evaluation.py": "0e5efee88e3ae43b8df5d48453aef93ef30b937baaf502ae61a9cac2c0161ef9",
+    "src/document_store.py": "5443415a5447a4cc5c87b13e191ee674950d8d8a9deeb5c13345596dc9d74bf9",
+    "scripts/run_advanced.py": "97d4fa41911f1ae70f26dd3e4de63b6cf7d0d1fad4a5f99cb0161abca24487bc",
+    "scripts/prepare_advanced.py": "0a3acebe50db253fd58389472e13bdfa2571611ab26f5df877fa11a298510711",
+    "config/advanced.json": "52a3291f6d0696a9956b0a98eb81744585dad3d0e14d4d564aef27bc246c1dfd",
+    "advanced/visual_readings.json": "093b561ecc17f74e3c563edf763f1bb7fbf9c69c3a34642076b1c017b8b10eb6",
+    "starter/data/advanced/chunks.json": "e05746188d9d4f12565127beaf57ecf09e248af99c4304ccd2e44d2bd7606500",
+    "starter/data/advanced/vectors.json": "ece3e3896f4fa50b9e266195c0f1476874b16e96c0ea68e313922b8384031353",
+    "benchmark/advanced/dev.json": "dbeb9100bf940063467e4ca6d1dad797862b79728fc79dd3c527791e787a1478",
+    "benchmark/advanced/dev_queries.json": "aebf823fb7a9730e9c9d6fa7e0ef349995f13921201f97c739225167e603ec24",
+    "benchmark/advanced/split.json": "3601a7e901478e90cb1a5d5ae1efd96c082a9e8b6ff1dc2844a75b36c074a4c9",
+    "benchmark/advanced/test.json": "0e63f2c1742b806b43d9d896eaf4994528151ba0a727598c6c68a14d97881bde",
+    "benchmark/advanced/test_queries.json": "ae960a283122aab8c69e9f575d736635d8876b5bf04a127c6f504b266086a8b7"
+  },
+  "started_at_utc": "2026-11-16T11:51:35.700540+00:00"
+}

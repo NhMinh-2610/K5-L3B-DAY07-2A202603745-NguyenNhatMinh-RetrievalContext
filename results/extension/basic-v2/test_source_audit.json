@@ -1,0 +1,155 @@
+{
+  "cases": [
+    {
+      "configuration": "baseline",
+      "query_id": "b2_01",
+      "status": "source_check_proposed",
+      "note": "Đối chiếu text FPGA trang 16-18: linh hoạt cấu hình lại real-time; các thông tin HDL, DNN và rủi ro R&D có trong nguồn được dẫn.",
+      "answer_grade": 2,
+      "citation_support": [
+        true,
+        true
+      ],
+      "student_confirmed": false
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "b2_02",
+      "status": "source_check_proposed",
+      "note": "Trang 12 liệt kê đúng symbolism, connectionism, behaviorism.",
+      "answer_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "student_confirmed": false
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "b2_03",
+      "status": "source_check_proposed",
+      "note": "Trang 20 ghi dự báo vượt 3 trillion USD vào 2025; câu trả lời giữ tính dự báo.",
+      "answer_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "student_confirmed": false
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "b2_04",
+      "status": "source_check_proposed",
+      "note": "Trang 33 liệt kê đủ chip, chip enable, training/reasoning framework, application enable.",
+      "answer_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "student_confirmed": false
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "b2_05",
+      "status": "source_check_proposed",
+      "note": "Trang 36 ghi 12 nm, 16 TOPS, 8 W; Table 1.1 trang 19 có INT8, 12 nm FFC và maximum power 8 W.",
+      "answer_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "student_confirmed": false
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "b2_abs01",
+      "status": "source_check_proposed",
+      "note": "Kiểm tra toàn corpus V100/transistor: không có số transistor cụ thể; agent đã tìm và từ chối.",
+      "answer_grade": null,
+      "citation_support": [],
+      "student_confirmed": false
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "b2_abs02",
+      "status": "source_check_proposed",
+      "note": "Kiểm tra phần CLOUD EI và corpus cost/price/USD: không có giá thuê theo tháng; agent đã tìm và từ chối.",
+      "answer_grade": null,
+      "citation_support": [],
+      "student_confirmed": false
+    },
+    {
+      "configuration": "neighbors-1",
+      "query_id": "b2_01",
+      "status": "source_check_proposed",
+      "note": "Đối chiếu text FPGA trang 16-18: linh hoạt cấu hình lại real-time; các thông tin HDL, DNN và rủi ro R&D có trong nguồn được dẫn.",
+      "answer_grade": 2,
+      "citation_support": [
+        true,
+        true
+      ],
+      "student_confirmed": false
+    },
+    {
+      "configuration": "neighbors-1",
+      "query_id": "b2_02",
+      "status": "source_check_proposed",
+      "note": "Trang 12 liệt kê đúng symbolism, connectionism, behaviorism.",
+      "answer_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "student_confirmed": false
+    },
+    {
+      "configuration": "neighbors-1",
+      "query_id": "b2_03",
+      "status": "source_check_proposed",
+      "note": "Trang 20 ghi dự báo vượt 3 trillion USD vào 2025; câu trả lời giữ tính dự báo.",
+      "answer_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "student_confirmed": false
+    },
+    {
+      "configuration": "neighbors-1",
+      "query_id": "b2_04",
+      "status": "source_check_proposed",
+      "note": "Trang 33 liệt kê đủ chip, chip enable, training/reasoning framework, application enable.",
+      "answer_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "student_confirmed": false
+    },
+    {
+      "configuration": "neighbors-1",
+      "query_id": "b2_05",
+      "status": "source_check_proposed",
+      "note": "Trang 36 ghi 12 nm, 16 TOPS, 8 W; Table 1.1 trang 19 có INT8, 12 nm FFC và maximum power 8 W. Citation trang 36 chưa tự hỗ trợ qualifier INT8 trong câu đầu; thông tin đó chỉ có ở citation bảng trang 19. Chấm citation riêng nghiêm ngặt là 6/7, điểm đáp án vẫn 2 vì toàn context đủ.",
+      "answer_grade": 2,
+      "citation_support": [
+        false,
+        true
+      ],
+      "student_confirmed": false
+    },
+    {
+      "configuration": "neighbors-1",
+      "query_id": "b2_abs01",
+      "status": "source_check_proposed",
+      "note": "Kiểm tra toàn corpus V100/transistor: không có số transistor cụ thể; agent đã tìm và từ chối.",
+      "answer_grade": null,
+      "citation_support": [],
+      "student_confirmed": false
+    },
+    {
+      "configuration": "neighbors-1",
+      "query_id": "b2_abs02",
+      "status": "source_check_proposed",
+      "note": "Kiểm tra phần CLOUD EI và corpus cost/price/USD: không có giá thuê theo tháng; agent đã tìm và từ chối.",
+      "answer_grade": null,
+      "citation_support": [],
+      "student_confirmed": false
+    }
+  ],
+  "pipeline_changed_after_test": false,
+  "label_origin": "source_check_proposed"
+}

@@ -1,0 +1,3294 @@
+[
+  {
+    "query_id": "b2_01",
+    "split": "test",
+    "question": "Theo tài liệu, FPGA cho phép cấu trúc phần cứng được điều chỉnh và cấu hình lại như thế nào?",
+    "filter": {},
+    "status": "answered",
+    "answer": "Theo tài liệu, FPGA (Field Programmable Gate Array) được thiết kế để xây dựng các chip bán tùy chỉnh có thể cấu hình lại, nghĩa là cấu trúc phần cứng có thể được điều chỉnh và cấu hình lại một cách linh hoạt theo thời gian thực (real-time) tùy theo yêu cầu [e2eadc21862f6e8e33b608a21b5494e6a2ea0ce420b630b0a049442983bb6014]. Chính vì FPGA có thể cấu hình lại nên rủi ro về nguồn cung và R&D của nó tương đối thấp [2a52a1dcefbebbf796dfccdeea00e6324b367ce7850f2546d7271df10bf19423].",
+    "citations": [
+      "e2eadc21862f6e8e33b608a21b5494e6a2ea0ce420b630b0a049442983bb6014",
+      "2a52a1dcefbebbf796dfccdeea00e6324b367ce7850f2546d7271df10bf19423"
+    ],
+    "citation_sources": [
+      {
+        "id": "e2eadc21862f6e8e33b608a21b5494e6a2ea0ce420b630b0a049442983bb6014",
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+        "page": 16
+      },
+      {
+        "id": "2a52a1dcefbebbf796dfccdeea00e6324b367ce7850f2546d7271df10bf19423",
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+        "page": 17
+      }
+    ],
+    "context": "[e2eadc21862f6e8e33b608a21b5494e6a2ea0ce420b630b0a049442983bb6014 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 16]\nField programmable gate array (FPGA) is designed to build reconfigurable\nsemi-custom chips, which means the hardware structure can be adjusted and\nre-configured flexibly real-time as required.\nIn terms of the functions, AI processors can be classified into two types: training\nprocessors and inference processors.\n(a) In order to train a complex deep neural network model, the AI training usually\nentails the input of a large amount of data and learning methods such as\nreinforcement learning.\n\n[2a52a1dcefbebbf796dfccdeea00e6324b367ce7850f2546d7271df10bf19423 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 17]\ncannot reach the optimal. As FPGA is reconfigurable, its risk of supply\nand R&D is relatively low. The cost of hardware is decided by the amount of\n\n[2afdddded6289dc8e6b1babc98acf62c99ea12b01c078623661dc631fc72bcec | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 18]\nFig. 1.6 CPU and GPU architecture\n\nhardware purchased, so it is easy to control the cost. However, the design of\nFPGA and the tape-out process are decoupled, so the development cycle is\nlong, which usually takes half a year, and has high standards.",
+    "context_ids": [
+      "e2eadc21862f6e8e33b608a21b5494e6a2ea0ce420b630b0a049442983bb6014",
+      "2a52a1dcefbebbf796dfccdeea00e6324b367ce7850f2546d7271df10bf19423",
+      "2afdddded6289dc8e6b1babc98acf62c99ea12b01c078623661dc631fc72bcec"
+    ],
+    "search_count": 1,
+    "model_call_count": 2,
+    "elapsed_seconds": 3.2496214999991935,
+    "citation_id_check": true,
+    "semantic_review_status": "pending",
+    "api_requests": 2,
+    "events": [
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 40,
+          "prompt_tokens": 719,
+          "total_tokens": 759,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 207
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.00011317199999999999,
+        "elapsed_ms": 1431.5150000038557,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "FPGA hardware structure reconfigured reprogrammable"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "FPGA hardware structure reconfigured reprogrammable"
+        },
+        "query": "FPGA hardware structure reconfigured reprogrammable",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "FPGA hardware structure reconfigured reprogrammable",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "e2eadc21862f6e8e33b608a21b5494e6a2ea0ce420b630b0a049442983bb6014",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 16,
+              "text": "Field programmable gate array (FPGA) is designed to build reconfigurable\nsemi-custom chips, which means the hardware structure can be adjusted and\nre-configured flexibly real-time as required.\nIn terms of the functions, AI processors can be classified into two types: training\nprocessors and inference processors.\n(a) In order to train a complex deep neural network model, the AI training usually\nentails the input of a large amount of data and learning methods such as\nreinforcement learning.",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p016:s1.2",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 493,
+                "page_char_end": 493
+              },
+              "score": 0.8921532759483787,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "2a52a1dcefbebbf796dfccdeea00e6324b367ce7850f2546d7271df10bf19423",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 17,
+              "text": "cannot reach the optimal. As FPGA is reconfigurable, its risk of supply\nand R&D is relatively low. The cost of hardware is decided by the amount of",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p017:s1.2",
+                "page_char_start": 2437,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 2437,
+                "unit_char_end": 2584,
+                "page_char_end": 2584
+              },
+              "score": 0.8774969723824357,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "2afdddded6289dc8e6b1babc98acf62c99ea12b01c078623661dc631fc72bcec",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 18,
+              "text": "Fig. 1.6 CPU and GPU architecture\n\nhardware purchased, so it is easy to control the cost. However, the design of\nFPGA and the tape-out process are decoupled, so the development cycle is\nlong, which usually takes half a year, and has high standards.",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p018:s1.2",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 248,
+                "page_char_end": 248
+              },
+              "score": 0.855916040430547,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 167.87669999757782,
+          "elapsed_ms": 198.96259999950416
+        },
+        "results": [
+          {
+            "id": "e2eadc21862f6e8e33b608a21b5494e6a2ea0ce420b630b0a049442983bb6014",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 16,
+            "text": "Field programmable gate array (FPGA) is designed to build reconfigurable\nsemi-custom chips, which means the hardware structure can be adjusted and\nre-configured flexibly real-time as required.\nIn terms of the functions, AI processors can be classified into two types: training\nprocessors and inference processors.\n(a) In order to train a complex deep neural network model, the AI training usually\nentails the input of a large amount of data and learning methods such as\nreinforcement learning.",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p016:s1.2",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 493,
+              "page_char_end": 493
+            },
+            "score": 0.8921532759483787,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "2a52a1dcefbebbf796dfccdeea00e6324b367ce7850f2546d7271df10bf19423",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 17,
+            "text": "cannot reach the optimal. As FPGA is reconfigurable, its risk of supply\nand R&D is relatively low. The cost of hardware is decided by the amount of",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p017:s1.2",
+              "page_char_start": 2437,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 2437,
+              "unit_char_end": 2584,
+              "page_char_end": 2584
+            },
+            "score": 0.8774969723824357,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "2afdddded6289dc8e6b1babc98acf62c99ea12b01c078623661dc631fc72bcec",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 18,
+            "text": "Fig. 1.6 CPU and GPU architecture\n\nhardware purchased, so it is easy to control the cost. However, the design of\nFPGA and the tape-out process are decoupled, so the development cycle is\nlong, which usually takes half a year, and has high standards.",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p018:s1.2",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 248,
+              "page_char_end": 248
+            },
+            "score": 0.855916040430547,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[e2eadc21862f6e8e33b608a21b5494e6a2ea0ce420b630b0a049442983bb6014 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 16]\nField programmable gate array (FPGA) is designed to build reconfigurable\nsemi-custom chips, which means the hardware structure can be adjusted and\nre-configured flexibly real-time as required.\nIn terms of the functions, AI processors can be classified into two types: training\nprocessors and inference processors.\n(a) In order to train a complex deep neural network model, the AI training usually\nentails the input of a large amount of data and learning methods such as\nreinforcement learning.\n\n[2a52a1dcefbebbf796dfccdeea00e6324b367ce7850f2546d7271df10bf19423 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 17]\ncannot reach the optimal. As FPGA is reconfigurable, its risk of supply\nand R&D is relatively low. The cost of hardware is decided by the amount of\n\n[2afdddded6289dc8e6b1babc98acf62c99ea12b01c078623661dc631fc72bcec | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 18]\nFig. 1.6 CPU and GPU architecture\n\nhardware purchased, so it is easy to control the cost. However, the design of\nFPGA and the tape-out process are decoupled, so the development cycle is\nlong, which usually takes half a year, and has high standards.",
+        "context_ids": [
+          "e2eadc21862f6e8e33b608a21b5494e6a2ea0ce420b630b0a049442983bb6014",
+          "2a52a1dcefbebbf796dfccdeea00e6324b367ce7850f2546d7271df10bf19423",
+          "2afdddded6289dc8e6b1babc98acf62c99ea12b01c078623661dc631fc72bcec"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 332,
+          "prompt_tokens": 1509,
+          "total_tokens": 1841,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 869
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.00066294,
+        "elapsed_ms": 1618.2018000108656,
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "arguments": {
+              "answer": "Theo tài liệu, FPGA (Field Programmable Gate Array) được thiết kế để xây dựng các chip bán tùy chỉnh có thể cấu hình lại, nghĩa là cấu trúc phần cứng có thể được điều chỉnh và cấu hình lại một cách linh hoạt theo thời gian thực (real-time) tùy theo yêu cầu [e2eadc21862f6e8e33b608a21b5494e6a2ea0ce420b630b0a049442983bb6014]. Chính vì FPGA có thể cấu hình lại nên rủi ro về nguồn cung và R&D của nó tương đối thấp [2a52a1dcefbebbf796dfccdeea00e6324b367ce7850f2546d7271df10bf19423].",
+              "citations": [
+                "e2eadc21862f6e8e33b608a21b5494e6a2ea0ce420b630b0a049442983bb6014",
+                "2a52a1dcefbebbf796dfccdeea00e6324b367ce7850f2546d7271df10bf19423"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "event": "answer",
+        "tool": "submit_answer",
+        "arguments": {
+          "answer": "Theo tài liệu, FPGA (Field Programmable Gate Array) được thiết kế để xây dựng các chip bán tùy chỉnh có thể cấu hình lại, nghĩa là cấu trúc phần cứng có thể được điều chỉnh và cấu hình lại một cách linh hoạt theo thời gian thực (real-time) tùy theo yêu cầu [e2eadc21862f6e8e33b608a21b5494e6a2ea0ce420b630b0a049442983bb6014]. Chính vì FPGA có thể cấu hình lại nên rủi ro về nguồn cung và R&D của nó tương đối thấp [2a52a1dcefbebbf796dfccdeea00e6324b367ce7850f2546d7271df10bf19423].",
+          "citations": [
+            "e2eadc21862f6e8e33b608a21b5494e6a2ea0ce420b630b0a049442983bb6014",
+            "2a52a1dcefbebbf796dfccdeea00e6324b367ce7850f2546d7271df10bf19423"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "b2_02",
+    "split": "test",
+    "question": "Ba trường phái AI chính được liệt kê ở mục 1.1.5 là gì?",
+    "filter": {},
+    "status": "answered",
+    "answer": "Ba trường phái AI chính ở mục 1.1.5 là: symbolism (chủ nghĩa ký hiệu), connectionism (chủ nghĩa kết nối) và behaviorism (chủ nghĩa hành vi) [4260f519daeffc474945e3162304ffc200a98d8d14f469c5aa6a704ecd64e48c].",
+    "citations": [
+      "4260f519daeffc474945e3162304ffc200a98d8d14f469c5aa6a704ecd64e48c"
+    ],
+    "citation_sources": [
+      {
+        "id": "4260f519daeffc474945e3162304ffc200a98d8d14f469c5aa6a704ecd64e48c",
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+        "page": 12
+      }
+    ],
+    "context": "[4260f519daeffc474945e3162304ffc200a98d8d14f469c5aa6a704ecd64e48c | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 12]\nCurrently, symbolism, connectionism, and behaviorism constitute the three main\nschools of AI. The following passages will introduce them in detail.\n1. Symbolism\nThe basic theory of symbolism believes that, the cognitive process of human\nbeing consists of the inference and processing of symbols. Human is an example\nof physical symbol system, and so does the computer. Therefore, computers\nshould be able to simulate human intelligent activities. And knowledge represen-\ntation, knowledge reasoning,\n\n[7f9aae8e29c88c646737571f588212073232493495b8d0ed7dec210e02925ce9 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 12]\nand knowledge application are three crucial to\nartificial intelligence. Symbolism argues that knowledge and concepts can be\nrepresented by symbols, thus cognition is a process of processing the symbols,\nand reasoning is a process of solving problems with heuristic knowledge. The\ncore of symbolism lies in reasoning, namely the symbolic reasoning and machine\nreasoning.\n2. Connectionism\nThe foundation of connectionism is that the nature of human logical thinking\nis neurons, rather than a process of\n\n[efe2ec2b18d904c6e87dcffcbd481737c88dac1655a597b1a20956f7c36da046 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 12]\n1.1.5 The Three Main Schools of AI\n\n[f3664ea9fa2d34ed2625ebf0bffe004eb1a9ccb2b451bbd18d87469c5beaddd4 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 25]\n1.3 The Technologies and Applications of AI\n\n1.3.1 The Technologies of AI\n\n[a98912fd510b0b32508d315c93e9a3751ee76f358e424cacef5f05d6249d0af9 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 33]\nFig. 1.22 The three stages of artificial intelligence",
+    "context_ids": [
+      "4260f519daeffc474945e3162304ffc200a98d8d14f469c5aa6a704ecd64e48c",
+      "7f9aae8e29c88c646737571f588212073232493495b8d0ed7dec210e02925ce9",
+      "efe2ec2b18d904c6e87dcffcbd481737c88dac1655a597b1a20956f7c36da046",
+      "f3664ea9fa2d34ed2625ebf0bffe004eb1a9ccb2b451bbd18d87469c5beaddd4",
+      "a98912fd510b0b32508d315c93e9a3751ee76f358e424cacef5f05d6249d0af9"
+    ],
+    "search_count": 2,
+    "model_call_count": 3,
+    "elapsed_seconds": 3.3829258999903686,
+    "citation_id_check": true,
+    "semantic_review_status": "pending",
+    "api_requests": 3,
+    "events": [
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 44,
+          "prompt_tokens": 709,
+          "total_tokens": 753,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 197
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000114972,
+        "elapsed_ms": 1023.0165999964811,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "section 1.1.5 three main schools of AI"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "section 1.1.5 three main schools of AI"
+        },
+        "query": "section 1.1.5 three main schools of AI",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "section 1.1.5 three main schools of AI",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "efe2ec2b18d904c6e87dcffcbd481737c88dac1655a597b1a20956f7c36da046",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 12,
+              "text": "1.1.5 The Three Main Schools of AI",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.1",
+                "section_title": "The Concept of Artificial Intelligence",
+                "unit_id": "huawei-ai-technology-ch01-2023:p012:s1.1",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 34,
+                "page_char_end": 34
+              },
+              "score": 0.9171596765518188,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "f3664ea9fa2d34ed2625ebf0bffe004eb1a9ccb2b451bbd18d87469c5beaddd4",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 25,
+              "text": "1.3 The Technologies and Applications of AI\n\n1.3.1 The Technologies of AI",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.3",
+                "section_title": "The Technologies and Applications of AI",
+                "unit_id": "huawei-ai-technology-ch01-2023:p025:s1.3",
+                "page_char_start": 672,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 73,
+                "page_char_end": 745
+              },
+              "score": 0.8901166915893555,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "a98912fd510b0b32508d315c93e9a3751ee76f358e424cacef5f05d6249d0af9",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 33,
+              "text": "Fig. 1.22 The three stages of artificial intelligence",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.4",
+                "section_title": "Huawei’s AI Development Strategy",
+                "unit_id": "huawei-ai-technology-ch01-2023:p033:s1.4",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 53,
+                "page_char_end": 53
+              },
+              "score": 0.8856372305371044,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 65.98059998941608,
+          "elapsed_ms": 79.19829999445938
+        },
+        "results": [
+          {
+            "id": "efe2ec2b18d904c6e87dcffcbd481737c88dac1655a597b1a20956f7c36da046",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 12,
+            "text": "1.1.5 The Three Main Schools of AI",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence",
+              "unit_id": "huawei-ai-technology-ch01-2023:p012:s1.1",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 34,
+              "page_char_end": 34
+            },
+            "score": 0.9171596765518188,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "f3664ea9fa2d34ed2625ebf0bffe004eb1a9ccb2b451bbd18d87469c5beaddd4",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 25,
+            "text": "1.3 The Technologies and Applications of AI\n\n1.3.1 The Technologies of AI",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.3",
+              "section_title": "The Technologies and Applications of AI",
+              "unit_id": "huawei-ai-technology-ch01-2023:p025:s1.3",
+              "page_char_start": 672,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 73,
+              "page_char_end": 745
+            },
+            "score": 0.8901166915893555,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "a98912fd510b0b32508d315c93e9a3751ee76f358e424cacef5f05d6249d0af9",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 33,
+            "text": "Fig. 1.22 The three stages of artificial intelligence",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy",
+              "unit_id": "huawei-ai-technology-ch01-2023:p033:s1.4",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 53,
+              "page_char_end": 53
+            },
+            "score": 0.8856372305371044,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[efe2ec2b18d904c6e87dcffcbd481737c88dac1655a597b1a20956f7c36da046 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 12]\n1.1.5 The Three Main Schools of AI\n\n[f3664ea9fa2d34ed2625ebf0bffe004eb1a9ccb2b451bbd18d87469c5beaddd4 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 25]\n1.3 The Technologies and Applications of AI\n\n1.3.1 The Technologies of AI\n\n[a98912fd510b0b32508d315c93e9a3751ee76f358e424cacef5f05d6249d0af9 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 33]\nFig. 1.22 The three stages of artificial intelligence",
+        "context_ids": [
+          "efe2ec2b18d904c6e87dcffcbd481737c88dac1655a597b1a20956f7c36da046",
+          "f3664ea9fa2d34ed2625ebf0bffe004eb1a9ccb2b451bbd18d87469c5beaddd4",
+          "a98912fd510b0b32508d315c93e9a3751ee76f358e424cacef5f05d6249d0af9"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 43,
+          "prompt_tokens": 1360,
+          "total_tokens": 1403,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 720
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.00027144,
+        "elapsed_ms": 1001.1463999981061,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "symbolic connectionist evolutionary schools of AI three main schools"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "symbolic connectionist evolutionary schools of AI three main schools"
+        },
+        "query": "symbolic connectionist evolutionary schools of AI three main schools",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "symbolic connectionist evolutionary schools of AI three main schools",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "4260f519daeffc474945e3162304ffc200a98d8d14f469c5aa6a704ecd64e48c",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 12,
+              "text": "Currently, symbolism, connectionism, and behaviorism constitute the three main\nschools of AI. The following passages will introduce them in detail.\n1. Symbolism\nThe basic theory of symbolism believes that, the cognitive process of human\nbeing consists of the inference and processing of symbols. Human is an example\nof physical symbol system, and so does the computer. Therefore, computers\nshould be able to simulate human intelligent activities. And knowledge represen-\ntation, knowledge reasoning,",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.1",
+                "section_title": "The Concept of Artificial Intelligence",
+                "unit_id": "huawei-ai-technology-ch01-2023:p012:s1.1",
+                "page_char_start": 36,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 36,
+                "unit_char_end": 535,
+                "page_char_end": 535
+              },
+              "score": 0.8973149389828795,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "7f9aae8e29c88c646737571f588212073232493495b8d0ed7dec210e02925ce9",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 12,
+              "text": "and knowledge application are three crucial to\nartificial intelligence. Symbolism argues that knowledge and concepts can be\nrepresented by symbols, thus cognition is a process of processing the symbols,\nand reasoning is a process of solving problems with heuristic knowledge. The\ncore of symbolism lies in reasoning, namely the symbolic reasoning and machine\nreasoning.\n2. Connectionism\nThe foundation of connectionism is that the nature of human logical thinking\nis neurons, rather than a process of",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.1",
+                "section_title": "The Concept of Artificial Intelligence",
+                "unit_id": "huawei-ai-technology-ch01-2023:p012:s1.1",
+                "page_char_start": 536,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 536,
+                "unit_char_end": 1036,
+                "page_char_end": 1036
+              },
+              "score": 0.8678984799506092,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "efe2ec2b18d904c6e87dcffcbd481737c88dac1655a597b1a20956f7c36da046",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 12,
+              "text": "1.1.5 The Three Main Schools of AI",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.1",
+                "section_title": "The Concept of Artificial Intelligence",
+                "unit_id": "huawei-ai-technology-ch01-2023:p012:s1.1",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 34,
+                "page_char_end": 34
+              },
+              "score": 0.8539307800572661,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 48.01740002585575,
+          "elapsed_ms": 55.49529998097569
+        },
+        "results": [
+          {
+            "id": "4260f519daeffc474945e3162304ffc200a98d8d14f469c5aa6a704ecd64e48c",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 12,
+            "text": "Currently, symbolism, connectionism, and behaviorism constitute the three main\nschools of AI. The following passages will introduce them in detail.\n1. Symbolism\nThe basic theory of symbolism believes that, the cognitive process of human\nbeing consists of the inference and processing of symbols. Human is an example\nof physical symbol system, and so does the computer. Therefore, computers\nshould be able to simulate human intelligent activities. And knowledge represen-\ntation, knowledge reasoning,",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence",
+              "unit_id": "huawei-ai-technology-ch01-2023:p012:s1.1",
+              "page_char_start": 36,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 36,
+              "unit_char_end": 535,
+              "page_char_end": 535
+            },
+            "score": 0.8973149389828795,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "7f9aae8e29c88c646737571f588212073232493495b8d0ed7dec210e02925ce9",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 12,
+            "text": "and knowledge application are three crucial to\nartificial intelligence. Symbolism argues that knowledge and concepts can be\nrepresented by symbols, thus cognition is a process of processing the symbols,\nand reasoning is a process of solving problems with heuristic knowledge. The\ncore of symbolism lies in reasoning, namely the symbolic reasoning and machine\nreasoning.\n2. Connectionism\nThe foundation of connectionism is that the nature of human logical thinking\nis neurons, rather than a process of",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence",
+              "unit_id": "huawei-ai-technology-ch01-2023:p012:s1.1",
+              "page_char_start": 536,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 536,
+              "unit_char_end": 1036,
+              "page_char_end": 1036
+            },
+            "score": 0.8678984799506092,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "efe2ec2b18d904c6e87dcffcbd481737c88dac1655a597b1a20956f7c36da046",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 12,
+            "text": "1.1.5 The Three Main Schools of AI",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence",
+              "unit_id": "huawei-ai-technology-ch01-2023:p012:s1.1",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 34,
+              "page_char_end": 34
+            },
+            "score": 0.8539307800572661,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[4260f519daeffc474945e3162304ffc200a98d8d14f469c5aa6a704ecd64e48c | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 12]\nCurrently, symbolism, connectionism, and behaviorism constitute the three main\nschools of AI. The following passages will introduce them in detail.\n1. Symbolism\nThe basic theory of symbolism believes that, the cognitive process of human\nbeing consists of the inference and processing of symbols. Human is an example\nof physical symbol system, and so does the computer. Therefore, computers\nshould be able to simulate human intelligent activities. And knowledge represen-\ntation, knowledge reasoning,\n\n[7f9aae8e29c88c646737571f588212073232493495b8d0ed7dec210e02925ce9 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 12]\nand knowledge application are three crucial to\nartificial intelligence. Symbolism argues that knowledge and concepts can be\nrepresented by symbols, thus cognition is a process of processing the symbols,\nand reasoning is a process of solving problems with heuristic knowledge. The\ncore of symbolism lies in reasoning, namely the symbolic reasoning and machine\nreasoning.\n2. Connectionism\nThe foundation of connectionism is that the nature of human logical thinking\nis neurons, rather than a process of\n\n[efe2ec2b18d904c6e87dcffcbd481737c88dac1655a597b1a20956f7c36da046 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 12]\n1.1.5 The Three Main Schools of AI\n\n[f3664ea9fa2d34ed2625ebf0bffe004eb1a9ccb2b451bbd18d87469c5beaddd4 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 25]\n1.3 The Technologies and Applications of AI\n\n1.3.1 The Technologies of AI\n\n[a98912fd510b0b32508d315c93e9a3751ee76f358e424cacef5f05d6249d0af9 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 33]\nFig. 1.22 The three stages of artificial intelligence",
+        "context_ids": [
+          "4260f519daeffc474945e3162304ffc200a98d8d14f469c5aa6a704ecd64e48c",
+          "7f9aae8e29c88c646737571f588212073232493495b8d0ed7dec210e02925ce9",
+          "efe2ec2b18d904c6e87dcffcbd481737c88dac1655a597b1a20956f7c36da046",
+          "f3664ea9fa2d34ed2625ebf0bffe004eb1a9ccb2b451bbd18d87469c5beaddd4",
+          "a98912fd510b0b32508d315c93e9a3751ee76f358e424cacef5f05d6249d0af9"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 180,
+          "prompt_tokens": 1782,
+          "total_tokens": 1962,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 1014
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000524808,
+        "elapsed_ms": 1222.8878999885637,
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "arguments": {
+              "answer": "Ba trường phái AI chính ở mục 1.1.5 là: symbolism (chủ nghĩa ký hiệu), connectionism (chủ nghĩa kết nối) và behaviorism (chủ nghĩa hành vi) [4260f519daeffc474945e3162304ffc200a98d8d14f469c5aa6a704ecd64e48c].",
+              "citations": [
+                "4260f519daeffc474945e3162304ffc200a98d8d14f469c5aa6a704ecd64e48c"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "event": "answer",
+        "tool": "submit_answer",
+        "arguments": {
+          "answer": "Ba trường phái AI chính ở mục 1.1.5 là: symbolism (chủ nghĩa ký hiệu), connectionism (chủ nghĩa kết nối) và behaviorism (chủ nghĩa hành vi) [4260f519daeffc474945e3162304ffc200a98d8d14f469c5aa6a704ecd64e48c].",
+          "citations": [
+            "4260f519daeffc474945e3162304ffc200a98d8d14f469c5aa6a704ecd64e48c"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "b2_03",
+    "split": "test",
+    "question": "Theo dự báo được trích trong chương, quy mô thị trường AI đến năm 2025 vượt mức bao nhiêu, tính bằng USD?",
+    "filter": {},
+    "status": "answered",
+    "answer": "Theo dự báo được trích trong chương, đến năm 2025 quy mô thị trường AI sẽ vượt 3 nghìn tỷ USD (3 trillion US dollars) [e8376d73e698379d7ee7dbe1d24ca516c21d85c52f3dcdd635fc5afb74c6d884].",
+    "citations": [
+      "e8376d73e698379d7ee7dbe1d24ca516c21d85c52f3dcdd635fc5afb74c6d884"
+    ],
+    "citation_sources": [
+      {
+        "id": "e8376d73e698379d7ee7dbe1d24ca516c21d85c52f3dcdd635fc5afb74c6d884",
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+        "page": 20
+      }
+    ],
+    "context": "[e8376d73e698379d7ee7dbe1d24ca516c21d85c52f3dcdd635fc5afb74c6d884 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 20]\ninterpret images at geometric level. AI can distinguish\ncancer cells from normal cells after training on classification tasks.\nThe related research data show that by 2025, the size of AI market will exceed\n3 trillion US dollars, as shown in Fig. 1.7.\nAs can be inferred from Fig. 1.7, the AI market has a huge potential. It is known\nthat AI has three pillars, namely, data, algorithms and computing power. But to\napply AI in real life, these three pillars are far from enough, because we also need to\n\n[60ed78760a5f9423acf217e88c98169b19f3b349f632d8794d02a839d79d5771 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 21]\nFig. 1.7 AI market size\nforecast\n\n[9b9819fd64673619de22003dcb9fddbcaad8502495208780f9b5d296865ec752 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 21]\nsmartphones will boast AI capabilities. As several con-\nsulting agencies in the UK and the USA estimated, about 80% of the world’s\nsmartphones will have AI capabilities by 2022 or 2023. To meet the market outlook\nand tackle the challenges of AI, HUAWEI launched its open AI capability platform",
+    "context_ids": [
+      "e8376d73e698379d7ee7dbe1d24ca516c21d85c52f3dcdd635fc5afb74c6d884",
+      "60ed78760a5f9423acf217e88c98169b19f3b349f632d8794d02a839d79d5771",
+      "9b9819fd64673619de22003dcb9fddbcaad8502495208780f9b5d296865ec752"
+    ],
+    "search_count": 1,
+    "model_call_count": 2,
+    "elapsed_seconds": 2.1891360000008717,
+    "citation_id_check": true,
+    "semantic_review_status": "pending",
+    "api_requests": 2,
+    "events": [
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 723,
+          "total_tokens": 764,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 211
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000115572,
+        "elapsed_ms": 831.2193999881856,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "AI market size forecast 2025 USD billion"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "AI market size forecast 2025 USD billion"
+        },
+        "query": "AI market size forecast 2025 USD billion",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "AI market size forecast 2025 USD billion",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "e8376d73e698379d7ee7dbe1d24ca516c21d85c52f3dcdd635fc5afb74c6d884",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 20,
+              "text": "interpret images at geometric level. AI can distinguish\ncancer cells from normal cells after training on classification tasks.\nThe related research data show that by 2025, the size of AI market will exceed\n3 trillion US dollars, as shown in Fig. 1.7.\nAs can be inferred from Fig. 1.7, the AI market has a huge potential. It is known\nthat AI has three pillars, namely, data, algorithms and computing power. But to\napply AI in real life, these three pillars are far from enough, because we also need to",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p020:s1.2",
+                "page_char_start": 2023,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 2023,
+                "unit_char_end": 2523,
+                "page_char_end": 2523
+              },
+              "score": 0.8911126385792988,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "60ed78760a5f9423acf217e88c98169b19f3b349f632d8794d02a839d79d5771",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 21,
+              "text": "Fig. 1.7 AI market size\nforecast",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p021:s1.2",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 32,
+                "page_char_end": 32
+              },
+              "score": 0.8790807723999023,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "9b9819fd64673619de22003dcb9fddbcaad8502495208780f9b5d296865ec752",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 21,
+              "text": "smartphones will boast AI capabilities. As several con-\nsulting agencies in the UK and the USA estimated, about 80% of the world’s\nsmartphones will have AI capabilities by 2022 or 2023. To meet the market outlook\nand tackle the challenges of AI, HUAWEI launched its open AI capability platform",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p021:s1.2",
+                "page_char_start": 2021,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 2021,
+                "unit_char_end": 2314,
+                "page_char_end": 2314
+              },
+              "score": 0.8701695877212547,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 75.95309999305755,
+          "elapsed_ms": 84.06510000349954
+        },
+        "results": [
+          {
+            "id": "e8376d73e698379d7ee7dbe1d24ca516c21d85c52f3dcdd635fc5afb74c6d884",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 20,
+            "text": "interpret images at geometric level. AI can distinguish\ncancer cells from normal cells after training on classification tasks.\nThe related research data show that by 2025, the size of AI market will exceed\n3 trillion US dollars, as shown in Fig. 1.7.\nAs can be inferred from Fig. 1.7, the AI market has a huge potential. It is known\nthat AI has three pillars, namely, data, algorithms and computing power. But to\napply AI in real life, these three pillars are far from enough, because we also need to",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p020:s1.2",
+              "page_char_start": 2023,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 2023,
+              "unit_char_end": 2523,
+              "page_char_end": 2523
+            },
+            "score": 0.8911126385792988,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "60ed78760a5f9423acf217e88c98169b19f3b349f632d8794d02a839d79d5771",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 21,
+            "text": "Fig. 1.7 AI market size\nforecast",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p021:s1.2",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 32,
+              "page_char_end": 32
+            },
+            "score": 0.8790807723999023,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "9b9819fd64673619de22003dcb9fddbcaad8502495208780f9b5d296865ec752",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 21,
+            "text": "smartphones will boast AI capabilities. As several con-\nsulting agencies in the UK and the USA estimated, about 80% of the world’s\nsmartphones will have AI capabilities by 2022 or 2023. To meet the market outlook\nand tackle the challenges of AI, HUAWEI launched its open AI capability platform",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p021:s1.2",
+              "page_char_start": 2021,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 2021,
+              "unit_char_end": 2314,
+              "page_char_end": 2314
+            },
+            "score": 0.8701695877212547,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[e8376d73e698379d7ee7dbe1d24ca516c21d85c52f3dcdd635fc5afb74c6d884 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 20]\ninterpret images at geometric level. AI can distinguish\ncancer cells from normal cells after training on classification tasks.\nThe related research data show that by 2025, the size of AI market will exceed\n3 trillion US dollars, as shown in Fig. 1.7.\nAs can be inferred from Fig. 1.7, the AI market has a huge potential. It is known\nthat AI has three pillars, namely, data, algorithms and computing power. But to\napply AI in real life, these three pillars are far from enough, because we also need to\n\n[60ed78760a5f9423acf217e88c98169b19f3b349f632d8794d02a839d79d5771 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 21]\nFig. 1.7 AI market size\nforecast\n\n[9b9819fd64673619de22003dcb9fddbcaad8502495208780f9b5d296865ec752 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 21]\nsmartphones will boast AI capabilities. As several con-\nsulting agencies in the UK and the USA estimated, about 80% of the world’s\nsmartphones will have AI capabilities by 2022 or 2023. To meet the market outlook\nand tackle the challenges of AI, HUAWEI launched its open AI capability platform",
+        "context_ids": [
+          "e8376d73e698379d7ee7dbe1d24ca516c21d85c52f3dcdd635fc5afb74c6d884",
+          "60ed78760a5f9423acf217e88c98169b19f3b349f632d8794d02a839d79d5771",
+          "9b9819fd64673619de22003dcb9fddbcaad8502495208780f9b5d296865ec752"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 174,
+          "prompt_tokens": 1521,
+          "total_tokens": 1695,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 881
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.0004769399999999999,
+        "elapsed_ms": 1272.8936999919824,
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "arguments": {
+              "answer": "Theo dự báo được trích trong chương, đến năm 2025 quy mô thị trường AI sẽ vượt 3 nghìn tỷ USD (3 trillion US dollars) [e8376d73e698379d7ee7dbe1d24ca516c21d85c52f3dcdd635fc5afb74c6d884].",
+              "citations": [
+                "e8376d73e698379d7ee7dbe1d24ca516c21d85c52f3dcdd635fc5afb74c6d884"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "event": "answer",
+        "tool": "submit_answer",
+        "arguments": {
+          "answer": "Theo dự báo được trích trong chương, đến năm 2025 quy mô thị trường AI sẽ vượt 3 nghìn tỷ USD (3 trillion US dollars) [e8376d73e698379d7ee7dbe1d24ca516c21d85c52f3dcdd635fc5afb74c6d884].",
+          "citations": [
+            "e8376d73e698379d7ee7dbe1d24ca516c21d85c52f3dcdd635fc5afb74c6d884"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "b2_04",
+    "split": "test",
+    "question": "Trong chiến lược Huawei, full-stack gồm bốn thành phần nào?",
+    "filter": {},
+    "status": "answered",
+    "answer": "Theo tài liệu, \"full-stack\" là giải pháp full-stack gồm bốn thành phần: chip, chip enable, training and reasoning framework, và application enable [83ade346efe5ad6f645359b446c21005e6574888ddac323c57947da44037fecf].",
+    "citations": [
+      "83ade346efe5ad6f645359b446c21005e6574888ddac323c57947da44037fecf"
+    ],
+    "citation_sources": [
+      {
+        "id": "83ade346efe5ad6f645359b446c21005e6574888ddac323c57947da44037fecf",
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+        "page": 33
+      }
+    ],
+    "context": "[83ade346efe5ad6f645359b446c21005e6574888ddac323c57947da44037fecf | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 33]\nand released the server operating system to the open-source community on\n31 December 2020.\nFull-stack refers to a full-stack solution including chip, chip enable, training and\nreasoning framework and application enable.\nAll-scenario refers to an all-scenario deployment environment including public\ncloud, private cloud, all kinds of edge computing, IoT terminals and consumer\nterminals.\nAs the bedrock of Huawei’s full-stack all-scenario AI solution, the Atlas artificial\nintelligence computing\n\n[8607996a5c23390cdbae94c48c9ff610db5b08a9401bbed37ee7c89f837768c7 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 33]\nsolution, based on the Ascend AI processor, provides prod-\nucts in different forms, including modules, circuit boards and servers to meet the\nall-scenario demands for computing power by customers.\n\n1.4.2 Directions of Huawei Full-Stack AI\n\n[6469c77d81233c03b8942452505d73353bd5813eb69085b4459d1834fdc68d86 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 23]\nthe problems in the AI technologies and navigate the implemen-\ntation of AI.\n(b) Industrial data: It enables the companies to utilize their own data to create\nmassive value through data processing and data mining.\n(c) Algorithms: It provides enterprises with extensive algorithm libraries and\nmodel libraries, and solutions to corporate problems through general AI\nservices and one-stop development platform.\n(d) Computing power: Based on Huawei’s 30 years of experiences in ICT, the\nfull-stack AI\n\n[2781218ef9025f6089da6f99ab3833331d272127d6c687f5180b34cb920bdad4 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 32]\n1.4 Huawei’s AI Development Strategy\n\n1.4.1 Full-Stack All-Scenario AI Solutions\n\nIn the first quarter of 2020, Huawei’s all-scenario AI computing framework\nMindSpore was released to the open-source community. Later Huawei released the\nGaussDB OLTP stand-alone database to the open-source community in June 2020,",
+    "context_ids": [
+      "83ade346efe5ad6f645359b446c21005e6574888ddac323c57947da44037fecf",
+      "8607996a5c23390cdbae94c48c9ff610db5b08a9401bbed37ee7c89f837768c7",
+      "6469c77d81233c03b8942452505d73353bd5813eb69085b4459d1834fdc68d86",
+      "2781218ef9025f6089da6f99ab3833331d272127d6c687f5180b34cb920bdad4"
+    ],
+    "search_count": 2,
+    "model_call_count": 3,
+    "elapsed_seconds": 3.2165475000219885,
+    "citation_id_check": true,
+    "semantic_review_status": "pending",
+    "api_requests": 3,
+    "events": [
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 703,
+          "total_tokens": 744,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 191
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000109572,
+        "elapsed_ms": 1093.7911000219174,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "Huawei full-stack strategy four components"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "Huawei full-stack strategy four components"
+        },
+        "query": "Huawei full-stack strategy four components",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "Huawei full-stack strategy four components",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "8607996a5c23390cdbae94c48c9ff610db5b08a9401bbed37ee7c89f837768c7",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 33,
+              "text": "solution, based on the Ascend AI processor, provides prod-\nucts in different forms, including modules, circuit boards and servers to meet the\nall-scenario demands for computing power by customers.\n\n1.4.2 Directions of Huawei Full-Stack AI",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.4",
+                "section_title": "Huawei’s AI Development Strategy",
+                "unit_id": "huawei-ai-technology-ch01-2023:p033:s1.4",
+                "page_char_start": 551,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 551,
+                "unit_char_end": 789,
+                "page_char_end": 789
+              },
+              "score": 0.8681487441062927,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "2781218ef9025f6089da6f99ab3833331d272127d6c687f5180b34cb920bdad4",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 32,
+              "text": "1.4 Huawei’s AI Development Strategy\n\n1.4.1 Full-Stack All-Scenario AI Solutions\n\nIn the first quarter of 2020, Huawei’s all-scenario AI computing framework\nMindSpore was released to the open-source community. Later Huawei released the\nGaussDB OLTP stand-alone database to the open-source community in June 2020,",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.4",
+                "section_title": "Huawei’s AI Development Strategy",
+                "unit_id": "huawei-ai-technology-ch01-2023:p032:s1.4",
+                "page_char_start": 2199,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 312,
+                "page_char_end": 2511
+              },
+              "score": 0.858553409576416,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "6469c77d81233c03b8942452505d73353bd5813eb69085b4459d1834fdc68d86",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 23,
+              "text": "the problems in the AI technologies and navigate the implemen-\ntation of AI.\n(b) Industrial data: It enables the companies to utilize their own data to create\nmassive value through data processing and data mining.\n(c) Algorithms: It provides enterprises with extensive algorithm libraries and\nmodel libraries, and solutions to corporate problems through general AI\nservices and one-stop development platform.\n(d) Computing power: Based on Huawei’s 30 years of experiences in ICT, the\nfull-stack AI",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+                "page_char_start": 1377,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 1377,
+                "unit_char_end": 1874,
+                "page_char_end": 1874
+              },
+              "score": 0.8568031277177869,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 29.850799997802824,
+          "elapsed_ms": 37.94099998776801
+        },
+        "results": [
+          {
+            "id": "8607996a5c23390cdbae94c48c9ff610db5b08a9401bbed37ee7c89f837768c7",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 33,
+            "text": "solution, based on the Ascend AI processor, provides prod-\nucts in different forms, including modules, circuit boards and servers to meet the\nall-scenario demands for computing power by customers.\n\n1.4.2 Directions of Huawei Full-Stack AI",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy",
+              "unit_id": "huawei-ai-technology-ch01-2023:p033:s1.4",
+              "page_char_start": 551,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 551,
+              "unit_char_end": 789,
+              "page_char_end": 789
+            },
+            "score": 0.8681487441062927,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "2781218ef9025f6089da6f99ab3833331d272127d6c687f5180b34cb920bdad4",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 32,
+            "text": "1.4 Huawei’s AI Development Strategy\n\n1.4.1 Full-Stack All-Scenario AI Solutions\n\nIn the first quarter of 2020, Huawei’s all-scenario AI computing framework\nMindSpore was released to the open-source community. Later Huawei released the\nGaussDB OLTP stand-alone database to the open-source community in June 2020,",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy",
+              "unit_id": "huawei-ai-technology-ch01-2023:p032:s1.4",
+              "page_char_start": 2199,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 312,
+              "page_char_end": 2511
+            },
+            "score": 0.858553409576416,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "6469c77d81233c03b8942452505d73353bd5813eb69085b4459d1834fdc68d86",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 23,
+            "text": "the problems in the AI technologies and navigate the implemen-\ntation of AI.\n(b) Industrial data: It enables the companies to utilize their own data to create\nmassive value through data processing and data mining.\n(c) Algorithms: It provides enterprises with extensive algorithm libraries and\nmodel libraries, and solutions to corporate problems through general AI\nservices and one-stop development platform.\n(d) Computing power: Based on Huawei’s 30 years of experiences in ICT, the\nfull-stack AI",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+              "page_char_start": 1377,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 1377,
+              "unit_char_end": 1874,
+              "page_char_end": 1874
+            },
+            "score": 0.8568031277177869,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[8607996a5c23390cdbae94c48c9ff610db5b08a9401bbed37ee7c89f837768c7 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 33]\nsolution, based on the Ascend AI processor, provides prod-\nucts in different forms, including modules, circuit boards and servers to meet the\nall-scenario demands for computing power by customers.\n\n1.4.2 Directions of Huawei Full-Stack AI\n\n[2781218ef9025f6089da6f99ab3833331d272127d6c687f5180b34cb920bdad4 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 32]\n1.4 Huawei’s AI Development Strategy\n\n1.4.1 Full-Stack All-Scenario AI Solutions\n\nIn the first quarter of 2020, Huawei’s all-scenario AI computing framework\nMindSpore was released to the open-source community. Later Huawei released the\nGaussDB OLTP stand-alone database to the open-source community in June 2020,\n\n[6469c77d81233c03b8942452505d73353bd5813eb69085b4459d1834fdc68d86 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 23]\nthe problems in the AI technologies and navigate the implemen-\ntation of AI.\n(b) Industrial data: It enables the companies to utilize their own data to create\nmassive value through data processing and data mining.\n(c) Algorithms: It provides enterprises with extensive algorithm libraries and\nmodel libraries, and solutions to corporate problems through general AI\nservices and one-stop development platform.\n(d) Computing power: Based on Huawei’s 30 years of experiences in ICT, the\nfull-stack AI",
+        "context_ids": [
+          "8607996a5c23390cdbae94c48c9ff610db5b08a9401bbed37ee7c89f837768c7",
+          "2781218ef9025f6089da6f99ab3833331d272127d6c687f5180b34cb920bdad4",
+          "6469c77d81233c03b8942452505d73353bd5813eb69085b4459d1834fdc68d86"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 45,
+          "prompt_tokens": 1527,
+          "total_tokens": 1572,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 887
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.00032393999999999994,
+        "elapsed_ms": 887.4641000002157,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "Huawei full-stack AI four layers chip framework platform application"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "Huawei full-stack AI four layers chip framework platform application"
+        },
+        "query": "Huawei full-stack AI four layers chip framework platform application",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "Huawei full-stack AI four layers chip framework platform application",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "83ade346efe5ad6f645359b446c21005e6574888ddac323c57947da44037fecf",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 33,
+              "text": "and released the server operating system to the open-source community on\n31 December 2020.\nFull-stack refers to a full-stack solution including chip, chip enable, training and\nreasoning framework and application enable.\nAll-scenario refers to an all-scenario deployment environment including public\ncloud, private cloud, all kinds of edge computing, IoT terminals and consumer\nterminals.\nAs the bedrock of Huawei’s full-stack all-scenario AI solution, the Atlas artificial\nintelligence computing",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.4",
+                "section_title": "Huawei’s AI Development Strategy",
+                "unit_id": "huawei-ai-technology-ch01-2023:p033:s1.4",
+                "page_char_start": 55,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 55,
+                "unit_char_end": 550,
+                "page_char_end": 550
+              },
+              "score": 0.8855647112597443,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "8607996a5c23390cdbae94c48c9ff610db5b08a9401bbed37ee7c89f837768c7",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 33,
+              "text": "solution, based on the Ascend AI processor, provides prod-\nucts in different forms, including modules, circuit boards and servers to meet the\nall-scenario demands for computing power by customers.\n\n1.4.2 Directions of Huawei Full-Stack AI",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.4",
+                "section_title": "Huawei’s AI Development Strategy",
+                "unit_id": "huawei-ai-technology-ch01-2023:p033:s1.4",
+                "page_char_start": 551,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 551,
+                "unit_char_end": 789,
+                "page_char_end": 789
+              },
+              "score": 0.8774210476106722,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "6469c77d81233c03b8942452505d73353bd5813eb69085b4459d1834fdc68d86",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 23,
+              "text": "the problems in the AI technologies and navigate the implemen-\ntation of AI.\n(b) Industrial data: It enables the companies to utilize their own data to create\nmassive value through data processing and data mining.\n(c) Algorithms: It provides enterprises with extensive algorithm libraries and\nmodel libraries, and solutions to corporate problems through general AI\nservices and one-stop development platform.\n(d) Computing power: Based on Huawei’s 30 years of experiences in ICT, the\nfull-stack AI",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+                "page_char_start": 1377,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 1377,
+                "unit_char_end": 1874,
+                "page_char_end": 1874
+              },
+              "score": 0.876986715883416,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 63.19169999915175,
+          "elapsed_ms": 72.82970001688227
+        },
+        "results": [
+          {
+            "id": "83ade346efe5ad6f645359b446c21005e6574888ddac323c57947da44037fecf",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 33,
+            "text": "and released the server operating system to the open-source community on\n31 December 2020.\nFull-stack refers to a full-stack solution including chip, chip enable, training and\nreasoning framework and application enable.\nAll-scenario refers to an all-scenario deployment environment including public\ncloud, private cloud, all kinds of edge computing, IoT terminals and consumer\nterminals.\nAs the bedrock of Huawei’s full-stack all-scenario AI solution, the Atlas artificial\nintelligence computing",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy",
+              "unit_id": "huawei-ai-technology-ch01-2023:p033:s1.4",
+              "page_char_start": 55,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 55,
+              "unit_char_end": 550,
+              "page_char_end": 550
+            },
+            "score": 0.8855647112597443,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "8607996a5c23390cdbae94c48c9ff610db5b08a9401bbed37ee7c89f837768c7",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 33,
+            "text": "solution, based on the Ascend AI processor, provides prod-\nucts in different forms, including modules, circuit boards and servers to meet the\nall-scenario demands for computing power by customers.\n\n1.4.2 Directions of Huawei Full-Stack AI",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy",
+              "unit_id": "huawei-ai-technology-ch01-2023:p033:s1.4",
+              "page_char_start": 551,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 551,
+              "unit_char_end": 789,
+              "page_char_end": 789
+            },
+            "score": 0.8774210476106722,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "6469c77d81233c03b8942452505d73353bd5813eb69085b4459d1834fdc68d86",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 23,
+            "text": "the problems in the AI technologies and navigate the implemen-\ntation of AI.\n(b) Industrial data: It enables the companies to utilize their own data to create\nmassive value through data processing and data mining.\n(c) Algorithms: It provides enterprises with extensive algorithm libraries and\nmodel libraries, and solutions to corporate problems through general AI\nservices and one-stop development platform.\n(d) Computing power: Based on Huawei’s 30 years of experiences in ICT, the\nfull-stack AI",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+              "page_char_start": 1377,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 1377,
+              "unit_char_end": 1874,
+              "page_char_end": 1874
+            },
+            "score": 0.876986715883416,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[83ade346efe5ad6f645359b446c21005e6574888ddac323c57947da44037fecf | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 33]\nand released the server operating system to the open-source community on\n31 December 2020.\nFull-stack refers to a full-stack solution including chip, chip enable, training and\nreasoning framework and application enable.\nAll-scenario refers to an all-scenario deployment environment including public\ncloud, private cloud, all kinds of edge computing, IoT terminals and consumer\nterminals.\nAs the bedrock of Huawei’s full-stack all-scenario AI solution, the Atlas artificial\nintelligence computing\n\n[8607996a5c23390cdbae94c48c9ff610db5b08a9401bbed37ee7c89f837768c7 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 33]\nsolution, based on the Ascend AI processor, provides prod-\nucts in different forms, including modules, circuit boards and servers to meet the\nall-scenario demands for computing power by customers.\n\n1.4.2 Directions of Huawei Full-Stack AI\n\n[6469c77d81233c03b8942452505d73353bd5813eb69085b4459d1834fdc68d86 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 23]\nthe problems in the AI technologies and navigate the implemen-\ntation of AI.\n(b) Industrial data: It enables the companies to utilize their own data to create\nmassive value through data processing and data mining.\n(c) Algorithms: It provides enterprises with extensive algorithm libraries and\nmodel libraries, and solutions to corporate problems through general AI\nservices and one-stop development platform.\n(d) Computing power: Based on Huawei’s 30 years of experiences in ICT, the\nfull-stack AI\n\n[2781218ef9025f6089da6f99ab3833331d272127d6c687f5180b34cb920bdad4 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 32]\n1.4 Huawei’s AI Development Strategy\n\n1.4.1 Full-Stack All-Scenario AI Solutions\n\nIn the first quarter of 2020, Huawei’s all-scenario AI computing framework\nMindSpore was released to the open-source community. Later Huawei released the\nGaussDB OLTP stand-alone database to the open-source community in June 2020,",
+        "context_ids": [
+          "83ade346efe5ad6f645359b446c21005e6574888ddac323c57947da44037fecf",
+          "8607996a5c23390cdbae94c48c9ff610db5b08a9401bbed37ee7c89f837768c7",
+          "6469c77d81233c03b8942452505d73353bd5813eb69085b4459d1834fdc68d86",
+          "2781218ef9025f6089da6f99ab3833331d272127d6c687f5180b34cb920bdad4"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 153,
+          "prompt_tokens": 1750,
+          "total_tokens": 1903,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 982
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000482808,
+        "elapsed_ms": 1122.811500012176,
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "arguments": {
+              "answer": "Theo tài liệu, \"full-stack\" là giải pháp full-stack gồm bốn thành phần: chip, chip enable, training and reasoning framework, và application enable [83ade346efe5ad6f645359b446c21005e6574888ddac323c57947da44037fecf].",
+              "citations": [
+                "83ade346efe5ad6f645359b446c21005e6574888ddac323c57947da44037fecf"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "event": "answer",
+        "tool": "submit_answer",
+        "arguments": {
+          "answer": "Theo tài liệu, \"full-stack\" là giải pháp full-stack gồm bốn thành phần: chip, chip enable, training and reasoning framework, và application enable [83ade346efe5ad6f645359b446c21005e6574888ddac323c57947da44037fecf].",
+          "citations": [
+            "83ade346efe5ad6f645359b446c21005e6574888ddac323c57947da44037fecf"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "b2_05",
+    "split": "test",
+    "question": "Ascend 310 được mô tả có tiến trình bao nhiêu nm, công suất tính toán tối đa bao nhiêu TOPS và tiêu thụ bao nhiêu W?",
+    "filter": {},
+    "status": "answered",
+    "answer": "Ascend 310 dùng chip 12 nm, công suất tính toán tối đa 16 TOPS và chỉ tiêu thụ 8 W [446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de].",
+    "citations": [
+      "446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de"
+    ],
+    "citation_sources": [
+      {
+        "id": "446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de",
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+        "page": 36
+      }
+    ],
+    "context": "[446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 36]\nmakes the series quite competitive in computing power, energy efficiency and\nscalability.\nAscend 310 is a highly efficient AI system-on-chip (SoC) designed for the\nedge intelligent scenarios of inference. It uses a 12 nm chip and delivers a\ncomputing power of up to 16 TOPS (tera operations per second) with a con-\nsumption of only 8 W, highly suitable for the edge intelligence scenarios requir-\ning low power consumption.\nAscend 910 is currently the single chip with the greatest computing density,\n\n[6a7a9bcd17666bb588585b7f2f05c334c71fc331784101e84cf3e18836f5088c | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nthe strongest computing power and\nfastest training speed in the world, its computing power is twice that of the interna-\ntional top AI processor, equivalent to 50 latest and strongest CPUs today.\nThe relevant parameters of Ascend 310 and Ascend 910 are shown in Table 1.1.\n\n[7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nTable 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+    "context_ids": [
+      "446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de",
+      "6a7a9bcd17666bb588585b7f2f05c334c71fc331784101e84cf3e18836f5088c",
+      "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde"
+    ],
+    "search_count": 1,
+    "model_call_count": 2,
+    "elapsed_seconds": 2.245332699996652,
+    "citation_id_check": true,
+    "semantic_review_status": "pending",
+    "api_requests": 2,
+    "events": [
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 43,
+          "prompt_tokens": 725,
+          "total_tokens": 768,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 213
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000118572,
+        "elapsed_ms": 682.9984000069089,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "Ascend 310 process nm TOPS power consumption W"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "Ascend 310 process nm TOPS power consumption W"
+        },
+        "query": "Ascend 310 process nm TOPS power consumption W",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "Ascend 310 process nm TOPS power consumption W",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 36,
+              "text": "makes the series quite competitive in computing power, energy efficiency and\nscalability.\nAscend 310 is a highly efficient AI system-on-chip (SoC) designed for the\nedge intelligent scenarios of inference. It uses a 12 nm chip and delivers a\ncomputing power of up to 16 TOPS (tera operations per second) with a con-\nsumption of only 8 W, highly suitable for the edge intelligence scenarios requir-\ning low power consumption.\nAscend 910 is currently the single chip with the greatest computing density,",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.4",
+                "section_title": "Huawei’s AI Development Strategy",
+                "unit_id": "huawei-ai-technology-ch01-2023:p036:s1.4",
+                "page_char_start": 74,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 74,
+                "unit_char_end": 574,
+                "page_char_end": 574
+              },
+              "score": 0.8885366916656494,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "6a7a9bcd17666bb588585b7f2f05c334c71fc331784101e84cf3e18836f5088c",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 19,
+              "text": "the strongest computing power and\nfastest training speed in the world, its computing power is twice that of the interna-\ntional top AI processor, equivalent to 50 latest and strongest CPUs today.\nThe relevant parameters of Ascend 310 and Ascend 910 are shown in Table 1.1.",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+                "page_char_start": 2130,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 2130,
+                "unit_char_end": 2402,
+                "page_char_end": 2402
+              },
+              "score": 0.8661548753426935,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 19,
+              "text": "Table 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 499,
+                "page_char_end": 499
+              },
+              "score": 0.8592027425765991,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 96.72969998791814,
+          "elapsed_ms": 116.48210001294501
+        },
+        "results": [
+          {
+            "id": "446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 36,
+            "text": "makes the series quite competitive in computing power, energy efficiency and\nscalability.\nAscend 310 is a highly efficient AI system-on-chip (SoC) designed for the\nedge intelligent scenarios of inference. It uses a 12 nm chip and delivers a\ncomputing power of up to 16 TOPS (tera operations per second) with a con-\nsumption of only 8 W, highly suitable for the edge intelligence scenarios requir-\ning low power consumption.\nAscend 910 is currently the single chip with the greatest computing density,",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy",
+              "unit_id": "huawei-ai-technology-ch01-2023:p036:s1.4",
+              "page_char_start": 74,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 74,
+              "unit_char_end": 574,
+              "page_char_end": 574
+            },
+            "score": 0.8885366916656494,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "6a7a9bcd17666bb588585b7f2f05c334c71fc331784101e84cf3e18836f5088c",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 19,
+            "text": "the strongest computing power and\nfastest training speed in the world, its computing power is twice that of the interna-\ntional top AI processor, equivalent to 50 latest and strongest CPUs today.\nThe relevant parameters of Ascend 310 and Ascend 910 are shown in Table 1.1.",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+              "page_char_start": 2130,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 2130,
+              "unit_char_end": 2402,
+              "page_char_end": 2402
+            },
+            "score": 0.8661548753426935,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 19,
+            "text": "Table 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 499,
+              "page_char_end": 499
+            },
+            "score": 0.8592027425765991,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 36]\nmakes the series quite competitive in computing power, energy efficiency and\nscalability.\nAscend 310 is a highly efficient AI system-on-chip (SoC) designed for the\nedge intelligent scenarios of inference. It uses a 12 nm chip and delivers a\ncomputing power of up to 16 TOPS (tera operations per second) with a con-\nsumption of only 8 W, highly suitable for the edge intelligence scenarios requir-\ning low power consumption.\nAscend 910 is currently the single chip with the greatest computing density,\n\n[6a7a9bcd17666bb588585b7f2f05c334c71fc331784101e84cf3e18836f5088c | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nthe strongest computing power and\nfastest training speed in the world, its computing power is twice that of the interna-\ntional top AI processor, equivalent to 50 latest and strongest CPUs today.\nThe relevant parameters of Ascend 310 and Ascend 910 are shown in Table 1.1.\n\n[7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nTable 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+        "context_ids": [
+          "446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de",
+          "6a7a9bcd17666bb588585b7f2f05c334c71fc331784101e84cf3e18836f5088c",
+          "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 158,
+          "prompt_tokens": 1662,
+          "total_tokens": 1820,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 894
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.00046240800000000004,
+        "elapsed_ms": 1445.0000999786425,
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "arguments": {
+              "answer": "Ascend 310 dùng chip 12 nm, công suất tính toán tối đa 16 TOPS và chỉ tiêu thụ 8 W [446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de].",
+              "citations": [
+                "446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "event": "answer",
+        "tool": "submit_answer",
+        "arguments": {
+          "answer": "Ascend 310 dùng chip 12 nm, công suất tính toán tối đa 16 TOPS và chỉ tiêu thụ 8 W [446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de].",
+          "citations": [
+            "446b2746ff605b71bdce2dfeaedb4120fe314b19bae9f9b8f165c311be05f8de"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "b2_abs01",
+    "split": "test",
+    "question": "Theo chương, GPU NVIDIA V100 có chính xác bao nhiêu transistor?",
+    "filter": {},
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong các đoạn đã truy xuất để trả lời.",
+    "citations": [],
+    "citation_sources": [],
+    "context": "[532473ee2be13f2ce762bc42db09ccef9a1a5444b7005d7a2e1c701f99df29ba | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 16]\nAVX512 to the x86 complex\n\n[7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nTable 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel\n\n[c0b41fd42d70e85c1d9894ecb0cf937edbcf1ece32e6444a8b95afde821e176b | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 14]\nmemristor.\nNew type computing devices: analog computing, in-memory computing (IMC).\n5. Process Level\nOn-chip memory (synaptic array): distributed static random-access memory\n(SRAM), Resistive random-access memory (ReRAM), and phase change\nrandom-access memory (PCRAM).\nCMOS process: technology node (16 nm, 7 nm).\nCMOS multi-layer integration: 2.5D IC/SiP technology, 3D-Stack technology\nand Monolithic 3D.\nNew type processes: 3D NAND, Flash Tunneling FETs, FeFET, FinFET.\n\n[bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 17]\neasier application of GPU in deep learning.\n• Improve customization: embracing multiple data types (no longer insisting\non float32, and adopting int8, etc.).\n• Add module specialized for deep learning (e.g., NVIDIA V100 Tensor\nCore GPU adopts the improved Volta architecture introducing and\nequipped with tensor cores).\nThe main challenges of current GPUs are high cost, low energy con-\nsumption ratio, and high input and output latency.\n\n[08ab8cc6b91fb39063af5f43aef81729698d7a44b4597bcd05fa16f91efe5d87 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 18]\nGPU architecture is\nshown in Fig. 1.6.\nThe GPU has numerous massively parallel computing architectures composed\nby thousands of much smaller cores (designed for simultaneous processing of\nmultiple tasks). The CPU consists of several cores optimized for serial\nprocessing.\n(a) The GPU works with many ALUs and little cache memory. Unlike the CPU,\ncache of the GPU serves for threads merely and plays the role of data\nforwarding. When multiple threads need to access the same data, the cache\nwill",
+    "context_ids": [
+      "532473ee2be13f2ce762bc42db09ccef9a1a5444b7005d7a2e1c701f99df29ba",
+      "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+      "c0b41fd42d70e85c1d9894ecb0cf937edbcf1ece32e6444a8b95afde821e176b",
+      "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197",
+      "08ab8cc6b91fb39063af5f43aef81729698d7a44b4597bcd05fa16f91efe5d87"
+    ],
+    "search_count": 3,
+    "model_call_count": 4,
+    "elapsed_seconds": 4.028677499998594,
+    "semantic_review_status": "pending",
+    "api_requests": 4,
+    "abstention_reason": "Context chỉ nhắc V100 dùng kiến trúc Volta với tensor cores, không nêu số lượng transistor của GPU V100.",
+    "events": [
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 40,
+          "prompt_tokens": 702,
+          "total_tokens": 742,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 190
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000108072,
+        "elapsed_ms": 1004.8583000025246,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "NVIDIA V100 GPU number of transistors"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "NVIDIA V100 GPU number of transistors"
+        },
+        "query": "NVIDIA V100 GPU number of transistors",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "NVIDIA V100 GPU number of transistors",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 17,
+              "text": "easier application of GPU in deep learning.\n• Improve customization: embracing multiple data types (no longer insisting\non float32, and adopting int8, etc.).\n• Add module specialized for deep learning (e.g., NVIDIA V100 Tensor\nCore GPU adopts the improved Volta architecture introducing and\nequipped with tensor cores).\nThe main challenges of current GPUs are high cost, low energy con-\nsumption ratio, and high input and output latency.",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p017:s1.2",
+                "page_char_start": 998,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 998,
+                "unit_char_end": 1435,
+                "page_char_end": 1435
+              },
+              "score": 0.8583252514406904,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "57d33c2f5f1261ac95bfa429e7218c4ff1b394e3bdd0206e58bcfa91d2b659b8",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 19,
+              "text": "neurons will take only\none instruction. Currently, the typical examples of NPU include Huawei Ascend\nAI processor, the Cambrian chip and IBM’s TrueNorth chip.\nThere are two kinds of Huawei Ascend AI processor: Ascend 310 and Ascend 910.\nAscend 910 is mainly applied to training scenarios, mostly deployed in the data\ncenter. While Ascend 310 is mainly designed for reasoning scenarios, whose\ndeployment covers the device, edge and cloud full scenarios.\nAscend 910 is currently the AI processor with",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+                "page_char_start": 1631,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 1631,
+                "unit_char_end": 2129,
+                "page_char_end": 2129
+              },
+              "score": 0.8278231620788574,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 19,
+              "text": "Table 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 499,
+                "page_char_end": 499
+              },
+              "score": 0.8271735906600952,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 26.355899986810982,
+          "elapsed_ms": 31.619399989722297
+        },
+        "results": [
+          {
+            "id": "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 17,
+            "text": "easier application of GPU in deep learning.\n• Improve customization: embracing multiple data types (no longer insisting\non float32, and adopting int8, etc.).\n• Add module specialized for deep learning (e.g., NVIDIA V100 Tensor\nCore GPU adopts the improved Volta architecture introducing and\nequipped with tensor cores).\nThe main challenges of current GPUs are high cost, low energy con-\nsumption ratio, and high input and output latency.",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p017:s1.2",
+              "page_char_start": 998,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 998,
+              "unit_char_end": 1435,
+              "page_char_end": 1435
+            },
+            "score": 0.8583252514406904,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "57d33c2f5f1261ac95bfa429e7218c4ff1b394e3bdd0206e58bcfa91d2b659b8",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 19,
+            "text": "neurons will take only\none instruction. Currently, the typical examples of NPU include Huawei Ascend\nAI processor, the Cambrian chip and IBM’s TrueNorth chip.\nThere are two kinds of Huawei Ascend AI processor: Ascend 310 and Ascend 910.\nAscend 910 is mainly applied to training scenarios, mostly deployed in the data\ncenter. While Ascend 310 is mainly designed for reasoning scenarios, whose\ndeployment covers the device, edge and cloud full scenarios.\nAscend 910 is currently the AI processor with",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+              "page_char_start": 1631,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 1631,
+              "unit_char_end": 2129,
+              "page_char_end": 2129
+            },
+            "score": 0.8278231620788574,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 19,
+            "text": "Table 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 499,
+              "page_char_end": 499
+            },
+            "score": 0.8271735906600952,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 17]\neasier application of GPU in deep learning.\n• Improve customization: embracing multiple data types (no longer insisting\non float32, and adopting int8, etc.).\n• Add module specialized for deep learning (e.g., NVIDIA V100 Tensor\nCore GPU adopts the improved Volta architecture introducing and\nequipped with tensor cores).\nThe main challenges of current GPUs are high cost, low energy con-\nsumption ratio, and high input and output latency.\n\n[57d33c2f5f1261ac95bfa429e7218c4ff1b394e3bdd0206e58bcfa91d2b659b8 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nneurons will take only\none instruction. Currently, the typical examples of NPU include Huawei Ascend\nAI processor, the Cambrian chip and IBM’s TrueNorth chip.\nThere are two kinds of Huawei Ascend AI processor: Ascend 310 and Ascend 910.\nAscend 910 is mainly applied to training scenarios, mostly deployed in the data\ncenter. While Ascend 310 is mainly designed for reasoning scenarios, whose\ndeployment covers the device, edge and cloud full scenarios.\nAscend 910 is currently the AI processor with\n\n[7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nTable 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+        "context_ids": [
+          "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197",
+          "57d33c2f5f1261ac95bfa429e7218c4ff1b394e3bdd0206e58bcfa91d2b659b8",
+          "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 1673,
+          "total_tokens": 1714,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 905
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000325308,
+        "elapsed_ms": 853.9566000108607,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "V100 transistor count billion Volta GPU specifications"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "V100 transistor count billion Volta GPU specifications"
+        },
+        "query": "V100 transistor count billion Volta GPU specifications",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "V100 transistor count billion Volta GPU specifications",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 17,
+              "text": "easier application of GPU in deep learning.\n• Improve customization: embracing multiple data types (no longer insisting\non float32, and adopting int8, etc.).\n• Add module specialized for deep learning (e.g., NVIDIA V100 Tensor\nCore GPU adopts the improved Volta architecture introducing and\nequipped with tensor cores).\nThe main challenges of current GPUs are high cost, low energy con-\nsumption ratio, and high input and output latency.",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p017:s1.2",
+                "page_char_start": 998,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 998,
+                "unit_char_end": 1435,
+                "page_char_end": 1435
+              },
+              "score": 0.8553367343344266,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "08ab8cc6b91fb39063af5f43aef81729698d7a44b4597bcd05fa16f91efe5d87",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 18,
+              "text": "GPU architecture is\nshown in Fig. 1.6.\nThe GPU has numerous massively parallel computing architectures composed\nby thousands of much smaller cores (designed for simultaneous processing of\nmultiple tasks). The CPU consists of several cores optimized for serial\nprocessing.\n(a) The GPU works with many ALUs and little cache memory. Unlike the CPU,\ncache of the GPU serves for threads merely and plays the role of data\nforwarding. When multiple threads need to access the same data, the cache\nwill",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p018:s1.2",
+                "page_char_start": 748,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 748,
+                "unit_char_end": 1242,
+                "page_char_end": 1242
+              },
+              "score": 0.8299713730812073,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "5e9bc40275f00cd89f639d60e71dd3649945ca17598f0c38b4f5bf75fd44d833",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 19,
+              "text": "GPU at the same time to give a full play\nto their capabilities.\n4. Huawei Ascend AI Processor\nNPU refers to the processor carrying out the optimization design specialized\nfor neural network computing, whose performance of neural network tasks\nprocessing is much higher than that of CPU and GPU.\nThe NPU mimics human neurons and synapses on the circuitry, and directly\nprocesses large scale neurons and synapses through deep learning processor\ninstruction set. In NPUs, the processing of a group of",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+                "page_char_start": 1133,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 1133,
+                "unit_char_end": 1630,
+                "page_char_end": 1630
+              },
+              "score": 0.8236105056273393,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 46.720000013010576,
+          "elapsed_ms": 88.01549999043345
+        },
+        "results": [
+          {
+            "id": "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 17,
+            "text": "easier application of GPU in deep learning.\n• Improve customization: embracing multiple data types (no longer insisting\non float32, and adopting int8, etc.).\n• Add module specialized for deep learning (e.g., NVIDIA V100 Tensor\nCore GPU adopts the improved Volta architecture introducing and\nequipped with tensor cores).\nThe main challenges of current GPUs are high cost, low energy con-\nsumption ratio, and high input and output latency.",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p017:s1.2",
+              "page_char_start": 998,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 998,
+              "unit_char_end": 1435,
+              "page_char_end": 1435
+            },
+            "score": 0.8553367343344266,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "08ab8cc6b91fb39063af5f43aef81729698d7a44b4597bcd05fa16f91efe5d87",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 18,
+            "text": "GPU architecture is\nshown in Fig. 1.6.\nThe GPU has numerous massively parallel computing architectures composed\nby thousands of much smaller cores (designed for simultaneous processing of\nmultiple tasks). The CPU consists of several cores optimized for serial\nprocessing.\n(a) The GPU works with many ALUs and little cache memory. Unlike the CPU,\ncache of the GPU serves for threads merely and plays the role of data\nforwarding. When multiple threads need to access the same data, the cache\nwill",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p018:s1.2",
+              "page_char_start": 748,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 748,
+              "unit_char_end": 1242,
+              "page_char_end": 1242
+            },
+            "score": 0.8299713730812073,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "5e9bc40275f00cd89f639d60e71dd3649945ca17598f0c38b4f5bf75fd44d833",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 19,
+            "text": "GPU at the same time to give a full play\nto their capabilities.\n4. Huawei Ascend AI Processor\nNPU refers to the processor carrying out the optimization design specialized\nfor neural network computing, whose performance of neural network tasks\nprocessing is much higher than that of CPU and GPU.\nThe NPU mimics human neurons and synapses on the circuitry, and directly\nprocesses large scale neurons and synapses through deep learning processor\ninstruction set. In NPUs, the processing of a group of",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+              "page_char_start": 1133,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 1133,
+              "unit_char_end": 1630,
+              "page_char_end": 1630
+            },
+            "score": 0.8236105056273393,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 17]\neasier application of GPU in deep learning.\n• Improve customization: embracing multiple data types (no longer insisting\non float32, and adopting int8, etc.).\n• Add module specialized for deep learning (e.g., NVIDIA V100 Tensor\nCore GPU adopts the improved Volta architecture introducing and\nequipped with tensor cores).\nThe main challenges of current GPUs are high cost, low energy con-\nsumption ratio, and high input and output latency.\n\n[08ab8cc6b91fb39063af5f43aef81729698d7a44b4597bcd05fa16f91efe5d87 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 18]\nGPU architecture is\nshown in Fig. 1.6.\nThe GPU has numerous massively parallel computing architectures composed\nby thousands of much smaller cores (designed for simultaneous processing of\nmultiple tasks). The CPU consists of several cores optimized for serial\nprocessing.\n(a) The GPU works with many ALUs and little cache memory. Unlike the CPU,\ncache of the GPU serves for threads merely and plays the role of data\nforwarding. When multiple threads need to access the same data, the cache\nwill\n\n[5e9bc40275f00cd89f639d60e71dd3649945ca17598f0c38b4f5bf75fd44d833 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nGPU at the same time to give a full play\nto their capabilities.\n4. Huawei Ascend AI Processor\nNPU refers to the processor carrying out the optimization design specialized\nfor neural network computing, whose performance of neural network tasks\nprocessing is much higher than that of CPU and GPU.\nThe NPU mimics human neurons and synapses on the circuitry, and directly\nprocesses large scale neurons and synapses through deep learning processor\ninstruction set. In NPUs, the processing of a group of\n\n[57d33c2f5f1261ac95bfa429e7218c4ff1b394e3bdd0206e58bcfa91d2b659b8 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nneurons will take only\none instruction. Currently, the typical examples of NPU include Huawei Ascend\nAI processor, the Cambrian chip and IBM’s TrueNorth chip.\nThere are two kinds of Huawei Ascend AI processor: Ascend 310 and Ascend 910.\nAscend 910 is mainly applied to training scenarios, mostly deployed in the data\ncenter. While Ascend 310 is mainly designed for reasoning scenarios, whose\ndeployment covers the device, edge and cloud full scenarios.\nAscend 910 is currently the AI processor with",
+        "context_ids": [
+          "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197",
+          "08ab8cc6b91fb39063af5f43aef81729698d7a44b4597bcd05fa16f91efe5d87",
+          "5e9bc40275f00cd89f639d60e71dd3649945ca17598f0c38b4f5bf75fd44d833",
+          "57d33c2f5f1261ac95bfa429e7218c4ff1b394e3bdd0206e58bcfa91d2b659b8"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 44,
+          "prompt_tokens": 1847,
+          "total_tokens": 1891,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 1079
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000381108,
+        "elapsed_ms": 865.6335999839939,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "V100 21 billion transistors 815 mm2 die size"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "V100 21 billion transistors 815 mm2 die size"
+        },
+        "query": "V100 21 billion transistors 815 mm2 die size",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "V100 21 billion transistors 815 mm2 die size",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "532473ee2be13f2ce762bc42db09ccef9a1a5444b7005d7a2e1c701f99df29ba",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 16,
+              "text": "AVX512 to the x86 complex",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p016:s1.2",
+                "page_char_start": 2787,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 2787,
+                "unit_char_end": 2812,
+                "page_char_end": 2812
+              },
+              "score": 0.8256448015186324,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 19,
+              "text": "Table 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 499,
+                "page_char_end": 499
+              },
+              "score": 0.821465790271759,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "c0b41fd42d70e85c1d9894ecb0cf937edbcf1ece32e6444a8b95afde821e176b",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 14,
+              "text": "memristor.\nNew type computing devices: analog computing, in-memory computing (IMC).\n5. Process Level\nOn-chip memory (synaptic array): distributed static random-access memory\n(SRAM), Resistive random-access memory (ReRAM), and phase change\nrandom-access memory (PCRAM).\nCMOS process: technology node (16 nm, 7 nm).\nCMOS multi-layer integration: 2.5D IC/SiP technology, 3D-Stack technology\nand Monolithic 3D.\nNew type processes: 3D NAND, Flash Tunneling FETs, FeFET, FinFET.",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p014:s1.2",
+                "page_char_start": 1985,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 1985,
+                "unit_char_end": 2457,
+                "page_char_end": 2457
+              },
+              "score": 0.8166405071830461,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 67.13549999403767,
+          "elapsed_ms": 76.15320000331849
+        },
+        "results": [
+          {
+            "id": "532473ee2be13f2ce762bc42db09ccef9a1a5444b7005d7a2e1c701f99df29ba",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 16,
+            "text": "AVX512 to the x86 complex",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p016:s1.2",
+              "page_char_start": 2787,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 2787,
+              "unit_char_end": 2812,
+              "page_char_end": 2812
+            },
+            "score": 0.8256448015186324,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 19,
+            "text": "Table 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 499,
+              "page_char_end": 499
+            },
+            "score": 0.821465790271759,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "c0b41fd42d70e85c1d9894ecb0cf937edbcf1ece32e6444a8b95afde821e176b",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 14,
+            "text": "memristor.\nNew type computing devices: analog computing, in-memory computing (IMC).\n5. Process Level\nOn-chip memory (synaptic array): distributed static random-access memory\n(SRAM), Resistive random-access memory (ReRAM), and phase change\nrandom-access memory (PCRAM).\nCMOS process: technology node (16 nm, 7 nm).\nCMOS multi-layer integration: 2.5D IC/SiP technology, 3D-Stack technology\nand Monolithic 3D.\nNew type processes: 3D NAND, Flash Tunneling FETs, FeFET, FinFET.",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p014:s1.2",
+              "page_char_start": 1985,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 1985,
+              "unit_char_end": 2457,
+              "page_char_end": 2457
+            },
+            "score": 0.8166405071830461,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[532473ee2be13f2ce762bc42db09ccef9a1a5444b7005d7a2e1c701f99df29ba | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 16]\nAVX512 to the x86 complex\n\n[7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nTable 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel\n\n[c0b41fd42d70e85c1d9894ecb0cf937edbcf1ece32e6444a8b95afde821e176b | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 14]\nmemristor.\nNew type computing devices: analog computing, in-memory computing (IMC).\n5. Process Level\nOn-chip memory (synaptic array): distributed static random-access memory\n(SRAM), Resistive random-access memory (ReRAM), and phase change\nrandom-access memory (PCRAM).\nCMOS process: technology node (16 nm, 7 nm).\nCMOS multi-layer integration: 2.5D IC/SiP technology, 3D-Stack technology\nand Monolithic 3D.\nNew type processes: 3D NAND, Flash Tunneling FETs, FeFET, FinFET.\n\n[bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 17]\neasier application of GPU in deep learning.\n• Improve customization: embracing multiple data types (no longer insisting\non float32, and adopting int8, etc.).\n• Add module specialized for deep learning (e.g., NVIDIA V100 Tensor\nCore GPU adopts the improved Volta architecture introducing and\nequipped with tensor cores).\nThe main challenges of current GPUs are high cost, low energy con-\nsumption ratio, and high input and output latency.\n\n[08ab8cc6b91fb39063af5f43aef81729698d7a44b4597bcd05fa16f91efe5d87 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 18]\nGPU architecture is\nshown in Fig. 1.6.\nThe GPU has numerous massively parallel computing architectures composed\nby thousands of much smaller cores (designed for simultaneous processing of\nmultiple tasks). The CPU consists of several cores optimized for serial\nprocessing.\n(a) The GPU works with many ALUs and little cache memory. Unlike the CPU,\ncache of the GPU serves for threads merely and plays the role of data\nforwarding. When multiple threads need to access the same data, the cache\nwill",
+        "context_ids": [
+          "532473ee2be13f2ce762bc42db09ccef9a1a5444b7005d7a2e1c701f99df29ba",
+          "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+          "c0b41fd42d70e85c1d9894ecb0cf937edbcf1ece32e6444a8b95afde821e176b",
+          "bfcc9b0a641442bee5021c32b95e2357247c8abe67d395d275b16211e7b22197",
+          "08ab8cc6b91fb39063af5f43aef81729698d7a44b4597bcd05fa16f91efe5d87"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "finalize",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 109,
+          "prompt_tokens": 2140,
+          "total_tokens": 2249,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 1500
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.00058464,
+        "elapsed_ms": 1106.6256999911275,
+        "tool_calls": [
+          {
+            "name": "finish_response",
+            "arguments": {
+              "decision": "abstain",
+              "answer": "",
+              "citations": [],
+              "reason": "Context chỉ nhắc V100 dùng kiến trúc Volta với tensor cores, không nêu số lượng transistor của GPU V100."
+            }
+          }
+        ]
+      },
+      {
+        "event": "abstain",
+        "tool": "finish_response",
+        "arguments": {
+          "decision": "abstain",
+          "answer": "",
+          "citations": [],
+          "reason": "Context chỉ nhắc V100 dùng kiến trúc Volta với tensor cores, không nêu số lượng transistor của GPU V100."
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "b2_abs02",
+    "split": "test",
+    "question": "Theo chương, phí thuê dịch vụ Huawei CLOUD EI mỗi tháng là bao nhiêu USD?",
+    "filter": {},
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong các đoạn đã truy xuất để trả lời.",
+    "citations": [],
+    "citation_sources": [],
+    "context": "[199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 24]\n(f) In 2017, Huawei officially engaged in EI services in the form of cloud service\nand cooperated with more partners to provide more diversified AI services to\nthe external users.\n(g) In 2019, Huawei CLOUD EI started to emphasize the inclusive AI, in the\nhope of making AI affordable and accessible, and safe to use. Based on the\n\n[d98d80640af09147b1684beb9f0f9d8de974a084963880d86d5329b6551c708c | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 24]\nFig. 1.9 The history of Huawei CLOUD EI\n\n[2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 23]\n1. An Overview of Huawei CLOUD Enterprise Intelligence Application Platform\nHuawei CLOUD Enterprise Intelligence (EI) application platform is an enabler of\nenterprise intelligence that aims at providing open, credible and smart platforms\nbased on AI and big data technologies and in the form of cloud service (including\npublic cloud and customized cloud, etc.), By combining the industrial scenarios,\nthe enterprise application systems created with Huawei CLOUD are visualized,\naudible and can\n\n[5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 23]\nexpress themselves, featuring the capabilities to analyze and\ninterpret images, videos, languages and texts and easier access to AI and big data\nservices. Huawei CLOUD can help the enterprises to speed up business devel-\nopment and benefit the society.\n2. Features of Huawei CLOUD EI\nHuawei CLOUD EI has four remarkable features.\n(a) Industrial wisdom: Huawei CLOUD has a deep understanding of the indus-\ntry, the industrial know-how, and the major industrial deficiencies. It searches\nsolutions to",
+    "context_ids": [
+      "199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0",
+      "d98d80640af09147b1684beb9f0f9d8de974a084963880d86d5329b6551c708c",
+      "2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508",
+      "5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af"
+    ],
+    "search_count": 3,
+    "model_call_count": 4,
+    "elapsed_seconds": 4.324994599999627,
+    "semantic_review_status": "pending",
+    "api_requests": 4,
+    "abstention_reason": "Context hiện tại chỉ mô tả tổng quan và lịch sử Huawei CLOUD EI, không nêu phí thuê dịch vụ mỗi tháng tính bằng USD.",
+    "events": [
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 46,
+          "prompt_tokens": 712,
+          "total_tokens": 758,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 200
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000118272,
+        "elapsed_ms": 1038.2897999952547,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "Huawei CLOUD EI monthly service rental fee USD per month"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "Huawei CLOUD EI monthly service rental fee USD per month"
+        },
+        "query": "Huawei CLOUD EI monthly service rental fee USD per month",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "Huawei CLOUD EI monthly service rental fee USD per month",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 24,
+              "text": "(f) In 2017, Huawei officially engaged in EI services in the form of cloud service\nand cooperated with more partners to provide more diversified AI services to\nthe external users.\n(g) In 2019, Huawei CLOUD EI started to emphasize the inclusive AI, in the\nhope of making AI affordable and accessible, and safe to use. Based on the",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p024:s1.2",
+                "page_char_start": 1303,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 1303,
+                "unit_char_end": 1632,
+                "page_char_end": 1632
+              },
+              "score": 0.8773669673581754,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "d98d80640af09147b1684beb9f0f9d8de974a084963880d86d5329b6551c708c",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 24,
+              "text": "Fig. 1.9 The history of Huawei CLOUD EI",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p024:s1.2",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 39,
+                "page_char_end": 39
+              },
+              "score": 0.8711628394625894,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 23,
+              "text": "express themselves, featuring the capabilities to analyze and\ninterpret images, videos, languages and texts and easier access to AI and big data\nservices. Huawei CLOUD can help the enterprises to speed up business devel-\nopment and benefit the society.\n2. Features of Huawei CLOUD EI\nHuawei CLOUD EI has four remarkable features.\n(a) Industrial wisdom: Huawei CLOUD has a deep understanding of the indus-\ntry, the industrial know-how, and the major industrial deficiencies. It searches\nsolutions to",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+                "page_char_start": 878,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 878,
+                "unit_char_end": 1376,
+                "page_char_end": 1376
+              },
+              "score": 0.8583362782993166,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 71.46030000876635,
+          "elapsed_ms": 80.37519999197684
+        },
+        "results": [
+          {
+            "id": "199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 24,
+            "text": "(f) In 2017, Huawei officially engaged in EI services in the form of cloud service\nand cooperated with more partners to provide more diversified AI services to\nthe external users.\n(g) In 2019, Huawei CLOUD EI started to emphasize the inclusive AI, in the\nhope of making AI affordable and accessible, and safe to use. Based on the",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p024:s1.2",
+              "page_char_start": 1303,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 1303,
+              "unit_char_end": 1632,
+              "page_char_end": 1632
+            },
+            "score": 0.8773669673581754,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "d98d80640af09147b1684beb9f0f9d8de974a084963880d86d5329b6551c708c",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 24,
+            "text": "Fig. 1.9 The history of Huawei CLOUD EI",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p024:s1.2",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 39,
+              "page_char_end": 39
+            },
+            "score": 0.8711628394625894,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 23,
+            "text": "express themselves, featuring the capabilities to analyze and\ninterpret images, videos, languages and texts and easier access to AI and big data\nservices. Huawei CLOUD can help the enterprises to speed up business devel-\nopment and benefit the society.\n2. Features of Huawei CLOUD EI\nHuawei CLOUD EI has four remarkable features.\n(a) Industrial wisdom: Huawei CLOUD has a deep understanding of the indus-\ntry, the industrial know-how, and the major industrial deficiencies. It searches\nsolutions to",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+              "page_char_start": 878,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 878,
+              "unit_char_end": 1376,
+              "page_char_end": 1376
+            },
+            "score": 0.8583362782993166,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 24]\n(f) In 2017, Huawei officially engaged in EI services in the form of cloud service\nand cooperated with more partners to provide more diversified AI services to\nthe external users.\n(g) In 2019, Huawei CLOUD EI started to emphasize the inclusive AI, in the\nhope of making AI affordable and accessible, and safe to use. Based on the\n\n[d98d80640af09147b1684beb9f0f9d8de974a084963880d86d5329b6551c708c | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 24]\nFig. 1.9 The history of Huawei CLOUD EI\n\n[5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 23]\nexpress themselves, featuring the capabilities to analyze and\ninterpret images, videos, languages and texts and easier access to AI and big data\nservices. Huawei CLOUD can help the enterprises to speed up business devel-\nopment and benefit the society.\n2. Features of Huawei CLOUD EI\nHuawei CLOUD EI has four remarkable features.\n(a) Industrial wisdom: Huawei CLOUD has a deep understanding of the indus-\ntry, the industrial know-how, and the major industrial deficiencies. It searches\nsolutions to",
+        "context_ids": [
+          "199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0",
+          "d98d80640af09147b1684beb9f0f9d8de974a084963880d86d5329b6551c708c",
+          "5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 45,
+          "prompt_tokens": 1521,
+          "total_tokens": 1566,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 753
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.00028450800000000005,
+        "elapsed_ms": 903.2971000124235,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "Huawei CLOUD EI price cost fee per month dollars"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "Huawei CLOUD EI price cost fee per month dollars"
+        },
+        "query": "Huawei CLOUD EI price cost fee per month dollars",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "Huawei CLOUD EI price cost fee per month dollars",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 24,
+              "text": "(f) In 2017, Huawei officially engaged in EI services in the form of cloud service\nand cooperated with more partners to provide more diversified AI services to\nthe external users.\n(g) In 2019, Huawei CLOUD EI started to emphasize the inclusive AI, in the\nhope of making AI affordable and accessible, and safe to use. Based on the",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p024:s1.2",
+                "page_char_start": 1303,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 1303,
+                "unit_char_end": 1632,
+                "page_char_end": 1632
+              },
+              "score": 0.8849863478549527,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "d98d80640af09147b1684beb9f0f9d8de974a084963880d86d5329b6551c708c",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 24,
+              "text": "Fig. 1.9 The history of Huawei CLOUD EI",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p024:s1.2",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 39,
+                "page_char_end": 39
+              },
+              "score": 0.8762145712247762,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 23,
+              "text": "1. An Overview of Huawei CLOUD Enterprise Intelligence Application Platform\nHuawei CLOUD Enterprise Intelligence (EI) application platform is an enabler of\nenterprise intelligence that aims at providing open, credible and smart platforms\nbased on AI and big data technologies and in the form of cloud service (including\npublic cloud and customized cloud, etc.), By combining the industrial scenarios,\nthe enterprise application systems created with Huawei CLOUD are visualized,\naudible and can",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+                "page_char_start": 384,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 384,
+                "unit_char_end": 877,
+                "page_char_end": 877
+              },
+              "score": 0.8724213914620063,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 61.23180000577122,
+          "elapsed_ms": 71.08399999560788
+        },
+        "results": [
+          {
+            "id": "199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 24,
+            "text": "(f) In 2017, Huawei officially engaged in EI services in the form of cloud service\nand cooperated with more partners to provide more diversified AI services to\nthe external users.\n(g) In 2019, Huawei CLOUD EI started to emphasize the inclusive AI, in the\nhope of making AI affordable and accessible, and safe to use. Based on the",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p024:s1.2",
+              "page_char_start": 1303,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 1303,
+              "unit_char_end": 1632,
+              "page_char_end": 1632
+            },
+            "score": 0.8849863478549527,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "d98d80640af09147b1684beb9f0f9d8de974a084963880d86d5329b6551c708c",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 24,
+            "text": "Fig. 1.9 The history of Huawei CLOUD EI",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p024:s1.2",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 39,
+              "page_char_end": 39
+            },
+            "score": 0.8762145712247762,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 23,
+            "text": "1. An Overview of Huawei CLOUD Enterprise Intelligence Application Platform\nHuawei CLOUD Enterprise Intelligence (EI) application platform is an enabler of\nenterprise intelligence that aims at providing open, credible and smart platforms\nbased on AI and big data technologies and in the form of cloud service (including\npublic cloud and customized cloud, etc.), By combining the industrial scenarios,\nthe enterprise application systems created with Huawei CLOUD are visualized,\naudible and can",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+              "page_char_start": 384,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 384,
+              "unit_char_end": 877,
+              "page_char_end": 877
+            },
+            "score": 0.8724213914620063,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 24]\n(f) In 2017, Huawei officially engaged in EI services in the form of cloud service\nand cooperated with more partners to provide more diversified AI services to\nthe external users.\n(g) In 2019, Huawei CLOUD EI started to emphasize the inclusive AI, in the\nhope of making AI affordable and accessible, and safe to use. Based on the\n\n[d98d80640af09147b1684beb9f0f9d8de974a084963880d86d5329b6551c708c | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 24]\nFig. 1.9 The history of Huawei CLOUD EI\n\n[2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 23]\n1. An Overview of Huawei CLOUD Enterprise Intelligence Application Platform\nHuawei CLOUD Enterprise Intelligence (EI) application platform is an enabler of\nenterprise intelligence that aims at providing open, credible and smart platforms\nbased on AI and big data technologies and in the form of cloud service (including\npublic cloud and customized cloud, etc.), By combining the industrial scenarios,\nthe enterprise application systems created with Huawei CLOUD are visualized,\naudible and can\n\n[5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 23]\nexpress themselves, featuring the capabilities to analyze and\ninterpret images, videos, languages and texts and easier access to AI and big data\nservices. Huawei CLOUD can help the enterprises to speed up business devel-\nopment and benefit the society.\n2. Features of Huawei CLOUD EI\nHuawei CLOUD EI has four remarkable features.\n(a) Industrial wisdom: Huawei CLOUD has a deep understanding of the indus-\ntry, the industrial know-how, and the major industrial deficiencies. It searches\nsolutions to",
+        "context_ids": [
+          "199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0",
+          "d98d80640af09147b1684beb9f0f9d8de974a084963880d86d5329b6551c708c",
+          "2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508",
+          "5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 46,
+          "prompt_tokens": 1741,
+          "total_tokens": 1787,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 973
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.00035170799999999995,
+        "elapsed_ms": 983.0340999760665,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "Huawei CLOUD EI rental fee per month USD pricing chapter"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "Huawei CLOUD EI rental fee per month USD pricing chapter"
+        },
+        "query": "Huawei CLOUD EI rental fee per month USD pricing chapter",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "Huawei CLOUD EI rental fee per month USD pricing chapter",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 24,
+              "text": "(f) In 2017, Huawei officially engaged in EI services in the form of cloud service\nand cooperated with more partners to provide more diversified AI services to\nthe external users.\n(g) In 2019, Huawei CLOUD EI started to emphasize the inclusive AI, in the\nhope of making AI affordable and accessible, and safe to use. Based on the",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p024:s1.2",
+                "page_char_start": 1303,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 1303,
+                "unit_char_end": 1632,
+                "page_char_end": 1632
+              },
+              "score": 0.876307330791833,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "d98d80640af09147b1684beb9f0f9d8de974a084963880d86d5329b6551c708c",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 24,
+              "text": "Fig. 1.9 The history of Huawei CLOUD EI",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p024:s1.2",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 39,
+                "page_char_end": 39
+              },
+              "score": 0.8749557361085902,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 23,
+              "text": "1. An Overview of Huawei CLOUD Enterprise Intelligence Application Platform\nHuawei CLOUD Enterprise Intelligence (EI) application platform is an enabler of\nenterprise intelligence that aims at providing open, credible and smart platforms\nbased on AI and big data technologies and in the form of cloud service (including\npublic cloud and customized cloud, etc.), By combining the industrial scenarios,\nthe enterprise application systems created with Huawei CLOUD are visualized,\naudible and can",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+                "page_char_start": 384,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 384,
+                "unit_char_end": 877,
+                "page_char_end": 877
+              },
+              "score": 0.857246782079916,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 34.65480002341792,
+          "elapsed_ms": 43.62539999419823
+        },
+        "results": [
+          {
+            "id": "199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 24,
+            "text": "(f) In 2017, Huawei officially engaged in EI services in the form of cloud service\nand cooperated with more partners to provide more diversified AI services to\nthe external users.\n(g) In 2019, Huawei CLOUD EI started to emphasize the inclusive AI, in the\nhope of making AI affordable and accessible, and safe to use. Based on the",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p024:s1.2",
+              "page_char_start": 1303,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 1303,
+              "unit_char_end": 1632,
+              "page_char_end": 1632
+            },
+            "score": 0.876307330791833,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "d98d80640af09147b1684beb9f0f9d8de974a084963880d86d5329b6551c708c",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 24,
+            "text": "Fig. 1.9 The history of Huawei CLOUD EI",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p024:s1.2",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 39,
+              "page_char_end": 39
+            },
+            "score": 0.8749557361085902,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 23,
+            "text": "1. An Overview of Huawei CLOUD Enterprise Intelligence Application Platform\nHuawei CLOUD Enterprise Intelligence (EI) application platform is an enabler of\nenterprise intelligence that aims at providing open, credible and smart platforms\nbased on AI and big data technologies and in the form of cloud service (including\npublic cloud and customized cloud, etc.), By combining the industrial scenarios,\nthe enterprise application systems created with Huawei CLOUD are visualized,\naudible and can",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+              "page_char_start": 384,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 384,
+              "unit_char_end": 877,
+              "page_char_end": 877
+            },
+            "score": 0.857246782079916,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 24]\n(f) In 2017, Huawei officially engaged in EI services in the form of cloud service\nand cooperated with more partners to provide more diversified AI services to\nthe external users.\n(g) In 2019, Huawei CLOUD EI started to emphasize the inclusive AI, in the\nhope of making AI affordable and accessible, and safe to use. Based on the\n\n[d98d80640af09147b1684beb9f0f9d8de974a084963880d86d5329b6551c708c | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 24]\nFig. 1.9 The history of Huawei CLOUD EI\n\n[2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 23]\n1. An Overview of Huawei CLOUD Enterprise Intelligence Application Platform\nHuawei CLOUD Enterprise Intelligence (EI) application platform is an enabler of\nenterprise intelligence that aims at providing open, credible and smart platforms\nbased on AI and big data technologies and in the form of cloud service (including\npublic cloud and customized cloud, etc.), By combining the industrial scenarios,\nthe enterprise application systems created with Huawei CLOUD are visualized,\naudible and can\n\n[5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 23]\nexpress themselves, featuring the capabilities to analyze and\ninterpret images, videos, languages and texts and easier access to AI and big data\nservices. Huawei CLOUD can help the enterprises to speed up business devel-\nopment and benefit the society.\n2. Features of Huawei CLOUD EI\nHuawei CLOUD EI has four remarkable features.\n(a) Industrial wisdom: Huawei CLOUD has a deep understanding of the indus-\ntry, the industrial know-how, and the major industrial deficiencies. It searches\nsolutions to",
+        "context_ids": [
+          "199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0",
+          "d98d80640af09147b1684beb9f0f9d8de974a084963880d86d5329b6551c708c",
+          "2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508",
+          "5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "finalize",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 125,
+          "prompt_tokens": 1838,
+          "total_tokens": 1963,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 1198
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.00051324,
+        "elapsed_ms": 1203.8598000071943,
+        "tool_calls": [
+          {
+            "name": "finish_response",
+            "arguments": {
+              "decision": "abstain",
+              "answer": "",
+              "citations": [],
+              "reason": "Context hiện tại chỉ mô tả tổng quan và lịch sử Huawei CLOUD EI, không nêu phí thuê dịch vụ mỗi tháng tính bằng USD."
+            }
+          }
+        ]
+      },
+      {
+        "event": "abstain",
+        "tool": "finish_response",
+        "arguments": {
+          "decision": "abstain",
+          "answer": "",
+          "citations": [],
+          "reason": "Context hiện tại chỉ mô tả tổng quan và lịch sử Huawei CLOUD EI, không nêu phí thuê dịch vụ mỗi tháng tính bằng USD."
+        }
+      }
+    ]
+  }
+]

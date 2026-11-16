@@ -1,0 +1,146 @@
+[
+  {
+    "query_id": "ad_t1",
+    "group": "table",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đầy đủ các ý trong Purpose của Pre-Phase A (phổ ý tưởng/phương án, tính khả thi, mission concepts, yêu cầu cấp hệ thống, đánh giá performance/cost/schedule, nhu cầu công nghệ và scope) và cả Typical Outcomes."
+  },
+  {
+    "query_id": "ad_t2",
+    "group": "table",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đúng nguyên văn chức năng của trường Owner và bản dịch tiếng Việt khớp với đáp án mong đợi."
+  },
+  {
+    "query_id": "ad_t3",
+    "group": "table",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời liệt kê đúng và đủ 6 bên liên quan ở Phase F theo Table 4.1-1."
+  },
+  {
+    "query_id": "ad_i1",
+    "group": "image",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đủ năm quá trình (Implementation, Integration, Verification, Validation, Transition) kèm chi tiết con đúng như trong hình."
+  },
+  {
+    "query_id": "ad_i2",
+    "group": "image",
+    "passed": false,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đúng thứ tự Functional → Allocated → Product, nhưng phần \"Functional Baseline (Major architectural aspects of design complete)\" không có trong context (chỉ thấy \"of complete\" bị cắt cụt)."
+  },
+  {
+    "query_id": "ad_i3",
+    "group": "image",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đủ Planning, Status Reporting, Assessing và Decision Analysis cùng hành động/điều chỉnh quay lại, khớp với đáp án và evidence."
+  },
+  {
+    "query_id": "ad_c1",
+    "group": "chart",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đúng nhãn trục đứng \"Cumulative Percentage Life Cycle Cost against Time\" và thang 0%–100%, khớp đáp án mong đợi."
+  },
+  {
+    "query_id": "ad_c2",
+    "group": "chart",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Trả lời đúng hướng \"upper left\" như gold và giải thích thêm chi phí thấp hơn/hiệu quả cao hơn phù hợp với trục của hình."
+  },
+  {
+    "query_id": "ad_c3",
+    "group": "chart",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đúng ý chính (đường nét đứt = giá trị không đổi của objective function/cost-effectiveness) và bổ sung chi tiết giá trị cao hơn về góc trên bên trái, đều được nguồn hỗ trợ."
+  },
+  {
+    "query_id": "ad_m1",
+    "group": "multi_hop",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đúng SRR = System Requirements Review và đúng chức năng của Rationale theo Table 4.2-2, kèm thông tin bổ sung về nội dung Rationale có nguồn hỗ trợ."
+  },
+  {
+    "query_id": "ad_m2",
+    "group": "multi_hop",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Trả lời đúng cả hai ý: Phase F có planetary protection (Table 4.1-1) và As-Deployed Baseline gắn với ORR (Figure 6.5-3)."
+  },
+  {
+    "query_id": "ad_m3",
+    "group": "multi_hop",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đúng định nghĩa TRL 9 theo Figure G.4-1 và đúng ý nghĩa các hàng của ma trận theo Figure G.4-3, kèm thông tin bổ sung có nguồn hỗ trợ."
+  },
+  {
+    "query_id": "ad_x1",
+    "group": "text",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đúng nguyên văn định nghĩa iterative (áp dụng quá trình cho cùng sản phẩm/tập sản phẩm để sửa sai lệch phát hiện hoặc biến thể so với yêu cầu) và đúng ngữ cảnh SE engine."
+  },
+  {
+    "query_id": "ad_x2",
+    "group": "text",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đúng \"tất cả các giai đoạn\" và vòng phản hồi tự điều chỉnh, khớp với bằng chứng; phần bổ sung về tin cậy/thẩm định cũng có trong chunk."
+  },
+  {
+    "query_id": "ad_x3",
+    "group": "text",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đủ cả mục đích nội bộ (hướng dẫn, theo dõi, đo lường CM và lịch triển khai) và bên ngoài (truyền đạt quy trình CM cho nhà thầu, thiết lập quy trình và quan hệ làm việc nhất quán), khớp đáp án."
+  },
+  {
+    "query_id": "ad_n1",
+    "group": "unanswerable",
+    "passed": true,
+    "status": "abstain",
+    "review_status": "model_proposed",
+    "reason": "Agent từ chối đúng vì hình chỉ minh họa phân bố và bất định, không có xác suất số, và không thêm khẳng định vô căn cứ."
+  },
+  {
+    "query_id": "ad_n2",
+    "group": "unanswerable",
+    "passed": true,
+    "status": "abstain",
+    "review_status": "model_proposed",
+    "reason": "Không có bằng chứng về URL tải dữ liệu thô trong các đoạn truy xuất, nên việc từ chối là chính xác."
+  },
+  {
+    "query_id": "ad_n3",
+    "group": "unanswerable",
+    "passed": true,
+    "status": "abstain",
+    "review_status": "model_proposed",
+    "reason": "Agent từ chối gọn và không thêm khẳng định ngoài tài liệu, phù hợp với việc thiếu bằng chứng."
+  }
+]

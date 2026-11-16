@@ -1,0 +1,75 @@
+{
+  "configuration": "reference-12",
+  "config": {
+    "provider": "deepseek",
+    "base_url": "https://api.deepseek.com",
+    "model": "deepseek-flash",
+    "documented_model_version": "DeepSeek-V4.1-Flash-1017",
+    "thinking": "disabled",
+    "temperature": 0,
+    "max_output_tokens": 1200,
+    "request_timeout_seconds": 60,
+    "max_model_calls": 5,
+    "max_searches": 3,
+    "retrieval_method": "hybrid",
+    "top_k": 12,
+    "context_budget_chars": 32000,
+    "context_selection": "latest_search_first",
+    "estimated_cost_limit_usd": 1.0,
+    "pricing": {
+      "checked_on": "2026-11-16",
+      "source": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "peak_usd_per_million_cached_input": 0.006,
+      "peak_usd_per_million_uncached_input": 0.3,
+      "peak_usd_per_million_output": 1.2
+    }
+  },
+  "passed": 15,
+  "total": 18,
+  "rate": 0.8333333333333334,
+  "by_group": {
+    "chart": {
+      "n": 3,
+      "N": 3,
+      "rate": 1.0
+    },
+    "image": {
+      "n": 3,
+      "N": 3,
+      "rate": 1.0
+    },
+    "multi_hop": {
+      "n": 1,
+      "N": 3,
+      "rate": 0.3333333333333333
+    },
+    "table": {
+      "n": 3,
+      "N": 3,
+      "rate": 1.0
+    },
+    "text": {
+      "n": 2,
+      "N": 3,
+      "rate": 0.6666666666666666
+    },
+    "unanswerable": {
+      "n": 3,
+      "N": 3,
+      "rate": 1.0
+    }
+  },
+  "errors": 2,
+  "statuses": {
+    "answered": 13,
+    "error": 2,
+    "abstain": 3
+  },
+  "generation_cost_upper_usd": 0.023861322,
+  "judge_cost_upper_usd": 0.0207333,
+  "total_cost_upper_usd": 0.044594622,
+  "api_requests": 57,
+  "label_origin": "model_proposed; yêu cầu đối chiếu bản gốc từng câu trước khi xác nhận bonus",
+  "completed_at_utc": "2026-11-16T11:53:15.391686+00:00",
+  "all_test_cases_in_denominator": true
+}

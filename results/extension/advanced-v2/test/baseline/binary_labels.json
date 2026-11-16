@@ -1,0 +1,242 @@
+[
+  {
+    "query_id": "at_t1",
+    "group": "table",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đúng chức năng của Requirement ID là cung cấp hệ thống đánh số duy nhất để sắp xếp và theo dõi, khớp đáp án."
+  },
+  {
+    "query_id": "at_t2",
+    "group": "table",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đúng và đủ hai ý: truy vết hai chiều giữa yêu cầu cha và yêu cầu cấp thấp hơn (derived), cùng các quan hệ giữa các yêu cầu."
+  },
+  {
+    "query_id": "at_t3",
+    "group": "table",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đủ bốn phương pháp test, inspection, analysis, demonstration và điều kiện xác định khi phát triển yêu cầu, khớp với bằng chứng."
+  },
+  {
+    "query_id": "at_t4",
+    "group": "table",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đúng cả hai nhóm \"verification team\" và \"Flight Readiness Board members\" trong hàng Phase D, khớp đáp án."
+  },
+  {
+    "query_id": "at_t5",
+    "group": "table",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đúng và đủ ba tên: Thermal Chambers, Vibration Labs, Radiation Labs, khớp đáp án."
+  },
+  {
+    "query_id": "at_t6",
+    "group": "table",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đúng \"short half-page\" và hai mục Recommendation cùng Problem/issue requiring a decision, mỗi mục tóm tắt 1 câu, khớp đáp án."
+  },
+  {
+    "query_id": "at_i1",
+    "group": "image",
+    "passed": false,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời liệt kê đúng và đủ bốn quá trình 1–4 (developing stakeholder expectations, technical requirements, logical decompositions, design solutions), khớp với đáp án mong đợi."
+  },
+  {
+    "query_id": "at_i2",
+    "group": "image",
+    "passed": false,
+    "status": "abstain",
+    "review_status": "model_proposed",
+    "reason": "Agent từ chối trả lời dù câu hỏi có đáp án (Needs, Goals and Objectives; Constraints; Success Criteria), nên sai."
+  },
+  {
+    "query_id": "at_i3",
+    "group": "image",
+    "passed": false,
+    "status": "abstain",
+    "review_status": "model_proposed",
+    "reason": "Agent từ chối trả lời dù câu hỏi có đáp án (thứ tự năm tiêu đề của Figure 4.1-2), nên không đạt."
+  },
+  {
+    "query_id": "at_i4",
+    "group": "image",
+    "passed": false,
+    "status": "error",
+    "review_status": "model_proposed",
+    "reason": "Đã hết số lượt model mà chưa có câu trả lời hoặc từ chối hợp lệ."
+  },
+  {
+    "query_id": "at_i5",
+    "group": "image",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời liệt kê đủ năm thành phần đúng như đáp án và được hai chunk bổ sung cho nhau hỗ trợ."
+  },
+  {
+    "query_id": "at_c1",
+    "group": "chart",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Nêu đúng Design 15%, Develop 20% và chênh 5 điểm phần trăm, khớp đáp án."
+  },
+  {
+    "query_id": "at_c2",
+    "group": "chart",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đúng hai nhãn \"Likelihood and Its Uncertainty\" và \"Consequence Severity and Its Uncertainty\" kèm diễn giải khả năng xảy ra/hậu quả và bất định, khớp đáp án."
+  },
+  {
+    "query_id": "at_c3",
+    "group": "chart",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Trả lời đúng Concept 8%, Prod/Test 50% và tính đúng 50/8 = 6,25 lần, khớp đáp án."
+  },
+  {
+    "query_id": "at_c4",
+    "group": "chart",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đúng cả hai trục (Life-Cycle Cost/constant dollars; All Aspects of Effectiveness/quantitative units) và đúng việc không có giá trị tick số, khớp đáp án."
+  },
+  {
+    "query_id": "at_c5",
+    "group": "chart",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đúng concept C, nguy cơ thất bại đắt đỏ, đám mây xác suất gần trục x, chi phí cao và hiệu quả gần như bằng không, khớp đầy đủ với bằng chứng."
+  },
+  {
+    "query_id": "at_m1",
+    "group": "multi_hop",
+    "passed": false,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đúng PDR = Preliminary Design Review theo Figure 2.5-1 và định nghĩa Verification level đúng nguyên văn Table 4.2-2, kèm thông tin bổ sung có nguồn."
+  },
+  {
+    "query_id": "at_m2",
+    "group": "multi_hop",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Trả lời đúng cả hai ý: định nghĩa Verification lead theo Table 4.2-2 và xác nhận hàng Phase E có cả crew và users."
+  },
+  {
+    "query_id": "at_m3",
+    "group": "multi_hop",
+    "passed": false,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Phần thứ hai (TRL hệ thống = TRL thấp nhất, nên không đạt TRL 6) đúng và đủ, nhưng định nghĩa TRL 6 nêu \"technology demonstrated in a relevant environment\" thay vì \"system/subsystem model or prototype demonstration in a relevant environment\" của Figure G.4-1, và không nêu định nghĩa TRL 6 từ Figure G.4-1."
+  },
+  {
+    "query_id": "at_m4",
+    "group": "multi_hop",
+    "passed": false,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Đúng hai chức danh systems engineer nhưng thiếu danh sách Common Areas (Stakeholders, Risks, Configuration Management, Data Management, Reviews, Schedule) và còn khẳng định sai rằng danh sách không có trong context."
+  },
+  {
+    "query_id": "at_x1",
+    "group": "text",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đúng và đủ ba thành phần hardware, software và human systems integration theo mục 2.6."
+  },
+  {
+    "query_id": "at_x2",
+    "group": "text",
+    "passed": false,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Câu trả lời nêu đúng phần Phase E (đảm bảo mức chặt chẽ, quản lý rủi ro, TPM, đánh giá kỹ thuật) và Phase F (lưu trữ thông tin kỹ thuật), nhưng thiếu ý cốt lõi của đáp án: theo dõi performance, kiểm soát configuration, hỗ trợ quyết định về operations/sustaining engineering/closeout, và nâng cấp quay lại engine như phát triển mới."
+  },
+  {
+    "query_id": "at_x3",
+    "group": "text",
+    "passed": false,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Trả lời đúng hướng \"Không\" nhưng thiếu ý cốt lõi của mục 2.4: validation có thể thực hiện trong từng development phase bằng phase products (ví dụ models), không chỉ lúc delivery."
+  },
+  {
+    "query_id": "at_x4",
+    "group": "text",
+    "passed": true,
+    "status": "answered",
+    "review_status": "model_proposed",
+    "reason": "Trả lời đúng và đủ: nêu nội dung là đặc điểm quan trọng, liệt kê đủ decision needed, assessments done, recommendations, decision finally made, và cả hai hình thức white paper/trang trọng."
+  },
+  {
+    "query_id": "at_n1",
+    "group": "unanswerable",
+    "passed": true,
+    "status": "abstain",
+    "review_status": "model_proposed",
+    "reason": "Không có bằng chứng số cho khoảng tin cậy 95% của chi phí concept B, nên việc từ chối là phù hợp và không thêm khẳng định vô căn cứ."
+  },
+  {
+    "query_id": "at_n2",
+    "group": "unanswerable",
+    "passed": true,
+    "status": "abstain",
+    "review_status": "model_proposed",
+    "reason": "Câu hỏi không có đáp án trong context và agent từ chối gọn, không thêm khẳng định vô căn cứ."
+  },
+  {
+    "query_id": "at_n3",
+    "group": "unanswerable",
+    "passed": true,
+    "status": "abstain",
+    "review_status": "model_proposed",
+    "reason": "Agent từ chối vì thiếu bằng chứng, phù hợp với việc bảng không nêu tổng ngân sách."
+  },
+  {
+    "query_id": "at_n4",
+    "group": "unanswerable",
+    "passed": true,
+    "status": "abstain",
+    "review_status": "model_proposed",
+    "reason": "Agent trả lời \"Không đủ bằng chứng\" đúng với câu hỏi thiếu đáp án và không bịa email."
+  },
+  {
+    "query_id": "at_n5",
+    "group": "unanswerable",
+    "passed": true,
+    "status": "abstain",
+    "review_status": "model_proposed",
+    "reason": "Agent từ chối và không thêm khẳng định vô căn cứ, phù hợp với việc thiếu bằng chứng."
+  },
+  {
+    "query_id": "at_n6",
+    "group": "unanswerable",
+    "passed": true,
+    "status": "abstain",
+    "review_status": "model_proposed",
+    "reason": "Agent từ chối và không thêm khẳng định vô căn cứ, phù hợp với việc thiếu bằng chứng."
+  }
+]

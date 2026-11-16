@@ -1,0 +1,150 @@
+{
+  "scope": "Saved extension runs only; excludes legacy study and manual web calls.",
+  "recorded_generation_upper_usd": 0.31448406,
+  "recorded_judge_upper_usd": 0.284339868,
+  "recorded_total_upper_usd": 0.598823928,
+  "cost_is_invoice": false,
+  "grading_incident": "Initial basic-v2 dev grading stopped on malformed JSON; failed call usage was not saved. Total only sums recorded successful responses for that study; bonus records every grading attempt.",
+  "runs": [
+    {
+      "scope": "basic-v2",
+      "split": "dev",
+      "configuration": "baseline",
+      "cases": 17,
+      "median_seconds": 2.7098275999887846,
+      "generation_cost_upper_usd": 0.010566606,
+      "judge_cost_upper_usd": 0.010816139999999998,
+      "total_cost_upper_usd": 0.021382745999999998
+    },
+    {
+      "scope": "basic-v2",
+      "split": "dev",
+      "configuration": "neighbors-1",
+      "cases": 17,
+      "median_seconds": 2.616292799997609,
+      "generation_cost_upper_usd": 0.013419684,
+      "judge_cost_upper_usd": 0.016406327999999998,
+      "total_cost_upper_usd": 0.029826012
+    },
+    {
+      "scope": "basic-v2",
+      "split": "dev",
+      "configuration": "neighbors-2",
+      "cases": 17,
+      "median_seconds": 2.7360598999948706,
+      "generation_cost_upper_usd": 0.014586876,
+      "judge_cost_upper_usd": 0.018392292,
+      "total_cost_upper_usd": 0.032979168
+    },
+    {
+      "scope": "basic-v2",
+      "split": "test",
+      "configuration": "baseline",
+      "cases": 7,
+      "median_seconds": 3.2496214999991935,
+      "generation_cost_upper_usd": 0.006444,
+      "judge_cost_upper_usd": 0.0049380959999999995,
+      "total_cost_upper_usd": 0.011382096
+    },
+    {
+      "scope": "basic-v2",
+      "split": "test",
+      "configuration": "neighbors-1",
+      "cases": 7,
+      "median_seconds": 2.5236745000001974,
+      "generation_cost_upper_usd": 0.006548844,
+      "judge_cost_upper_usd": 0.00664968,
+      "total_cost_upper_usd": 0.013198524
+    },
+    {
+      "scope": "advanced",
+      "split": "dev",
+      "configuration": "baseline",
+      "cases": 18,
+      "median_seconds": 3.210999199989601,
+      "generation_cost_upper_usd": 0.01909242,
+      "judge_cost_upper_usd": 0.01639494,
+      "total_cost_upper_usd": 0.035487359999999996
+    },
+    {
+      "scope": "advanced",
+      "split": "dev",
+      "configuration": "reference-8",
+      "cases": 18,
+      "median_seconds": 2.74725169998419,
+      "generation_cost_upper_usd": 0.019135884,
+      "judge_cost_upper_usd": 0.0182631,
+      "total_cost_upper_usd": 0.037398983999999996
+    },
+    {
+      "scope": "advanced",
+      "split": "dev",
+      "configuration": "reference-12",
+      "cases": 18,
+      "median_seconds": 2.8742786000075284,
+      "generation_cost_upper_usd": 0.023861322,
+      "judge_cost_upper_usd": 0.0207333,
+      "total_cost_upper_usd": 0.044594622
+    },
+    {
+      "scope": "advanced-v2",
+      "split": "dev",
+      "configuration": "baseline",
+      "cases": 18,
+      "median_seconds": 3.6328455500042764,
+      "generation_cost_upper_usd": 0.024166836,
+      "judge_cost_upper_usd": 0.019393872,
+      "total_cost_upper_usd": 0.043560708000000004
+    },
+    {
+      "scope": "advanced-v2",
+      "split": "dev",
+      "configuration": "reference-text",
+      "cases": 18,
+      "median_seconds": 3.4069803500024136,
+      "generation_cost_upper_usd": 0.027086976,
+      "judge_cost_upper_usd": 0.023961108,
+      "total_cost_upper_usd": 0.051048083999999994
+    },
+    {
+      "scope": "advanced-v2",
+      "split": "dev",
+      "configuration": "reference-8",
+      "cases": 18,
+      "median_seconds": 3.855979499989189,
+      "generation_cost_upper_usd": 0.022836276,
+      "judge_cost_upper_usd": 0.02370996,
+      "total_cost_upper_usd": 0.046546236
+    },
+    {
+      "scope": "advanced-v2",
+      "split": "dev",
+      "configuration": "reference-12",
+      "cases": 18,
+      "median_seconds": 3.518307399994228,
+      "generation_cost_upper_usd": 0.030771252,
+      "judge_cost_upper_usd": 0.027701543999999998,
+      "total_cost_upper_usd": 0.058472795999999994
+    },
+    {
+      "scope": "advanced-v2",
+      "split": "test",
+      "configuration": "baseline",
+      "cases": 30,
+      "median_seconds": 3.1246795500192093,
+      "generation_cost_upper_usd": 0.043251072,
+      "judge_cost_upper_usd": 0.034928759999999996,
+      "total_cost_upper_usd": 0.078179832
+    },
+    {
+      "scope": "advanced-v2",
+      "split": "test",
+      "configuration": "reference-8",
+      "cases": 30,
+      "median_seconds": 3.1635018499800935,
+      "generation_cost_upper_usd": 0.052716012,
+      "judge_cost_upper_usd": 0.042050748,
+      "total_cost_upper_usd": 0.09476676
+    }
+  ]
+}

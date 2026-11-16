@@ -1,0 +1,630 @@
+[
+  {
+    "query_id": "ad_t1",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng và đủ mục đích theo Table 2.2-1: phổ rộng ý tưởng/phương án, xác định tính khả thi, phát triển mission concepts, dự thảo yêu cầu hệ thống, đánh giá performance/cost/schedule, nhu cầu công nghệ và scope, kèm kết quả điển hình.",
+    "context_reason": "Chunk nasa_p022_table_00130 chứa nguyên văn cột Purpose và Typical Outcomes của dòng Pre-Phase A trong Table 2.2-1, đủ để trả lời trọn câu hỏi.",
+    "citation_reasons": [
+      "Chunk dẫn nguồn là dòng Pre-Phase A của Table 2.2-1, hỗ trợ trực tiếp cả mục đích lẫn kết quả điển hình được nêu."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong bằng chứng nên không áp dụng abstention.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 385,
+        "prompt_tokens": 3034,
+        "total_tokens": 3419,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 2138
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.001108776,
+      "elapsed_ms": 2816.4998999855015
+    }
+  },
+  {
+    "query_id": "ad_t2",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời dịch đúng và đầy đủ định nghĩa trường Owner trong Table 4.2-2, khớp với đáp án mong đợi.",
+    "context_reason": "Chunk nasa_p083_table_00591 chứa nguyên văn hàng Owner của Table 4.2-2, đủ để trả lời trọn câu hỏi.",
+    "citation_reasons": [
+      "Chunk ghi đúng 'Owner: Person or group responsible for writing, managing, and/or approving changes to this requirement', hỗ trợ trực tiếp khẳng định được trích dẫn."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong bằng chứng nên không áp dụng abstention.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 313,
+        "prompt_tokens": 2477,
+        "total_tokens": 2790,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1581
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.0008552759999999999,
+      "elapsed_ms": 2180.7477999827825
+    }
+  },
+  {
+    "query_id": "ad_t3",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời liệt kê đúng và đủ sáu bên liên quan ở Phase F theo Table 4.1-1.",
+    "context_reason": "Chunk row 7 của Table 4.1-1 chứa đầy đủ danh sách bên liên quan Phase F.",
+    "citation_reasons": [
+      "Chunk row 7 ghi Phase F với Customer, NASA Headquarters, operators, safety, planetary protection, public, khớp đúng khẳng định."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án nên không áp dụng abstention.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 277,
+        "prompt_tokens": 2254,
+        "total_tokens": 2531,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1358
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.000745176,
+      "elapsed_ms": 1794.9107000022195
+    }
+  },
+  {
+    "query_id": "ad_i1",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đủ năm quá trình đúng tên và kèm chi tiết con khớp với nhãn trong Figure 5.0-1.",
+    "context_reason": "Chunk hình ảnh chứa đầy đủ nhãn năm quá trình và các mục con của Figure 5.0-1.",
+    "citation_reasons": [
+      "Chunk nasa_p102_figure_00704 liệt kê đúng năm nhãn Product Implementation/Integration/Verification/Validation/Transition cùng các mục con tương ứng."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án nên không áp dụng từ chối.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 296,
+        "prompt_tokens": 2587,
+        "total_tokens": 2883,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1691
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.000867876,
+      "elapsed_ms": 1985.5416000063997
+    }
+  },
+  {
+    "query_id": "ad_i2",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng thứ tự Functional → Allocated → Product, kèm mốc SDR/PDR và mô tả Product Baseline đều có trong context.",
+    "context_reason": "Hai chunk trang 183 liệt kê lần lượt Functional, Allocated, Product Baseline đúng thứ tự trong Figure 6.5-3.",
+    "citation_reasons": [
+      "Chunk 01144 nêu Functional Baseline thiết lập tại SDR và bắt đầu mục Allocated Baseline, hỗ trợ thứ tự và mốc SDR.",
+      "Chunk 01145 nêu Allocated Baseline thiết lập khi hoàn thành PDR và mô tả Product Baseline trong pha sản xuất/triển khai/hỗ trợ vận hành."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án nên không áp dụng abstention.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 348,
+        "prompt_tokens": 2828,
+        "total_tokens": 3176,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1932
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.001002576,
+      "elapsed_ms": 2595.9827000042424
+    }
+  },
+  {
+    "query_id": "ad_i3",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng các hoạt động Planning, Status Reporting, Assessing, Execute cùng nhánh Status OK/Not OK và liên kết Decision Analysis, khớp với sơ đồ và văn bản nguồn.",
+    "context_reason": "Context có chunk hình Figure 6.7-2 với các nhãn hoạt động và đoạn văn bản mô tả vòng phản hồi, đủ để trả lời trọn câu hỏi.",
+    "citation_reasons": [
+      "Chunk hình chứa nhãn Planning, Status Reporting, Assessing, Execute, Status OK/Not OK và câu 'These activities together form the feedback loop'.",
+      "Đoạn văn bản xác nhận kết quả đánh giá đưa vào Decision Analysis và các hoạt động tạo thành vòng phản hồi ở Figure 6.7-2.",
+      "Mục lục xác nhận tên 'Figure 6.7-2 Planning and Status Reporting Feedback Loop'."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án nên không áp dụng từ chối.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 407,
+        "prompt_tokens": 4291,
+        "total_tokens": 4698,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 3395
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.001512276,
+      "elapsed_ms": 2378.757400001632
+    }
+  },
+  {
+    "query_id": "ad_c1",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 1,
+    "context_grade": 1,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng đơn vị phần trăm và các mốc 100%–8% có trong hình, nhưng thiếu tên đại lượng \"Cumulative Percentage Life Cycle Cost against Time\" và không nêu thang 0%–100% như đáp án.",
+    "context_reason": "Chunk hình trang 27 có các nhãn phần trăm và tiêu đề hình, nhưng không có dòng chữ \"Cumulative Percentage Life Cycle Cost against Time\" hay mốc 0% nên thiếu một phần evidence.",
+    "citation_reasons": [
+      "Chunk nasa_p027_figure_00167 chứa các nhãn 100%, 90%, 75%, 45%, 20%, 15%, 8% của Figure 2.5-1, hỗ trợ khẳng định về tỷ lệ phần trăm."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án nên không áp dụng abstention.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 362,
+        "prompt_tokens": 3473,
+        "total_tokens": 3835,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 2577
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.0012128759999999999,
+      "elapsed_ms": 2303.7251999776345
+    }
+  },
+  {
+    "query_id": "ad_c2",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Trả lời đúng hướng \"góc trên bên trái (upper left)\" như nguồn nêu; phần diễn giải thêm về chi phí thấp hơn/hiệu quả cao hơn phù hợp với trục của hình.",
+    "context_reason": "Context có nguyên văn ghi chú \"Higher values of cost-effectiveness are achieved by moving toward upper left\" cùng mô tả trục của hình.",
+    "citation_reasons": [
+      "Chunk chứa trực tiếp ghi chú nguồn về việc di chuyển về upper left đạt cost-effectiveness cao hơn.",
+      "Chunk mô tả đọc hình xác nhận trục và việc di chuyển về góc trên bên trái cho cost-effectiveness cao hơn."
+    ],
+    "abstention_reason": "Câu có đáp án trong nguồn nên không áp dụng abstention.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 351,
+        "prompt_tokens": 3465,
+        "total_tokens": 3816,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 2697
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.0012349079999999998,
+      "elapsed_ms": 2708.284899999853
+    }
+  },
+  {
+    "query_id": "ad_c3",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng \"các giá trị không đổi của hàm mục tiêu (cost-effectiveness)\" và bổ sung chi tiết (hướng góc trên trái, vùng tô thể hiện bất định) đều có trong nguồn.",
+    "context_reason": "Chunk trang 96 chứa nguyên văn ghi chú của Figure 4.4-3, đủ để trả lời trọn câu hỏi.",
+    "citation_reasons": [
+      "Chunk nasa_p096_figure_00669 có câu \"Dashed lines represent constant values of objective function (cost-effectiveness)\" cùng ghi chú về vùng tô và hướng góc trên trái, hỗ trợ đầy đủ các khẳng định được gắn citation."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong bằng chứng nên không áp dụng abstention.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 353,
+        "prompt_tokens": 3422,
+        "total_tokens": 3775,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 2526
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.0011867759999999998,
+      "elapsed_ms": 2123.1483000156004
+    }
+  },
+  {
+    "query_id": "ad_m1",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng SRR = System Requirements Review và đúng chức năng trường Rationale theo Table 4.2-2.",
+    "context_reason": "Context có chunk trang 200 xác nhận SRR và chunk Table 4.2-2 trang 83 nêu đầy đủ chức năng Rationale.",
+    "citation_reasons": [
+      "Chunk trang 200 ghi rõ 'System Requirements Review (SRR)' trong tên mục.",
+      "Chunk Table 4.2-2 dòng Rationale nêu chức năng cung cấp thông tin bổ sung làm rõ ý định yêu cầu.",
+      "Chunk lặp lại đầy đủ nội dung Table 4.2-2, hỗ trợ cùng khẳng định."
+    ],
+    "abstention_reason": "Câu có đáp án nên không áp dụng abstention.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 350,
+        "prompt_tokens": 4047,
+        "total_tokens": 4397,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "prompt_cache_hit_tokens": 1024,
+        "prompt_cache_miss_tokens": 3023
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.0013330439999999998,
+      "elapsed_ms": 2841.5448000014294
+    }
+  },
+  {
+    "query_id": "ad_m2",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Trả lời đúng cả hai ý: Phase F có planetary protection trong danh sách stakeholder và as-deployed baseline gắn với ORR, kèm điều kiện thiết kế sẵn sàng bay.",
+    "context_reason": "Context có đủ chunk Table 4.1-1 (hàng Phase F) và Figure 6.5-3 (as-deployed baseline tại ORR) để trả lời trọn câu hỏi.",
+    "citation_reasons": [
+      "Chunk hàng 7 Table 4.1-1 nêu Phase F với stakeholder gồm planetary protection, khớp khẳng định thứ nhất.",
+      "Chunk Figure 6.5-3 nêu as-deployed baseline xảy ra tại ORR và thiết kế sẵn sàng bay, khớp khẳng định thứ hai."
+    ],
+    "abstention_reason": "Câu có đáp án nên không áp dụng abstention.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 358,
+        "prompt_tokens": 3653,
+        "total_tokens": 4011,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "prompt_cache_hit_tokens": 1024,
+        "prompt_cache_miss_tokens": 2629
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.0012244439999999999,
+      "elapsed_ms": 2663.445700018201
+    }
+  },
+  {
+    "query_id": "ad_m3",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 0,
+    "context_grade": 2,
+    "citation_support": [],
+    "abstention_correct": false,
+    "answer_reason": "Agent từ chối trả lời dù context có đủ bằng chứng cho cả hai ý (TRL 9 và các hàng của ma trận).",
+    "context_reason": "Chunk trang 268 nêu rõ các hàng xác định systems, subsystems, components; trang 264 có Figure G.4-1 về TRL (dù mô tả TRL 9 chi tiết nằm ở phần figure).",
+    "citation_reasons": [],
+    "abstention_reason": "Câu hỏi có đáp án trong context nên việc từ chối là không đúng.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 274,
+        "prompt_tokens": 3093,
+        "total_tokens": 3367,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 2197
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.000993276,
+      "elapsed_ms": 2119.0081000095233
+    }
+  },
+  {
+    "query_id": "ad_x1",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng định nghĩa \"iterative\" theo NPR 7123.1, khớp với đáp án mong đợi và bổ sung đúng phần đối lập với \"recursive\".",
+    "context_reason": "Context chứa nguyên văn định nghĩa \"iterative\" và \"recursive\" cùng câu về việc SE engine dùng cả hai kiểu, đủ để trả lời trọn câu hỏi.",
+    "citation_reasons": [
+      "Chunk text trang 20 chứa nguyên văn định nghĩa \"iterative\" và \"recursive\" của NPR 7123.1, hỗ trợ đầy đủ cả hai khẳng định.",
+      "Chunk table trang 20 cũng chứa cùng đoạn định nghĩa và câu \"used both iteratively and recursively\", hỗ trợ khẳng định về SE engine."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong bằng chứng nên không áp dụng abstention.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 383,
+        "prompt_tokens": 3833,
+        "total_tokens": 4216,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 2937
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.001346076,
+      "elapsed_ms": 2660.4399000061676
+    }
+  },
+  {
+    "query_id": "ad_x2",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 0,
+    "context_grade": 1,
+    "citation_support": [],
+    "abstention_correct": false,
+    "answer_reason": "Câu hỏi có đáp án (mọi giai đoạn, vòng phản hồi tự hiệu chỉnh) nhưng agent từ chối trả lời nên sai.",
+    "context_reason": "Context có mục 4.1 và bảng 4.1-1 liệt kê stakeholder theo giai đoạn nhưng thiếu câu nói về việc lôi cuốn stakeholder trong tất cả các giai đoạn và vòng phản hồi.",
+    "citation_reasons": [],
+    "abstention_reason": "Đây là câu có đáp án nên việc từ chối là không đúng, dù không thêm khẳng định vô căn cứ.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 300,
+        "prompt_tokens": 2092,
+        "total_tokens": 2392,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "prompt_cache_hit_tokens": 1152,
+        "prompt_cache_miss_tokens": 940
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.0006489120000000001,
+      "elapsed_ms": 1834.8845000145957
+    }
+  },
+  {
+    "query_id": "ad_x3",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đủ cả mục đích nội bộ (hướng dẫn, theo dõi, đo lường CM và lịch triển khai) và bên ngoài (truyền đạt quy trình CM cho nhà thầu, thiết lập quy trình và quan hệ làm việc nhất quán), khớp đáp án.",
+    "context_reason": "Hai chunk trang 182 chứa trọn đoạn \"internal and external uses\" với đầy đủ chi tiết cần thiết.",
+    "citation_reasons": [
+      "Chunk 01133 nêu mục đích nội bộ: dùng trong văn phòng chương trình/dự án để hướng dẫn, theo dõi, đo lường quá trình CM.",
+      "Chunk 01134 nêu đầy đủ nội bộ (kèm mô tả hoạt động và lịch) và bên ngoài (truyền đạt cho nhà thầu, quy trình và quan hệ làm việc nhất quán)."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong bằng chứng nên không áp dụng từ chối.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 425,
+        "prompt_tokens": 3846,
+        "total_tokens": 4271,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 2950
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.001400376,
+      "elapsed_ms": 2542.584500013618
+    }
+  },
+  {
+    "query_id": "ad_n1",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 0,
+    "context_grade": 1,
+    "citation_support": [],
+    "abstention_correct": true,
+    "answer_reason": "Câu hỏi không có đáp án trong nguồn; agent từ chối đúng và không thêm khẳng định vô căn cứ.",
+    "context_reason": "Context có mô tả Figure 6.4-2 là tập hợp các risk triplet với likelihood/consequence và bất định, nhưng không nêu xác suất phần trăm cụ thể.",
+    "citation_reasons": [],
+    "abstention_reason": "Hình chỉ minh họa phân bố/bất định, không có xác suất số, nên từ chối là chính xác.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 270,
+        "prompt_tokens": 2683,
+        "total_tokens": 2953,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 1915
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.0009031079999999999,
+      "elapsed_ms": 1967.0127000135835
+    }
+  },
+  {
+    "query_id": "ad_n2",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 0,
+    "context_grade": 1,
+    "citation_support": [],
+    "abstention_correct": true,
+    "answer_reason": "Câu hỏi không có đáp án trong tài liệu; agent từ chối trả lời và không thêm khẳng định vô căn cứ, phù hợp với trạng thái abstain.",
+    "context_reason": "Context có chunk về Figure 4.4-3 (trang 96) nhưng chỉ mô tả biểu đồ, không nêu bộ dữ liệu thô hay URL tải dữ liệu.",
+    "citation_reasons": [],
+    "abstention_reason": "Tài liệu không cung cấp URL dữ liệu thô cho Figure 4.4-3, nên việc từ chối trả lời là đúng.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 296,
+        "prompt_tokens": 2889,
+        "total_tokens": 3185,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "prompt_cache_hit_tokens": 1024,
+        "prompt_cache_miss_tokens": 1865
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.0009208440000000001,
+      "elapsed_ms": 2138.210400007665
+    }
+  },
+  {
+    "query_id": "ad_n3",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [],
+    "abstention_correct": true,
+    "answer_reason": "Câu hỏi không có đáp án trong tài liệu; agent từ chối đúng và không thêm khẳng định vô căn cứ.",
+    "context_reason": "Các chunk chỉ nói công cụ quản lý yêu cầu do dự án tự chọn, không nêu tên/phiên bản bắt buộc cho 2026, phù hợp với việc không thể trả lời.",
+    "citation_reasons": [],
+    "abstention_reason": "Agent từ chối trả lời vì thiếu bằng chứng, đúng với trạng thái không có đáp án.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 281,
+        "prompt_tokens": 2745,
+        "total_tokens": 3026,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1849
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.0008972759999999998,
+      "elapsed_ms": 1741.5367999929003
+    }
+  }
+]

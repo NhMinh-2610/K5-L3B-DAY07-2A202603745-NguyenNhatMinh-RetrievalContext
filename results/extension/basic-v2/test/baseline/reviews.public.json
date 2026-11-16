@@ -1,0 +1,241 @@
+[
+  {
+    "query_id": "b2_01",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng ý \"linh hoạt theo thời gian thực tùy theo yêu cầu\" và bổ sung thông tin rủi ro nguồn cung/R&D thấp đều có nguồn hỗ trợ.",
+    "context_reason": "Chunk trang 16 chứa trọn câu định nghĩa về FPGA và chunk trang 17 hỗ trợ khẳng định bổ sung.",
+    "citation_reasons": [
+      "Chunk trang 16 nêu trực tiếp cấu trúc phần cứng có thể điều chỉnh và cấu hình lại linh hoạt theo thời gian thực khi cần.",
+      "Chunk trang 17 nêu rõ do FPGA có thể cấu hình lại nên rủi ro nguồn cung và R&D tương đối thấp."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong tài liệu nên không áp dụng từ chối.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 374,
+        "prompt_tokens": 2361,
+        "total_tokens": 2735,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1465
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.0008936759999999999,
+      "elapsed_ms": 2337.986800004728
+    }
+  },
+  {
+    "query_id": "b2_02",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng và đủ ba trường phái symbolism, connectionism, behaviorism như đáp án.",
+    "context_reason": "Chunk trang 12 chứa câu nêu trực tiếp ba trường phái chính của AI, đủ để trả lời.",
+    "citation_reasons": [
+      "Chunk được trích dẫn có câu \"symbolism, connectionism, and behaviorism constitute the three main schools of AI\", hỗ trợ đầy đủ khẳng định."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án nên không áp dụng abstention.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 282,
+        "prompt_tokens": 2079,
+        "total_tokens": 2361,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1183
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.000698676,
+      "elapsed_ms": 1566.867200017441
+    }
+  },
+  {
+    "query_id": "b2_03",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đúng con số vượt 3 nghìn tỷ USD và giữ đúng sắc thái \"theo dự báo được trích\".",
+    "context_reason": "Chunk trang 20 chứa đầy đủ câu dự báo về quy mô thị trường AI đến 2025 vượt 3 trillion USD.",
+    "citation_reasons": [
+      "Chunk được trích dẫn trực tiếp chứa câu 'by 2025, the size of AI market will exceed 3 trillion US dollars'."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong tài liệu nên không áp dụng việc từ chối.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 304,
+        "prompt_tokens": 1974,
+        "total_tokens": 2278,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1078
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.000693576,
+      "elapsed_ms": 1985.745499987388
+    }
+  },
+  {
+    "query_id": "b2_04",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời liệt kê đúng và đủ bốn thành phần: chip, chip enable, training and reasoning framework, application enable.",
+    "context_reason": "Chunk trang 33 nêu trực tiếp định nghĩa full-stack với đủ bốn thành phần.",
+    "citation_reasons": [
+      "Chunk được trích dẫn chứa nguyên văn định nghĩa full-stack gồm bốn thành phần, hỗ trợ đầy đủ khẳng định."
+    ],
+    "abstention_reason": "Câu hỏi có đáp án trong tài liệu nên không áp dụng từ chối.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 284,
+        "prompt_tokens": 2084,
+        "total_tokens": 2368,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1188
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.000702576,
+      "elapsed_ms": 1907.838700019056
+    }
+  },
+  {
+    "query_id": "b2_05",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "answer_reason": "Câu trả lời nêu đủ 12 nm, tối đa 16 TOPS và 8 W, khớp đáp án.",
+    "context_reason": "Chunk trang 36 chứa đầy đủ cả ba thông số cần trả lời.",
+    "citation_reasons": [
+      "Chunk nêu rõ chip 12 nm, công suất tối đa 16 TOPS và tiêu thụ chỉ 8 W."
+    ],
+    "abstention_reason": "Câu có đáp án nên không áp dụng từ chối.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 266,
+        "prompt_tokens": 2111,
+        "total_tokens": 2377,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1215
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.0006890760000000001,
+      "elapsed_ms": 1620.630200020969
+    }
+  },
+  {
+    "query_id": "b2_abs01",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "answer_reason": "Câu trả lời từ chối đúng vì không có số transistor trong ngữ cảnh, nhưng không cung cấp đáp án nên điểm nội dung là 0.",
+    "context_reason": "Các chunk chỉ nhắc V100 dùng kiến trúc Volta và tensor cores, không nêu số transistor.",
+    "citation_reasons": [],
+    "abstention_reason": "Agent từ chối trả lời và không thêm khẳng định vô căn cứ, phù hợp với việc chương thiếu số transistor.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 263,
+        "prompt_tokens": 1875,
+        "total_tokens": 2138,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 1107
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.000652308,
+      "elapsed_ms": 1522.176500002388
+    }
+  },
+  {
+    "query_id": "b2_abs02",
+    "review_status": "model_proposed",
+    "grader": "deepseek-flash",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "answer_reason": "Câu trả lời từ chối đúng vì không có giá phí thuê hàng tháng trong ngữ cảnh, nhưng không cung cấp đáp án nên điểm nội dung là 0.",
+    "context_reason": "Các đoạn chỉ mô tả lịch sử và tính năng nền tảng Huawei CLOUD EI, không nêu giá/cost/USD hay phí thuê hàng tháng.",
+    "citation_reasons": [],
+    "abstention_reason": "Agent từ chối trả lời và không thêm khẳng định vô căn cứ, phù hợp với việc thiếu bằng chứng về giá.",
+    "grading_metadata": {
+      "model": "deepseek-flash",
+      "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+      "usage": {
+        "completion_tokens": 291,
+        "prompt_tokens": 1616,
+        "total_tokens": 1907,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 848
+      },
+      "finish_reason": "tool_calls",
+      "estimated_cost_upper_usd": 0.000608208,
+      "elapsed_ms": 1644.161800009897
+    }
+  }
+]

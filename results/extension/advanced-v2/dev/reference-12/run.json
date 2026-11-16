@@ -1,0 +1,26 @@
+{
+  "sha256": {
+    "src/agent.py": "8244607859dba37eaed1739d79014c3974f7e4067087b77b92ee07ac02e82562",
+    "src/retrieval.py": "8914d63c605e98c86b29562e022282d5989ad42774e01248dd9e06577f182119",
+    "src/retriever_service.py": "b6501187b62d578e0e2dc4aa24bdd78ed2357268388e4f9808c01cd0c9bc7adc",
+    "src/day6_connection.py": "50b46732bb86807c54dc719418ab021a5dfc04ac072de845fd14374f9d390507",
+    "src/deepseek_client.py": "7c0e037357c5208ad839f275cf6b591228a6127344ce67d662f704210865db6a",
+    "src/evaluation.py": "0e5efee88e3ae43b8df5d48453aef93ef30b937baaf502ae61a9cac2c0161ef9",
+    "src/document_store.py": "5443415a5447a4cc5c87b13e191ee674950d8d8a9deeb5c13345596dc9d74bf9",
+    "src/advanced_agent.py": "0b51633d57ed1d886624f009678fe32ce3515faf725cb3ffaa4ba58ad49d22e7",
+    "src/vision_client.py": "b63639483ce1b683acdefa3748c6c0273e0cc69436bd65f76cd78ea6ad9bce1a",
+    "scripts/run_advanced.py": "f19e4b7d5a9a9c77808f310b67a033437c773095c51d6882c7e31004a773327b",
+    "scripts/prepare_advanced.py": "0a3acebe50db253fd58389472e13bdfa2571611ab26f5df877fa11a298510711",
+    "config/advanced.json": "349fca867bfc5d8bffdcdac4889092fabbf668231c9469ca5382af533e417ff5",
+    "advanced/visual_readings.json": "093b561ecc17f74e3c563edf763f1bb7fbf9c69c3a34642076b1c017b8b10eb6",
+    "starter/data/advanced/chunks.json": "e05746188d9d4f12565127beaf57ecf09e248af99c4304ccd2e44d2bd7606500",
+    "starter/data/advanced/vectors.json": "ece3e3896f4fa50b9e266195c0f1476874b16e96c0ea68e313922b8384031353",
+    "benchmark/advanced/dev.json": "dbeb9100bf940063467e4ca6d1dad797862b79728fc79dd3c527791e787a1478",
+    "benchmark/advanced/dev_queries.json": "aebf823fb7a9730e9c9d6fa7e0ef349995f13921201f97c739225167e603ec24",
+    "benchmark/advanced/errata.json": "2e7a333c09a440835ab19b063cbffb6ad4ca535e1576425e941950b0559daa58",
+    "benchmark/advanced/split.json": "f5da3d8233947f470cd83c6b8c84d13d656d55d75305b62a4e6d0966bb701426",
+    "benchmark/advanced/test.json": "d4e058cb4f1c90df9fb226de87b1eeadeb32512e37398b63e26f0fa5d0967b4a",
+    "benchmark/advanced/test_queries.json": "0d6ddcca505f41fcd2d58ff3a0f215fd581abd000eb6929f227d01d6086132c7"
+  },
+  "started_at_utc": "2026-11-16T12:01:20.724146+00:00"
+}

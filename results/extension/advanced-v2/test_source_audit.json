@@ -1,0 +1,2101 @@
+{
+  "cases": [
+    {
+      "configuration": "baseline",
+      "query_id": "at_t1",
+      "group": "table",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 83, Table 4.2-2: Requirement ID cung cấp unique numbering cho sorting/tracking.",
+      "original_pdf_pages": [
+        83
+      ],
+      "actual_image_pages": [],
+      "citations": [
+        {
+          "id": "nasa_p083_table_00588",
+          "page": 83,
+          "reference": "Table 4.2-2",
+          "bbox": [
+            72.46,
+            93.94,
+            539.08,
+            279.38
+          ]
+        },
+        {
+          "id": "nasa_p083_text_00581",
+          "page": 83,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_t2",
+      "group": "table",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 83, Table 4.2-2: Traced from nêu bidirectional parent/derived traceability và quan hệ giữa requirements.",
+      "original_pdf_pages": [
+        83
+      ],
+      "actual_image_pages": [],
+      "citations": [
+        {
+          "id": "nasa_p083_table_00590",
+          "page": 83,
+          "reference": "Table 4.2-2",
+          "bbox": [
+            72.46,
+            93.94,
+            539.08,
+            279.38
+          ]
+        },
+        {
+          "id": "nasa_p083_table_00595",
+          "page": 83,
+          "reference": "Table 4.2-2",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_t3",
+      "group": "table",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 83, Table 4.2-2: test, inspection, analysis, demonstration; điều kiện xác định khi phát triển requirements được giữ.",
+      "original_pdf_pages": [
+        83
+      ],
+      "actual_image_pages": [],
+      "citations": [
+        {
+          "id": "nasa_p083_table_00592",
+          "page": 83,
+          "reference": "Table 4.2-2",
+          "bbox": [
+            72.46,
+            93.94,
+            539.08,
+            279.38
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_t4",
+      "group": "table",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 68, Phase D của Table 4.1-1 có verification team và Flight Readiness Board members.",
+      "original_pdf_pages": [
+        68
+      ],
+      "actual_image_pages": [],
+      "citations": [
+        {
+          "id": "nasa_p068_table_00476",
+          "page": 68,
+          "reference": "Table 4.1-1",
+          "bbox": [
+            72.24,
+            92.16,
+            539.76,
+            289.1
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_t5",
+      "group": "table",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 151, ba ô cột phải của Table 6.1-2 là Thermal Chambers, Vibration Labs, Radiation Labs.",
+      "original_pdf_pages": [
+        151
+      ],
+      "actual_image_pages": [],
+      "citations": [
+        {
+          "id": "nasa_p151_table_00987",
+          "page": 151,
+          "reference": "Table 6.1-2",
+          "bbox": [
+            72.22,
+            368.52,
+            539.78,
+            567.66
+          ]
+        },
+        {
+          "id": "nasa_p151_table_00988",
+          "page": 151,
+          "reference": "Table 6.1-2",
+          "bbox": [
+            72.22,
+            368.52,
+            539.78,
+            567.66
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_t6",
+      "group": "table",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 213, Table 6.8-1: short half-page, Recommendation và Problem/issue mỗi mục một câu.",
+      "original_pdf_pages": [
+        213
+      ],
+      "actual_image_pages": [],
+      "citations": [
+        {
+          "id": "nasa_p213_table_01335",
+          "page": 213,
+          "reference": "Table 6.8-1",
+          "bbox": [
+            73.54,
+            551.61,
+            538.5,
+            650.88
+          ]
+        },
+        {
+          "id": "nasa_p213_text_01331",
+          "page": 213,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_i1",
+      "group": "image",
+      "api_passed": false,
+      "passed": false,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 19, nhánh trái Figure 2.1-1 đánh số 1-4 đúng bốn tên quá trình; cần citation tới đúng vùng hình theo tiêu chí đã đặt.",
+      "original_pdf_pages": [
+        19
+      ],
+      "actual_image_pages": [],
+      "citations": [
+        {
+          "id": "nasa_p063_text_00434",
+          "page": 63,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_i2",
+      "group": "image",
+      "api_passed": false,
+      "passed": false,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 64, Figure 4.0-1 có ba ô Needs/Goals/Objectives, Constraints, Success Criteria trước Develop ConOps.",
+      "original_pdf_pages": [
+        64
+      ],
+      "actual_image_pages": [],
+      "citations": []
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_i3",
+      "group": "image",
+      "api_passed": false,
+      "passed": false,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 69, hàng trên Figure 4.1-2 đọc trái sang phải đủ năm tiêu đề Mission Goals tới Design Drivers.",
+      "original_pdf_pages": [
+        69
+      ],
+      "actual_image_pages": [],
+      "citations": []
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_i4",
+      "group": "image",
+      "api_passed": false,
+      "passed": false,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 174, Figure 6.4-1 hiển thị đúng ba câu hỏi đỏ về scenario/frequency/consequences.",
+      "original_pdf_pages": [
+        174
+      ],
+      "actual_image_pages": [],
+      "citations": []
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_i5",
+      "group": "image",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 182, Figure 6.5-2 hiển thị đủ năm thành phần CM; đối chiếu thêm text PDF 181-182.",
+      "original_pdf_pages": [
+        182
+      ],
+      "actual_image_pages": [],
+      "citations": [
+        {
+          "id": "nasa_p181_text_01124",
+          "page": 181,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p182_figure_01138",
+          "page": 182,
+          "reference": "Figure 6.5-2",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_c1",
+      "group": "chart",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 27, Figure 2.5-1: Design 15%, Develop 20%, hiệu 5 điểm phần trăm; số minh họa, không phải quan sát dự án.",
+      "original_pdf_pages": [
+        27
+      ],
+      "actual_image_pages": [],
+      "citations": [
+        {
+          "id": "nasa_p027_visual_reading_00171",
+          "page": 27,
+          "reference": "Figure 2.5-1",
+          "bbox": [
+            85,
+            72,
+            540,
+            430
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_c2",
+      "group": "chart",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 174, Figure 6.4-2: hai distribution plot ghi Likelihood and Its Uncertainty, Consequence Severity and Its Uncertainty.",
+      "original_pdf_pages": [
+        174
+      ],
+      "actual_image_pages": [],
+      "citations": [
+        {
+          "id": "nasa_p174_figure_01095",
+          "page": 174,
+          "reference": "Figure 6.4-2",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p174_ocr_layout_01090",
+          "page": 174,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_c3",
+      "group": "chart",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 27, Figure 2.5-1: Concept 8%, Prod/Test 50%; 50/8=6.25, không nhầm với chênh lệch điểm phần trăm.",
+      "original_pdf_pages": [
+        27
+      ],
+      "actual_image_pages": [],
+      "citations": [
+        {
+          "id": "nasa_p027_visual_reading_00171",
+          "page": 27,
+          "reference": "Figure 2.5-1",
+          "bbox": [
+            85,
+            72,
+            540,
+            430
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_c4",
+      "group": "chart",
+      "api_passed": true,
+      "passed": false,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 96 đã phóng to kiểm tra: X=Life-Cycle Cost, Expressed in Constant Dollars; Y=Some Aspect of Effectiveness, Expressed in Quantitative Units. Gold/visual note nháp ghi All Aspects là sai. Không sửa pipeline/index đã chốt sau test. Baseline dùng All Aspects theo mô tả sai nên câu này không đạt sau rà, dù API chấm đạt.",
+      "original_pdf_pages": [
+        96
+      ],
+      "actual_image_pages": [],
+      "citations": [
+        {
+          "id": "nasa_p096_visual_reading_00674",
+          "page": 96,
+          "reference": "Figure 4.4-3",
+          "bbox": [
+            170.88,
+            166.56,
+            441.12,
+            398.64
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_c5",
+      "group": "chart",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 96, Figure 4.4-3: C có probability cloud gần trục x, high cost, essentially no effectiveness; chú thích xác nhận expensive failure.",
+      "original_pdf_pages": [
+        96
+      ],
+      "actual_image_pages": [],
+      "citations": [
+        {
+          "id": "nasa_p096_figure_00673",
+          "page": 96,
+          "reference": "Figure 4.4-3",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_m1",
+      "group": "multi_hop",
+      "api_passed": false,
+      "passed": false,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "Hai trang 27 và 83: legend PDR=Preliminary Design Review; Verification level chỉ system/subsystem/element. Tiêu chí đòi coverage cả hai reference.",
+      "original_pdf_pages": [
+        27,
+        83
+      ],
+      "actual_image_pages": [],
+      "citations": [
+        {
+          "id": "nasa_p027_text_00162",
+          "page": 27,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p201_table_01261",
+          "page": 201,
+          "reference": "",
+          "bbox": [
+            47.35,
+            72.38,
+            744.6,
+            527.24
+          ]
+        },
+        {
+          "id": "nasa_p083_table_00594",
+          "page": 83,
+          "reference": "Table 4.2-2",
+          "bbox": [
+            72.46,
+            93.94,
+            539.08,
+            279.38
+          ]
+        },
+        {
+          "id": "nasa_p083_table_00595",
+          "page": 83,
+          "reference": "Table 4.2-2",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_m2",
+      "group": "multi_hop",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "Hai trang 83 và 68: Verification lead là person/group responsible for verifying; Phase E có crew và users.",
+      "original_pdf_pages": [
+        83,
+        68
+      ],
+      "actual_image_pages": [],
+      "citations": [
+        {
+          "id": "nasa_p083_table_00593",
+          "page": 83,
+          "reference": "Table 4.2-2",
+          "bbox": [
+            72.46,
+            93.94,
+            539.08,
+            279.38
+          ]
+        },
+        {
+          "id": "nasa_p068_table_00477",
+          "page": 68,
+          "reference": "Table 4.1-1",
+          "bbox": [
+            72.24,
+            92.16,
+            539.76,
+            289.1
+          ]
+        },
+        {
+          "id": "nasa_p068_table_00479",
+          "page": 68,
+          "reference": "Table 4.1-1",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_m3",
+      "group": "multi_hop",
+      "api_passed": false,
+      "passed": false,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "Hai trang 264 và 268: TRL6 model/prototype in relevant environment; system TRL lấy thấp nhất, nên có thành phần TRL2 thì không đạt6.",
+      "original_pdf_pages": [
+        264,
+        268
+      ],
+      "actual_image_pages": [],
+      "citations": [
+        {
+          "id": "nasa_p246_text_01430",
+          "page": 246,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p264_figure_01530",
+          "page": 264,
+          "reference": "Figure G.4-1",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p268_figure_01548",
+          "page": 268,
+          "reference": "Figure G.4-3",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_m4",
+      "group": "multi_hop",
+      "api_passed": false,
+      "passed": false,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "Hai trang 149 và 18: Mission/Instrument Systems Engineer; Common Areas thực tế có sáu mục gồm cả Reviews và Schedule, theo erratum trước test.",
+      "original_pdf_pages": [
+        149,
+        18
+      ],
+      "actual_image_pages": [],
+      "citations": [
+        {
+          "id": "nasa_p149_table_00940",
+          "page": 149,
+          "reference": "Table 6.1-1",
+          "bbox": [
+            78.31,
+            159.3,
+            533.69,
+            680.04
+          ]
+        },
+        {
+          "id": "nasa_p149_table_00941",
+          "page": 149,
+          "reference": "Table 6.1-1",
+          "bbox": [
+            78.31,
+            159.3,
+            533.69,
+            680.04
+          ]
+        },
+        {
+          "id": "nasa_p017_text_00066",
+          "page": 17,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p018_figure_00076",
+          "page": 18,
+          "reference": "Figure 2.0-1",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_x1",
+      "group": "text",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 28 mục2.6: hardware, software, human systems integration; đều phải address/integrate ngang nhau.",
+      "original_pdf_pages": [
+        28
+      ],
+      "actual_image_pages": [],
+      "citations": [
+        {
+          "id": "nasa_p028_text_00173",
+          "page": 28,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p028_ocr_layout_00175",
+          "page": 28,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_x2",
+      "group": "text",
+      "api_passed": false,
+      "passed": false,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 24: phải nêu monitor performance, control configuration và decisions về operations/sustaining/closeout; output thiếu các ý này nên không đạt.",
+      "original_pdf_pages": [
+        24
+      ],
+      "actual_image_pages": [],
+      "citations": [
+        {
+          "id": "nasa_p022_text_00121",
+          "page": 22,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p318_text_01735",
+          "page": 318,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p323_text_01752",
+          "page": 323,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p050_text_00329",
+          "page": 50,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_x3",
+      "group": "text",
+      "api_passed": false,
+      "passed": false,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 25 mục2.4 nêu từng development phase, phase products/models, không chỉ delivery; output không cung cấp đủ ý và đúng nguồn yêu cầu nên không đạt.",
+      "original_pdf_pages": [
+        25
+      ],
+      "actual_image_pages": [],
+      "citations": [
+        {
+          "id": "nasa_p130_text_00842",
+          "page": 130,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p129_text_00840",
+          "page": 129,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p116_text_00764",
+          "page": 116,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_x4",
+      "group": "text",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 213 mục6.8.1.3: content quan trọng, ghi decision/assessment/recommendation/final decision; hình thức white paper hay formal đều được.",
+      "original_pdf_pages": [
+        213
+      ],
+      "actual_image_pages": [],
+      "citations": [
+        {
+          "id": "nasa_p213_text_01330",
+          "page": 213,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p213_ocr_layout_01332",
+          "page": 213,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p213_table_01338",
+          "page": 213,
+          "reference": "Table 6.8-1",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_n1",
+      "group": "unanswerable",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "Không có tick chi phí số hoặc khoảng tin cậy 95% cho B; không suy ra số từ hình khái niệm. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
+      "original_pdf_pages": [],
+      "actual_image_pages": [],
+      "citations": []
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_n2",
+      "group": "unanswerable",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "Hình và văn bản trích không nêu cỡ mẫu các dự án; việc dẫn INCOSE không cung cấp số này trong handbook. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
+      "original_pdf_pages": [],
+      "actual_image_pages": [],
+      "citations": []
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_n3",
+      "group": "unanswerable",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "Bảng liệt kê các bộ môn và nhóm, không có tổng ngân sách của ví dụ đài quan sát. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
+      "original_pdf_pages": [],
+      "actual_image_pages": [],
+      "citations": []
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_n4",
+      "group": "unanswerable",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "Đây là mô tả trường metadata, không có danh tính hay email cá nhân thực tế. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
+      "original_pdf_pages": [],
+      "actual_image_pages": [],
+      "citations": []
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_n5",
+      "group": "unanswerable",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "Handbook bàn về quy trình CM, không công bố giá thuê phần mềm hàng tháng. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
+      "original_pdf_pages": [],
+      "actual_image_pages": [],
+      "citations": []
+    },
+    {
+      "configuration": "baseline",
+      "query_id": "at_n6",
+      "group": "unanswerable",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "Handbook không phải báo cáo ngân sách và không công bố tổng thực chi toàn cơ quan cho năm 2016. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
+      "original_pdf_pages": [],
+      "actual_image_pages": [],
+      "citations": []
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_t1",
+      "group": "table",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 83, Table 4.2-2: Requirement ID cung cấp unique numbering cho sorting/tracking.",
+      "original_pdf_pages": [
+        83
+      ],
+      "actual_image_pages": [
+        83
+      ],
+      "citations": [
+        {
+          "id": "nasa_p083_table_00588",
+          "page": 83,
+          "reference": "Table 4.2-2",
+          "bbox": [
+            72.46,
+            93.94,
+            539.08,
+            279.38
+          ]
+        },
+        {
+          "id": "nasa_p083_table_00595",
+          "page": 83,
+          "reference": "Table 4.2-2",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_t2",
+      "group": "table",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 83, Table 4.2-2: Traced from nêu bidirectional parent/derived traceability và quan hệ giữa requirements.",
+      "original_pdf_pages": [
+        83
+      ],
+      "actual_image_pages": [
+        83
+      ],
+      "citations": [
+        {
+          "id": "nasa_p083_table_00590",
+          "page": 83,
+          "reference": "Table 4.2-2",
+          "bbox": [
+            72.46,
+            93.94,
+            539.08,
+            279.38
+          ]
+        },
+        {
+          "id": "nasa_p083_table_00595",
+          "page": 83,
+          "reference": "Table 4.2-2",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_t3",
+      "group": "table",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 83, Table 4.2-2: test, inspection, analysis, demonstration; điều kiện xác định khi phát triển requirements được giữ.",
+      "original_pdf_pages": [
+        83
+      ],
+      "actual_image_pages": [
+        83
+      ],
+      "citations": [
+        {
+          "id": "nasa_p083_table_00592",
+          "page": 83,
+          "reference": "Table 4.2-2",
+          "bbox": [
+            72.46,
+            93.94,
+            539.08,
+            279.38
+          ]
+        },
+        {
+          "id": "nasa_p083_table_00595",
+          "page": 83,
+          "reference": "Table 4.2-2",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_t4",
+      "group": "table",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 68, Phase D của Table 4.1-1 có verification team và Flight Readiness Board members.",
+      "original_pdf_pages": [
+        68
+      ],
+      "actual_image_pages": [
+        68
+      ],
+      "citations": [
+        {
+          "id": "nasa_p068_table_00476",
+          "page": 68,
+          "reference": "Table 4.1-1",
+          "bbox": [
+            72.24,
+            92.16,
+            539.76,
+            289.1
+          ]
+        },
+        {
+          "id": "nasa_p068_table_00479",
+          "page": 68,
+          "reference": "Table 4.1-1",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_t5",
+      "group": "table",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 151, ba ô cột phải của Table 6.1-2 là Thermal Chambers, Vibration Labs, Radiation Labs.",
+      "original_pdf_pages": [
+        151
+      ],
+      "actual_image_pages": [
+        151
+      ],
+      "citations": [
+        {
+          "id": "nasa_p151_table_00998",
+          "page": 151,
+          "reference": "Table 6.1-2",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_t6",
+      "group": "table",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 213, Table 6.8-1: short half-page, Recommendation và Problem/issue mỗi mục một câu.",
+      "original_pdf_pages": [
+        213
+      ],
+      "actual_image_pages": [
+        213
+      ],
+      "citations": [
+        {
+          "id": "nasa_p213_table_01335",
+          "page": 213,
+          "reference": "Table 6.8-1",
+          "bbox": [
+            73.54,
+            551.61,
+            538.5,
+            650.88
+          ]
+        },
+        {
+          "id": "nasa_p213_table_01338",
+          "page": 213,
+          "reference": "Table 6.8-1",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_i1",
+      "group": "image",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 19, nhánh trái Figure 2.1-1 đánh số 1-4 đúng bốn tên quá trình; cần citation tới đúng vùng hình theo tiêu chí đã đặt.",
+      "original_pdf_pages": [
+        19
+      ],
+      "actual_image_pages": [
+        19
+      ],
+      "citations": [
+        {
+          "id": "nasa_p019_figure_00091",
+          "page": 19,
+          "reference": "Figure 2.1-1",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p019_figure_00088",
+          "page": 19,
+          "reference": "Figure 2.1-1",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_i2",
+      "group": "image",
+      "api_passed": false,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 64, Figure 4.0-1 có ba ô Needs/Goals/Objectives, Constraints, Success Criteria trước Develop ConOps. API chỉ thấy OCR rời rạc nên hạ citation thứ hai; agent thật đã nhận ảnh trang64. Cả hai ID trỏ tới cùng vùng hình full-page/caption; ảnh gốc hỗ trợ đủ ba nhãn. Điều chỉnh theo nguồn gốc, không đổi câu trả lời.",
+      "original_pdf_pages": [
+        64
+      ],
+      "actual_image_pages": [
+        64
+      ],
+      "citations": [
+        {
+          "id": "nasa_p064_figure_00443",
+          "page": 64,
+          "reference": "Figure 4.0-1",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p064_figure_00445",
+          "page": 64,
+          "reference": "Figure 4.0-1",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_i3",
+      "group": "image",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 69, hàng trên Figure 4.1-2 đọc trái sang phải đủ năm tiêu đề Mission Goals tới Design Drivers.",
+      "original_pdf_pages": [
+        69
+      ],
+      "actual_image_pages": [
+        69
+      ],
+      "citations": [
+        {
+          "id": "nasa_p069_figure_00497",
+          "page": 69,
+          "reference": "Figure 4.1-2",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p069_figure_00494",
+          "page": 69,
+          "reference": "Figure 4.1-2",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_i4",
+      "group": "image",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 174, Figure 6.4-1 hiển thị đúng ba câu hỏi đỏ về scenario/frequency/consequences.",
+      "original_pdf_pages": [
+        174
+      ],
+      "actual_image_pages": [
+        174
+      ],
+      "citations": [
+        {
+          "id": "nasa_p174_figure_01092",
+          "page": 174,
+          "reference": "Figure 6.4-1",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_i5",
+      "group": "image",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 182, Figure 6.5-2 hiển thị đủ năm thành phần CM; đối chiếu thêm text PDF 181-182.",
+      "original_pdf_pages": [
+        182
+      ],
+      "actual_image_pages": [
+        182
+      ],
+      "citations": [
+        {
+          "id": "nasa_p182_figure_01140",
+          "page": 182,
+          "reference": "Figure 6.5-2",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_c1",
+      "group": "chart",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 27, Figure 2.5-1: Design 15%, Develop 20%, hiệu 5 điểm phần trăm; số minh họa, không phải quan sát dự án.",
+      "original_pdf_pages": [
+        27
+      ],
+      "actual_image_pages": [
+        27
+      ],
+      "citations": [
+        {
+          "id": "nasa_p027_visual_reading_00171",
+          "page": 27,
+          "reference": "Figure 2.5-1",
+          "bbox": [
+            85,
+            72,
+            540,
+            430
+          ]
+        },
+        {
+          "id": "nasa_p027_figure_00167",
+          "page": 27,
+          "reference": "Figure 2.5-1",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_c2",
+      "group": "chart",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 174, Figure 6.4-2: hai distribution plot ghi Likelihood and Its Uncertainty, Consequence Severity and Its Uncertainty.",
+      "original_pdf_pages": [
+        174
+      ],
+      "actual_image_pages": [
+        174
+      ],
+      "citations": [
+        {
+          "id": "nasa_p174_figure_01095",
+          "page": 174,
+          "reference": "Figure 6.4-2",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_c3",
+      "group": "chart",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 27, Figure 2.5-1: Concept 8%, Prod/Test 50%; 50/8=6.25, không nhầm với chênh lệch điểm phần trăm.",
+      "original_pdf_pages": [
+        27
+      ],
+      "actual_image_pages": [
+        27
+      ],
+      "citations": [
+        {
+          "id": "nasa_p027_visual_reading_00171",
+          "page": 27,
+          "reference": "Figure 2.5-1",
+          "bbox": [
+            85,
+            72,
+            540,
+            430
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_c4",
+      "group": "chart",
+      "api_passed": false,
+      "passed": false,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 96 đã phóng to kiểm tra: X=Life-Cycle Cost, Expressed in Constant Dollars; Y=Some Aspect of Effectiveness, Expressed in Quantitative Units. Gold/visual note nháp ghi All Aspects là sai. Không sửa pipeline/index đã chốt sau test. Đáp án Some Aspect của model đọc ảnh là đúng, nhưng citation visual_reading_00674 dẫn tới mô tả có chữ All sai. Chấm bảo thủ vẫn không đạt vì citation bổ sung mâu thuẫn; không dùng sửa gold để tự tăng qua ngưỡng.",
+      "original_pdf_pages": [
+        96
+      ],
+      "actual_image_pages": [
+        96
+      ],
+      "citations": [
+        {
+          "id": "nasa_p096_visual_reading_00674",
+          "page": 96,
+          "reference": "Figure 4.4-3",
+          "bbox": [
+            170.88,
+            166.56,
+            441.12,
+            398.64
+          ]
+        },
+        {
+          "id": "nasa_p096_figure_00671",
+          "page": 96,
+          "reference": "Figure 4.4-3",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ],
+      "answer_grade_after_source_check": 2,
+      "citation_support_after_source_check": [
+        false,
+        true
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_c5",
+      "group": "chart",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 96, Figure 4.4-3: C có probability cloud gần trục x, high cost, essentially no effectiveness; chú thích xác nhận expensive failure.",
+      "original_pdf_pages": [
+        96
+      ],
+      "actual_image_pages": [
+        96
+      ],
+      "citations": [
+        {
+          "id": "nasa_p096_figure_00673",
+          "page": 96,
+          "reference": "Figure 4.4-3",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p096_visual_reading_00674",
+          "page": 96,
+          "reference": "Figure 4.4-3",
+          "bbox": [
+            170.88,
+            166.56,
+            441.12,
+            398.64
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_m1",
+      "group": "multi_hop",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "Hai trang 27 và 83: legend PDR=Preliminary Design Review; Verification level chỉ system/subsystem/element. Tiêu chí đòi coverage cả hai reference.",
+      "original_pdf_pages": [
+        27,
+        83
+      ],
+      "actual_image_pages": [
+        27,
+        83
+      ],
+      "citations": [
+        {
+          "id": "nasa_p027_figure_00167",
+          "page": 27,
+          "reference": "Figure 2.5-1",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p027_visual_reading_00171",
+          "page": 27,
+          "reference": "Figure 2.5-1",
+          "bbox": [
+            85,
+            72,
+            540,
+            430
+          ]
+        },
+        {
+          "id": "nasa_p027_visual_reading_00172",
+          "page": 27,
+          "reference": "Figure 2.5-1",
+          "bbox": [
+            85,
+            72,
+            540,
+            430
+          ]
+        },
+        {
+          "id": "nasa_p083_table_00594",
+          "page": 83,
+          "reference": "Table 4.2-2",
+          "bbox": [
+            72.46,
+            93.94,
+            539.08,
+            279.38
+          ]
+        },
+        {
+          "id": "nasa_p083_table_00595",
+          "page": 83,
+          "reference": "Table 4.2-2",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p083_table_00592",
+          "page": 83,
+          "reference": "Table 4.2-2",
+          "bbox": [
+            72.46,
+            93.94,
+            539.08,
+            279.38
+          ]
+        },
+        {
+          "id": "nasa_p083_table_00593",
+          "page": 83,
+          "reference": "Table 4.2-2",
+          "bbox": [
+            72.46,
+            93.94,
+            539.08,
+            279.38
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_m2",
+      "group": "multi_hop",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "Hai trang 83 và 68: Verification lead là person/group responsible for verifying; Phase E có crew và users.",
+      "original_pdf_pages": [
+        83,
+        68
+      ],
+      "actual_image_pages": [
+        68,
+        83
+      ],
+      "citations": [
+        {
+          "id": "nasa_p083_table_00593",
+          "page": 83,
+          "reference": "Table 4.2-2",
+          "bbox": [
+            72.46,
+            93.94,
+            539.08,
+            279.38
+          ]
+        },
+        {
+          "id": "nasa_p068_table_00477",
+          "page": 68,
+          "reference": "Table 4.1-1",
+          "bbox": [
+            72.24,
+            92.16,
+            539.76,
+            289.1
+          ]
+        },
+        {
+          "id": "nasa_p068_table_00479",
+          "page": 68,
+          "reference": "Table 4.1-1",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_m3",
+      "group": "multi_hop",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "Hai trang 264 và 268: TRL6 model/prototype in relevant environment; system TRL lấy thấp nhất, nên có thành phần TRL2 thì không đạt6.",
+      "original_pdf_pages": [
+        264,
+        268
+      ],
+      "actual_image_pages": [
+        264,
+        268
+      ],
+      "citations": [
+        {
+          "id": "nasa_p264_figure_01531",
+          "page": 264,
+          "reference": "Figure G.4-1",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p268_figure_01548",
+          "page": 268,
+          "reference": "Figure G.4-3",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_m4",
+      "group": "multi_hop",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "Hai trang 149 và 18: Mission/Instrument Systems Engineer; Common Areas thực tế có sáu mục gồm cả Reviews và Schedule, theo erratum trước test.",
+      "original_pdf_pages": [
+        149,
+        18
+      ],
+      "actual_image_pages": [
+        18,
+        149
+      ],
+      "citations": [
+        {
+          "id": "nasa_p149_table_00940",
+          "page": 149,
+          "reference": "Table 6.1-1",
+          "bbox": [
+            78.31,
+            159.3,
+            533.69,
+            680.04
+          ]
+        },
+        {
+          "id": "nasa_p149_table_00941",
+          "page": 149,
+          "reference": "Table 6.1-1",
+          "bbox": [
+            78.31,
+            159.3,
+            533.69,
+            680.04
+          ]
+        },
+        {
+          "id": "nasa_p018_figure_00075",
+          "page": 18,
+          "reference": "Figure 2.0-1",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p018_figure_00079",
+          "page": 18,
+          "reference": "Figure 2.0-1",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_x1",
+      "group": "text",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 28 mục2.6: hardware, software, human systems integration; đều phải address/integrate ngang nhau.",
+      "original_pdf_pages": [
+        28
+      ],
+      "actual_image_pages": [
+        28,
+        110,
+        270
+      ],
+      "citations": [
+        {
+          "id": "nasa_p028_text_00173",
+          "page": 28,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_x2",
+      "group": "text",
+      "api_passed": false,
+      "passed": false,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 24: phải nêu monitor performance, control configuration và decisions về operations/sustaining/closeout; output thiếu các ý này nên không đạt.",
+      "original_pdf_pages": [
+        24
+      ],
+      "actual_image_pages": [
+        5,
+        18,
+        22,
+        318
+      ],
+      "citations": [
+        {
+          "id": "nasa_p318_text_01735",
+          "page": 318,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p022_text_00121",
+          "page": 22,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_x3",
+      "group": "text",
+      "api_passed": false,
+      "passed": false,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 25 mục2.4 nêu từng development phase, phase products/models, không chỉ delivery; output không cung cấp đủ ý và đúng nguồn yêu cầu nên không đạt.",
+      "original_pdf_pages": [
+        25
+      ],
+      "actual_image_pages": [
+        91,
+        99,
+        129,
+        130,
+        132
+      ],
+      "citations": [
+        {
+          "id": "nasa_p099_text_00684",
+          "page": 99,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p130_text_00842",
+          "page": 130,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_x4",
+      "group": "text",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "PDF 213 mục6.8.1.3: content quan trọng, ghi decision/assessment/recommendation/final decision; hình thức white paper hay formal đều được.",
+      "original_pdf_pages": [
+        213
+      ],
+      "actual_image_pages": [
+        206,
+        207,
+        213
+      ],
+      "citations": [
+        {
+          "id": "nasa_p213_text_01330",
+          "page": 213,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p213_ocr_layout_01332",
+          "page": 213,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p213_table_01340",
+          "page": 213,
+          "reference": "Table 6.8-1",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p213_text_01331",
+          "page": 213,
+          "reference": "",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "id": "nasa_p213_table_01338",
+          "page": 213,
+          "reference": "Table 6.8-1",
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_n1",
+      "group": "unanswerable",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "Không có tick chi phí số hoặc khoảng tin cậy 95% cho B; không suy ra số từ hình khái niệm. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
+      "original_pdf_pages": [],
+      "actual_image_pages": [
+        96
+      ],
+      "citations": []
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_n2",
+      "group": "unanswerable",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "Hình và văn bản trích không nêu cỡ mẫu các dự án; việc dẫn INCOSE không cung cấp số này trong handbook. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
+      "original_pdf_pages": [],
+      "actual_image_pages": [
+        27
+      ],
+      "citations": []
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_n3",
+      "group": "unanswerable",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "Bảng liệt kê các bộ môn và nhóm, không có tổng ngân sách của ví dụ đài quan sát. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
+      "original_pdf_pages": [],
+      "actual_image_pages": [
+        149
+      ],
+      "citations": []
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_n4",
+      "group": "unanswerable",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "Đây là mô tả trường metadata, không có danh tính hay email cá nhân thực tế. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
+      "original_pdf_pages": [],
+      "actual_image_pages": [
+        83
+      ],
+      "citations": []
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_n5",
+      "group": "unanswerable",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "Handbook bàn về quy trình CM, không công bố giá thuê phần mềm hàng tháng. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
+      "original_pdf_pages": [],
+      "actual_image_pages": [
+        180,
+        181,
+        182
+      ],
+      "citations": []
+    },
+    {
+      "configuration": "reference-8",
+      "query_id": "at_n6",
+      "group": "unanswerable",
+      "api_passed": true,
+      "passed": true,
+      "review_status": "source_check_proposed",
+      "student_confirmed": false,
+      "source_note": "Handbook không phải báo cáo ngân sách và không công bố tổng thực chi toàn cơ quan cho năm 2016. Đối chiếu vùng liên quan và quét text/OCR toàn356 trang; output chỉ từ chối, không thêm dữ kiện ngoài nguồn.",
+      "original_pdf_pages": [],
+      "actual_image_pages": [
+        2,
+        146,
+        197,
+        331,
+        353
+      ],
+      "citations": []
+    }
+  ],
+  "all_cases_in_denominator": true,
+  "source_axis_erratum": "Results-only adjudication; original gold and frozen index preserved. Some Aspect is the actual Y-axis label on PDF96.",
+  "pipeline_changed_after_test": false,
+  "student_confirmed": false
+}

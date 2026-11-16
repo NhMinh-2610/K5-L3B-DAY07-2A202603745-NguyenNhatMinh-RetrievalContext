@@ -1,0 +1,88 @@
+{
+  "document": {
+    "source_id": "nasa-se-2016-rev2",
+    "title": "NASA Systems Engineering Handbook, Revision 2",
+    "report_number": "NASA/SP-2016-6105 Rev 2",
+    "publication_date": "2017-02-17",
+    "source_url": "https://ntrs.nasa.gov/citations/20170001761",
+    "download_url": "https://ntrs.nasa.gov/api/citations/20170001761/downloads/20170001761.pdf",
+    "pdf_sha256": "3153ae2e53e29452d5997efafe280a5f05cd21b43a047e988a17e1dd5207a38e",
+    "physical_pages": 356,
+    "license": "Public Use Permitted (NTRS record)",
+    "pages_processed": 356,
+    "page_labels": "Gold uses 1-based physical PDF pages; printed numbers differ by front matter.",
+    "chunks": 1831,
+    "kinds": {
+      "text": 962,
+      "ocr_layout": 291,
+      "figure": 206,
+      "table": 369,
+      "visual_reading": 3
+    },
+    "regions": 59,
+    "ocr": "Windows.Media.Ocr en-US; all 356 page renders; original PDF and crops stay local.",
+    "limitations": [
+      "OCR is not automatically correct; table/image/chart benchmark must be checked against renders.",
+      "Full-page region bounds are conservative; figure/table identifiers locate the exact visual.",
+      "Arbitrary arrow connectivity and dense curves are not reconstructed automatically.",
+      "Source-checked visual descriptions are separate from gold and remain proposed until student review."
+    ]
+  },
+  "vector_store": {
+    "corpus_sha256": "e05746188d9d4f12565127beaf57ecf09e248af99c4304ccd2e44d2bd7606500",
+    "model_signature": "0dfa971762747459e20d16f5fbcf31c26eceda7c23e38efd1ad3af675ad2b835",
+    "embedding": {
+      "provider": "sentence-transformers-local",
+      "model_name": "intfloat/multilingual-e5-small",
+      "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "dimensions": 384,
+      "device": "cpu",
+      "dtype": "float32",
+      "threads": 4,
+      "batch_size": 16,
+      "document_prefix": "passage: ",
+      "query_prefix": "query: ",
+      "normalize_embeddings": true,
+      "max_tokens": 512,
+      "libraries": {
+        "sentence-transformers": "6.2.0",
+        "transformers": "5.22.1",
+        "torch": "2.15.0"
+      }
+    },
+    "dimensions": 384,
+    "vectors": 1831,
+    "dtype": "float32",
+    "storage": "NumPy .npy persisted dense matrix; exact normalized cosine search",
+    "embedding_truncated_nodes": [
+      164,
+      248,
+      249,
+      260,
+      261,
+      262,
+      367,
+      382,
+      383,
+      384,
+      408,
+      409,
+      410,
+      546,
+      551,
+      1452,
+      1453,
+      1454,
+      1497,
+      1501,
+      1619,
+      1620,
+      1621,
+      1622,
+      1623,
+      1644
+    ],
+    "all_text_retained_for_lexical_and_context": true,
+    "paid_api_calls": 0
+  }
+}

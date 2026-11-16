@@ -2,6 +2,14 @@
 
 Nguyễn Nhật Minh · 2A202603745 · K5-L3B · 16/11/2026
 
+## Kết quả phiên bản hoàn thiện
+
+Phần cơ bản được cải thiện bằng context lân cận và đánh giá trên test mới.
+Bonus dùng NASA SE Handbook 356 trang, test đủ 30 câu, kết quả bảo thủ sau
+đối chiếu nguồn **27/30 = 90%**. Nhãn `source_check_proposed` chưa phải xác nhận
+của người học hoặc điểm chính thức. Các bảng đợt một bên dưới được giữ làm mốc;
+phần cuối báo cáo trình bày thí nghiệm mới và bonus.
+
 ## Dữ liệu và liên hệ Day 6
 
 Day 6 cung cấp dữ liệu đã xử lý, chunk, embedding và vector store. Day 7 dùng
@@ -165,7 +173,7 @@ lịch sử ở `results/agent/` tách riêng. Usage lấy từ API, quy đổi 
 đã lưu 16/11/2026; **không phải hóa đơn hoặc toàn bộ lịch sử tài khoản**.
 Xem [costs.json](../../results/study/costs.json).
 
-51 unit test đạt; JavaScript kiểm tra cú pháp đạt; web đã gọi API thật, hiển thị
+62 unit test đạt; JavaScript kiểm tra cú pháp đạt; web đã gọi API thật, hiển thị
 đáp án và nguồn. Kiểm thử mock chỉ xác minh logic, không dùng làm điểm benchmark.
 
 Giới hạn: corpus nhỏ, một chương, chưa OCR đầy đủ hình/bảng; benchmark test chỉ
@@ -174,5 +182,108 @@ dùng cùng họ model để sinh và chấm có thiên lệch. q02/q09 dev chư
 một citation test còn thiếu ngữ cảnh, bản dịch GPU cần rà. Kết quả không chứng minh
 chất lượng trên tài liệu mới hoặc đạt điểm rubric tuyệt đối.
 
-Phạm vi đã thực hiện là **phần cơ bản**. Chưa làm thử thách tài liệu từ 100 trang
-có bảng/ảnh/biểu đồ và benchmark nâng cao; không yêu cầu cộng 15 điểm bonus.
+## Cải thiện cơ bản v2 và test mới
+
+Giữ nguyên toàn bộ đợt một. `src/context_retriever.py` mở rộng mỗi seed bằng
+chunk liền kề cùng nguồn/trang/mục, tạo evidence group có ID và danh sách chunk
+thành viên. Dense vẫn tìm trên pgvector Day 6; không dùng gold để chọn hàng xóm.
+Citation group hỗ trợ đọc trọn câu thay vì đuôi câu bị tách. Dev và test mới
+được chạy bằng `scripts/run_basic_v2.py`, có hash chốt trước test.
+
+| Dev | Group Hit@1 / Hit@3 | CER nguyên văn / ngữ nghĩa | Điểm /2 | Phí sinh + chấm, USD |
+|---|---|---|---|---|
+| Dense baseline | 10/15 (66,7%) / 11/15 (73,3%) | 12/15 (80%) / 13/15 (86,7%) | 1,80 | 0,021383 |
+| Hybrid + lân cận ±1, 6.000 ký tự | 12/15 (80%) / 14/15 (93,3%) | 15/15 (100%) / 15/15 (100%) | 2,00 | 0,029826 |
+| Hybrid + lân cận ±2, 9.000 ký tự | 12/15 (80%) / 14/15 (93,3%) | 15/15 (100%) / 15/15 (100%) | 2,00 | 0,032979 |
+
+Đây là ranking evidence group; ranking seed gốc cũng được giữ. Seed Hit@1/3 của
+hai cấu hình lân cận là 9/15 và 10/15; tăng điểm đến từ đủ context, không phải
+ranking seed tốt hơn. q02 có thêm temperaments/self-esteem, q09 có Industrial
+data. Cả hai được chấm 2/2 theo nguồn; không còn từ chối nhầm trên 15 câu dev.
+Chọn ±1 vì cùng chất lượng với ±2 nhưng phí thấp hơn; chi phí vẫn cao hơn baseline.
+
+Test v2 mới gồm FPGA, trường phái AI, dự báo thị trường, full-stack, Ascend 310
+và hai câu âm tính. Baseline/đã chọn đều đạt 2,00/2 trên 5 câu dương tính,
+từ chối đúng 2/2, lỗi 0. CER ngữ nghĩa 5/5; median 3,25/2,52 giây, phí
+0,011382/0,013199 USD. Citation baseline 6/6, lân cận 6/7 sau rà: qualifier
+INT8 ở câu Ascend được bảng trang19 hỗ trợ nhưng citation đầu trang36 chưa
+chứa qualifier đó. Điểm đáp án vẫn 2 nhờ toàn context; không sửa pipeline sau test.
+[Trace, nhãn và bản rà](../../results/extension/basic-v2/README.md).
+
+## Bonus: tài liệu 356 trang và benchmark đa dạng
+
+Nguồn: *NASA Systems Engineering Handbook*, NASA/SP-2016-6105 Rev 2,
+[NTRS 20170001761](https://ntrs.nasa.gov/citations/20170001761), công bố
+17/02/2017, trạng thái Public Use Permitted. PDF gốc có 356 trang vật lý;
+SHA-256 `3153ae2e53e29452d5997efafe280a5f05cd21b43a047e988a17e1dd5207a38e`.
+Chú thích bên thứ ba được giữ. PDF/ảnh/vector chỉ lưu local, có nguồn tải và
+[cách tái tạo](../../docs/BONUS.md).
+
+Toàn bộ 356 trang được render và OCR tiếng Anh bằng Windows.Media.Ocr.
+PyMuPDF 1.26.7 lấy text, grid/cell bảng và tọa độ; index có 1.831 node gồm
+962 text, 291 OCR/layout, 369 bảng, 206 hình, 3 đoạn mô tả biểu đồ. Có 59 vùng
+caption nhận diện; bảng dùng bbox grid, hình dùng trang/bbox/caption để định vị.
+Không giới hạn index ở trang benchmark. Vector store local `.npy` dùng E5 thật,
+384 chiều chuẩn hóa, cosine exact; lexical giữ nguyên toàn text. Có 26 node
+embedding bị cắt ở 512 token; nội dung đầy đủ vẫn được tìm bằng lexical và đọc
+trong context. Diễn giải đường cong/mũi tên không được tự đảm bảo bởi OCR.
+
+Dev có 15 dương tính + 3 âm tính. Test có 24 + 6, nhóm chính không đếm trùng:
+6 bảng, 5 hình/sơ đồ, 5 biểu đồ, 4 multi-hop, 4 text. Năm câu biểu đồ dùng ba
+hình, gồm đọc giá trị/đơn vị, tính 20−15=5 điểm phần trăm, 50/8=6,25 lần và
+đọc phân bố/bất định. Multi-hop cần ít nhất hai trang. Mỗi câu có đáp án,
+trang/vùng/điều kiện/phép tính hoặc lý do thiếu; query input không chứa gold.
+
+Bản dev ban đầu còn lỗi native multi-tool: model trả hai search call, agent cũ
+chỉ nhận một; xử lý citation cũng kết thúc sớm khi danh sách có ID thừa.
+`src/advanced_agent.py` xử lý từng call, trả kết quả cho mọi native ID, giới hạn
+số lượt tìm và chỉ gửi một context tích lũy. Citation sai phải được model sửa
+trong lượt thật tiếp theo; hết lượt vẫn báo lỗi. Code đợt cơ bản cũ không đổi.
+
+| Dev bonus v2 | Đạt /18 theo API và coverage | Lỗi | Phí sinh + chấm, USD |
+|---|---|---|---|
+| Hybrid baseline, k4, 8.000 ký tự | 13/18 (72,2%) | 0 | 0,043561 |
+| Anchor Figure/Table, text, k8, 20.000 | 17/18 (94,4%) | 0 | 0,051048 |
+| Anchor + ảnh, k8, 20.000 | 17/18 (94,4%) | 0 | 0,046546 |
+| Anchor + ảnh, k12, 32.000 | 17/18 (94,4%) | 0 | 0,058473 |
+
+Anchor chỉ lấy Figure/Table ID người dùng nêu. Cấu hình vision gửi ảnh gốc của
+tối đa ba trang đầu trong context, có hash ảnh trong trace; không chọn ảnh từ
+vùng gold. Tất cả nội dung vẫn coi là dữ liệu. Native tool calling dùng model
+DeepSeek Flash thật; bộ chấm API chạy sau khi sinh xong toàn split. Lượt chấm
+JSON lỗi được ghi và thử lại tối đa ba lần, không chạy lại agent để chọn đáp án.
+Chọn **reference-8** trước test theo lỗi, số câu dev đạt rồi tổng phí; cùng17
+câu đạt, tổng phí của cấu hình này thấp nhất. Cache và một lần đo không chứng
+minh chênh lệch chi phí/thời gian có ý nghĩa thống kê.
+
+| Nhóm test | Baseline sau rà | Reference-8 sau rà |
+|---|---|---|
+| Bảng | 6/6 (100%) | 6/6 (100%) |
+| Hình/sơ đồ | 1/5 (20%) | 5/5 (100%) |
+| Biểu đồ | 4/5 (80%) | 4/5 (80%) |
+| Multi-hop | 1/4 (25%) | 4/4 (100%) |
+| Text | 2/4 (50%) | 2/4 (50%) |
+| Thiếu bằng chứng | 6/6 (100%) | 6/6 (100%) |
+| **Tổng** | **20/30 (66,7%)** | **27/30 (90%)** |
+
+Giữ cả lỗi trong mẫu số: baseline có1 lỗi hệ thống, cấu hình chọn có0; median
+3,125/3,164 giây, chưa tính nạp model. Phí sinh + chấm là 0,078180/0,094767 USD,
+API request 103/93 (bao gồm chấm). Mọi câu test của cả hai cấu hình có trace,
+nhãn và [lý do đối chiếu nguồn](../../results/extension/advanced-v2/test_source_audit.json).
+
+API gốc chấm baseline21/30, cấu hình chọn26/30. Rà nguồn điều chỉnh hai điểm:
+`at_i2` có ảnh Figure4.0-1 thực gửi, hai citation cùng chỉ vùng trang64 đủ ba ô;
+API text-only bỏ sót bằng chứng ảnh nên được sửa thành đạt. `at_c4` trục Y thật
+là **Some Aspect**, gold/mô tả nháp nhầm thành **All Aspects** từ tiêu đề hình.
+Baseline trả All nên bị hạ. Vision trả Some đúng nhưng còn dẫn mô tả sai; chấm
+bảo thủ giữ câu này không đạt. Không sửa code/index/gold rồi chạy lại test để
+qua ngưỡng. Hai câu text `at_x2`, `at_x3` còn thiếu ý/đúng mục; vẫn không đạt.
+
+Kết quả 27/30 đáp ứng ngưỡng số học 90% của bonus; việc công nhận15 điểm và
+điểm toàn bài do giảng viên quyết định. Nhãn sau rà có hỗ trợ tự động, chưa phải
+xác nhận của người học. Cần xác nhận từng nguồn/nhãn trước nộp; không biến kết
+quả API thành chữ ký thủ công. [Giới hạn và errata](../../advanced/README.md).
+
+Bản xuất Git chỉ giữ kết quả lab có cấu trúc, không chứa `.env`, API key, file
+trợ lý hoặc hội thoại/request/response thô. Hướng dẫn web, tái lập và kiểm tra
+đầu ra ở [docs/BONUS.md](../../docs/BONUS.md).
