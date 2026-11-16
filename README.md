@@ -2,9 +2,36 @@
 
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 
+## Dự án Nguyễn Nhật Minh · 2A202603745
+
+Phần cơ bản đã có code, 24 câu benchmark, ba phương pháp retrieval, agent
+DeepSeek thật, hai cấu hình thử cải thiện và đánh giá test sau khi chốt.
+51 unit test đạt. Chưa thực hiện thử thách nâng cao 100 trang.
+
+- **Mở web local:** mở Docker Desktop, bấm đúp [CHAY_WEB.cmd](CHAY_WEB.cmd),
+  giữ terminal rồi vào <http://127.0.0.1:8767>. [Hướng dẫn và câu thử](docs/CHAY_WEB.md).
+- **Báo cáo:** [2A202603745_NguyenNhatMinh.md](report/individual/2A202603745_NguyenNhatMinh.md).
+- **Kết quả:** [so sánh dev/test, trace và bản rà nguồn](results/study/README.md).
+- **Tái lập:** [dữ liệu](docs/CHUAN_BI_DU_LIEU.md), [DeepSeek](docs/CHAY_AGENT.md),
+  [retrieval](docs/CHAY_RETRIEVAL.md), [thí nghiệm và chốt test](docs/THU_NGHIEM.md).
+
+Dev đạt 1,80/2 ở cả ba cấu hình; chọn hybrid theo tổng phí sinh + chấm. Test
+API chấm 2,00/2 trên 5 câu có đáp án, từ chối đúng 2/2; sau rà nguồn hybrid
+còn 5/6 citation đủ hỗ trợ. Nhãn được tạo tự động, cần đọc và xác nhận trước
+khi nộp. q02/q09 dev còn thiếu ý/từ chối nhầm; xem giới hạn trong báo cáo.
+
+Máy mới cần cài [requirements.txt](requirements.txt), có repo/dữ liệu và
+database Day 6, rồi tạo `.env` từ [.env.example](.env.example) và điền key.
+Không đưa `.env` hoặc key lên Git. Nội dung dưới đây là yêu cầu đề bài gốc.
+
+---
+
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.
 
-> **Tùy chọn:** [Gợi ý dùng AI để lập trình](AGENT_SETUP.md) giúp bạn làm lab; phần này không bắt buộc và không tính điểm.
+Dữ liệu của bài hiện tại: [cách chuyển chunk và bộ dev từ Day 6](docs/CHUAN_BI_DU_LIEU.md).
+Benchmark của bài hiện tại: [24 câu dev/test và cách kiểm tra nguồn](benchmark/README.md).
+Code và kết quả retrieval: [chạy dense, TF-IDF và hybrid trên dev](docs/CHAY_RETRIEVAL.md).
+Agent: [điền key DeepSeek và chạy trên dev](docs/CHAY_AGENT.md).
 
 ## Bài cần làm
 
