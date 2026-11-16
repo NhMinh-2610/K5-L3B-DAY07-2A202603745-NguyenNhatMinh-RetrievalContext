@@ -1,5 +1,8 @@
 # Thí nghiệm dev và test
 
+Trang này mô tả nghiên cứu đợt một đã giữ nguyên. Phiên bản cải thiện và bonus
+ở [BONUS.md](BONUS.md), có test mới và thư mục kết quả riêng.
+
 Kết quả chính nằm ở [results/study](../results/study/README.md).
 Ba cấu hình dev và hai cấu hình test đã chạy API thật; không cần gọi lại để xem.
 

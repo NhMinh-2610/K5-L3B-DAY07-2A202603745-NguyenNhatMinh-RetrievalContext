@@ -10,6 +10,10 @@
 | `agent.py` | Native tool calling, chọn context, trả lời/citation và từ chối |
 | `evaluation.py` | Chấm sau khi agent kết thúc, kiểm tra nhãn và tổng hợp metric |
 | `web_app.py` | Backend web local, key ở máy chủ, hỏi tài liệu và mở nguồn |
+| `context_retriever.py` | Evidence group từ chunk lân cận cùng trang/mục |
+| `document_store.py` | E5 vector store local, hybrid và anchor từ câu hỏi |
+| `advanced_agent.py` | Nhiều native search call, một context và phục hồi citation có giới hạn |
+| `vision_client.py` | Ảnh PDF gốc của trang đã truy xuất gửi DeepSeek Flash, có hash ảnh |
 
 Chạy so sánh dev theo [hướng dẫn retrieval](../docs/CHAY_RETRIEVAL.md).
 Chạy agent thật theo [hướng dẫn DeepSeek](../docs/CHAY_AGENT.md), cần key trong

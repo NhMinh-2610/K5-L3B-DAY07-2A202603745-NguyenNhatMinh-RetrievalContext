@@ -4,21 +4,25 @@
 
 ## Dự án Nguyễn Nhật Minh · 2A202603745
 
-Phần cơ bản đã có code, 24 câu benchmark, ba phương pháp retrieval, agent
-DeepSeek thật, hai cấu hình thử cải thiện và đánh giá test sau khi chốt.
-51 unit test đạt. Chưa thực hiện thử thách nâng cao 100 trang.
+Đã triển khai phần cơ bản và bonus: ba phương pháp retrieval, agent DeepSeek
+thật, context lân cận, OCR/bảng/vision trên tài liệu NASA 356 trang và test sau
+khi chốt. Có 62 unit test; kết quả benchmark và nhãn nguồn được lưu riêng.
 
 - **Mở web local:** mở Docker Desktop, bấm đúp [CHAY_WEB.cmd](CHAY_WEB.cmd),
   giữ terminal rồi vào <http://127.0.0.1:8767>. [Hướng dẫn và câu thử](docs/CHAY_WEB.md).
 - **Báo cáo:** [2A202603745_NguyenNhatMinh.md](report/individual/2A202603745_NguyenNhatMinh.md).
-- **Kết quả:** [so sánh dev/test, trace và bản rà nguồn](results/study/README.md).
+- **Kết quả mới:** [cơ bản v2](results/extension/basic-v2/README.md),
+  [bonus 27/30](results/extension/advanced-v2/README.md),
+  [nghiên cứu ban đầu](results/study/README.md).
 - **Tái lập:** [dữ liệu](docs/CHUAN_BI_DU_LIEU.md), [DeepSeek](docs/CHAY_AGENT.md),
-  [retrieval](docs/CHAY_RETRIEVAL.md), [thí nghiệm và chốt test](docs/THU_NGHIEM.md).
+  [retrieval](docs/CHAY_RETRIEVAL.md), [thí nghiệm ban đầu](docs/THU_NGHIEM.md),
+  [cải thiện và bonus](docs/BONUS.md).
 
-Dev đạt 1,80/2 ở cả ba cấu hình; chọn hybrid theo tổng phí sinh + chấm. Test
-API chấm 2,00/2 trên 5 câu có đáp án, từ chối đúng 2/2; sau rà nguồn hybrid
-còn 5/6 citation đủ hỗ trợ. Nhãn được tạo tự động, cần đọc và xác nhận trước
-khi nộp. q02/q09 dev còn thiếu ý/từ chối nhầm; xem giới hạn trong báo cáo.
+Cơ bản v2 sửa q02/q09, dev đạt 2,00/2, test mới đạt 2,00/2 và từ chối đúng2/2;
+citation sau rà6/7. Bonus có18 câu dev và30 test đủ nhóm; cấu hình đã chọn đạt
+**27/30=90%** sau đối chiếu nguồn bảo thủ, so với26/30 API gốc. Giữ nguyên cả
+hai bảng và lý do sửa nhãn, kể cả lỗi gold/mô tả trục biểu đồ. Nhãn có hỗ trợ
+tự động, cần người học xác nhận; việc công nhận bonus/điểm cuối do giảng viên.
 
 Máy mới cần cài [requirements.txt](requirements.txt), có repo/dữ liệu và
 database Day 6, rồi tạo `.env` từ [.env.example](.env.example) và điền key.

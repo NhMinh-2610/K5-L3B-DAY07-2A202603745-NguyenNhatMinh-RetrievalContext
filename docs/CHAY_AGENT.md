@@ -1,5 +1,8 @@
 # Chạy agent DeepSeek
 
+`run_agent.py` là baseline đối chứng. Web mặc định dùng cấu hình lân cận đã
+chốt trên dev v2; chạy lại phần cải thiện/bonus theo [BONUS.md](BONUS.md).
+
 Agent dùng DeepSeek để chọn query, gọi retrieval và quyết định trả lời có nguồn
 hoặc từ chối. Embedding và database vẫn dùng Day 6. Bộ test chỉ dành cho lần
 đánh giá sau khi chốt cấu hình; các lệnh dưới đây chỉ chạy dev.

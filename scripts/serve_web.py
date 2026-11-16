@@ -4,7 +4,7 @@ import json
 import sys
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import urlsplit, parse_qs
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -29,18 +29,25 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         path = urlsplit(self.path).path
+        params=parse_qs(urlsplit(self.path).query)
+        dataset=params.get("dataset",["basic"])[0]
         try:
+            if dataset not in ("basic","advanced"):raise ValueError("Tài liệu không hợp lệ.")
             if path in STATIC:
                 name, mime = STATIC[path]
                 self.send(200, (ROOT / "web" / name).read_bytes(), mime)
             elif path == "/api/status":
                 self.send(200, self.server.application.status())
             elif path == "/api/examples":
-                self.send(200, self.server.application.examples())
+                self.send(200, self.server.application.examples(dataset))
             elif path == "/api/results":
-                self.send(200, self.server.application.results())
+                self.send(200, self.server.application.results(dataset))
+            elif path=="/api/page":
+                self.send(200,self.server.application.page_image(int(params.get("page",["0"])[0])),"image/jpeg")
             else:
                 self.send(404, {"error": "Không có trang này."})
+        except ValueError as error:
+            self.send(400,{"error":str(error)})
         except Exception:
             self.send(503, {"error": "Dữ liệu đang được cập nhật. Vui lòng thử lại."})
 

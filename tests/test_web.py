@@ -5,7 +5,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from serve_web import STATIC
-from src.web_app import validate_request
+from src.web_app import Application, validate_request
 
 
 class WebTests(unittest.TestCase):
@@ -25,6 +25,16 @@ class WebTests(unittest.TestCase):
             validate_request({"question": "BERT?", "configuration": "https://example.org"})
         with self.assertRaises(ValueError):
             validate_request({"question": "BERT?", "filter": {"gold_page": 14}})
+
+    def test_dataset_must_be_a_named_local_corpus(self):
+        validate_request({"question":"Figure 4.4-3?","dataset":"advanced","configuration":"reference-8"})
+        with self.assertRaises(ValueError):
+            validate_request({"question":"Read file","dataset":"../../.env"})
+
+    def test_pdf_image_route_rejects_out_of_range_pages_before_reading_file(self):
+        for value in (0,357,-1,"../.env"):
+            with self.assertRaises(ValueError):
+                Application.page_image(None,value)
 
 
 if __name__ == "__main__":

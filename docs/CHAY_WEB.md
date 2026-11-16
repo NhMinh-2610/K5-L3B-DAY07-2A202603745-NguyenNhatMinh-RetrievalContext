@@ -10,9 +10,10 @@
 
 2. Trong repo Day 7, bấm đúp `CHAY_WEB.cmd`, giữ cửa sổ terminal mở.
 3. Mở trình duyệt tại <http://127.0.0.1:8767>.
-4. Chọn câu mẫu hoặc nhập câu hỏi, chọn cách tìm/phạm vi, bấm **Hỏi tài liệu**.
+4. Chọn **Cơ bản** hoặc **Bonus · NASA**, chọn câu mẫu/cấu hình rồi bấm **Hỏi tài liệu**.
 5. Bấm nguồn dưới đáp án để đọc chunk và trang. **Xem các lượt tìm kiếm** cho
-   biết query đã viết lại. Tab Dev/Test chỉ đọc kết quả đã lưu.
+   biết query đã viết lại. Với NASA, citation mở cả ảnh trang PDF gốc.
+   Tab Dev/Test chỉ đọc kết quả đã lưu và bản rà nguồn tương ứng.
 
 Lần hỏi đầu cần nạp embedding local, có thể mất khoảng 1–3 phút. Những lần sau
 dùng lại model. Mỗi lần hỏi gọi DeepSeek thật và có phí theo usage; key nằm
@@ -32,13 +33,14 @@ $labPython = "$env:USERPROFILE\.venvs\day06-dataingestion\Scripts\python.exe"
 Nếu đổi vị trí Python/Day 6, sửa đường dẫn trong lệnh hoặc `CHAY_WEB.cmd`.
 Máy mới cần cài [requirements.txt](../requirements.txt), chuẩn bị dữ liệu theo
 [hướng dẫn](CHUAN_BI_DU_LIEU.md) và cấu hình [DeepSeek](CHAY_AGENT.md).
+Bonus cần thêm bước chuẩn bị PDF/OCR/vector theo [BONUS.md](BONUS.md).
 
 ## Ba câu kiểm tra trên dev
 
 | Câu hỏi | Kết quả cần kiểm tra |
 |---|---|
 | Theo tài liệu, John McCarthy nêu định nghĩa về AI tại hội nghị nào và vào năm nào? | Dartmouth, 1956; citation trang 1 hoặc 7. |
-| Trong phần Công nghệ liên quan đến AI, đặc điểm Industrial data của Huawei CLOUD EI giúp doanh nghiệp khai thác dữ liệu riêng để làm gì? | Nguồn trang 23: tạo giá trị qua xử lý và khai phá dữ liệu. Cấu hình hiện tại còn từ chối nhầm; đây là ví dụ lỗi dev đã ghi nhận. |
+| Trong phần Công nghệ liên quan đến AI, đặc điểm Industrial data của Huawei CLOUD EI giúp doanh nghiệp khai thác dữ liệu riêng để làm gì? | Nguồn trang23: tạo giá trị qua xử lý và khai phá dữ liệu. Cấu hình lân cận đã sửa lỗi từ chối nhầm của baseline cũ. |
 | Theo chương tài liệu, mô hình BERT có chính xác bao nhiêu tham số? | Tìm rồi báo không đủ bằng chứng; không tự đưa số từ kiến thức ngoài. |
 
 Câu mẫu không cung cấp đáp án/gold cho agent. Không dùng test để tiếp tục
@@ -47,6 +49,12 @@ benchmark chính thức. Điểm hiển thị do API chấm; xem thêm bản rà
 [báo cáo](../report/individual/2A202603745_NguyenNhatMinh.md).
 
 ![Web đã trả lời và mở nguồn](assets/web-demo.jpg)
+
+Với **Bonus · NASA**, thử các câu mẫu dev: chức năng Owner trong Table4.2-2;
+hướng tăng cost-effectiveness trong Figure4.4-3; hoặc xác suất số chưa được
+cho trong Figure6.4-2. Hai câu đầu cần nguồn trang83/96; câu cuối phải từ chối.
+
+![Web NASA với ảnh gốc và kết quả test](assets/bonus-web-demo.jpg)
 
 Web chỉ lắng nghe `127.0.0.1`, không được triển khai công khai. Chỉ phục vụ ba
 file giao diện và API cho phép; URL `.env`, `.git` và đường dẫn ngoài web trả 404.
