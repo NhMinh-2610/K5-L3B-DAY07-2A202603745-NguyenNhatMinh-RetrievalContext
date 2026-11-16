@@ -1,0 +1,993 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "Theo tài liệu, John McCarthy nêu định nghĩa về AI tại hội nghị nào và vào năm nào?",
+    "filter": {},
+    "status": "answered",
+    "answer": "John McCarthy nêu định nghĩa về AI (máy mô phỏng chính xác nhất có thể hành vi thông minh của con người) tại Hội nghị Dartmouth năm 1956 [6e104c1fc00c0e8bfaa910195ce0a4a6b63f1ef3909b152cb5a71196a563e7af]. Cũng tại hội nghị Dartmouth kéo dài 2 tháng này vào năm 1956, ông chính thức giới thiệu AI như một ngành mới, đánh dấu sự ra đời của AI [dc9fe35bbbf22a2d93b70d49179c3e11037ca9787df36bf9871797960e78fd2f].",
+    "citations": [
+      "6e104c1fc00c0e8bfaa910195ce0a4a6b63f1ef3909b152cb5a71196a563e7af",
+      "dc9fe35bbbf22a2d93b70d49179c3e11037ca9787df36bf9871797960e78fd2f"
+    ],
+    "citation_sources": [
+      {
+        "id": "6e104c1fc00c0e8bfaa910195ce0a4a6b63f1ef3909b152cb5a71196a563e7af",
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+        "page": 1
+      },
+      {
+        "id": "dc9fe35bbbf22a2d93b70d49179c3e11037ca9787df36bf9871797960e78fd2f",
+        "source_id": "huawei-ai-technology-ch01-2023",
+        "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+        "page": 7
+      }
+    ],
+    "context": "[6e104c1fc00c0e8bfaa910195ce0a4a6b63f1ef3909b152cb5a71196a563e7af | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 1]\nCurrently, people mainly learn about artificial intelligence (AI) through news,\nmovies, and the applications in daily life, as shown by Fig. 1.1.\nA rather widely accepted definition of AI, also a relatively early one, was\nproposed by John McCarthy at the 1956 Dartmouth Conference, which outlined\nthat artificial intelligence is about letting a machine simulate the intelligent behavior\nof humans as precisely as it can be. However, this definition seemingly ignores the\npossibility of strong\n\n[dc9fe35bbbf22a2d93b70d49179c3e11037ca9787df36bf9871797960e78fd2f | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 7]\nnon-deterministic inference and machine learning.\n2. The First Booming Period (1956–1976)\nFinally, in 1956, John McCarthy officially introduced AI as a new discipline at\nthe 2-month long Dartmouth Conference, which marks the birth of AI. A number\nof AI research groups were formed in the United States ever since, such as the\nCarnegie-RAND group formed by Allen Newell and Herbert Alexander Simon,\nthe research group the Massachusetts Institute of Technology (MIT) by Marvin\nLee Minsky and John\n\n[b2b20d409ac393a8e24ccc09ab09f8e8fb26f197cc491361b005332e62eed493 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 8]\nJohn McCarthy\ndeveloped the LISP, which became the dominant programming language for\nAI IN the following decades. Marvin Minsky launched a more in-depth study\nof neural networks and discovered the disadvantages of simple neural net-\nworks. In order to overcome these limitations, the scientists started to intro-\nduce multilayer neural networks and Back Propagation (BP) algorithms.\nMeanwhile, the expert system (ES) also emerged. During this period the\nfirst industrial robot was applied on the",
+    "context_ids": [
+      "6e104c1fc00c0e8bfaa910195ce0a4a6b63f1ef3909b152cb5a71196a563e7af",
+      "dc9fe35bbbf22a2d93b70d49179c3e11037ca9787df36bf9871797960e78fd2f",
+      "b2b20d409ac393a8e24ccc09ab09f8e8fb26f197cc491361b005332e62eed493"
+    ],
+    "search_count": 1,
+    "model_call_count": 2,
+    "elapsed_seconds": 6.758529499988072,
+    "citation_id_check": true,
+    "semantic_review_status": "pending",
+    "api_requests": 2,
+    "events": [
+      {
+        "event": "model_call",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 39,
+          "prompt_tokens": 698,
+          "total_tokens": 737,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 698
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.0002562,
+        "elapsed_ms": 4654.736700002104,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "John McCarthy definition of AI conference year"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "John McCarthy definition of AI conference year"
+        },
+        "query": "John McCarthy definition of AI conference year",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "John McCarthy definition of AI conference year",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "6e104c1fc00c0e8bfaa910195ce0a4a6b63f1ef3909b152cb5a71196a563e7af",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 1,
+              "text": "Currently, people mainly learn about artificial intelligence (AI) through news,\nmovies, and the applications in daily life, as shown by Fig. 1.1.\nA rather widely accepted definition of AI, also a relatively early one, was\nproposed by John McCarthy at the 1956 Dartmouth Conference, which outlined\nthat artificial intelligence is about letting a machine simulate the intelligent behavior\nof humans as precisely as it can be. However, this definition seemingly ignores the\npossibility of strong",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.1",
+                "section_title": "The Concept of Artificial Intelligence",
+                "unit_id": "huawei-ai-technology-ch01-2023:p001:s1.1",
+                "page_char_start": 549,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 84,
+                "unit_char_end": 576,
+                "page_char_end": 1041
+              },
+              "score": 0.8962807655334473,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "dc9fe35bbbf22a2d93b70d49179c3e11037ca9787df36bf9871797960e78fd2f",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 7,
+              "text": "non-deterministic inference and machine learning.\n2. The First Booming Period (1956–1976)\nFinally, in 1956, John McCarthy officially introduced AI as a new discipline at\nthe 2-month long Dartmouth Conference, which marks the birth of AI. A number\nof AI research groups were formed in the United States ever since, such as the\nCarnegie-RAND group formed by Allen Newell and Herbert Alexander Simon,\nthe research group the Massachusetts Institute of Technology (MIT) by Marvin\nLee Minsky and John",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.1",
+                "section_title": "The Concept of Artificial Intelligence",
+                "unit_id": "huawei-ai-technology-ch01-2023:p007:s1.1",
+                "page_char_start": 1983,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 1983,
+                "unit_char_end": 2477,
+                "page_char_end": 2477
+              },
+              "score": 0.8696814775466919,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "b2b20d409ac393a8e24ccc09ab09f8e8fb26f197cc491361b005332e62eed493",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 8,
+              "text": "John McCarthy\ndeveloped the LISP, which became the dominant programming language for\nAI IN the following decades. Marvin Minsky launched a more in-depth study\nof neural networks and discovered the disadvantages of simple neural net-\nworks. In order to overcome these limitations, the scientists started to intro-\nduce multilayer neural networks and Back Propagation (BP) algorithms.\nMeanwhile, the expert system (ES) also emerged. During this period the\nfirst industrial robot was applied on the",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.1",
+                "section_title": "The Concept of Artificial Intelligence",
+                "unit_id": "huawei-ai-technology-ch01-2023:p008:s1.1",
+                "page_char_start": 1500,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 1500,
+                "unit_char_end": 1995,
+                "page_char_end": 1995
+              },
+              "score": 0.8615350209751728,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 392.18789999722503,
+          "elapsed_ms": 424.4870999827981
+        },
+        "results": [
+          {
+            "id": "6e104c1fc00c0e8bfaa910195ce0a4a6b63f1ef3909b152cb5a71196a563e7af",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 1,
+            "text": "Currently, people mainly learn about artificial intelligence (AI) through news,\nmovies, and the applications in daily life, as shown by Fig. 1.1.\nA rather widely accepted definition of AI, also a relatively early one, was\nproposed by John McCarthy at the 1956 Dartmouth Conference, which outlined\nthat artificial intelligence is about letting a machine simulate the intelligent behavior\nof humans as precisely as it can be. However, this definition seemingly ignores the\npossibility of strong",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence",
+              "unit_id": "huawei-ai-technology-ch01-2023:p001:s1.1",
+              "page_char_start": 549,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 84,
+              "unit_char_end": 576,
+              "page_char_end": 1041
+            },
+            "score": 0.8962807655334473,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "dc9fe35bbbf22a2d93b70d49179c3e11037ca9787df36bf9871797960e78fd2f",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 7,
+            "text": "non-deterministic inference and machine learning.\n2. The First Booming Period (1956–1976)\nFinally, in 1956, John McCarthy officially introduced AI as a new discipline at\nthe 2-month long Dartmouth Conference, which marks the birth of AI. A number\nof AI research groups were formed in the United States ever since, such as the\nCarnegie-RAND group formed by Allen Newell and Herbert Alexander Simon,\nthe research group the Massachusetts Institute of Technology (MIT) by Marvin\nLee Minsky and John",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence",
+              "unit_id": "huawei-ai-technology-ch01-2023:p007:s1.1",
+              "page_char_start": 1983,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 1983,
+              "unit_char_end": 2477,
+              "page_char_end": 2477
+            },
+            "score": 0.8696814775466919,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "b2b20d409ac393a8e24ccc09ab09f8e8fb26f197cc491361b005332e62eed493",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 8,
+            "text": "John McCarthy\ndeveloped the LISP, which became the dominant programming language for\nAI IN the following decades. Marvin Minsky launched a more in-depth study\nof neural networks and discovered the disadvantages of simple neural net-\nworks. In order to overcome these limitations, the scientists started to intro-\nduce multilayer neural networks and Back Propagation (BP) algorithms.\nMeanwhile, the expert system (ES) also emerged. During this period the\nfirst industrial robot was applied on the",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence",
+              "unit_id": "huawei-ai-technology-ch01-2023:p008:s1.1",
+              "page_char_start": 1500,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 1500,
+              "unit_char_end": 1995,
+              "page_char_end": 1995
+            },
+            "score": 0.8615350209751728,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[6e104c1fc00c0e8bfaa910195ce0a4a6b63f1ef3909b152cb5a71196a563e7af | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 1]\nCurrently, people mainly learn about artificial intelligence (AI) through news,\nmovies, and the applications in daily life, as shown by Fig. 1.1.\nA rather widely accepted definition of AI, also a relatively early one, was\nproposed by John McCarthy at the 1956 Dartmouth Conference, which outlined\nthat artificial intelligence is about letting a machine simulate the intelligent behavior\nof humans as precisely as it can be. However, this definition seemingly ignores the\npossibility of strong\n\n[dc9fe35bbbf22a2d93b70d49179c3e11037ca9787df36bf9871797960e78fd2f | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 7]\nnon-deterministic inference and machine learning.\n2. The First Booming Period (1956–1976)\nFinally, in 1956, John McCarthy officially introduced AI as a new discipline at\nthe 2-month long Dartmouth Conference, which marks the birth of AI. A number\nof AI research groups were formed in the United States ever since, such as the\nCarnegie-RAND group formed by Allen Newell and Herbert Alexander Simon,\nthe research group the Massachusetts Institute of Technology (MIT) by Marvin\nLee Minsky and John\n\n[b2b20d409ac393a8e24ccc09ab09f8e8fb26f197cc491361b005332e62eed493 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 8]\nJohn McCarthy\ndeveloped the LISP, which became the dominant programming language for\nAI IN the following decades. Marvin Minsky launched a more in-depth study\nof neural networks and discovered the disadvantages of simple neural net-\nworks. In order to overcome these limitations, the scientists started to intro-\nduce multilayer neural networks and Back Propagation (BP) algorithms.\nMeanwhile, the expert system (ES) also emerged. During this period the\nfirst industrial robot was applied on the",
+        "context_ids": [
+          "6e104c1fc00c0e8bfaa910195ce0a4a6b63f1ef3909b152cb5a71196a563e7af",
+          "dc9fe35bbbf22a2d93b70d49179c3e11037ca9787df36bf9871797960e78fd2f",
+          "b2b20d409ac393a8e24ccc09ab09f8e8fb26f197cc491361b005332e62eed493"
+        ]
+      },
+      {
+        "event": "model_call",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 309,
+          "prompt_tokens": 1603,
+          "total_tokens": 1912,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 384
+          },
+          "prompt_cache_hit_tokens": 384,
+          "prompt_cache_miss_tokens": 1219
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000738804,
+        "elapsed_ms": 1677.8318999859039,
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "arguments": {
+              "answer": "John McCarthy nêu định nghĩa về AI (máy mô phỏng chính xác nhất có thể hành vi thông minh của con người) tại Hội nghị Dartmouth năm 1956 [6e104c1fc00c0e8bfaa910195ce0a4a6b63f1ef3909b152cb5a71196a563e7af]. Cũng tại hội nghị Dartmouth kéo dài 2 tháng này vào năm 1956, ông chính thức giới thiệu AI như một ngành mới, đánh dấu sự ra đời của AI [dc9fe35bbbf22a2d93b70d49179c3e11037ca9787df36bf9871797960e78fd2f].",
+              "citations": [
+                "6e104c1fc00c0e8bfaa910195ce0a4a6b63f1ef3909b152cb5a71196a563e7af",
+                "dc9fe35bbbf22a2d93b70d49179c3e11037ca9787df36bf9871797960e78fd2f"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "event": "answer",
+        "arguments": {
+          "answer": "John McCarthy nêu định nghĩa về AI (máy mô phỏng chính xác nhất có thể hành vi thông minh của con người) tại Hội nghị Dartmouth năm 1956 [6e104c1fc00c0e8bfaa910195ce0a4a6b63f1ef3909b152cb5a71196a563e7af]. Cũng tại hội nghị Dartmouth kéo dài 2 tháng này vào năm 1956, ông chính thức giới thiệu AI như một ngành mới, đánh dấu sự ra đời của AI [dc9fe35bbbf22a2d93b70d49179c3e11037ca9787df36bf9871797960e78fd2f].",
+          "citations": [
+            "6e104c1fc00c0e8bfaa910195ce0a4a6b63f1ef3909b152cb5a71196a563e7af",
+            "dc9fe35bbbf22a2d93b70d49179c3e11037ca9787df36bf9871797960e78fd2f"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "dev_no_evidence_01",
+    "split": "dev",
+    "question": "Theo tài liệu, mô hình BERT có chính xác bao nhiêu tham số?",
+    "filter": {},
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong các đoạn đã truy xuất để trả lời.",
+    "citations": [],
+    "citation_sources": [],
+    "context": "[6d070d800c3ddd9127e1c6b0faa613466bc148011c63df5b628d1458c031a063 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 38]\nrecognition, video synthesis and unsupervised clustering. In natural language\nprocessing, major breakthroughs have been made in the Transformer-based\npre-training models. The relevant models such as BERT, GPT and XLNet have\nbegun to be widely applied to industrial scenarios. In reinforcement learning,\nAlphaStar of DeepMind defeated the top human players at the game StarCraft II.\n3. Smaller Deep Models\nModels with better performance are often accompanied by larger parameters,\nand larger models\n\n[5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 14]\nnetworks and Neural Turing Machine (NTM). For instance, Google’s BERT\n(Bidirectional Encoder Representation from Transformers) is a natural language\nprocessing pre-training technology developed on the basis of neural networks.\nIn addition to deep learning, transfer learning, reinforcement learning,\none-shot learning and adversarial machine learning are also the important tech-\nnologies to realize machine learning, and the solutions to some of the difficulties\nfaced by deep learning.\n3. Chip\n\n[3fca90debb28d9433aa1229aef24f2662dcd16f1f1cf8c8e5a9b936136a6b59f | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 34]\nmodels based on the labeled data, thus the developers do not need to have\nexperience in coding or model development.\nThe automatic learning of Model Arts is mainly realized through\nModelArts Pro, a professional development kit designed for enterprise-\ngrade AI. Based on the advanced algorithms and rapid training capability of\nHUAWEI CLOUD, ModelArts Pro provides the pre-installed workflows and\nmodels to improve the efficiency and reduce the difficulty of AI application\ndevelopment by the\n\n[c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 36]\nFig. 1.23 A panorama of atlas artificial intelligence computing platform\n\n[7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nTable 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+    "context_ids": [
+      "6d070d800c3ddd9127e1c6b0faa613466bc148011c63df5b628d1458c031a063",
+      "5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81",
+      "3fca90debb28d9433aa1229aef24f2662dcd16f1f1cf8c8e5a9b936136a6b59f",
+      "c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a",
+      "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde"
+    ],
+    "search_count": 3,
+    "model_call_count": 4,
+    "elapsed_seconds": 3.356755399989197,
+    "semantic_review_status": "pending",
+    "api_requests": 4,
+    "abstention_reason": "Các đoạn tìm được chỉ nhắc BERT là mô hình pre-training dựa trên Transformer, không nêu số lượng tham số cụ thể của BERT.",
+    "events": [
+      {
+        "event": "model_call",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 37,
+          "prompt_tokens": 694,
+          "total_tokens": 731,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 182
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.00010207200000000001,
+        "elapsed_ms": 626.9099000201095,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "BERT model number of parameters"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "BERT model number of parameters"
+        },
+        "query": "BERT model number of parameters",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "BERT model number of parameters",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 14,
+              "text": "networks and Neural Turing Machine (NTM). For instance, Google’s BERT\n(Bidirectional Encoder Representation from Transformers) is a natural language\nprocessing pre-training technology developed on the basis of neural networks.\nIn addition to deep learning, transfer learning, reinforcement learning,\none-shot learning and adversarial machine learning are also the important tech-\nnologies to realize machine learning, and the solutions to some of the difficulties\nfaced by deep learning.\n3. Chip",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p014:s1.2",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 495,
+                "page_char_end": 495
+              },
+              "score": 0.8238319158554077,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 19,
+              "text": "Table 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 499,
+                "page_char_end": 499
+              },
+              "score": 0.8222638368606567,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 36,
+              "text": "Fig. 1.23 A panorama of atlas artificial intelligence computing platform",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.4",
+                "section_title": "Huawei’s AI Development Strategy",
+                "unit_id": "huawei-ai-technology-ch01-2023:p036:s1.4",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 72,
+                "page_char_end": 72
+              },
+              "score": 0.8218253957137244,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 36.297099984949455,
+          "elapsed_ms": 47.803099994780496
+        },
+        "results": [
+          {
+            "id": "5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 14,
+            "text": "networks and Neural Turing Machine (NTM). For instance, Google’s BERT\n(Bidirectional Encoder Representation from Transformers) is a natural language\nprocessing pre-training technology developed on the basis of neural networks.\nIn addition to deep learning, transfer learning, reinforcement learning,\none-shot learning and adversarial machine learning are also the important tech-\nnologies to realize machine learning, and the solutions to some of the difficulties\nfaced by deep learning.\n3. Chip",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p014:s1.2",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 495,
+              "page_char_end": 495
+            },
+            "score": 0.8238319158554077,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 19,
+            "text": "Table 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 499,
+              "page_char_end": 499
+            },
+            "score": 0.8222638368606567,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 36,
+            "text": "Fig. 1.23 A panorama of atlas artificial intelligence computing platform",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy",
+              "unit_id": "huawei-ai-technology-ch01-2023:p036:s1.4",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 72,
+              "page_char_end": 72
+            },
+            "score": 0.8218253957137244,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 14]\nnetworks and Neural Turing Machine (NTM). For instance, Google’s BERT\n(Bidirectional Encoder Representation from Transformers) is a natural language\nprocessing pre-training technology developed on the basis of neural networks.\nIn addition to deep learning, transfer learning, reinforcement learning,\none-shot learning and adversarial machine learning are also the important tech-\nnologies to realize machine learning, and the solutions to some of the difficulties\nfaced by deep learning.\n3. Chip\n\n[7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nTable 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel\n\n[c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 36]\nFig. 1.23 A panorama of atlas artificial intelligence computing platform",
+        "context_ids": [
+          "5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81",
+          "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+          "c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a"
+        ]
+      },
+      {
+        "event": "model_call",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 38,
+          "prompt_tokens": 1561,
+          "total_tokens": 1599,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 921
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.00032574000000000004,
+        "elapsed_ms": 908.4461000165902,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "BERT base large parameters million weights"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "BERT base large parameters million weights"
+        },
+        "query": "BERT base large parameters million weights",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "BERT base large parameters million weights",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "6d070d800c3ddd9127e1c6b0faa613466bc148011c63df5b628d1458c031a063",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 38,
+              "text": "recognition, video synthesis and unsupervised clustering. In natural language\nprocessing, major breakthroughs have been made in the Transformer-based\npre-training models. The relevant models such as BERT, GPT and XLNet have\nbegun to be widely applied to industrial scenarios. In reinforcement learning,\nAlphaStar of DeepMind defeated the top human players at the game StarCraft II.\n3. Smaller Deep Models\nModels with better performance are often accompanied by larger parameters,\nand larger models",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.6",
+                "section_title": "The Development Trends for AI",
+                "unit_id": "huawei-ai-technology-ch01-2023:p038:s1.6",
+                "page_char_start": 1008,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 524,
+                "unit_char_end": 1021,
+                "page_char_end": 1505
+              },
+              "score": 0.8195356345730321,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 36,
+              "text": "Fig. 1.23 A panorama of atlas artificial intelligence computing platform",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.4",
+                "section_title": "Huawei’s AI Development Strategy",
+                "unit_id": "huawei-ai-technology-ch01-2023:p036:s1.4",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 72,
+                "page_char_end": 72
+              },
+              "score": 0.8138447736779274,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 14,
+              "text": "networks and Neural Turing Machine (NTM). For instance, Google’s BERT\n(Bidirectional Encoder Representation from Transformers) is a natural language\nprocessing pre-training technology developed on the basis of neural networks.\nIn addition to deep learning, transfer learning, reinforcement learning,\none-shot learning and adversarial machine learning are also the important tech-\nnologies to realize machine learning, and the solutions to some of the difficulties\nfaced by deep learning.\n3. Chip",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p014:s1.2",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 495,
+                "page_char_end": 495
+              },
+              "score": 0.8121791109825298,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 37.07819999544881,
+          "elapsed_ms": 53.091000008862466
+        },
+        "results": [
+          {
+            "id": "6d070d800c3ddd9127e1c6b0faa613466bc148011c63df5b628d1458c031a063",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 38,
+            "text": "recognition, video synthesis and unsupervised clustering. In natural language\nprocessing, major breakthroughs have been made in the Transformer-based\npre-training models. The relevant models such as BERT, GPT and XLNet have\nbegun to be widely applied to industrial scenarios. In reinforcement learning,\nAlphaStar of DeepMind defeated the top human players at the game StarCraft II.\n3. Smaller Deep Models\nModels with better performance are often accompanied by larger parameters,\nand larger models",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.6",
+              "section_title": "The Development Trends for AI",
+              "unit_id": "huawei-ai-technology-ch01-2023:p038:s1.6",
+              "page_char_start": 1008,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 524,
+              "unit_char_end": 1021,
+              "page_char_end": 1505
+            },
+            "score": 0.8195356345730321,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 36,
+            "text": "Fig. 1.23 A panorama of atlas artificial intelligence computing platform",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy",
+              "unit_id": "huawei-ai-technology-ch01-2023:p036:s1.4",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 72,
+              "page_char_end": 72
+            },
+            "score": 0.8138447736779274,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 14,
+            "text": "networks and Neural Turing Machine (NTM). For instance, Google’s BERT\n(Bidirectional Encoder Representation from Transformers) is a natural language\nprocessing pre-training technology developed on the basis of neural networks.\nIn addition to deep learning, transfer learning, reinforcement learning,\none-shot learning and adversarial machine learning are also the important tech-\nnologies to realize machine learning, and the solutions to some of the difficulties\nfaced by deep learning.\n3. Chip",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p014:s1.2",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 495,
+              "page_char_end": 495
+            },
+            "score": 0.8121791109825298,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[6d070d800c3ddd9127e1c6b0faa613466bc148011c63df5b628d1458c031a063 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 38]\nrecognition, video synthesis and unsupervised clustering. In natural language\nprocessing, major breakthroughs have been made in the Transformer-based\npre-training models. The relevant models such as BERT, GPT and XLNet have\nbegun to be widely applied to industrial scenarios. In reinforcement learning,\nAlphaStar of DeepMind defeated the top human players at the game StarCraft II.\n3. Smaller Deep Models\nModels with better performance are often accompanied by larger parameters,\nand larger models\n\n[c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 36]\nFig. 1.23 A panorama of atlas artificial intelligence computing platform\n\n[5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 14]\nnetworks and Neural Turing Machine (NTM). For instance, Google’s BERT\n(Bidirectional Encoder Representation from Transformers) is a natural language\nprocessing pre-training technology developed on the basis of neural networks.\nIn addition to deep learning, transfer learning, reinforcement learning,\none-shot learning and adversarial machine learning are also the important tech-\nnologies to realize machine learning, and the solutions to some of the difficulties\nfaced by deep learning.\n3. Chip\n\n[7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nTable 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+        "context_ids": [
+          "6d070d800c3ddd9127e1c6b0faa613466bc148011c63df5b628d1458c031a063",
+          "c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a",
+          "5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81",
+          "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde"
+        ]
+      },
+      {
+        "event": "model_call",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 44,
+          "prompt_tokens": 1778,
+          "total_tokens": 1822,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 1138
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.00039803999999999995,
+        "elapsed_ms": 774.8077999858651,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "BERT model size 110 million 340 million parameters pre-training"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "BERT model size 110 million 340 million parameters pre-training"
+        },
+        "query": "BERT model size 110 million 340 million parameters pre-training",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "BERT model size 110 million 340 million parameters pre-training",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "6d070d800c3ddd9127e1c6b0faa613466bc148011c63df5b628d1458c031a063",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 38,
+              "text": "recognition, video synthesis and unsupervised clustering. In natural language\nprocessing, major breakthroughs have been made in the Transformer-based\npre-training models. The relevant models such as BERT, GPT and XLNet have\nbegun to be widely applied to industrial scenarios. In reinforcement learning,\nAlphaStar of DeepMind defeated the top human players at the game StarCraft II.\n3. Smaller Deep Models\nModels with better performance are often accompanied by larger parameters,\nand larger models",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.6",
+                "section_title": "The Development Trends for AI",
+                "unit_id": "huawei-ai-technology-ch01-2023:p038:s1.6",
+                "page_char_start": 1008,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 524,
+                "unit_char_end": 1021,
+                "page_char_end": 1505
+              },
+              "score": 0.8400019598004925,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 14,
+              "text": "networks and Neural Turing Machine (NTM). For instance, Google’s BERT\n(Bidirectional Encoder Representation from Transformers) is a natural language\nprocessing pre-training technology developed on the basis of neural networks.\nIn addition to deep learning, transfer learning, reinforcement learning,\none-shot learning and adversarial machine learning are also the important tech-\nnologies to realize machine learning, and the solutions to some of the difficulties\nfaced by deep learning.\n3. Chip",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p014:s1.2",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 495,
+                "page_char_end": 495
+              },
+              "score": 0.833672543326319,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "3fca90debb28d9433aa1229aef24f2662dcd16f1f1cf8c8e5a9b936136a6b59f",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 34,
+              "text": "models based on the labeled data, thus the developers do not need to have\nexperience in coding or model development.\nThe automatic learning of Model Arts is mainly realized through\nModelArts Pro, a professional development kit designed for enterprise-\ngrade AI. Based on the advanced algorithms and rapid training capability of\nHUAWEI CLOUD, ModelArts Pro provides the pre-installed workflows and\nmodels to improve the efficiency and reduce the difficulty of AI application\ndevelopment by the",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.4",
+                "section_title": "Huawei’s AI Development Strategy",
+                "unit_id": "huawei-ai-technology-ch01-2023:p034:s1.4",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 492,
+                "page_char_end": 492
+              },
+              "score": 0.8209048233798477,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 43.077300011646,
+          "elapsed_ms": 50.46970001421869
+        },
+        "results": [
+          {
+            "id": "6d070d800c3ddd9127e1c6b0faa613466bc148011c63df5b628d1458c031a063",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 38,
+            "text": "recognition, video synthesis and unsupervised clustering. In natural language\nprocessing, major breakthroughs have been made in the Transformer-based\npre-training models. The relevant models such as BERT, GPT and XLNet have\nbegun to be widely applied to industrial scenarios. In reinforcement learning,\nAlphaStar of DeepMind defeated the top human players at the game StarCraft II.\n3. Smaller Deep Models\nModels with better performance are often accompanied by larger parameters,\nand larger models",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.6",
+              "section_title": "The Development Trends for AI",
+              "unit_id": "huawei-ai-technology-ch01-2023:p038:s1.6",
+              "page_char_start": 1008,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 524,
+              "unit_char_end": 1021,
+              "page_char_end": 1505
+            },
+            "score": 0.8400019598004925,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 14,
+            "text": "networks and Neural Turing Machine (NTM). For instance, Google’s BERT\n(Bidirectional Encoder Representation from Transformers) is a natural language\nprocessing pre-training technology developed on the basis of neural networks.\nIn addition to deep learning, transfer learning, reinforcement learning,\none-shot learning and adversarial machine learning are also the important tech-\nnologies to realize machine learning, and the solutions to some of the difficulties\nfaced by deep learning.\n3. Chip",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p014:s1.2",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 495,
+              "page_char_end": 495
+            },
+            "score": 0.833672543326319,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "3fca90debb28d9433aa1229aef24f2662dcd16f1f1cf8c8e5a9b936136a6b59f",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 34,
+            "text": "models based on the labeled data, thus the developers do not need to have\nexperience in coding or model development.\nThe automatic learning of Model Arts is mainly realized through\nModelArts Pro, a professional development kit designed for enterprise-\ngrade AI. Based on the advanced algorithms and rapid training capability of\nHUAWEI CLOUD, ModelArts Pro provides the pre-installed workflows and\nmodels to improve the efficiency and reduce the difficulty of AI application\ndevelopment by the",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy",
+              "unit_id": "huawei-ai-technology-ch01-2023:p034:s1.4",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 492,
+              "page_char_end": 492
+            },
+            "score": 0.8209048233798477,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[6d070d800c3ddd9127e1c6b0faa613466bc148011c63df5b628d1458c031a063 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 38]\nrecognition, video synthesis and unsupervised clustering. In natural language\nprocessing, major breakthroughs have been made in the Transformer-based\npre-training models. The relevant models such as BERT, GPT and XLNet have\nbegun to be widely applied to industrial scenarios. In reinforcement learning,\nAlphaStar of DeepMind defeated the top human players at the game StarCraft II.\n3. Smaller Deep Models\nModels with better performance are often accompanied by larger parameters,\nand larger models\n\n[5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 14]\nnetworks and Neural Turing Machine (NTM). For instance, Google’s BERT\n(Bidirectional Encoder Representation from Transformers) is a natural language\nprocessing pre-training technology developed on the basis of neural networks.\nIn addition to deep learning, transfer learning, reinforcement learning,\none-shot learning and adversarial machine learning are also the important tech-\nnologies to realize machine learning, and the solutions to some of the difficulties\nfaced by deep learning.\n3. Chip\n\n[3fca90debb28d9433aa1229aef24f2662dcd16f1f1cf8c8e5a9b936136a6b59f | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 34]\nmodels based on the labeled data, thus the developers do not need to have\nexperience in coding or model development.\nThe automatic learning of Model Arts is mainly realized through\nModelArts Pro, a professional development kit designed for enterprise-\ngrade AI. Based on the advanced algorithms and rapid training capability of\nHUAWEI CLOUD, ModelArts Pro provides the pre-installed workflows and\nmodels to improve the efficiency and reduce the difficulty of AI application\ndevelopment by the\n\n[c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 36]\nFig. 1.23 A panorama of atlas artificial intelligence computing platform\n\n[7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nTable 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+        "context_ids": [
+          "6d070d800c3ddd9127e1c6b0faa613466bc148011c63df5b628d1458c031a063",
+          "5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81",
+          "3fca90debb28d9433aa1229aef24f2662dcd16f1f1cf8c8e5a9b936136a6b59f",
+          "c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a",
+          "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde"
+        ]
+      },
+      {
+        "event": "model_call",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 70,
+          "prompt_tokens": 1931,
+          "total_tokens": 2001,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 384
+          },
+          "prompt_cache_hit_tokens": 384,
+          "prompt_cache_miss_tokens": 1547
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000550404,
+        "elapsed_ms": 893.5265000036452,
+        "tool_calls": [
+          {
+            "name": "abstain",
+            "arguments": {
+              "reason": "Các đoạn tìm được chỉ nhắc BERT là mô hình pre-training dựa trên Transformer, không nêu số lượng tham số cụ thể của BERT."
+            }
+          }
+        ]
+      },
+      {
+        "event": "abstain",
+        "arguments": {
+          "reason": "Các đoạn tìm được chỉ nhắc BERT là mô hình pre-training dựa trên Transformer, không nêu số lượng tham số cụ thể của BERT."
+        }
+      }
+    ]
+  }
+]

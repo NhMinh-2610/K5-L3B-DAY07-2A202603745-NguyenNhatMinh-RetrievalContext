@@ -1,0 +1,1429 @@
+[
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "Trong phần Công nghệ liên quan đến AI, đặc điểm Industrial data của Huawei CLOUD EI giúp doanh nghiệp khai thác dữ liệu riêng để làm gì?",
+    "filter": {
+      "section": "1.2"
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong các đoạn đã truy xuất để trả lời.",
+    "citations": [],
+    "citation_sources": [],
+    "context": "[2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 23]\n1. An Overview of Huawei CLOUD Enterprise Intelligence Application Platform\nHuawei CLOUD Enterprise Intelligence (EI) application platform is an enabler of\nenterprise intelligence that aims at providing open, credible and smart platforms\nbased on AI and big data technologies and in the form of cloud service (including\npublic cloud and customized cloud, etc.), By combining the industrial scenarios,\nthe enterprise application systems created with Huawei CLOUD are visualized,\naudible and can\n\n[5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 23]\nexpress themselves, featuring the capabilities to analyze and\ninterpret images, videos, languages and texts and easier access to AI and big data\nservices. Huawei CLOUD can help the enterprises to speed up business devel-\nopment and benefit the society.\n2. Features of Huawei CLOUD EI\nHuawei CLOUD EI has four remarkable features.\n(a) Industrial wisdom: Huawei CLOUD has a deep understanding of the indus-\ntry, the industrial know-how, and the major industrial deficiencies. It searches\nsolutions to\n\n[199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 24]\n(f) In 2017, Huawei officially engaged in EI services in the form of cloud service\nand cooperated with more partners to provide more diversified AI services to\nthe external users.\n(g) In 2019, Huawei CLOUD EI started to emphasize the inclusive AI, in the\nhope of making AI affordable and accessible, and safe to use. Based on the",
+    "context_ids": [
+      "2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508",
+      "5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af",
+      "199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0"
+    ],
+    "search_count": 3,
+    "model_call_count": 4,
+    "elapsed_seconds": 4.569110500015086,
+    "semantic_review_status": "pending",
+    "api_requests": 4,
+    "abstention_reason": "Context hiện tại chỉ nêu chung về bốn đặc điểm của Huawei CLOUD EI và đặc điểm \"Industrial wisdom\" (hiểu ngành, know-how, thiếu hụt của ngành), chưa có nội dung về đặc điểm \"Industrial data\" hay việc khai thác dữ liệu riêng của doanh nghiệp để làm gì.",
+    "events": [
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 44,
+          "prompt_tokens": 738,
+          "total_tokens": 782,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 738
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.0002742,
+        "elapsed_ms": 1090.46639999724,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "Huawei CLOUD EI Industrial data characteristics private data"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "Huawei CLOUD EI Industrial data characteristics private data"
+        },
+        "query": "Huawei CLOUD EI Industrial data characteristics private data",
+        "filter": {
+          "section": "1.2"
+        },
+        "status": "complete",
+        "retrieval": {
+          "query": "Huawei CLOUD EI Industrial data characteristics private data",
+          "method": "dense",
+          "filter": {
+            "section": "1.2"
+          },
+          "top_k": 3,
+          "results": [
+            {
+              "id": "5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 23,
+              "text": "express themselves, featuring the capabilities to analyze and\ninterpret images, videos, languages and texts and easier access to AI and big data\nservices. Huawei CLOUD can help the enterprises to speed up business devel-\nopment and benefit the society.\n2. Features of Huawei CLOUD EI\nHuawei CLOUD EI has four remarkable features.\n(a) Industrial wisdom: Huawei CLOUD has a deep understanding of the indus-\ntry, the industrial know-how, and the major industrial deficiencies. It searches\nsolutions to",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+                "page_char_start": 878,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 878,
+                "unit_char_end": 1376,
+                "page_char_end": 1376
+              },
+              "score": 0.8959923572553965,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 23,
+              "text": "1. An Overview of Huawei CLOUD Enterprise Intelligence Application Platform\nHuawei CLOUD Enterprise Intelligence (EI) application platform is an enabler of\nenterprise intelligence that aims at providing open, credible and smart platforms\nbased on AI and big data technologies and in the form of cloud service (including\npublic cloud and customized cloud, etc.), By combining the industrial scenarios,\nthe enterprise application systems created with Huawei CLOUD are visualized,\naudible and can",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+                "page_char_start": 384,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 384,
+                "unit_char_end": 877,
+                "page_char_end": 877
+              },
+              "score": 0.8913896874088624,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 24,
+              "text": "(f) In 2017, Huawei officially engaged in EI services in the form of cloud service\nand cooperated with more partners to provide more diversified AI services to\nthe external users.\n(g) In 2019, Huawei CLOUD EI started to emphasize the inclusive AI, in the\nhope of making AI affordable and accessible, and safe to use. Based on the",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p024:s1.2",
+                "page_char_start": 1303,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 1303,
+                "unit_char_end": 1632,
+                "page_char_end": 1632
+              },
+              "score": 0.8781346896645997,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 690.0402999890503,
+          "elapsed_ms": 761.3677000044845
+        },
+        "results": [
+          {
+            "id": "5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 23,
+            "text": "express themselves, featuring the capabilities to analyze and\ninterpret images, videos, languages and texts and easier access to AI and big data\nservices. Huawei CLOUD can help the enterprises to speed up business devel-\nopment and benefit the society.\n2. Features of Huawei CLOUD EI\nHuawei CLOUD EI has four remarkable features.\n(a) Industrial wisdom: Huawei CLOUD has a deep understanding of the indus-\ntry, the industrial know-how, and the major industrial deficiencies. It searches\nsolutions to",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+              "page_char_start": 878,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 878,
+              "unit_char_end": 1376,
+              "page_char_end": 1376
+            },
+            "score": 0.8959923572553965,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 23,
+            "text": "1. An Overview of Huawei CLOUD Enterprise Intelligence Application Platform\nHuawei CLOUD Enterprise Intelligence (EI) application platform is an enabler of\nenterprise intelligence that aims at providing open, credible and smart platforms\nbased on AI and big data technologies and in the form of cloud service (including\npublic cloud and customized cloud, etc.), By combining the industrial scenarios,\nthe enterprise application systems created with Huawei CLOUD are visualized,\naudible and can",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+              "page_char_start": 384,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 384,
+              "unit_char_end": 877,
+              "page_char_end": 877
+            },
+            "score": 0.8913896874088624,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 24,
+            "text": "(f) In 2017, Huawei officially engaged in EI services in the form of cloud service\nand cooperated with more partners to provide more diversified AI services to\nthe external users.\n(g) In 2019, Huawei CLOUD EI started to emphasize the inclusive AI, in the\nhope of making AI affordable and accessible, and safe to use. Based on the",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p024:s1.2",
+              "page_char_start": 1303,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 1303,
+              "unit_char_end": 1632,
+              "page_char_end": 1632
+            },
+            "score": 0.8781346896645997,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 23]\nexpress themselves, featuring the capabilities to analyze and\ninterpret images, videos, languages and texts and easier access to AI and big data\nservices. Huawei CLOUD can help the enterprises to speed up business devel-\nopment and benefit the society.\n2. Features of Huawei CLOUD EI\nHuawei CLOUD EI has four remarkable features.\n(a) Industrial wisdom: Huawei CLOUD has a deep understanding of the indus-\ntry, the industrial know-how, and the major industrial deficiencies. It searches\nsolutions to\n\n[2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 23]\n1. An Overview of Huawei CLOUD Enterprise Intelligence Application Platform\nHuawei CLOUD Enterprise Intelligence (EI) application platform is an enabler of\nenterprise intelligence that aims at providing open, credible and smart platforms\nbased on AI and big data technologies and in the form of cloud service (including\npublic cloud and customized cloud, etc.), By combining the industrial scenarios,\nthe enterprise application systems created with Huawei CLOUD are visualized,\naudible and can\n\n[199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 24]\n(f) In 2017, Huawei officially engaged in EI services in the form of cloud service\nand cooperated with more partners to provide more diversified AI services to\nthe external users.\n(g) In 2019, Huawei CLOUD EI started to emphasize the inclusive AI, in the\nhope of making AI affordable and accessible, and safe to use. Based on the",
+        "context_ids": [
+          "5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af",
+          "2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508",
+          "199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 44,
+          "prompt_tokens": 1631,
+          "total_tokens": 1675,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 991
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.00035394,
+        "elapsed_ms": 771.1051000223961,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "Huawei CLOUD EI four remarkable features industrial data"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "Huawei CLOUD EI four remarkable features industrial data"
+        },
+        "query": "Huawei CLOUD EI four remarkable features industrial data",
+        "filter": {
+          "section": "1.2"
+        },
+        "status": "complete",
+        "retrieval": {
+          "query": "Huawei CLOUD EI four remarkable features industrial data",
+          "method": "dense",
+          "filter": {
+            "section": "1.2"
+          },
+          "top_k": 3,
+          "results": [
+            {
+              "id": "5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 23,
+              "text": "express themselves, featuring the capabilities to analyze and\ninterpret images, videos, languages and texts and easier access to AI and big data\nservices. Huawei CLOUD can help the enterprises to speed up business devel-\nopment and benefit the society.\n2. Features of Huawei CLOUD EI\nHuawei CLOUD EI has four remarkable features.\n(a) Industrial wisdom: Huawei CLOUD has a deep understanding of the indus-\ntry, the industrial know-how, and the major industrial deficiencies. It searches\nsolutions to",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+                "page_char_start": 878,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 878,
+                "unit_char_end": 1376,
+                "page_char_end": 1376
+              },
+              "score": 0.920066604606318,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 23,
+              "text": "1. An Overview of Huawei CLOUD Enterprise Intelligence Application Platform\nHuawei CLOUD Enterprise Intelligence (EI) application platform is an enabler of\nenterprise intelligence that aims at providing open, credible and smart platforms\nbased on AI and big data technologies and in the form of cloud service (including\npublic cloud and customized cloud, etc.), By combining the industrial scenarios,\nthe enterprise application systems created with Huawei CLOUD are visualized,\naudible and can",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+                "page_char_start": 384,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 384,
+                "unit_char_end": 877,
+                "page_char_end": 877
+              },
+              "score": 0.8879294529045281,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 24,
+              "text": "(f) In 2017, Huawei officially engaged in EI services in the form of cloud service\nand cooperated with more partners to provide more diversified AI services to\nthe external users.\n(g) In 2019, Huawei CLOUD EI started to emphasize the inclusive AI, in the\nhope of making AI affordable and accessible, and safe to use. Based on the",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p024:s1.2",
+                "page_char_start": 1303,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 1303,
+                "unit_char_end": 1632,
+                "page_char_end": 1632
+              },
+              "score": 0.8724947127706155,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 47.3737999855075,
+          "elapsed_ms": 61.02890000329353
+        },
+        "results": [
+          {
+            "id": "5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 23,
+            "text": "express themselves, featuring the capabilities to analyze and\ninterpret images, videos, languages and texts and easier access to AI and big data\nservices. Huawei CLOUD can help the enterprises to speed up business devel-\nopment and benefit the society.\n2. Features of Huawei CLOUD EI\nHuawei CLOUD EI has four remarkable features.\n(a) Industrial wisdom: Huawei CLOUD has a deep understanding of the indus-\ntry, the industrial know-how, and the major industrial deficiencies. It searches\nsolutions to",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+              "page_char_start": 878,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 878,
+              "unit_char_end": 1376,
+              "page_char_end": 1376
+            },
+            "score": 0.920066604606318,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 23,
+            "text": "1. An Overview of Huawei CLOUD Enterprise Intelligence Application Platform\nHuawei CLOUD Enterprise Intelligence (EI) application platform is an enabler of\nenterprise intelligence that aims at providing open, credible and smart platforms\nbased on AI and big data technologies and in the form of cloud service (including\npublic cloud and customized cloud, etc.), By combining the industrial scenarios,\nthe enterprise application systems created with Huawei CLOUD are visualized,\naudible and can",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+              "page_char_start": 384,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 384,
+              "unit_char_end": 877,
+              "page_char_end": 877
+            },
+            "score": 0.8879294529045281,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 24,
+            "text": "(f) In 2017, Huawei officially engaged in EI services in the form of cloud service\nand cooperated with more partners to provide more diversified AI services to\nthe external users.\n(g) In 2019, Huawei CLOUD EI started to emphasize the inclusive AI, in the\nhope of making AI affordable and accessible, and safe to use. Based on the",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p024:s1.2",
+              "page_char_start": 1303,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 1303,
+              "unit_char_end": 1632,
+              "page_char_end": 1632
+            },
+            "score": 0.8724947127706155,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 23]\nexpress themselves, featuring the capabilities to analyze and\ninterpret images, videos, languages and texts and easier access to AI and big data\nservices. Huawei CLOUD can help the enterprises to speed up business devel-\nopment and benefit the society.\n2. Features of Huawei CLOUD EI\nHuawei CLOUD EI has four remarkable features.\n(a) Industrial wisdom: Huawei CLOUD has a deep understanding of the indus-\ntry, the industrial know-how, and the major industrial deficiencies. It searches\nsolutions to\n\n[2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 23]\n1. An Overview of Huawei CLOUD Enterprise Intelligence Application Platform\nHuawei CLOUD Enterprise Intelligence (EI) application platform is an enabler of\nenterprise intelligence that aims at providing open, credible and smart platforms\nbased on AI and big data technologies and in the form of cloud service (including\npublic cloud and customized cloud, etc.), By combining the industrial scenarios,\nthe enterprise application systems created with Huawei CLOUD are visualized,\naudible and can\n\n[199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 24]\n(f) In 2017, Huawei officially engaged in EI services in the form of cloud service\nand cooperated with more partners to provide more diversified AI services to\nthe external users.\n(g) In 2019, Huawei CLOUD EI started to emphasize the inclusive AI, in the\nhope of making AI affordable and accessible, and safe to use. Based on the",
+        "context_ids": [
+          "5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af",
+          "2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508",
+          "199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 45,
+          "prompt_tokens": 1645,
+          "total_tokens": 1690,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 877
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000321708,
+        "elapsed_ms": 690.2161999896634,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "industrial data feature Huawei CLOUD EI enterprises own data mining value"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "industrial data feature Huawei CLOUD EI enterprises own data mining value"
+        },
+        "query": "industrial data feature Huawei CLOUD EI enterprises own data mining value",
+        "filter": {
+          "section": "1.2"
+        },
+        "status": "complete",
+        "retrieval": {
+          "query": "industrial data feature Huawei CLOUD EI enterprises own data mining value",
+          "method": "dense",
+          "filter": {
+            "section": "1.2"
+          },
+          "top_k": 3,
+          "results": [
+            {
+              "id": "2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 23,
+              "text": "1. An Overview of Huawei CLOUD Enterprise Intelligence Application Platform\nHuawei CLOUD Enterprise Intelligence (EI) application platform is an enabler of\nenterprise intelligence that aims at providing open, credible and smart platforms\nbased on AI and big data technologies and in the form of cloud service (including\npublic cloud and customized cloud, etc.), By combining the industrial scenarios,\nthe enterprise application systems created with Huawei CLOUD are visualized,\naudible and can",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+                "page_char_start": 384,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 384,
+                "unit_char_end": 877,
+                "page_char_end": 877
+              },
+              "score": 0.8992505193650103,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 23,
+              "text": "express themselves, featuring the capabilities to analyze and\ninterpret images, videos, languages and texts and easier access to AI and big data\nservices. Huawei CLOUD can help the enterprises to speed up business devel-\nopment and benefit the society.\n2. Features of Huawei CLOUD EI\nHuawei CLOUD EI has four remarkable features.\n(a) Industrial wisdom: Huawei CLOUD has a deep understanding of the indus-\ntry, the industrial know-how, and the major industrial deficiencies. It searches\nsolutions to",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+                "page_char_start": 878,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 878,
+                "unit_char_end": 1376,
+                "page_char_end": 1376
+              },
+              "score": 0.8966868642941875,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 24,
+              "text": "(f) In 2017, Huawei officially engaged in EI services in the form of cloud service\nand cooperated with more partners to provide more diversified AI services to\nthe external users.\n(g) In 2019, Huawei CLOUD EI started to emphasize the inclusive AI, in the\nhope of making AI affordable and accessible, and safe to use. Based on the",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p024:s1.2",
+                "page_char_start": 1303,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 1303,
+                "unit_char_end": 1632,
+                "page_char_end": 1632
+              },
+              "score": 0.8768363741831333,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 30.483700014883652,
+          "elapsed_ms": 43.29279999365099
+        },
+        "results": [
+          {
+            "id": "2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 23,
+            "text": "1. An Overview of Huawei CLOUD Enterprise Intelligence Application Platform\nHuawei CLOUD Enterprise Intelligence (EI) application platform is an enabler of\nenterprise intelligence that aims at providing open, credible and smart platforms\nbased on AI and big data technologies and in the form of cloud service (including\npublic cloud and customized cloud, etc.), By combining the industrial scenarios,\nthe enterprise application systems created with Huawei CLOUD are visualized,\naudible and can",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+              "page_char_start": 384,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 384,
+              "unit_char_end": 877,
+              "page_char_end": 877
+            },
+            "score": 0.8992505193650103,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 23,
+            "text": "express themselves, featuring the capabilities to analyze and\ninterpret images, videos, languages and texts and easier access to AI and big data\nservices. Huawei CLOUD can help the enterprises to speed up business devel-\nopment and benefit the society.\n2. Features of Huawei CLOUD EI\nHuawei CLOUD EI has four remarkable features.\n(a) Industrial wisdom: Huawei CLOUD has a deep understanding of the indus-\ntry, the industrial know-how, and the major industrial deficiencies. It searches\nsolutions to",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p023:s1.2",
+              "page_char_start": 878,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 878,
+              "unit_char_end": 1376,
+              "page_char_end": 1376
+            },
+            "score": 0.8966868642941875,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 24,
+            "text": "(f) In 2017, Huawei officially engaged in EI services in the form of cloud service\nand cooperated with more partners to provide more diversified AI services to\nthe external users.\n(g) In 2019, Huawei CLOUD EI started to emphasize the inclusive AI, in the\nhope of making AI affordable and accessible, and safe to use. Based on the",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p024:s1.2",
+              "page_char_start": 1303,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 1303,
+              "unit_char_end": 1632,
+              "page_char_end": 1632
+            },
+            "score": 0.8768363741831333,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 23]\n1. An Overview of Huawei CLOUD Enterprise Intelligence Application Platform\nHuawei CLOUD Enterprise Intelligence (EI) application platform is an enabler of\nenterprise intelligence that aims at providing open, credible and smart platforms\nbased on AI and big data technologies and in the form of cloud service (including\npublic cloud and customized cloud, etc.), By combining the industrial scenarios,\nthe enterprise application systems created with Huawei CLOUD are visualized,\naudible and can\n\n[5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 23]\nexpress themselves, featuring the capabilities to analyze and\ninterpret images, videos, languages and texts and easier access to AI and big data\nservices. Huawei CLOUD can help the enterprises to speed up business devel-\nopment and benefit the society.\n2. Features of Huawei CLOUD EI\nHuawei CLOUD EI has four remarkable features.\n(a) Industrial wisdom: Huawei CLOUD has a deep understanding of the indus-\ntry, the industrial know-how, and the major industrial deficiencies. It searches\nsolutions to\n\n[199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 24]\n(f) In 2017, Huawei officially engaged in EI services in the form of cloud service\nand cooperated with more partners to provide more diversified AI services to\nthe external users.\n(g) In 2019, Huawei CLOUD EI started to emphasize the inclusive AI, in the\nhope of making AI affordable and accessible, and safe to use. Based on the",
+        "context_ids": [
+          "2c5a06260aa2e99312631f6f0b161462924cf95d4d02d862d2ce678c85757508",
+          "5968117c6429c0cd426744a11c0b3f23ab39117b955e08d3d70e17ccac5575af",
+          "199d44d6ff152693af32094baea3514478e9edd9f4cbcb3bc99429d787eb22b0"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "finalize",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 168,
+          "prompt_tokens": 1741,
+          "total_tokens": 1909,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 384
+          },
+          "prompt_cache_hit_tokens": 384,
+          "prompt_cache_miss_tokens": 1357
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000611004,
+        "elapsed_ms": 1149.9728999915533,
+        "tool_calls": [
+          {
+            "name": "finish_response",
+            "arguments": {
+              "decision": "abstain",
+              "answer": "",
+              "citations": [],
+              "reason": "Context hiện tại chỉ nêu chung về bốn đặc điểm của Huawei CLOUD EI và đặc điểm \"Industrial wisdom\" (hiểu ngành, know-how, thiếu hụt của ngành), chưa có nội dung về đặc điểm \"Industrial data\" hay việc khai thác dữ liệu riêng của doanh nghiệp để làm gì."
+            }
+          }
+        ]
+      },
+      {
+        "event": "abstain",
+        "tool": "finish_response",
+        "arguments": {
+          "decision": "abstain",
+          "answer": "",
+          "citations": [],
+          "reason": "Context hiện tại chỉ nêu chung về bốn đặc điểm của Huawei CLOUD EI và đặc điểm \"Industrial wisdom\" (hiểu ngành, know-how, thiếu hụt của ngành), chưa có nội dung về đặc điểm \"Industrial data\" hay việc khai thác dữ liệu riêng của doanh nghiệp để làm gì."
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "dev_no_evidence_01",
+    "split": "dev",
+    "question": "Theo tài liệu, mô hình BERT có chính xác bao nhiêu tham số?",
+    "filter": {},
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong các đoạn đã truy xuất để trả lời.",
+    "citations": [],
+    "citation_sources": [],
+    "context": "[6d070d800c3ddd9127e1c6b0faa613466bc148011c63df5b628d1458c031a063 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 38]\nrecognition, video synthesis and unsupervised clustering. In natural language\nprocessing, major breakthroughs have been made in the Transformer-based\npre-training models. The relevant models such as BERT, GPT and XLNet have\nbegun to be widely applied to industrial scenarios. In reinforcement learning,\nAlphaStar of DeepMind defeated the top human players at the game StarCraft II.\n3. Smaller Deep Models\nModels with better performance are often accompanied by larger parameters,\nand larger models\n\n[5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 14]\nnetworks and Neural Turing Machine (NTM). For instance, Google’s BERT\n(Bidirectional Encoder Representation from Transformers) is a natural language\nprocessing pre-training technology developed on the basis of neural networks.\nIn addition to deep learning, transfer learning, reinforcement learning,\none-shot learning and adversarial machine learning are also the important tech-\nnologies to realize machine learning, and the solutions to some of the difficulties\nfaced by deep learning.\n3. Chip\n\n[60ed78760a5f9423acf217e88c98169b19f3b349f632d8794d02a839d79d5771 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 21]\nFig. 1.7 AI market size\nforecast\n\n[7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nTable 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel\n\n[c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 36]\nFig. 1.23 A panorama of atlas artificial intelligence computing platform",
+    "context_ids": [
+      "6d070d800c3ddd9127e1c6b0faa613466bc148011c63df5b628d1458c031a063",
+      "5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81",
+      "60ed78760a5f9423acf217e88c98169b19f3b349f632d8794d02a839d79d5771",
+      "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+      "c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a"
+    ],
+    "search_count": 3,
+    "model_call_count": 4,
+    "elapsed_seconds": 3.979568799986737,
+    "semantic_review_status": "pending",
+    "api_requests": 4,
+    "abstention_reason": "Context chỉ nhắc BERT là mô hình pre-training NLP dựa trên Transformer, không nêu số lượng tham số cụ thể của BERT.",
+    "events": [
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 37,
+          "prompt_tokens": 707,
+          "total_tokens": 744,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 195
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.00010597200000000001,
+        "elapsed_ms": 1032.6299000007566,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "BERT model number of parameters"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "BERT model number of parameters"
+        },
+        "query": "BERT model number of parameters",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "BERT model number of parameters",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 14,
+              "text": "networks and Neural Turing Machine (NTM). For instance, Google’s BERT\n(Bidirectional Encoder Representation from Transformers) is a natural language\nprocessing pre-training technology developed on the basis of neural networks.\nIn addition to deep learning, transfer learning, reinforcement learning,\none-shot learning and adversarial machine learning are also the important tech-\nnologies to realize machine learning, and the solutions to some of the difficulties\nfaced by deep learning.\n3. Chip",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p014:s1.2",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 495,
+                "page_char_end": 495
+              },
+              "score": 0.8238319158554077,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 19,
+              "text": "Table 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 499,
+                "page_char_end": 499
+              },
+              "score": 0.8222638368606567,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 36,
+              "text": "Fig. 1.23 A panorama of atlas artificial intelligence computing platform",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.4",
+                "section_title": "Huawei’s AI Development Strategy",
+                "unit_id": "huawei-ai-technology-ch01-2023:p036:s1.4",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 72,
+                "page_char_end": 72
+              },
+              "score": 0.8218253957137244,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 23.220299975946546,
+          "elapsed_ms": 28.481299988925457
+        },
+        "results": [
+          {
+            "id": "5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 14,
+            "text": "networks and Neural Turing Machine (NTM). For instance, Google’s BERT\n(Bidirectional Encoder Representation from Transformers) is a natural language\nprocessing pre-training technology developed on the basis of neural networks.\nIn addition to deep learning, transfer learning, reinforcement learning,\none-shot learning and adversarial machine learning are also the important tech-\nnologies to realize machine learning, and the solutions to some of the difficulties\nfaced by deep learning.\n3. Chip",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p014:s1.2",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 495,
+              "page_char_end": 495
+            },
+            "score": 0.8238319158554077,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 19,
+            "text": "Table 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 499,
+              "page_char_end": 499
+            },
+            "score": 0.8222638368606567,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 36,
+            "text": "Fig. 1.23 A panorama of atlas artificial intelligence computing platform",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy",
+              "unit_id": "huawei-ai-technology-ch01-2023:p036:s1.4",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 72,
+              "page_char_end": 72
+            },
+            "score": 0.8218253957137244,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 14]\nnetworks and Neural Turing Machine (NTM). For instance, Google’s BERT\n(Bidirectional Encoder Representation from Transformers) is a natural language\nprocessing pre-training technology developed on the basis of neural networks.\nIn addition to deep learning, transfer learning, reinforcement learning,\none-shot learning and adversarial machine learning are also the important tech-\nnologies to realize machine learning, and the solutions to some of the difficulties\nfaced by deep learning.\n3. Chip\n\n[7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nTable 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel\n\n[c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 36]\nFig. 1.23 A panorama of atlas artificial intelligence computing platform",
+        "context_ids": [
+          "5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81",
+          "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+          "c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 42,
+          "prompt_tokens": 1574,
+          "total_tokens": 1616,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 934
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.0003344399999999999,
+        "elapsed_ms": 870.3002000111155,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "BERT base large parameters 110 million 340 million"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "BERT base large parameters 110 million 340 million"
+        },
+        "query": "BERT base large parameters 110 million 340 million",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "BERT base large parameters 110 million 340 million",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "6d070d800c3ddd9127e1c6b0faa613466bc148011c63df5b628d1458c031a063",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 38,
+              "text": "recognition, video synthesis and unsupervised clustering. In natural language\nprocessing, major breakthroughs have been made in the Transformer-based\npre-training models. The relevant models such as BERT, GPT and XLNet have\nbegun to be widely applied to industrial scenarios. In reinforcement learning,\nAlphaStar of DeepMind defeated the top human players at the game StarCraft II.\n3. Smaller Deep Models\nModels with better performance are often accompanied by larger parameters,\nand larger models",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.6",
+                "section_title": "The Development Trends for AI",
+                "unit_id": "huawei-ai-technology-ch01-2023:p038:s1.6",
+                "page_char_start": 1008,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 524,
+                "unit_char_end": 1021,
+                "page_char_end": 1505
+              },
+              "score": 0.81659259598344,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 19,
+              "text": "Table 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 499,
+                "page_char_end": 499
+              },
+              "score": 0.8129486664594867,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 14,
+              "text": "networks and Neural Turing Machine (NTM). For instance, Google’s BERT\n(Bidirectional Encoder Representation from Transformers) is a natural language\nprocessing pre-training technology developed on the basis of neural networks.\nIn addition to deep learning, transfer learning, reinforcement learning,\none-shot learning and adversarial machine learning are also the important tech-\nnologies to realize machine learning, and the solutions to some of the difficulties\nfaced by deep learning.\n3. Chip",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p014:s1.2",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 495,
+                "page_char_end": 495
+              },
+              "score": 0.8099321353516475,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 33.69780001230538,
+          "elapsed_ms": 41.420700028538704
+        },
+        "results": [
+          {
+            "id": "6d070d800c3ddd9127e1c6b0faa613466bc148011c63df5b628d1458c031a063",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 38,
+            "text": "recognition, video synthesis and unsupervised clustering. In natural language\nprocessing, major breakthroughs have been made in the Transformer-based\npre-training models. The relevant models such as BERT, GPT and XLNet have\nbegun to be widely applied to industrial scenarios. In reinforcement learning,\nAlphaStar of DeepMind defeated the top human players at the game StarCraft II.\n3. Smaller Deep Models\nModels with better performance are often accompanied by larger parameters,\nand larger models",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.6",
+              "section_title": "The Development Trends for AI",
+              "unit_id": "huawei-ai-technology-ch01-2023:p038:s1.6",
+              "page_char_start": 1008,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 524,
+              "unit_char_end": 1021,
+              "page_char_end": 1505
+            },
+            "score": 0.81659259598344,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 19,
+            "text": "Table 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p019:s1.2",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 499,
+              "page_char_end": 499
+            },
+            "score": 0.8129486664594867,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 14,
+            "text": "networks and Neural Turing Machine (NTM). For instance, Google’s BERT\n(Bidirectional Encoder Representation from Transformers) is a natural language\nprocessing pre-training technology developed on the basis of neural networks.\nIn addition to deep learning, transfer learning, reinforcement learning,\none-shot learning and adversarial machine learning are also the important tech-\nnologies to realize machine learning, and the solutions to some of the difficulties\nfaced by deep learning.\n3. Chip",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p014:s1.2",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 495,
+              "page_char_end": 495
+            },
+            "score": 0.8099321353516475,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[6d070d800c3ddd9127e1c6b0faa613466bc148011c63df5b628d1458c031a063 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 38]\nrecognition, video synthesis and unsupervised clustering. In natural language\nprocessing, major breakthroughs have been made in the Transformer-based\npre-training models. The relevant models such as BERT, GPT and XLNet have\nbegun to be widely applied to industrial scenarios. In reinforcement learning,\nAlphaStar of DeepMind defeated the top human players at the game StarCraft II.\n3. Smaller Deep Models\nModels with better performance are often accompanied by larger parameters,\nand larger models\n\n[7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nTable 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel\n\n[5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 14]\nnetworks and Neural Turing Machine (NTM). For instance, Google’s BERT\n(Bidirectional Encoder Representation from Transformers) is a natural language\nprocessing pre-training technology developed on the basis of neural networks.\nIn addition to deep learning, transfer learning, reinforcement learning,\none-shot learning and adversarial machine learning are also the important tech-\nnologies to realize machine learning, and the solutions to some of the difficulties\nfaced by deep learning.\n3. Chip\n\n[c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 36]\nFig. 1.23 A panorama of atlas artificial intelligence computing platform",
+        "context_ids": [
+          "6d070d800c3ddd9127e1c6b0faa613466bc148011c63df5b628d1458c031a063",
+          "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+          "5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81",
+          "c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "retrieve_or_answer",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 39,
+          "prompt_tokens": 1799,
+          "total_tokens": 1838,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 1031
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000360708,
+        "elapsed_ms": 879.6528000093531,
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "arguments": {
+              "query": "BERT model size number of parameters billion"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "arguments": {
+          "query": "BERT model size number of parameters billion"
+        },
+        "query": "BERT model size number of parameters billion",
+        "filter": {},
+        "status": "complete",
+        "retrieval": {
+          "query": "BERT model size number of parameters billion",
+          "method": "dense",
+          "filter": {},
+          "top_k": 3,
+          "results": [
+            {
+              "id": "6d070d800c3ddd9127e1c6b0faa613466bc148011c63df5b628d1458c031a063",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 38,
+              "text": "recognition, video synthesis and unsupervised clustering. In natural language\nprocessing, major breakthroughs have been made in the Transformer-based\npre-training models. The relevant models such as BERT, GPT and XLNet have\nbegun to be widely applied to industrial scenarios. In reinforcement learning,\nAlphaStar of DeepMind defeated the top human players at the game StarCraft II.\n3. Smaller Deep Models\nModels with better performance are often accompanied by larger parameters,\nand larger models",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.6",
+                "section_title": "The Development Trends for AI",
+                "unit_id": "huawei-ai-technology-ch01-2023:p038:s1.6",
+                "page_char_start": 1008,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 524,
+                "unit_char_end": 1021,
+                "page_char_end": 1505
+              },
+              "score": 0.828265368938446,
+              "strategy": "dense",
+              "rank": 1
+            },
+            {
+              "id": "5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 14,
+              "text": "networks and Neural Turing Machine (NTM). For instance, Google’s BERT\n(Bidirectional Encoder Representation from Transformers) is a natural language\nprocessing pre-training technology developed on the basis of neural networks.\nIn addition to deep learning, transfer learning, reinforcement learning,\none-shot learning and adversarial machine learning are also the important tech-\nnologies to realize machine learning, and the solutions to some of the difficulties\nfaced by deep learning.\n3. Chip",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p014:s1.2",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 495,
+                "page_char_end": 495
+              },
+              "score": 0.8270682692527771,
+              "strategy": "dense",
+              "rank": 2
+            },
+            {
+              "id": "60ed78760a5f9423acf217e88c98169b19f3b349f632d8794d02a839d79d5771",
+              "source_id": "huawei-ai-technology-ch01-2023",
+              "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+              "page": 21,
+              "text": "Fig. 1.7 AI market size\nforecast",
+              "metadata": {
+                "language": "en",
+                "year": 2023,
+                "document_type": "book_chapter",
+                "license": "CC BY-NC-ND 4.0",
+                "section": "1.2",
+                "section_title": "AI-Related Technologies",
+                "unit_id": "huawei-ai-technology-ch01-2023:p021:s1.2",
+                "page_char_start": 0,
+                "chunking": "paragraph",
+                "chunk_size": 500,
+                "overlap": 0,
+                "unit_char_start": 0,
+                "unit_char_end": 32,
+                "page_char_end": 32
+              },
+              "score": 0.8226010799407959,
+              "strategy": "dense",
+              "rank": 3
+            }
+          ],
+          "components": [],
+          "embedding_ms": 37.01539998291992,
+          "elapsed_ms": 48.09679999016225
+        },
+        "results": [
+          {
+            "id": "6d070d800c3ddd9127e1c6b0faa613466bc148011c63df5b628d1458c031a063",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 38,
+            "text": "recognition, video synthesis and unsupervised clustering. In natural language\nprocessing, major breakthroughs have been made in the Transformer-based\npre-training models. The relevant models such as BERT, GPT and XLNet have\nbegun to be widely applied to industrial scenarios. In reinforcement learning,\nAlphaStar of DeepMind defeated the top human players at the game StarCraft II.\n3. Smaller Deep Models\nModels with better performance are often accompanied by larger parameters,\nand larger models",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.6",
+              "section_title": "The Development Trends for AI",
+              "unit_id": "huawei-ai-technology-ch01-2023:p038:s1.6",
+              "page_char_start": 1008,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 524,
+              "unit_char_end": 1021,
+              "page_char_end": 1505
+            },
+            "score": 0.828265368938446,
+            "strategy": "dense",
+            "rank": 1
+          },
+          {
+            "id": "5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 14,
+            "text": "networks and Neural Turing Machine (NTM). For instance, Google’s BERT\n(Bidirectional Encoder Representation from Transformers) is a natural language\nprocessing pre-training technology developed on the basis of neural networks.\nIn addition to deep learning, transfer learning, reinforcement learning,\none-shot learning and adversarial machine learning are also the important tech-\nnologies to realize machine learning, and the solutions to some of the difficulties\nfaced by deep learning.\n3. Chip",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p014:s1.2",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 495,
+              "page_char_end": 495
+            },
+            "score": 0.8270682692527771,
+            "strategy": "dense",
+            "rank": 2
+          },
+          {
+            "id": "60ed78760a5f9423acf217e88c98169b19f3b349f632d8794d02a839d79d5771",
+            "source_id": "huawei-ai-technology-ch01-2023",
+            "source": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+            "page": 21,
+            "text": "Fig. 1.7 AI market size\nforecast",
+            "metadata": {
+              "language": "en",
+              "year": 2023,
+              "document_type": "book_chapter",
+              "license": "CC BY-NC-ND 4.0",
+              "section": "1.2",
+              "section_title": "AI-Related Technologies",
+              "unit_id": "huawei-ai-technology-ch01-2023:p021:s1.2",
+              "page_char_start": 0,
+              "chunking": "paragraph",
+              "chunk_size": 500,
+              "overlap": 0,
+              "unit_char_start": 0,
+              "unit_char_end": 32,
+              "page_char_end": 32
+            },
+            "score": 0.8226010799407959,
+            "strategy": "dense",
+            "rank": 3
+          }
+        ],
+        "context": "[6d070d800c3ddd9127e1c6b0faa613466bc148011c63df5b628d1458c031a063 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 38]\nrecognition, video synthesis and unsupervised clustering. In natural language\nprocessing, major breakthroughs have been made in the Transformer-based\npre-training models. The relevant models such as BERT, GPT and XLNet have\nbegun to be widely applied to industrial scenarios. In reinforcement learning,\nAlphaStar of DeepMind defeated the top human players at the game StarCraft II.\n3. Smaller Deep Models\nModels with better performance are often accompanied by larger parameters,\nand larger models\n\n[5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 14]\nnetworks and Neural Turing Machine (NTM). For instance, Google’s BERT\n(Bidirectional Encoder Representation from Transformers) is a natural language\nprocessing pre-training technology developed on the basis of neural networks.\nIn addition to deep learning, transfer learning, reinforcement learning,\none-shot learning and adversarial machine learning are also the important tech-\nnologies to realize machine learning, and the solutions to some of the difficulties\nfaced by deep learning.\n3. Chip\n\n[60ed78760a5f9423acf217e88c98169b19f3b349f632d8794d02a839d79d5771 | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 21]\nFig. 1.7 AI market size\nforecast\n\n[7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 19]\nTable 1.1 The relevant parameters of Ascend 310 and Ascend 910\nAscend 310 Ascend 910\nChip: Ascend-Mini Chip: Ascend-Max\nArchitecture: Da Vinci Architecture: Da Vinci\n16-bit floating point precision (FP16) perfor- 16-bit floating point precision (FP16) perfor-\nmance: 8 TFLOPS mance: 256 TFLOPS\n8-bit integer precision (INT8) performance: 8-bit integer precision (INT8) performance:\n16 TOPS 512 TOPS\n16 channel full HD video decoder 128 channel full HD video decoder\n– H.264/265 – H.264/265\n1 channel\n\n[c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a | https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1 | page 36]\nFig. 1.23 A panorama of atlas artificial intelligence computing platform",
+        "context_ids": [
+          "6d070d800c3ddd9127e1c6b0faa613466bc148011c63df5b628d1458c031a063",
+          "5d8ac2fa473871420acc38f01ccf21c3c4dece83e1d5cce0fac87b23e5265d81",
+          "60ed78760a5f9423acf217e88c98169b19f3b349f632d8794d02a839d79d5771",
+          "7815eba8f2bb385b8ef5f8b1e9779c2958487f8a68d12dfc855d6bd54fac3bde",
+          "c3685918d6a331a1dbfd37a8bc1053fea738e90bbfe06675a8785c5c2af95b3a"
+        ]
+      },
+      {
+        "event": "model_call",
+        "phase": "finalize",
+        "model": "deepseek-flash",
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+        "usage": {
+          "completion_tokens": 114,
+          "prompt_tokens": 2009,
+          "total_tokens": 2123,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 1497
+        },
+        "finish_reason": "tool_calls",
+        "estimated_cost_upper_usd": 0.000588972,
+        "elapsed_ms": 1077.7046000002883,
+        "tool_calls": [
+          {
+            "name": "finish_response",
+            "arguments": {
+              "decision": "abstain",
+              "answer": "",
+              "citations": [],
+              "reason": "Context chỉ nhắc BERT là mô hình pre-training NLP dựa trên Transformer, không nêu số lượng tham số cụ thể của BERT."
+            }
+          }
+        ]
+      },
+      {
+        "event": "abstain",
+        "tool": "finish_response",
+        "arguments": {
+          "decision": "abstain",
+          "answer": "",
+          "citations": [],
+          "reason": "Context chỉ nhắc BERT là mô hình pre-training NLP dựa trên Transformer, không nêu số lượng tham số cụ thể của BERT."
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,118 @@
+{
+  "status": "complete",
+  "split": "dev",
+  "completed_at_utc": "2026-11-16T04:47:18.265888+00:00",
+  "config": {
+    "provider": "deepseek",
+    "base_url": "https://api.deepseek.com",
+    "model": "deepseek-flash",
+    "documented_model_version": "DeepSeek-V4.1-Flash-1017",
+    "thinking": "disabled",
+    "temperature": 0,
+    "max_output_tokens": 800,
+    "request_timeout_seconds": 60,
+    "max_model_calls": 5,
+    "max_searches": 3,
+    "retrieval_method": "dense",
+    "top_k": 3,
+    "context_budget_chars": 3000,
+    "context_selection": "latest_search_first",
+    "estimated_cost_limit_usd": 1.0,
+    "pricing": {
+      "checked_on": "2026-11-16",
+      "source": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "peak_usd_per_million_cached_input": 0.006,
+      "peak_usd_per_million_uncached_input": 0.3,
+      "peak_usd_per_million_output": 1.2
+    }
+  },
+  "config_sha256": "c7b71898d27949e647389a45f41e4ab2a18949438a30b83da2a441083552b87b",
+  "system_prompt_sha256": "fdf77a378d72bca382829fd579ea5c69a965e3424f2f29acd82931335dd8bb23",
+  "agent_code_sha256": "8244607859dba37eaed1739d79014c3974f7e4067087b77b92ee07ac02e82562",
+  "corpus_sha256": "80cf927205808ce9bbcf562a002472b47f3ffe652c44242585d81a517637df1d",
+  "dev_sha256": "f43bb7793441f3c7376a4d25d098f47843dd4b63c7ddac09a7936aff748d2ba2",
+  "requested_query_ids": [
+    "q09",
+    "dev_no_evidence_01"
+  ],
+  "processed_queries": 2,
+  "statuses": {
+    "abstain": 2
+  },
+  "api_requests": 8,
+  "usage_from_successful_responses": {
+    "response_count": 8,
+    "prompt_tokens": 11844,
+    "completion_tokens": 533,
+    "total_tokens": 12377
+  },
+  "returned_models": [
+    "deepseek-flash"
+  ],
+  "system_fingerprints": [
+    "bc19ba97cbe016479903222bb1578db6"
+  ],
+  "estimated_cost_upper_usd": 0.002950944,
+  "cost_is_invoice": false,
+  "provenance": {
+    "source_repository": "K5-L3B-DAY06-NguyenNhatMinh-2A202603745-DataIngestion",
+    "strategy": "C",
+    "database": {
+      "engine": "PostgreSQL",
+      "version": "16.16 (Debian 16.16-1.pgdg12+1)",
+      "pgvector_version": "0.8.7",
+      "host": "127.0.0.1",
+      "port": 15433,
+      "database": "day6_lab",
+      "table": "lab_chunks",
+      "read_only": true,
+      "chunks_verified": 201,
+      "search": "cosine_exact"
+    },
+    "embedding": {
+      "provider": "sentence-transformers-local",
+      "model_name": "intfloat/multilingual-e5-small",
+      "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "dimensions": 384,
+      "device": "cpu",
+      "dtype": "float32",
+      "threads": 4,
+      "batch_size": 16,
+      "document_prefix": "passage: ",
+      "query_prefix": "query: ",
+      "normalize_embeddings": true,
+      "max_tokens": 512,
+      "libraries": {
+        "sentence-transformers": "6.2.0",
+        "transformers": "5.22.1",
+        "torch": "2.15.0"
+      },
+      "model_signature": "0dfa971762747459e20d16f5fbcf31c26eceda7c23e38efd1ad3af675ad2b835"
+    },
+    "embedding_code_sha256": "07f293a7d927ebc570f9a403619b458483e70d24a25572ee13b44b0af6fb96a7",
+    "model_load_seconds": 41.43702900002245,
+    "paid_api_calls": 0
+  },
+  "tool_use": {
+    "n": 2,
+    "N": 2
+  },
+  "search_count_distribution": {
+    "3": 2
+  },
+  "context_evidence": {
+    "n": 0,
+    "N": 1,
+    "rate": 0.0,
+    "scope": "Context thực gửi model; đối chiếu tự động theo các chunk phủ evidence, chưa chấm ngữ nghĩa."
+  },
+  "semantic_reviews_pending": 2,
+  "test_evaluated": false,
+  "configuration_selected": false,
+  "limitations": [
+    "Citation ID có trong context chưa chứng minh nguồn hỗ trợ mọi khẳng định.",
+    "Chưa chấm đúng sai câu trả lời, citation hoặc từ chối; reviews_template.json cần nhãn đã kiểm tra.",
+    "Chi phí ước tính theo usage và giá giờ cao điểm đã lưu; không phải hóa đơn thực tế.",
+    "Request thất bại được dự phòng chi phí bảo thủ; không tự retry API."
+  ]
+}
